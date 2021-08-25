@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Ajio.com | Shop Online the Latest Fashion in apparels brands in India |
+      Reliance Ajio.com
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://use.fontawesome.com/53a14f887f.js"></script>
+    <style>
+      * {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+      }
+      #blue {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 3px;
+        background-color: rgb(44, 65, 82);
+        z-index: 6;
+      }
+      #navbar {
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        height: 90px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: #e0e0e0 0px 2px, #c9c9c9 0px 5px;
+        z-index: 5;
+      }
+      #ima_head {
+        height: 38px;
+        margin-top: 27px;
+        margin-left: 0%;
+      }
+      #links {
+        /* display: flex; */
+        margin-top: 54px;
+        margin-left: 15.5%;
+        min-width: 400px;
+      }
+      #links > div > a {
+        color: #3d5060;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+        font-size: 14px;
+        margin: auto;
+      }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        /* overflow: hidden; */
+        display: none;
+        /* display: flex; */
+        position: fixed;
+        background-color: #f9f9f9;
+        /* min-width: 860px; */
+        /* min-height: 5px; */
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        /* padding: 12px 160px; */
+        /* z-index: 7; */
+        top: 94px;
+        left: 14%;
+      }
+      .dropdown:hover .dropdown-content {
+        display: flex;
+      }
+      .d1 {
+        width: 1180px;
+        height: 564px;
+        z-index: 15;
+      }
+      .catog {
+        height: 53px;
+        /* background-color: rgb(105, 103, 107); */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border-bottom: 0.5px solid #e0e0e0;
+        border-top: 0.5 solid #e0e0e0;
+      }
+      .catog > p {
+        margin: 10px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(214, 214, 214);
+        font-size: 14px;
+        margin-left: 20px;
+      }
+      .catog > p:nth-child(2) {
+        width: 128px;
+        background-color: rgb(248, 248, 248);
+        color: #3d5060;
+        margin-left: 0px;
+      }
+      .catog > p:nth-child(3) {
+        width: 128px;
+        background-color: rgb(248, 248, 248);
+        color: #3d5060;
+        margin-left: 0px;
+      }
+      .part {
+        height: 511px;
+        width: 100%;
+
+        display: flex;
+      }
+      .part > div {
+        width: 25%;
+        height: 100%;
+        display: block;
+      }
+      .part > div > h5 {
+        margin: 18px;
+        margin-top: 16px;
+        margin-bottom: 10px;
+      }
+      .part > div > p {
+        margin: 18px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        font-size: 14px;
+        color: #3d5060;
+      }
+      #searLink {
+        height: 78px;
+        width: 390px;
+      }
+      #mini-lnk {
+        display: flex;
+        /* background-color: blue; */
+        padding: 0;
+      }
+      #mini-lnk > a {
+        color: rgb(42, 46, 49);
+
+        font-size: 12px;
+        margin-top: 10px;
+        margin-right: 23px;
+        margin-bottom: 11px;
+      }
+      #sear_block {
+        display: flex;
+      }
+      #inp {
+        height: 30px;
+        width: 248px;
+        border-radius: 50px;
+        border: 1px solid black;
+        margin-left: 10px;
+        margin-bottom: 13px;
+        background-color: #fffded;
+        margin-top: 10px;
+      }
+
+      #closet,
+      #cart {
+        height: 35px;
+        width: 35px;
+        background-color: #2c4152;
+        /* margin: 10px; */
+        margin-top: 12px;
+        margin-left: 10px;
+        border-radius: 100%;
+      }
+      #cart {
+        margin-left: 10px;
+      }
+      #block1,
+      #block5 {
+        margin-top: 7px;
+        overflow: hidden;
+      }
+
+      @-webkit-keyframes fadeInLeft {
+        0% {
+          opacity: 1;
+          -webkit-transform: translatex(100%);
+          -moz-transform: translatex(100%);
+          -o-transform: translatex(100%);
+          transform: translatex(100%);
+        }
+        25% {
+          opacity: 1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+        }
+        75% {
+          opacity: 1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: translatex(-100%);
+          -moz-transform: translatex(-100%);
+          -o-transform: translatex(-100%);
+          transform: translatex(-100%);
+        }
+      }
+      @-moz-keyframes fadeInLeft {
+        0% {
+          opacity: 1;
+          -webkit-transform: translatex(100%);
+          -moz-transform: translatex(100%);
+          -o-transform: translatex(100%);
+          transform: translatex(100%);
+        }
+        25% {
+          opacity: 1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+        }
+        75% {
+          opacity: 1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: translatex(-100%);
+          -moz-transform: translatex(-100%);
+          -o-transform: translatex(-100%);
+          transform: translatex(-100%);
+        }
+      }
+      @keyframes fadeInLeft {
+        0% {
+          opacity: 1;
+          -webkit-transform: translatex(100%);
+          -moz-transform: translatex(100%);
+          -o-transform: translatex(100%);
+          transform: translatex(100%);
+        }
+        25% {
+          opacity: 1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+        }
+        75% {
+          opacity: 1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: translatex(-100%);
+          -moz-transform: translatex(-100%);
+          -o-transform: translatex(-100%);
+          transform: translatex(-100%);
+        }
+      }
+      .in-left {
+        -webkit-animation-name: fadeInLeft;
+        -moz-animation-name: fadeInLeft;
+        -o-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 3s;
+        -moz-animation-duration: 3s;
+        -o-animation-duration: 3s;
+        animation-duration: 3s;
+        -o-animation-duration: 3s;
+        animation-iteration-count: infinite;
+      }
+      #block8 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div id="blue"></div>
+    <div id="navbar">
+      <img
+        id="ima_head"
+        src="https://assets.ajio.com/static/img/Ajio-Logo.svg"
+        alt="header"
+      />
+      <div id="links">
+        <div class="dropdown">
+          <a class="active" href="">MEN</a>
+          <div class="dropdown-content" id="men">
+            <div class="d1">
+              <div class="catog">
+                <p>Shop By:</p>
+                <p>CATEGORIES</p>
+                <p>BRANDS</p>
+              </div>
+              <div class="part">
+                <div>
+                  <h5>NEW IN: CLOTHING</h5>
+                  <h5>NEW IN: FOOTWEAR & ACCS</h5>
+                  <h5>INTERNATIONAL BRANDS</h5>
+                  <h5>WESTERN WEAR</h5>
+                  <p>Jackets & Coats</p>
+                  <p>Jeans</p>
+                  <p>Shirts</p>
+                  <p>Shorts & 3/4ths</p>
+                  <p>Seatshirts & Hoodies</p>
+                  <p>Tracks Pants</p>
+                  <p>Trousers & Pants</p>
+                  <p>T-Shirts</p>
+                  <h5>ETHNIC & FESTIVE</h5>
+                  <p>Kurtas And Shirts</p>
+                  <p>Nehru Jackets</p>
+                </div>
+                <div>
+                  <h5>FOOTWEAR</h5>
+                  <p>Casual Shoes</p>
+                  <p>Flip-Flops & Slippers</p>
+                  <p>Formal Shoes</p>
+                  <p>Sandals</p>
+                  <p>Sneakers</p>
+                  <p>Sports Shoes</p>
+                  <h5>NIGHT & LOUNGEWEAR</h5>
+                  <p>Briefs</p>
+                  <p>Trunks</p>
+                  <p>Vests</p>
+                </div>
+                <div>
+                  <h5>ACCESSORIES</h5>
+                  <p>Backpacks</p>
+                  <p>Bags & Wallets</p>
+                  <p>Belts</p>
+                  <p>Caps & Hats</p>
+                  <p>Fashion Accesories</p>
+                  <p>Socks</p>
+                  <p>Sunglasses & Frames</p>
+                  <p>Wallets</p>
+                  <p>Watches</p>
+                  <h5>WINTERWEAR</h5>
+                  <h5>PRECIOUS JEWELLERY</h5>
+                  <h5>HOME & KITCHEN</h5>
+                  <h5>GROOMING</h5>
+                </div>
+                <div>
+                  <h5>FEATURED</h5>
+                  <p>Bags Under 1499</p>
+                  <p>Footwear Under 1499</p>
+                  <p>Jeans Under 1199</p>
+                  <p>Shorts & 3/4ths Under 699</p>
+                  <h5>#AJIORECOMMENDS</h5>
+                  <p>Play Time</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a class="active" href="">WOMEN</a>
+          <div class="dropdown-content" id="men">
+            <div class="d1">
+              <div class="catog">
+                <p>Shop By:</p>
+                <p>CATEGORIES</p>
+                <p>BRANDS</p>
+              </div>
+              <div class="part">
+                <div>
+                  <h5>NEW IN: CLOTHING</h5>
+                  <h5>NEW IN: FOOTWEAR & ACCS</h5>
+                  <h5>INTERNATIONAL BRANDS</h5>
+                  <h5>WESTERN WEAR</h5>
+                  <p>Jackets & Coats</p>
+                  <p>Jeans</p>
+                  <p>Shirts</p>
+                  <p>Shorts & 3/4ths</p>
+                  <p>Seatshirts & Hoodies</p>
+                  <p>Tracks Pants</p>
+                  <p>Trousers & Pants</p>
+                  <p>T-Shirts</p>
+                  <h5>ETHNIC & FESTIVE</h5>
+                  <p>Kurtas And Shirts</p>
+                  <p>Nehru Jackets</p>
+                </div>
+                <div>
+                  <h5>FOOTWEAR</h5>
+                  <p>Casual Shoes</p>
+                  <p>Flip-Flops & Slippers</p>
+                  <p>Formal Shoes</p>
+                  <p>Sandals</p>
+                  <p>Sneakers</p>
+                  <p>Sports Shoes</p>
+                  <h5>NIGHT & LOUNGEWEAR</h5>
+                  <p>Briefs</p>
+                  <p>Trunks</p>
+                  <p>Vests</p>
+                </div>
+                <div>
+                  <h5>ACCESSORIES</h5>
+                  <p>Backpacks</p>
+                  <p>Bags & Wallets</p>
+                  <p>Belts</p>
+                  <p>Caps & Hats</p>
+                  <p>Fashion Accesories</p>
+                  <p>Socks</p>
+                  <p>Sunglasses & Frames</p>
+                  <p>Wallets</p>
+                  <p>Watches</p>
+                  <h5>WINTERWEAR</h5>
+                  <h5>PRECIOUS JEWELLERY</h5>
+                  <h5>HOME & KITCHEN</h5>
+                  <h5>GROOMING</h5>
+                </div>
+                <div>
+                  <h5>FEATURED</h5>
+                  <p>Bags Under 1499</p>
+                  <p>Footwear Under 1499</p>
+                  <p>Jeans Under 1199</p>
+                  <p>Shorts & 3/4ths Under 699</p>
+                  <h5>#AJIORECOMMENDS</h5>
+                  <p>Play Time</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a class="active" href="">KIDS</a>
+          <div class="dropdown-content" id="men">
+            <div class="d1">
+              <div class="catog">
+                <p>Shop By:</p>
+                <p>CATEGORIES</p>
+                <p>BRANDS</p>
+              </div>
+              <div class="part">
+                <div>
+                  <h5>NEW IN: CLOTHING</h5>
+                  <h5>NEW IN: FOOTWEAR & ACCS</h5>
+                  <h5>INTERNATIONAL BRANDS</h5>
+                  <h5>WESTERN WEAR</h5>
+                  <p>Jackets & Coats</p>
+                  <p>Jeans</p>
+                  <p>Shirts</p>
+                  <p>Shorts & 3/4ths</p>
+                  <p>Seatshirts & Hoodies</p>
+                  <p>Tracks Pants</p>
+                  <p>Trousers & Pants</p>
+                  <p>T-Shirts</p>
+                  <h5>ETHNIC & FESTIVE</h5>
+                  <p>Kurtas And Shirts</p>
+                  <p>Nehru Jackets</p>
+                </div>
+                <div>
+                  <h5>FOOTWEAR</h5>
+                  <p>Casual Shoes</p>
+                  <p>Flip-Flops & Slippers</p>
+                  <p>Formal Shoes</p>
+                  <p>Sandals</p>
+                  <p>Sneakers</p>
+                  <p>Sports Shoes</p>
+                  <h5>NIGHT & LOUNGEWEAR</h5>
+                  <p>Briefs</p>
+                  <p>Trunks</p>
+                  <p>Vests</p>
+                </div>
+                <div>
+                  <h5>ACCESSORIES</h5>
+                  <p>Backpacks</p>
+                  <p>Bags & Wallets</p>
+                  <p>Belts</p>
+                  <p>Caps & Hats</p>
+                  <p>Fashion Accesories</p>
+                  <p>Socks</p>
+                  <p>Sunglasses & Frames</p>
+                  <p>Wallets</p>
+                  <p>Watches</p>
+                  <h5>WINTERWEAR</h5>
+                  <h5>PRECIOUS JEWELLERY</h5>
+                  <h5>HOME & KITCHEN</h5>
+                  <h5>GROOMING</h5>
+                </div>
+                <div>
+                  <h5>FEATURED</h5>
+                  <p>Bags Under 1499</p>
+                  <p>Footwear Under 1499</p>
+                  <p>Jeans Under 1199</p>
+                  <p>Shorts & 3/4ths Under 699</p>
+                  <h5>#AJIORECOMMENDS</h5>
+                  <p>Play Time</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a class="active" href="">INDIE</a>
+          <div class="dropdown-content" id="men">
+            <div class="d1">
+              <div class="catog">
+                <p>Shop By:</p>
+                <p>CATEGORIES</p>
+                <p>BRANDS</p>
+              </div>
+              <div class="part">
+                <div>
+                  <h5>NEW IN: CLOTHING</h5>
+                  <h5>NEW IN: FOOTWEAR & ACCS</h5>
+                  <h5>INTERNATIONAL BRANDS</h5>
+                  <h5>WESTERN WEAR</h5>
+                  <p>Jackets & Coats</p>
+                  <p>Jeans</p>
+                  <p>Shirts</p>
+                  <p>Shorts & 3/4ths</p>
+                  <p>Seatshirts & Hoodies</p>
+                  <p>Tracks Pants</p>
+                  <p>Trousers & Pants</p>
+                  <p>T-Shirts</p>
+                  <h5>ETHNIC & FESTIVE</h5>
+                  <p>Kurtas And Shirts</p>
+                  <p>Nehru Jackets</p>
+                </div>
+                <div>
+                  <h5>FOOTWEAR</h5>
+                  <p>Casual Shoes</p>
+                  <p>Flip-Flops & Slippers</p>
+                  <p>Formal Shoes</p>
+                  <p>Sandals</p>
+                  <p>Sneakers</p>
+                  <p>Sports Shoes</p>
+                  <h5>NIGHT & LOUNGEWEAR</h5>
+                  <p>Briefs</p>
+                  <p>Trunks</p>
+                  <p>Vests</p>
+                </div>
+                <div>
+                  <h5>ACCESSORIES</h5>
+                  <p>Backpacks</p>
+                  <p>Bags & Wallets</p>
+                  <p>Belts</p>
+                  <p>Caps & Hats</p>
+                  <p>Fashion Accesories</p>
+                  <p>Socks</p>
+                  <p>Sunglasses & Frames</p>
+                  <p>Wallets</p>
+                  <p>Watches</p>
+                  <h5>WINTERWEAR</h5>
+                  <h5>PRECIOUS JEWELLERY</h5>
+                  <h5>HOME & KITCHEN</h5>
+                  <h5>GROOMING</h5>
+                </div>
+                <div>
+                  <h5>FEATURED</h5>
+                  <p>Bags Under 1499</p>
+                  <p>Footwear Under 1499</p>
+                  <p>Jeans Under 1199</p>
+                  <p>Shorts & 3/4ths Under 699</p>
+                  <h5>#AJIORECOMMENDS</h5>
+                  <p>Play Time</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a class="active" href="">HOME & KITCHEN</a>
+          <div class="dropdown-content" id="men">
+            <div class="d1">
+              <div class="catog">
+                <p>Shop By:</p>
+                <p>CATEGORIES</p>
+                <p>BRANDS</p>
+              </div>
+              <div class="part">
+                <div>
+                  <h5>NEW IN: CLOTHING</h5>
+                  <h5>NEW IN: FOOTWEAR & ACCS</h5>
+                  <h5>INTERNATIONAL BRANDS</h5>
+                  <h5>WESTERN WEAR</h5>
+                  <p>Jackets & Coats</p>
+                  <p>Jeans</p>
+                  <p>Shirts</p>
+                  <p>Shorts & 3/4ths</p>
+                  <p>Seatshirts & Hoodies</p>
+                  <p>Tracks Pants</p>
+                  <p>Trousers & Pants</p>
+                  <p>T-Shirts</p>
+                  <h5>ETHNIC & FESTIVE</h5>
+                  <p>Kurtas And Shirts</p>
+                  <p>Nehru Jackets</p>
+                </div>
+                <div>
+                  <h5>FOOTWEAR</h5>
+                  <p>Casual Shoes</p>
+                  <p>Flip-Flops & Slippers</p>
+                  <p>Formal Shoes</p>
+                  <p>Sandals</p>
+                  <p>Sneakers</p>
+                  <p>Sports Shoes</p>
+                  <h5>NIGHT & LOUNGEWEAR</h5>
+                  <p>Briefs</p>
+                  <p>Trunks</p>
+                  <p>Vests</p>
+                </div>
+                <div>
+                  <h5>ACCESSORIES</h5>
+                  <p>Backpacks</p>
+                  <p>Bags & Wallets</p>
+                  <p>Belts</p>
+                  <p>Caps & Hats</p>
+                  <p>Fashion Accesories</p>
+                  <p>Socks</p>
+                  <p>Sunglasses & Frames</p>
+                  <p>Wallets</p>
+                  <p>Watches</p>
+                  <h5>WINTERWEAR</h5>
+                  <h5>PRECIOUS JEWELLERY</h5>
+                  <h5>HOME & KITCHEN</h5>
+                  <h5>GROOMING</h5>
+                </div>
+                <div>
+                  <h5>FEATURED</h5>
+                  <p>Bags Under 1499</p>
+                  <p>Footwear Under 1499</p>
+                  <p>Jeans Under 1199</p>
+                  <p>Shorts & 3/4ths Under 699</p>
+                  <h5>#AJIORECOMMENDS</h5>
+                  <p>Play Time</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="searLink">
+        <div id="mini-lnk">
+          <a class="active" href="" id="user_info">Hi shivang shukla</a>
+          <a class="active" href="">My Account</a>
+          <a href="">Sign Out</a>
+          <a href="">Customer Care</a>
+        </div>
+        <div id="sear_block">
+          <form>
+            <input type="text" placeholder="   SearchAJIO" id="inp" />
+          </form>
+          <div id="closet"></div>
+          <div id="cart"></div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br /><br /><br />
+
+    <!-- front page ui -->
+    <div id="block1"></div>
+    <div id="block2"></div>
+    <div id="block3"></div>
+    <div id="block4"></div>
+    <div id="block5"></div>
+    <div id="block7"></div>
+    <div id="block8">G</div>
+    <div id="block9">W</div>
+    <div id="block10">3</div>
+    <div id="fnal"><i class="fa-solid fa-bag-shopping"></i></div>
+  </body>
+</html>
+<script>
+  // First drop down menu
+
+  var front_1 = [
+    {
+      img1: 'https://assets.ajio.com/medias/sys_master/images/images/h5f/hb5/34912270385182/23082021-d-unisex-topcarousel-p1-eoss-50to80.jpg',
+    },
+    {
+      img1: 'https://assets.ajio.com/medias/sys_master/images/images/he3/h11/34918447153182/24082021-d-unisex-topcarousel-p3-ucb-40to70.jpg',
+    },
+    {
+      img1: 'https://assets.ajio.com/medias/sys_master/images/images/h51/h35/34918447218718/24082021-d-unisex-topcarousel-p4-festivecollection-40to80.jpg',
+    },
+    {
+      img1: 'https://assets.ajio.com/medias/sys_master/images/images/h9b/ha3/34918447284254/24082021-d-unisex-topcarousel-p5-ishin-upto70.jpg',
+    },
+    {
+      img1: 'https://assets.ajio.com/medias/sys_master/images/images/h0a/h17/34918447349790/24082021-d-unisex-topcarousel-p6-diamondjewellery-flat30.jpg',
+    },
+  ]
+  var front_2 = [
+    {
+      img: 'https://assets.ajio.com/medias/sys_master/images/images/ha7/h93/34775661674526/17082021-d-unisex-alliances-hsbc.jpg',
+    },
+    {
+      img: 'https://assets.ajio.com/medias/sys_master/images/images/h9f/h86/34348649840670/05082021-d-unisex-banner1-sectionheader.jpg',
+    },
+    {
+      img: 'https://assets.ajio.com/medias/sys_master/images/images/h9c/h49/34918449414174/24082021-d-unisex-flashdeal-accessories-min60.jpg',
+    },
+  ]
+  var front_4 = [
+    {
+      img: 'https://assets.ajio.com/medias/sys_master/images/images/h6e/hbf/34934979952670/24082021-d-unisex-banner1-p1-puma-flat50.jpg',
+    },
+    {
+      img: 'https://assets.ajio.com/medias/sys_master/images/images/hc5/hc9/34934979854366/24082021-d-unisex-banner1-p2-starting399.jpg',
+    },
+    {
+      img: 'https://assets.ajio.com/medias/sys_master/images/images/he4/hc7/34934980050974/24082021-d-unisex-banner1-p3-halfpricestore.jpg',
+    },
+    {
+      img: 'https://assets.ajio.com/medias/sys_master/images/images/h62/h07/34934980182046/24082021-d-unisex-banner1-p4-babycare-toys.jpg',
+    },
+  ]
+  // First carousel
+  var k = document.getElementById('block1')
+  var an = document.createElement('IMG')
+  an.setAttribute('width', '100%')
+  an.setAttribute('height', '619')
+  an.setAttribute('class', 'in-left')
+  an.src = front_1[0].img1
+
+  // second carousel
+  var k1 = document.getElementById('block5')
+  var ans = document.createElement('IMG')
+  ans.setAttribute('width', '100%')
+  ans.setAttribute('height', '619')
+  ans.setAttribute('class', 'in-left')
+  ans.src = front_4[0].img
+
+  // First Wide Imagery
+  var k2 = document.getElementById('block2')
+  var ant = document.createElement('IMG')
+  ant.setAttribute('width', '100%')
+  ant.setAttribute('height', '149')
+  ant.src = front_2[0].img
+  k2.appendChild(ant)
+
+  // Second Wide Imagery
+  var k3 = document.getElementById('block3')
+  var anu = document.createElement('IMG')
+  anu.setAttribute('width', '100%')
+  anu.setAttribute('height', '85')
+  anu.src = front_2[1].img
+  k3.appendChild(anu)
+
+  // Third Wide Imagery
+  var k4 = document.getElementById('block4')
+  var anv = document.createElement('IMG')
+  anv.setAttribute('width', '100%')
+  anv.setAttribute('height', '621')
+  anv.src = front_2[2].img
+  k4.appendChild(anv)
+
+  // Carousel
+  var i = 1
+  setInterval(function () {
+    if (i == 5) {
+      i = 0
+    }
+    an.src = front_1[i].img1
+    ans.src = front_4[i].img
+    i++
+  }, 3000)
+  k.appendChild(an)
+  k1.appendChild(ans)
+
+  // Fourth Wide grid
+  var block6 = [
+    {
+      img: 'https://assets.ajio.com/medias/sys_master/images/images/hd2/he4/34348651479070/05082021-d-unisex-brands-premiumbrands-sectionheader.jpg',
+    },
+    {
+      img: 'https://assets.ajio.com/medias/sys_master/images/images/hc9/ha2/34855074758686/20082021-d-unisex-brands-puma-upto70.jpg',
+    },
+    {
+      img: 'https://assets.ajio.com/medias/sys_master/images/images/h9c/h16/34855074824222/20082021-d-unisex-brands-nike-upto50.jpg',
+    },
+    {
+      img: 'https://assets.ajio.com/medias/sys_master/images/images/ha8/h60/34855074955294/20082021-d-unisex-brands-crocs-upto60.jpg',
+    },
+    {
+      img: 'https://assets.ajio.com/medias/sys_master/images/images/ha1/h14/34855075217438/20082021-d-unisex-brands-adidas-30to60.jpg',
+    },
+    {
+      img: 'https://assets.ajio.com/medias/sys_master/images/images/h66/h50/29555043860510/13102020-D-unisex-ajiocares-strip.jpg',
+    },
+  ]
+  var k5 = document.getElementById('block7')
+  var anw = document.createElement('IMG')
+  anw.setAttribute('width', '100%')
+  anw.setAttribute('height', '85')
+  anw.src = block6[0].img
+  k5.appendChild(anw)
+</script>
