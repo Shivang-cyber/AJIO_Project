@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0%;
+      }
+      #nav-bar {
+        display: grid;
+        font-size: 40px;
+        margin-top: 20px;
+        margin-left: 70px;
+        background-color: rgb(255, 255, 255);
+      }
+      #complain {
+        margin-top: 150px;
+        margin-left: 550px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 500;
+      }
+      #search-bar {
+        height: 25px;
+        width: 90%;
+        margin-left: 35px;
+        border-radius: 15px;
+        position: fixed;
+        overflow: hidden;
+        display: flex;
+        float: left;
+        margin-bottom: 20px;
+      }
+      .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap:1px;
+        margin-top: 15px;
+      }
+      .grid-container > div {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: sans-serif;  
+      }
+      #item4{
+        margin-top: 20px;
+        font-weight: 100;
+        text-align: start;
+        margin-left: 35px;
+        font-size:15px;
+        margin-bottom: 15px;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="nav-bar" style="height: 90px">AJIO</div>
+    <hr />
+    <div id="complain">Frequently Asked Questions</div>
+    <input type="text" id="search-bar" placeholder="Search for topics or questions"></input>
+    <br/>
+    <div class="grid-container" style="margin-top: 50px;">
+      <div>Step 1: Select Topic</div>
+      <div>Step 2: Select Issue</div>
+      <div>Step 3: Get assistance</div>
+      <div id="item4"><p style="margin-top: 10px;">shipping FAQs</p>
+                      <p style="margin-top: 15px;">Cancellation FAQs</p>
+                      <p style="margin-top: 15px;">Payment FAQs</p>
+                      <p style="margin-top: 15px;">Return FAQs</p>
+                      <p style="margin-top: 15px;">AJIO Wallet</p>
+                      <p style="margin-top: 15px;">Account & Shopping</p>
+                      <p style="margin-top: 15px;">Loyalty Rewards</p>
+                      <p style="margin-top: 15px;">Precious Jewellery</p>
+      </div>             
+    </div>
+  </body>
+</html>
