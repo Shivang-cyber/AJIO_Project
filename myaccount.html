@@ -89,10 +89,10 @@
       }
 
       @keyframes fadeIn {
-        0% {
+        from {
           opacity: 0;
         }
-        100% {
+        to {
           opacity: 1;
         }
       }
@@ -134,13 +134,16 @@
       }
       .dropdown:hover .dropdown-content {
         display: flex;
-        animation: fadeIn 1s;
-        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 2s;
+        -webkit-animation: fadeIn 2s;
         -moz-animation: fadeIn 1s;
-        -o-animation: fadeIn 1s;
-        -ms-animation: fadeIn 1s;
+        -o-animation: fadeIn 2s;
+        -ms-animation: fadeIn 2s;
+        animation-fill-mode: forwards;
       }
-
+      .dropdown-content:hover .dropdown-content {
+        display: flex;
+      }
       .d1 {
         width: 1180px;
         height: 564px;
@@ -268,12 +271,20 @@
       .left {
         float: left;
         background-color: white;
-        margin: 10px;
-        width: 25%;
+        margin: 50px;
+        width: 15%;
         height: 530px;
         margin-left: 250px;
         padding-top: 40px;
       }
+      .left > h1 {
+        margin-left: 20px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 500;
+        margin-top: -15px;
+      }
+
       .left div {
         margin: 2px;
       }
@@ -286,9 +297,39 @@
         height: 530px;
         text-align: center;
       }
-      h3 {
-        margin-left: 30px;
+      .left h2 {
+        margin-left: 20px;
+        font-size: 15px;
+        margin-top: 25px;
+        letter-spacing: 1.5px;
+      }
+      .left h3 {
+        margin-left: 40px;
         line-height: 10px;
+        font-size: 15px;
+        margin-top: 20px;
+      }
+      .left>div{
+        margin: 10px;
+        margin-left: 40px;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+      }
+      .left>div>div>sub{
+        color: wheat;
+        background-color: red;
+        padding: 1px;
+        padding-left: 3px;
+        padding-right: 2px;
+        font-size:8px;
+        margin-left: 10px;
+      }
+      #SU{
+        font-size: 10px;
+        margin-top: -10px;
+        margin-left: 42px;
+        color: rgb(147, 147, 147);
       }
       a {
         line-height: 5px;
@@ -314,10 +355,6 @@
       }
 
       .box {
-        /* top: 50%;
-        left: 50%;
-        transform: translate(-50%);
-        position: absolute; */
         width: 100%;
         margin-top: 20%;
       }
@@ -860,57 +897,25 @@
         <h2>Orders & Credits</h2>
         <h3>Orders</h3>
         <div>
-          <div style="float: left"><a href="" class="list">AJIO Wallet</a></div>
-          <div
-            style="
-              float: left;
-              font-size: small;
-              color: white;
-              background-color: red;
-              padding: 0px 5px;
-            "
-          >
-            New
-          </div>
+          <div><a href="" class="list">AJIO Wallet</a><sub>New</sub></div>
+          
         </div>
         <div class="clear"></div>
-        <div style="margin-bottom: -10px">
-          <div style="float: left">
-            <a href="" class="list" style="margin-bottom: -5pxpx"
-              >Invite Friends</a
-            >
+        <div>
+          <div>
+            <a href="" class="list">Invite Friends</a><sub>New</sub>
           </div>
-          <div
-            style="
-              float: left;
-              font-size: small;
-              color: white;
-              background-color: red;
-              padding: 0px 5px;
-              margin-bottom: -7px;
-            "
-          >
-            New
-          </div>
+          
         </div>
         <div class="clear"></div>
-        <a
-          href=""
-          class="list"
-          style="
-            margin-left: 32px;
-            margin-top: -5px;
-            color: rgb(189, 178, 178);
-            font-size: 10px;
-          "
-          >Earn Rs.100 AJIO Points for every friend</a
-        >
+        <p id="SU"><sub>
+          Earn Rs.100 AJIO Points for every friend </sub></p>
         <div><a href="" class="list">My Rewards</a></div>
         <div><a href="" class="list">Customer Care</a></div>
         <br />
         <hr class="line" />
 
-        <h2 style="margin-top: 40px">Profile</h2>
+        <h2>Profile</h2>
         <div><a href="" class="list">Personal Information</a></div>
         <div><a href="" class="list">Address Book</a></div>
         <div><a href="" class="list">Payments</a></div>
