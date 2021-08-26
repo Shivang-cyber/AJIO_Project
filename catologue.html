@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<style>
+ *{
+  margin: 0;
+ }
+ #Top{
+  height: 90px;
+  background-color: orange;
+ }
+#main{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+
+}
+#left{
+ margin-top: 50px;
+ width: 20%;
+ height: 900px;
+ background-color: darkcyan;
+}
+#right{
+
+width: 1050px;
+
+margin: 50px;
+display: grid;
+grid-template-columns: 28% 28% 28%;
+row-gap: 10px;
+column-gap: 5%;
+}
+.pr_bl{
+ margin: auto;
+ margin-left: 10px;
+ margin-bottom: -50px;
+}
+.pr_bl>h4{
+ font-size: 12px;
+ font-weight: 700;
+ color:rgb(177, 153, 117) ;
+ margin-top: 20px;
+}
+.pr_bl>h2{
+margin-top: 10px;
+font-size: 15px;
+font-weight: 100;
+}
+.pr_bl>div{
+ margin: 10px;
+ display: flex;
+ justify-content: center;
+}
+.ze{
+ font-size: 15px;
+ margin-top: 1px;
+ font-weight: 600;
+}
+.zf{
+font-size: 12px;
+margin-top: 4px;
+margin-left: 5px;
+margin-right: 5px;
+color: rgb(154, 154, 154);
+}
+.zg{
+ color: rgb(177, 153, 117);
+ font-size: 12px;
+ margin-top: 3px;
+}
+</style>
+<body>
+ <div id="Top"></div>
+ <div id="main">
+  <div id="left"></div>
+  <div id="right">
+
+  </div>
+ </div>
+</body>
+</html>
+<script type="text/javascript" src="/shivang/DATA.js"></script>
+<script>
+var block = document.getElementById("right")
+var temp = []
+
+function definer() {
+ var A = [...Indie_Saree]
+ A.map(function(prod){
+  var N = prod.name
+  var B = prod.brand
+  var P = Number(prod.price)
+  var p = 100
+  var div = document.createElement("BUTTON")
+  div.style.width = "330px"
+  div.style.height = "531px"
+  div.style.display = "block"
+  div.style.border = "none"
+  div.style.backgroundColor = "white"
+  div.onclick = function () {
+   var len = temp.length
+   if (len!=0) {
+    temp = []
+   }
+   temp.push(prod)
+   let TEMP = JSON.stringify(temp)
+   localStorage.setItem('TEMP',TEMP)
+   window.open('prodHollow.html')
+      }
+  div.style.textAlign = "center"
+  div.setAttribute("class","pr_bl")
+    div.style.marginTop = '30px'
+  var IMA = document.createElement("img")
+  IMA.src = prod.image1
+  IMA.style.width="90%"
+  var BRAND = document.createElement('h4')
+  BRAND.innerHTML = B
+  var NAME = document.createElement('h2')
+  NAME.innerHTML = N
+  var PRICE = document.createElement('div')
+  var ze =document.createElement('p')
+    ze.setAttribute("class","ze")
+  ze.innerHTML = "Rs."+P
+  var zf =document.createElement('p')
+    zf.setAttribute("class","zf")
+  var ex = P + p
+  zf.innerHTML = "Rs." + ex
+zf.style.textDecoration = "line-through"
+  var zg =document.createElement('p')
+  zg.innerHTML = '(25% off)'
+    zg.setAttribute("class","zg")
+  PRICE.append(ze,zf,zg)
+  div.append(IMA,BRAND,NAME,PRICE)
+  block.append(div)
+ })
+}
+definer()
+</script>
