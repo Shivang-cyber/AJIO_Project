@@ -273,7 +273,7 @@
         background-color: white;
         margin: 50px;
         width: 15%;
-        height: 530px;
+        height: 430px;
         margin-left: 250px;
         padding-top: 40px;
       }
@@ -294,7 +294,7 @@
         background-color: white;
         margin: 10px;
         width: 50%;
-        height: 530px;
+        min-height: 420px;
         text-align: center;
       }
       .left h2 {
@@ -309,23 +309,23 @@
         font-size: 15px;
         margin-top: 20px;
       }
-      .left>div{
+      .left > div {
         margin: 10px;
         margin-left: 40px;
         font-size: 13px;
         font-weight: 700;
         letter-spacing: 1.2px;
       }
-      .left>div>div>sub{
+      .left > div > div > sub {
         color: wheat;
         background-color: red;
         padding: 1px;
         padding-left: 3px;
         padding-right: 2px;
-        font-size:8px;
+        font-size: 8px;
         margin-left: 10px;
       }
-      #SU{
+      #SU {
         font-size: 10px;
         margin-top: -10px;
         margin-left: 42px;
@@ -337,8 +337,10 @@
         display: inline-block;
       }
       .line {
-        margin-top: 15px;
-        color: rgb(252, 247, 247);
+        width: 150px;
+        height: 1px;
+        background-color: rgb(197, 185, 185);
+        margin: auto;
       }
       h2 {
         color: rgb(60, 35, 128);
@@ -347,11 +349,17 @@
       h1 {
         font-size: 23px;
       }
+      .right {
+        margin-top: 50px;
+        margin-bottom: 20px;
+      }
       .right h1 {
         text-align: center;
         padding-top: 5px;
-        font-size: 45px;
+        font-size: 40px;
+        font-weight: 100;
         font-weight: lighter;
+        font-family: 'Lora', serif;
       }
 
       .box {
@@ -898,30 +906,24 @@
         <h3>Orders</h3>
         <div>
           <div><a href="" class="list">AJIO Wallet</a><sub>New</sub></div>
-          
         </div>
         <div class="clear"></div>
         <div>
-          <div>
-            <a href="" class="list">Invite Friends</a><sub>New</sub>
-          </div>
-          
+          <div><a href="" class="list">Invite Friends</a><sub>New</sub></div>
         </div>
         <div class="clear"></div>
-        <p id="SU"><sub>
-          Earn Rs.100 AJIO Points for every friend </sub></p>
+        <p id="SU"><sub> Earn Rs.100 AJIO Points for every friend </sub></p>
         <div><a href="" class="list">My Rewards</a></div>
         <div><a href="" class="list">Customer Care</a></div>
-        <br />
-        <hr class="line" />
+
+        <div class="line"></div>
 
         <h2>Profile</h2>
         <div><a href="" class="list">Personal Information</a></div>
         <div><a href="" class="list">Address Book</a></div>
         <div><a href="" class="list">Payments</a></div>
 
-        <br /><br />
-        <hr class="line" />
+        <div class="line"></div>
       </div>
       <div class="right">
         <h1>Orders</h1>
