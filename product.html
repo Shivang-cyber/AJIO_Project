@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #data{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        grid-gap: 5%;
+    }
+    img{
+        width: 20%;
+    }
+    #data div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+</style>
+<body>
+    <h1 style="text-align: center;">PRODUCTS</h1>
+    <div id="data"></div>
+</body>
+</html>
+
+
+
+<script>
+        
+
+    var deter=[
+        {
+            name:"wheel",
+            price:"10",
+            img:"https://m.media-amazon.com/images/I/51Kwxa+nPvL.jpg"
+        },
+        {
+            name:"tide",
+            price:"20",
+            img:"https://m.media-amazon.com/images/I/81czQaYkV8L._SY450_.jpg"
+        },
+        {
+            name:"surfexcel",
+            price:"30",
+            img:"https://m.media-amazon.com/images/I/61rDJVoKpeL._SY355_.jpg"
+        },
+        {
+            name:"ariel",
+            price:"60",
+            img: "https://m.media-amazon.com/images/I/716fMToQlxL._SY450_.jpg"
+        },
+        {
+            name:"fena",
+            price:"30",
+            img: "https://m.media-amazon.com/images/I/71Ap1DjoJTL._SL1500_.jpg"
+        },
+        {
+            name:"ezee",
+            price:"80",
+            img: "https://images-eu.ssl-images-amazon.com/images/I/51M5VNGxJDL._SX300_SY300_QL70_ML2_.jpg"
+        }
+    ]
+    console.log(deter);
+    const deter_json=JSON.stringify(deter);
+    localStorage.setItem("myitem",deter_json)
+
+   let myitem=localStorage.getItem("myitem")
+    myitem=JSON.parse(myitem)
+    
+    function showproduct(){
+        let data = document.getElementById("data")
+
+        myitem.forEach(function(product){
+           var div=document.createElement("div")
+           
+
+           var p_name=document.createElement("p")
+           p_name.textContent=product.name
+
+           var p_price=document.createElement("p")
+           p_price.textContent=product.price
+
+           var image=document.createElement("img")
+            image.src=product.img
+           div.append(image,p_name,p_price)
+           data.append(div)
+
+        })
+    }
+
+</script>
