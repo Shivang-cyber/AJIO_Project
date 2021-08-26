@@ -270,7 +270,6 @@
       #MID-TOP {
         height: 900px;
         width: 70%;
-        background-color: aquamarine;
         display: flex;
         justify-content: center;
       }
@@ -375,7 +374,6 @@
       #IMG-MUL {
         width: 18%;
 
-        background-color: bisque;
         margin-right: 10px;
         display: flex;
         flex-direction: column;
@@ -394,41 +392,233 @@
       #MAIN-HEIM {
         width: 45%;
         height: 100%;
-        background-color: burlywood;
+
         margin-right: 50px;
       }
       #DETES {
         width: 30%;
         height: 100%;
-        background-color: chocolate;
       }
-      #Mains{
+      #Mains {
         display: flex;
         justify-content: center;
         align-items: center;
-        
       }
-      #mains-img{
+      #mains-img {
         width: 92%;
         height: 600px;
-        background-color: cornflowerblue;
         margin-bottom: 10px;
+        animation: fadeIn 2s;
+        -webkit-animation: fadeIn 4s;
+        -moz-animation: fadeIn 2s;
+        -o-animation: fadeIn 2s;
+        -ms-animation: fadeIn 2s;
+        animation-iteration-count: infinite;
       }
-      #MAIN-HEIM>i{
+      #MAIN-HEIM > i {
         margin-top: 10px;
         margin-left: 20px;
       }
-      #MAIN-HEIM>p{
+      #MAIN-HEIM > p {
         text-align: right;
         font-style: italic;
         margin-right: 25px;
       }
-      #box{
+      #MAIN-HEIM > p:nth-child(2) {
+        font-style: none;
+      }
+      #MAIN-HEIM > i {
+        font-size: 13px;
+        color: gray;
+        font-weight: 100;
+      }
+      #box {
         width: 92%;
         height: 120px;
         margin: auto;
-        background-color: cornflowerblue;
         margin-top: 30px;
+      }
+      #b {
+        font-size: 13px;
+        padding: 20px;
+        border: 1px;
+        border-style: solid none none none;
+      }
+      #B > a {
+        margin: 10px;
+        color: gray;
+        margin-top: 10px;
+        font-weight: 100;
+        margin-bottom: 10px;
+      }
+      #B > a:nth-child(1) {
+        font-weight: 700;
+        color: #000;
+      }
+      #DETES {
+        text-align: center;
+      }
+      #disc {
+        display: flex;
+        justify-content: center;
+      }
+      #brand {
+        color: rgb(194, 158, 117);
+        font-size: 20px;
+        padding: 5px;
+      }
+      #name {
+        margin: 5px;
+      }
+      #price {
+        margin: 5px;
+        font-size: 21px;
+        margin-top: 10px;
+      }
+      #str {
+        font-size: 15px;
+        margin-top: 5px;
+        color: rgb(194, 158, 117);
+      }
+      #per {
+        font-size: 15px;
+        font-weight: 900;
+        margin-top: 4px;
+        margin-right: 5px;
+        color: rgb(194, 158, 117);
+      }
+      #S {
+        font-size: 12px;
+        margin-top: -2px;
+        margin-bottom: 15px;
+      }
+
+      #colo,
+      #size {
+        width: 80%;
+        margin: auto;
+        height: 100px;
+
+        margin-top: 15px;
+      }
+      .s {
+        font-size: 13px;
+        margin-top: -40px;
+        margin-bottom: 30px;
+      }
+      #Del {
+        width: 80%;
+        margin: auto;
+        height: 50px;
+      }
+      #AddToB {
+        width: 80%;
+        height: 50px;
+        margin-top: 20px;
+        border: none;
+        color: white;
+        background-color: rgb(213, 162, 73);
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        font-weight: 100;
+      }
+      .g {
+        font-size: 13px;
+        color: gray;
+        margin-bottom: 20px;
+      }
+      #AddToC {
+        width: 80%;
+        height: 50px;
+        border: 1px solid rgb(213, 162, 73);
+        color: rgb(213, 162, 73);
+        letter-spacing: 1.5px;
+        margin-bottom: 35px;
+        background-color: white;
+      }
+      #U {
+        text-align: left;
+        font-weight: 600;
+        margin-left: 40px;
+      }
+      #U > ul > li {
+        font-weight: 100;
+        font-size: 13px;
+        margin: 5px;
+        margin-left: -20px;
+      }
+      #U > p {
+        color: rgb(23, 109, 147);
+        font-weight: 100;
+        font-size: 14px;
+      }
+      #coup {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-top: 5px;
+        border: 1px dotted rgb(233, 195, 138);
+      }
+      #AS {
+        margin-top: 10px;
+        font-size: 15px;
+        color: rgb(233, 195, 138);
+        margin-bottom: 8px;
+        margin-left: 8px;
+      }
+      #SA {
+        font-size: 11px;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+      #Del {
+        background-color: rgb(253, 248, 235);
+        display: flex;
+        align-items: center;
+      }
+      #Del > div {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      #Del > p {
+        font-size: 11px;
+        text-align: left;
+      }
+      #size {
+        background-color: white;
+      }
+      #size > div {
+        margin-bottom: 10px;
+        font-size: 15px;
+      }
+      .R {
+        display: flex;
+
+        justify-content: center;
+      }
+
+      .R > div {
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        border: 1px solid grey;
+        font-size: 12px;
+        padding: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        margin-bottom: 0px;
+      }
+      #COL {
+        padding: 10px;
+        padding-top: 20px;
+      }
+      #Mains > button {
+        border: none;
+        background-color: white;
+        color: grey;
       }
     </style>
   </head>
@@ -847,22 +1037,93 @@
     <div id="MID">
       <div id="MID-TOP">
         <div id="IMG-MUL">
-          <div class="im" id="AA" href=""></div>
-          <div class="im" id="AB" href=""></div>
-          <div class="im" id="AC" href=""></div>
-          <div class="im" id="AD" href=""></div>
+          <div class="im" id="AA"></div>
+          <div class="im" id="AB"></div>
+          <div class="im" id="AC"></div>
+          <div class="im" id="AD"></div>
         </div>
         <div id="MAIN-HEIM">
           <div id="Mains">
-            <button>B</button>
+            <button><i class="fas fa-chevron-left"></i></button>
             <div id="mains-img"></div>
-            <button>F</button>
+            <button><i class="fas fa-chevron-right"></i></button>
           </div>
           <i>Our model wears a Size Medium, with Height 6' and Chest 40"</i>
-          <div id="box"></div>
-          <p>Service FAQs</p>
+          <div id="box">
+            <div id="B">
+              <a href="">RETURNS </a>
+              <a href=""> OUR PROMISE</a>
+            </div>
+            <div id="b">
+              Easy 15 days return and exchange. Return Policies may vary based
+              on products and promotions. For full details on our Returns
+              Policies, please click here․
+            </div>
+          </div>
+          <p
+            style="color: rgb(69, 116, 149); font-style: unset; font-size: 13px"
+          >
+            Service FAQs
+          </p>
         </div>
-        <div id="DETES"></div>
+        <div id="DETES">
+          <div id="brand"></div>
+          <div id="name"></div>
+          <div id="price"></div>
+          <div id="disc">
+            <div id="str"></div>
+            <div id="per"></div>
+          </div>
+          <div id="S"><sub>Price Inlusive of all taxes</sub></div>
+          <div id="coup">
+            <div id="AS">
+              <h6>Use Code</h6>
+              <p>TRENDS60</p>
+            </div>
+            <div id="SA">
+              <div>Get it for Rs. 400</div>
+              <div>Get Flat 60% Off on 1690 and Above</div>
+            </div>
+          </div>
+          <div id="colo">
+            Navy
+            <div class="R" id="COL">
+              <div style="background-color: rgb(54, 87, 122)"></div>
+              <div style="background-color: rgb(30, 31, 28)"></div>
+              <div style="background-color: rgb(96, 96, 96)"></div>
+              <div style="background-color: rgb(198, 31, 49)"></div>
+              <div style="background-color: rgb(82, 87, 74)"></div>
+            </div>
+          </div>
+          <div id="size">
+            <div>Select Size</div>
+            <div class="R">
+              <div>S</div>
+              <div>M</div>
+              <div>L</div>
+              <div>XL</div>
+            </div>
+          </div>
+          <div class="s"><sub>Check Size Chart</sub></div>
+          <div id="Del">
+            <div><i class="fas fa-map-marker-alt"></i></div>
+            <p>Select your size to know your estimated delivery date.</p>
+          </div>
+          <button id="AddToB">ADD TO BAG</button>
+          <div class="g"><sub>HANDPICKED STYLES | ASSURED QUALITY</sub></div>
+          <button id="AddToC">SAVE TO CLOSET</button>
+          <div id="U">
+            Product Details
+            <ul>
+              <li>Regular Fit</li>
+              <li>Machine Wash Cold</li>
+              <li>Polyster</li>
+              <li>Product Code: 441104682007</li>
+              <li><a href="">About TeamSpirit</a></li>
+            </ul>
+            <p>Other Information</p>
+          </div>
+        </div>
       </div>
       <div id="MID-MID"></div>
       <div id="MID-BOT"></div>
@@ -947,7 +1208,51 @@
 <script>
   var J = localStorage.getItem('TEMP')
   J = JSON.parse(J)
-  // document.getElementById('A').innerHTML = J[0].name
-  // document.getElementById('B').innerHTML = J[0].price
+  document.getElementById('name').innerHTML = J[0].name
+  document.getElementById('price').innerHTML = 'Rs. ' + J[0].price
+  document.getElementById('brand').innerHTML = J[0].brand
+  var ex = Number(J[0].price) + 256
+  var str = document.getElementById('str')
+  str.style.textDecoration = 'line-through'
+  str.innerHTML = 'Rs. ' + ex
+  str.style.marginRightt = '5px'
+  document.getElementById('per').innerHTML = '(26% off)'
+
+  var IMG1 = document.getElementById('AA')
+  var aI = document.createElement('img')
+  aI.src = J[0].image1
+  aI.style.width = '100%'
+  IMG1.append(aI)
+  var IMG2 = document.getElementById('AB')
+  var bI = document.createElement('img')
+  bI.src = J[0].image2
+  bI.style.width = '100%'
+  IMG2.append(bI)
+  var IMG3 = document.getElementById('AC')
+  var cI = document.createElement('img')
+  cI.src = J[0].image3
+  cI.style.width = '100%'
+  IMG3.append(cI)
+  var IMG4 = document.getElementById('AD')
+  var dI = document.createElement('img')
+  dI.src = J[0].image4
+  dI.style.width = '100%'
+  IMG4.append(dI)
+
+  var M = document.getElementById('mains-img')
+  var m = document.createElement('img')
+  m.style.width = '100%'
+  var i = 0
+  var im = [J[0].image1, J[0].image2, J[0].image3, J[0].image4]
+  m.src = im[i]
+  M.append(m)
+  setInterval(function () {
+    if (i > 3) {
+      i = 0
+    }
+    m.src = im[i]
+    M.append(m)
+    i++
+  }, 4000)
   console.log(J)
 </script>
