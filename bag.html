@@ -30,21 +30,76 @@
         *{
             margin:0%
         }
+            * {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+      }
+      a {
+        text-decoration: none;
+      }
+      #blue {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 3px;
+        background-color: rgb(44, 65, 82);
+        z-index: 6;
+      }
+      #navbar {
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        height: 90px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: #e0e0e0 0px 2px, #c9c9c9 0px 5px;
+        z-index: 5;
+      }
+      #ima_head {
+        height: 38px;
+        margin-top: 27px;
+        margin-left: 0%;
+      }
+      #links {
+        margin-top: 54px;
+        margin-left: 15.5%;
+        min-width: 400px;
+      }
+    
+      .d1 {
+        width: 1180px;
+        height: 564px;
+        z-index: 15;
+      }
+  
+      #searLink {
+        height: 78px;
+        width: 390px;
+      }
+
+      #mini-lnk {
+        display: flex;
+        padding: 0;
+      }
+      #mini-lnk > a {
+        color: rgb(42, 46, 49);
+
+        font-size: 12px;
+        margin-top: 10px;
+        margin-right: 23px;
+        margin-bottom: 11px;
+      }
+    
      #main-nav {
     width: 100%;
-    border-top: 3px solid #2c4152;
-    z-index: 101;
-    background-color: lightgray;
-    border-bottom: 1px solid #e0e0e0;
-    position: fixed;
-     font-family: 'Source Sans Pro', sans-serif;
-    top: 0;
     height: 100px;
-    
 }
 
 .img-div{
-    margin-top: 103px;
+    margin-top: -5px;
     width:100%;
     text-align: center;
     margin-bottom: 30px;
@@ -56,6 +111,7 @@
             color: #585858;
              font-family: 'Lora', serif;
             font-family: 'Source Sans Pro', sans-serif;
+            
         }
         a:active, a:hover, a:link, a:visited {
         color: #2c4152;
@@ -75,10 +131,12 @@ background-color: #d5a249;
     cursor: pointer;
     height: 50px;
     line-height: 50px;
+    margin: auto;
   
 }
 .cart-div{
-    margin-left: 582px;
+display: flex;
+    
     
 }
 .header-right {
@@ -89,63 +147,163 @@ background-color: #d5a249;
     width: 100%;
     margin-top: 30px;
     border:1px solid #e0e0e0;
-    margin-bottom: 60px;
 }
 .header-right>ul {
     margin-top: 30px;
-    margin-bottom: 30px;;
+    display: flex;
     padding: 0;
-    
+    justify-content: center;
+    align-items: center;
 }
 ol, ul {
     list-style: none;
 }
-.header-right>ul>li {
-    display: inline-block;
+.header-right>ul {
+
     text-transform: uppercase;
     color: #b09975;
-    padding-right: 30px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    
+}
+.ln{
     font-size: 15px;
-   
-    
-}
-.header-right1{
-
- height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 30px;
-    border:1px solid #e0e0e0;
-  
-    margin: 0 auto;
-    padding: 10px 0;
-    background-color: #fafafa;
-   
-}
-.header-right1 >ul>li{
-   float:right;
- 
-    margin-top:80px;
-    padding-left:90px;
-    padding-right: 90px;
-    font-size: 14px;
-    padding-bottom: 5px;
-    text-align: center;
-    font-family: 'Lora';
-    font-weight: 700;
-
+        margin-left: 5px;
+    margin-right: 35px;
 }
 
-    
+
+         #block8 {
+        display: flex;
+        width: 100%;
+        height: 130px;
+        justify-content: center;
+
+      }
+      #block8 > div {
+        width: 25%;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 20px;
+      }
+      #block8 > div > p {
+        margin-top: 15px;
+        font-size: 16px;
+        font-family: 'Lora', serif;
+        font-weight: 600;
+      }
+      #fnal {
+        height: 520px;
+        width: 100%;
+        background-color: rgb(44, 65, 82);
+      }
+      #fnal > div:nth-child(1) {
+        width: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+      }
+      #fnal > div > div {
+        width: 70%;
+        height: 100%;
+
+        display: flex;
+      }
+      #fnal > div > div > div {
+        width: 25%;
+        height: 100%;
+        display: block;
+        color: white;
+      }
+      #fnal > div > div > div > h4 {
+        margin: 15px;
+        margin-top: 32px;
+        font-weight: 200;
+        margin-left: 10px;
+        color: rgb(204, 204, 204);
+        font-family: 'Lora', serif;
+      }
+      #fnal > div > div > div > p {
+        margin: 15px;
+        margin-top: 13px;
+        margin-bottom: 13px;
+        font-size: 11px;
+        font-weight: 100;
+        margin-left: 10px;
+      }
+      #fnal > div > div > div > p > a {
+        color: rgb(204, 204, 204);
+      }
+      #pay {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+      }
+      #w-line {
+        margin: auto;
+        width: 70%;
+        height: 1px;
+        background-color: rgb(204, 204, 204);
+      }
+      #pay > div {
+        width: 70%;
+        max-height: 32%;
+        justify-content: center;
+      }
+      #pay > div > div:nth-child(1) {
+        width: 70%;
+        height: 100%;
+      }
+      #pay > div > div:nth-child(2) {
+        width: 30%;
+        height: 100%;
+      }
+      #ICO {
+        font-size: 40px;
+      }
+      #ICO > h5 {
+        margin-top: 50px;
+        font-size: 15px;
+        color: rgb(204, 204, 204);
+        margin-bottom: 10px;
+      }
 
     </style>
 </head>
 <body>
+      <!-- Navbar -->
+    <div id="blue"></div>
+    <div id="navbar">
+      <a href="/home.html">
+        <img
+          id="ima_head"
+          src="https://assets.ajio.com/static/img/Ajio-Logo.svg"
+          alt="header"
+        />
+      </a>
+      <div id="links">
+
+    
+   
+      </div>
+      <div id="searLink">
+        <div id="mini-lnk">
+          <a href="" id="user_info">Hi shivang shukla</a>
+          <a href="/myaccount.html">My Account</a>
+          <a href="">Sign Out</a>
+          <a href="/customerCare.html">Customer Care</a>
+        </div>
+
+      </div>
+    </div>
     <div id="main-nav">
         <p>s</p>
     </div>
+
+    <!-- MID PAGE -->
+
     <div class="img-div">
     <img src="https://assets.ajio.com/medias/sys_master/images/images/h90/h24/34734725922846/17082021-M-cartpagebanner-relianceone.jpg">
     </div>
@@ -159,24 +317,85 @@ ol, ul {
 
     <div class="header-right">
         <ul>
-            <li>SECURE PAYMENTS</li>
-            <li>CASH ON DELIVERY</li>
-            <li>ASSURED QUALITY</li>
-            <li>EASY RETURNS</li>
+            <li ><i class="fas fa-shield-alt"></i> </li><li class="ln">SECURE PAYMENTS</li>
+            <li><i class="fas fa-rupee-sign"></i> </i> </li><li class="ln">SECURE PAYMENTS</li>
+            <li><i class="fas fa-check-circle"></i></i> </li><li class="ln">SECURE PAYMENTS</li>
+            <li><i class="fas fa-sync-alt"></i></i> </li><li class="ln">SECURE PAYMENTS</li>
         </ul>
-    </div>
-    <div class="header-right1">
-        <ul>
-            <li>EASY EXCHANGE*</li>
-            <li>100% HANDPICKED</li>
-            <li>ASSURED QUALITY</li>
-           
-        </ul>
-    </div>
-    <div style="width:100%; height:400px; background-color:grey">
-        m
     </div>
     <!-- whdqohd -->
     
+    <div id="block8">
+      <div>
+        <i class="fas fa-sync-alt"></i>
+        <p>EASY EXCHANGE<sup>*</sup></p>
+      </div>
+      <div>
+        <i class="fas fa-hand-holding-heart"></i>
+        <p>100% HANDPICKED</p>
+      </div>
+      <div>
+        <i class="fas fa-check-circle"></i>
+        <p>ASSURED QUALITY</p>
+      </div>
+    </div>
+
+    <div id="fnal">
+      <div>
+        <div>
+          <div>
+            <h4>Ajio</h4>
+            <p><a href="">Who We Are</a></p>
+            <p><a href="">Join Our Team</a></p>
+            <p><a href="">Terms & Conditions</a></p>
+            <p><a href="">We Respect Your Privacy</a></p>
+            <p><a href="">Fees & Payments</a></p>
+            <p><a href="">Returns & Refunds</a></p>
+            <p><a href="">Promotions Terms & Conditions</a></p>
+          </div>
+          <div>
+            <h4>Help</h4>
+            <p><a href="">Track Your Order</a></p>
+            <p><a href="">Frequently Asked Questions</a></p>
+            <p><a href>Returns</a></p>
+            <p><a href="">Cancellation</a></p>
+            <p><a href="">Payments</a></p>
+            <p><a href="">Customer Care</a></p>
+            <p><a href="">How Do I Redeem My Coupon</a></p>
+          </div>
+          <div>
+            <h4>Shop by</h4>
+            <p><a href="">Men</a></p>
+            <p><a href="">Women</a></p>
+            <p><a href="">Kids</a></p>
+            <p><a href="">Indie</a></p>
+            <p><a href="">Stores</a></p>
+            <p><a href="">New Arrivals</a></p>
+            <p><a href="">Brand Directory</a></p>
+            <p><a href="">Home</a></p>
+            <p><a href="">Collections</a></p>
+          </div>
+          <div>
+            <h4>Follow us</h4>
+            <p><a href="">Facebook</a></p>
+            <p><a href="">Instagram</a></p>
+            <p><a href="">Twitter</a></p>
+            <p><a href="">Pinterest</a></p>
+          </div>
+        </div>
+      </div>
+      <div id="w-line"></div>
+      <div id="pay">
+        <div>
+          <div id="ICO">
+            <h5>Payment methods</h5>
+            <i class="fas fa-university"></i> <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fas fa-money-bill-wave"></i>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

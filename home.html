@@ -34,6 +34,9 @@
         margin: 0;
         font-family: 'Roboto', sans-serif;
       }
+      a {
+        text-decoration: none;
+      }
       #blue {
         overflow: hidden;
         position: fixed;
@@ -472,11 +475,13 @@
     <!-- Navbar -->
     <div id="blue"></div>
     <div id="navbar">
-      <img
-        id="ima_head"
-        src="https://assets.ajio.com/static/img/Ajio-Logo.svg"
-        alt="header"
-      />
+      <a href="/home.html">
+        <img
+          id="ima_head"
+          src="https://assets.ajio.com/static/img/Ajio-Logo.svg"
+          alt="header"
+        />
+      </a>
       <div id="links">
         <div class="dropdown">
           <a class="active" href="">MEN</a>
@@ -852,10 +857,10 @@
       </div>
       <div id="searLink">
         <div id="mini-lnk">
-          <a class="active" href="" id="user_info">Hi shivang shukla</a>
-          <a class="active" href="">My Account</a>
+          <a href="" id="user_info">Hi shivang shukla</a>
+          <a href="/myaccount.html">My Account</a>
           <a href="">Sign Out</a>
-          <a href="">Customer Care</a>
+          <a href="/customerCare.html">Customer Care</a>
         </div>
         <div id="sear_block">
           <form>
@@ -864,14 +869,14 @@
           <div class="A">
             <i class="fas fa-search"></i>
           </div>
-          <div id="closet">
+          <a href="/closet.html" id="closet">
             <p></p>
             <i class="fas fa-caret-up"></i>
-          </div>
-          <div id="cart">
+          </a>
+          <a href="/bag.html" id="cart">
             <p></p>
             <i class="fas fa-shopping-bag"></i>
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -884,6 +889,9 @@
     <div id="block4"></div>
     <div id="block5"></div>
     <div id="block7"></div>
+
+    <!-- BOTTOM -->
+
     <div id="block8">
       <div>
         <i class="fas fa-sync-alt"></i>
@@ -899,7 +907,6 @@
       </div>
     </div>
 
-    <!-- BOTTOM -->
     <div id="fnal">
       <div>
         <div>
