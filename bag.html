@@ -269,7 +269,7 @@
         display: none;
       } */
       #BL {
-        height: 900px;
+        /* height: 900px; */
         width: 75%;
         margin: auto;
         display: flex;
@@ -291,13 +291,15 @@
       #M > p,
       #M > h2 {
         padding: 15px;
+        margin-left: 40px;
       }
       #BRT {
-        background-color: yellowgreen;
-        height: 80%;
-        width: 98%;
+        /* height: 80%; */
+        overflow: hidden;
+        width: 95%;
         margin: auto;
         margin-top: 10px;
+        margin-left: 50px;
       }
       #TOT_SW > div {
         width: 90%;
@@ -534,17 +536,52 @@
     localStorage.setItem('CART', JSON.stringify([]))
   }
 
-  var A = document.getElementById('CRT')
+  var A = document.getElementById('BRT')
   var B = document.getElementById('EMP')
   var C = localStorage.getItem('CART')
   C = JSON.parse(C)
-  console.log(C)
+
   if (C == []) {
     B.style.display = 'block'
-    console.log(6)
   }
   if (C.length != 0) {
     B.style.display = 'none'
     console.log(C.length)
+    C.map(function (prod) {
+      var BOX = document.createElement('div')
+      BOX.style.width = '97%'
+      BOX.style.height = '180px'
+      BOX.style.marginTop = '10px'
+      BOX.style.backgroundColor = 'pink'
+      BOX.style.display = 'flex'
+      var im = document.createElement('img')
+      im.src = prod.image1
+      var nm = document.createElement('div')
+      nm.style.width = '30%'
+      nm.style.height = '80%'
+      nm.style.fontSize = '14px'
+      nm.style.padding = '15px'
+      nm.innerHTML = prod.brand + ' - ' + prod.name
+      var size = document.createElement('div')
+      size.style.display = 'flex'
+      size.style.padding = '15px'
+      size.style.marginRight = '5%'
+      var el = document.createElement('p')
+      el.innerHTML = 'Size'
+      el.style.color = 'rgb(153, 153, 153)'
+      el.style.fontSize = '15px'
+      var le = document.createElement('p')
+      le.innerHTML = 'M'
+      le.style.fontSize = '15px'
+      le.style.marginLeft = '10px'
+      size.append(el, le)
+      var PR = document.createElement('div')
+      PR.style.width = '40%'
+      PR.style.height = '100%'
+      PR.style.backgroundColor = 'lightblue'
+
+      BOX.append(im, nm, size, PR)
+      A.append(BOX)
+    })
   }
 </script>
