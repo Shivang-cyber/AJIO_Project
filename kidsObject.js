@@ -122,3 +122,45 @@ let girlsDress = [
       "https://assets.ajio.com/medias/sys_master/root/20201217/yQH8/5fda9807f997dd8c83d00ff2/-1117Wx1400H-460796719-gray-MODEL3.jpg",
   },
 ];
+
+let kidsShoes = [
+  {
+    name: "LiteRide Slingback Clogs",
+    brand: "CROCS",
+    price: 2971,
+    image1:
+      "https://assets.ajio.com/medias/sys_master/root/20210729/XzM6/6102c98aaeb269a9e35971a4/-1117Wx1400H-460933013-blue-MODEL.jpg",
+    image2:
+      "https://assets.ajio.com/medias/sys_master/root/20210729/Dcc4/6102d4bef997ddb3123f5f60/-1117Wx1400H-460933013-blue-MODEL2.jpg",
+    image3:
+      "https://assets.ajio.com/medias/sys_master/root/20210729/TVDi/6102c2f8f997ddb3123f0be8/-1117Wx1400H-460933013-blue-MODEL3.jpg",
+    image4:
+      "https://assets.ajio.com/medias/sys_master/root/20210729/eHGt/6102d173f997ddb3123f5041/-1117Wx1400H-460933013-blue-MODEL4.jpg",
+  },
+  {
+    name: "Pack of 2 Geometric Print Socks",
+    brand: "KICKS AND CRAWL",
+    price: 499,
+    image1:
+      "https://assets.ajio.com/medias/sys_master/root/20210812/EnBl/61147d1caeb269a268704f7a/-1117Wx1400H-462774704-yellow-MODEL.jpg",
+    image2:
+      "https://assets.ajio.com/medias/sys_master/root/20210812/RrIx/61147d1caeb269a268704fcb/-1117Wx1400H-462774704-yellow-MODEL2.jpg",
+    image3:
+      "https://assets.ajio.com/medias/sys_master/root/20210812/Ny7S/61147d1caeb269a268704fb6/-1117Wx1400H-462774704-yellow-MODEL5.jpg",
+    image4:
+      "https://assets.ajio.com/medias/sys_master/root/20210812/EnBl/61147d1caeb269a268704f7a/-1117Wx1400H-462774704-yellow-MODEL.jpg",
+  },
+  {
+    name: "Low-Top Lace-Up Sports Shoes",
+    brand: "CAMPUS",
+    price: 488,
+    image1:
+      "https://assets.ajio.com/medias/sys_master/root/20210716/S1a5/60f09487f997ddb31228818b/-1117Wx1400H-460915081-grey-MODEL.jpg",
+    image2:
+      "https://assets.ajio.com/medias/sys_master/root/20210716/hxUd/60f0a03baeb269a9e3448e54/-1117Wx1400H-460915081-grey-MODEL2.jpg",
+    image3:
+      "https://assets.ajio.com/medias/sys_master/root/20210716/nnpg/60f092b2f997ddb312287ac7/-1117Wx1400H-460915081-grey-MODEL3.jpg",
+    image4:
+      "https://assets.ajio.com/medias/sys_master/root/20210716/kVdG/60f07efdf997ddb312282146/-1117Wx1400H-460915081-grey-MODEL4.jpg",
+  },
+];
