@@ -521,6 +521,7 @@
         font-size: 15px;
         letter-spacing: 1.5px;
         font-weight: 100;
+        cursor: pointer;
       }
       .g {
         font-size: 13px;
@@ -535,6 +536,7 @@
         letter-spacing: 1.5px;
         margin-bottom: 35px;
         background-color: white;
+        cursor: pointer;
       }
       #U {
         text-align: left;
@@ -1109,7 +1111,7 @@
             <div><i class="fas fa-map-marker-alt"></i></div>
             <p>Select your size to know your estimated delivery date.</p>
           </div>
-          <button id="AddToB">ADD TO BAG</button>
+          <button id="AddToB" onclick="add()">ADD TO BAG</button>
           <div class="g"><sub>HANDPICKED STYLES | ASSURED QUALITY</sub></div>
           <button id="AddToC">SAVE TO CLOSET</button>
           <div id="U">
@@ -1206,6 +1208,7 @@
   </body>
 </html>
 <script>
+
   var J = localStorage.getItem('TEMP')
   J = JSON.parse(J)
   document.getElementById('name').innerHTML = J[0].name
@@ -1255,4 +1258,16 @@
     i++
   }, 4000)
   console.log(J)
+
+    if (localStorage.getItem('CART') === null) {
+    localStorage.setItem('CART', JSON.stringify([]))
+  }
+
+  function add() {
+  var cart = []
+  cart.push(J[0])
+    let cart_data = JSON.parse(localStorage.getItem('CART'))
+    cart_data.push(J[0])
+    localStorage.setItem('CART', JSON.stringify(cart_data))
+}
 </script>

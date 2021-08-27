@@ -500,7 +500,7 @@
                   <h5>NEW IN: FOOTWEAR & ACCS</h5>
                   <h5>INTERNATIONAL BRANDS</h5>
                   <h5>WESTERN WEAR</h5>
-                  <p><button>Jackets & Coats</button></p>
+                  <p><button onclick="cato(menjackets)">Jackets & Coats</button></p>
                   <p><button>Jeans</button></p>
                   <p><button>Shirts</button></p>
                   <p><button>Shorts & 3/4ths</button></p>
@@ -969,8 +969,24 @@
   </body>
 </html>
 <script src="/AJIO_Project/DATA.js"></script>
+<script src="/AJIO_Project/kidsObject.js"></script>
+<script src="/AJIO_Project/home_furniture.js"></script>
+<script src="/AJIO_Project/men.js"></script>
+<script src="/AJIO_Project/women.js"></script>
 <script>
   // First drop down menu
+  var abb = []
+function cato(arr) {
+  console.log(5);
+   var len = abb.length
+   if (len!=0) {
+    abb = []
+   }
+   abb.push(arr)
+   let ABB = JSON.stringify(abb)
+   localStorage.setItem('CATO',ABB)
+   window.open('catologue.html')
+}
 
   var front_1 = [
     {

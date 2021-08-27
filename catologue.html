@@ -911,13 +911,20 @@ color: rgb(154, 154, 154);
     </div>
 </body>
 </html>
-<script type="text/javascript" src="/DATA.js"></script>
+<script src="/AJIO_Project/DATA.js"></script>
+<script src="/AJIO_Project/kidsObject.js"></script>
+<script src="/AJIO_Project/home_furniture.js"></script>
+<script src="/AJIO_Project/men.js"></script>
+<script src="/AJIO_Project/women.js"></script>
 <script>
 var block = document.getElementById("right")
 var temp = []
 
+var KATO = localStorage.getItem('CATO')
+KATO = JSON.parse(KATO)
+console.log(KATO[0]);
+var A = [...KATO[0]]
 function definer() {
- var A = [...Indie_Saree]
  A.map(function(prod){
   var N = prod.name
   var B = prod.brand
