@@ -53,7 +53,62 @@ let Indie_Saree = [
     image2:" https://assets.ajio.com/medias/sys_master/root/20201009/xe8z/5f8082e6f997dd8c835df6e3/-1117Wx1400H-460748078-multi-MODEL2.jpg",
     image3:" https://assets.ajio.com/medias/sys_master/root/20201009/FNhD/5f807e44f997dd8c835dc770/-1117Wx1400H-460748078-multi-MODEL4.jpg",
     image4:" https://assets.ajio.com/medias/sys_master/root/20201009/eGsD/5f8086a0f997dd8c835e226a/-1117Wx1400H-460748078-multi-MODEL3.jpg",
-  }
+  },
+  {
+    name:"Checked Woven Cotton Silk Saree with Blouse Material",
+    brand:"ALYAKA",
+    price:"357",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210506/R80x/6093e472aeb269a9e3b35e3a/-1117Wx1400H-462348787-beige-MODEL.jpg ",
+    image2:" https://assets.ajio.com/medias/sys_master/root/20210506/o0tC/6093e472aeb269a9e3b35ea3/-1117Wx1400H-462348787-beige-MODEL2.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20210506/4yqV/6093e472aeb269a9e3b35e83/-1117Wx1400H-462348787-beige-MODEL3.jpg ",
+    image4:" https://assets.ajio.com/medias/sys_master/root/20210506/soKF/6093e472aeb269a9e3b35e8e/-1117Wx1400H-462348787-beige-MODEL4.jpg" 
+},
+{
+    name:"Embroidered Traditional Saree",
+    brand:"INDIAN WOMEN",
+    price:"1,150",
+    image1:" https://assets.ajio.com/medias/sys_master/root/20210627/75AQ/60d93914f997ddb31200ee88/-1117Wx1400H-462289031-pink-MODEL.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20210627/XBJv/60d93914f997ddb31200eeba/-1117Wx1400H-462289031-pink-MODEL2.jpg ",
+    image3:" https://assets.ajio.com/medias/sys_master/root/20210627/Dfm0/60d93914f997ddb31200eedd/-1117Wx1400H-462289031-pink-MODEL3.jpg",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20210627/umIf/60d93914f997ddb31200eece/-1117Wx1400H-462289031-pink-MODEL4.jpg"
+},
+{
+    name:"Embroidered Saree with Tassels Detail",
+    brand:"AASHVI CREATION",
+    price:"1,161",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210611/59HM/60c279c0f997ddb312c5937e/-1117Wx1400H-462500880-grey-MODEL.jpg ",
+    image2:" https://assets.ajio.com/medias/sys_master/root/20210611/KvI1/60c279c0f997ddb312c593c1/-1117Wx1400H-462500880-grey-MODEL2.jpg",
+    image3:" https://assets.ajio.com/medias/sys_master/root/20210611/1REm/60c279c0f997ddb312c59399/-1117Wx1400H-462500880-grey-MODEL3.jpg",
+    image4:" https://assets.ajio.com/medias/sys_master/root/20210611/4yDu/60c279c0f997ddb312c593c3/-1117Wx1400H-462500880-grey-MODEL4.jpg"
+},
+{
+    name:"Embroidered Half-and-Half Saree",
+    brand:"B BELLA CREATION",
+    price:"1,550",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210503/WVbu/609061abaeb269a9e3ac7c0c/-1117Wx1400H-462350777-green-MODEL2.jpg ",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20210503/eyeB/609061abaeb269a9e3ac7bd2/-1117Wx1400H-462350777-green-MODEL3.jpg ",
+    image3:" https://assets.ajio.com/medias/sys_master/root/20210503/tIJP/609061b9aeb269a9e3ac7cbd/-1117Wx1400H-462350777-green-MODEL4.jpg",
+    image4:" https://assets.ajio.com/medias/sys_master/root/20210503/m6OC/609061b9aeb269a9e3ac7cc5/-1117Wx1400H-462350777-green-MODEL5.jpg"
+},
+{
+    name:"Woven Saree",
+    brand:"CLAFOUTIS",
+    price:"989",
+    image1:" https://assets.ajio.com/medias/sys_master/root/20210627/z0rA/60d98d71aeb269a9e322e785/-1117Wx1400H-462189124-yellow-MODEL.jpg",
+    image2:" https://assets.ajio.com/medias/sys_master/root/20210627/gVM7/60d98d71aeb269a9e322e7cf/-1117Wx1400H-462189124-yellow-MODEL2.jpg",
+    image3:" https://assets.ajio.com/medias/sys_master/root/20210627/QBw5/60d98d71aeb269a9e322e7c8/-1117Wx1400H-462189124-yellow-MODEL3.jpg",
+    image4:" https://assets.ajio.com/medias/sys_master/root/20210627/YPLk/60d98d71aeb269a9e322e7b9/-1117Wx1400H-462189124-yellow-MODEL4.jpg"
+},
+{
+    name:"Print Chiffon Saree",
+    brand:"FOUR SEASONS",
+    price:"699",
+    image1:" https://assets.ajio.com/medias/sys_master/root/20210528/6Sck/60b01dcdf997ddb312ac8ab9/-1117Wx1400H-462454571-green-MODEL.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20210528/KD5d/60b01dcdf997ddb312ac8b04/-1117Wx1400H-462454571-green-MODEL2.jpg ",
+    image3:" https://assets.ajio.com/medias/sys_master/root/20210528/ajA5/60b01dcdf997ddb312ac8b15/-1117Wx1400H-462454571-green-MODEL3.jpg",
+    image4:" https://assets.ajio.com/medias/sys_master/root/20210528/g6Nl/60b01dcdf997ddb312ac8b19/-1117Wx1400H-462454571-green-MODEL4.jpg"
+}
+
 ]
   let kurtas=[
   {
@@ -110,6 +165,60 @@ let Indie_Saree = [
     image3: 'https://assets.ajio.com/medias/sys_master/root/20210730/85pX/6103f394aeb269a9e35afc9f/-1117Wx1400H-460886584-purple-MODEL3.jpg',
     image4: 'https://assets.ajio.com/medias/sys_master/root/20210730/XTPx/6103f231f997ddb31240cddf/-1117Wx1400H-460886584-purple-MODEL4.jpg',
   },
+  {
+    name:"Block Print A-line Kurti",
+    brand:"OM SAI LATEST CREATION",
+    price:"538",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210403/fA5W/60689c17f997dd7b6461fc89/-1117Wx1400H-461187988-yellow-MODEL.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20210403/TNq0/60689c17f997dd7b6461fcb3/-1117Wx1400H-461187988-yellow-MODEL2.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20210403/d5UC/60689c17f997dd7b6461fcc3/-1117Wx1400H-461187988-yellow-MODEL4.jpg",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20210403/xHaI/60689c17f997dd7b6461fce4/-1117Wx1400H-461187988-yellow-MODEL3.jpg" 
+},
+{
+    name:"High-Low Kurti with Tie-Up",
+    brand:"OM SAI LATEST CREATION",
+    price:"899",
+    image1:" https://assets.ajio.com/medias/sys_master/root/20210403/FKtk/60687fd8aeb269a9e33359fa/-1117Wx1400H-461187976-green-MODEL.jpg",
+    image2:" https://assets.ajio.com/medias/sys_master/root/20210403/EN3m/60687fd8aeb269a9e3335a51/-1117Wx1400H-461187976-green-MODEL5.jpg",
+    image3:" https://assets.ajio.com/medias/sys_master/root/20210403/OjLV/60687fd8aeb269a9e3335a50/-1117Wx1400H-461187976-green-MODEL4.jpg",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20210403/T0Nt/60687fd8aeb269a9e3335a41/-1117Wx1400H-461187976-green-MODEL2.jpg"
+},
+{
+    name:"Straight Tunic with Lace Detail",
+    brand:"KIPEK",
+    price:"648",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210403/06W9/6068a885aeb269a9e33656b5/-1117Wx1400H-461612033-grey-MODEL.jpg ",
+    image2:" https://assets.ajio.com/medias/sys_master/root/20210403/Nlvi/6068a885aeb269a9e33656e6/-1117Wx1400H-461612033-grey-MODEL2.jpg",
+    image3:" https://assets.ajio.com/medias/sys_master/root/20210403/SNT7/6068a885aeb269a9e33656ef/-1117Wx1400H-461612033-grey-MODEL3.jpg",
+    image4:" https://assets.ajio.com/medias/sys_master/root/20210403/WsrE/6068a885aeb269a9e33656e2/-1117Wx1400H-461612033-grey-MODEL4.jpg"
+},
+{
+    name:"Printed Flared Tunic",
+    brand:"KIPEK",
+    price:"538",
+    image1:" https://assets.ajio.com/medias/sys_master/root/20210529/fnL9/60b16ff4aeb269a9e3cdd211/-1117Wx1400H-462461144-green-MODEL.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20210529/GcNR/60b16ff4aeb269a9e3cdd233/-1117Wx1400H-462461144-green-MODEL2.jpg ",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20210529/xZbL/60b17002aeb269a9e3cdd330/-1117Wx1400H-462461144-green-MODEL3.jpg ",
+    image4:" https://assets.ajio.com/medias/sys_master/root/20210529/dP2N/60b17002aeb269a9e3cdd340/-1117Wx1400H-462461144-green-MODEL4.jpg"
+},
+{
+    name:"Block Print A-line Kurti",
+    brand:"OM SAI LATEST CREATION",
+    price:"538",
+    image1:" https://assets.ajio.com/medias/sys_master/root/20210404/14AH/606b156e7cdb8c1f14a1c805/-1117Wx1400H-461785979-navy-MODEL.jpg",
+    image2:" https://assets.ajio.com/medias/sys_master/root/20210404/4hlU/606b156e7cdb8c1f14a1c850/-1117Wx1400H-461785979-navy-MODEL2.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20210404/vI8G/606b156e7cdb8c1f14a1c85a/-1117Wx1400H-461785979-navy-MODEL3.jpg ",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20210404/11QG/606b156e7cdb8c1f14a1c84a/-1117Wx1400H-461785979-navy-MODEL4.jpg "
+},
+{
+    name:"Floral Printed Straight Short Kurti",
+    brand:"TISSUE",
+    price:"539",
+    image1:" https://assets.ajio.com/medias/sys_master/root/20210723/jrIH/60fa7bb4aeb269a9e350cd74/-1117Wx1400H-461834809-maroon-MODEL.jpg",
+    image2:" https://assets.ajio.com/medias/sys_master/root/20210723/dUtH/60fa7bb4aeb269a9e350cdbb/-1117Wx1400H-461834809-maroon-MODEL2.jpg",
+    image3:" https://assets.ajio.com/medias/sys_master/root/20210723/a126/60fa7bb4aeb269a9e350cdc5/-1117Wx1400H-461834809-maroon-MODEL3.jpg",
+    image4:" https://assets.ajio.com/medias/sys_master/root/20210723/rHdk/60fa7bc3aeb269a9e350ce78/-1117Wx1400H-461834809-maroon-MODEL5.jpg"
+},
 ]
   
 let Dresses = [
@@ -224,5 +333,60 @@ let Tops = [
     image3: 'https://assets.ajio.com/medias/sys_master/root/20210112/lONa/5ffc9adf7cdb8c1f1425bd64/-1117Wx1400H-460704757-grey-MODEL3.jpg',
     image4: 'https://assets.ajio.com/medias/sys_master/root/20210112/cCJX/5ffcb25b7cdb8c1f1426001f/-1117Wx1400H-460704757-grey-MODEL4.jpg',
   },
+  {
+    name:"Fitted Puff Sleeves Top",
+    brand:"CLOTHZY",
+    price:"831",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210403/XRXu/60686605aeb269a9e33172e1/-473Wx593H-461101152-yellow-MODEL.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20210403/DIaJ/606865f5aeb269a9e3317170/-1117Wx1400H-461101152-yellow-MODEL2.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20210403/puZj/60686605aeb269a9e331724e/-473Wx593H-461101152-yellow-MODEL4.jpg",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20210403/aLvO/60686605aeb269a9e331726b/-1117Wx1400H-461101152-yellow-MODEL3.jpg" 
+},
+{
+    name:"Floral Print Top with Elasticated Sleeve Hems",
+    brand:"V&M",
+    price:"1,299",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210404/UDka/606b8d81aeb269a9e368a2a9/-1117Wx1400H-461808368-blue-MODEL.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20210404/rJ7a/606b8d81aeb269a9e368a2d0/-1117Wx1400H-461808368-blue-MODEL2.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20210404/Gv1G/606b8d81aeb269a9e368a2ef/-1117Wx1400H-461808368-blue-MODEL4.jpg",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20210404/LskV/606b8d81aeb269a9e368a30f/-1117Wx1400H-461808368-blue-MODEL3.jpg"
+},
+{
+    name:"Round-Neck Top with Puff Sleeves",
+    brand:"CLOTHZY",
+    price:"378",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210403/StEL/6068a5207cdb8c1f1479793a/-1117Wx1400H-461769634-pink-MODEL.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20210403/SumY/6068a5207cdb8c1f14797997/-1117Wx1400H-461769634-pink-MODEL2.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20210403/v3r3/6068a5207cdb8c1f1479798f/-1117Wx1400H-461769634-pink-MODEL3.jpg",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20210403/VCgp/6068a5217cdb8c1f1479799e/-1117Wx1400H-461769634-pink-MODEL4.jpg"
+},
+{
+    name:"Striped Full Sleeves Top",
+    brand:"109 F",
+    price:"1,259",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210818/CPMl/611d29acaeb269a26877383b/-1117Wx1400H-462739808-navy-MODEL.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20210818/fFRa/611d29acaeb269a26877387b/-1117Wx1400H-462739808-navy-MODEL3.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20210818/2lh3/611d29acaeb269a268773879/-1117Wx1400H-462739808-navy-MODEL4.jpg",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20210818/j6C4/611d29acaeb269a268773862/-1117Wx1400H-462739808-navy-MODEL2.jpg"
+},
+{
+    name:"High Neck Lace Top",
+    brand:"GOSTYLE",
+    price:"539",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210404/dgQA/606a79d37cdb8c1f14994d7d/-1117Wx1400H-461049415-orange-MODEL.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20210404/zAqj/606a79d37cdb8c1f14994dd3/-1117Wx1400H-461049415-orange-MODEL3.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20210404/JbIh/606a79d37cdb8c1f14994d9e/-1117Wx1400H-461049415-orange-MODEL4.jpg",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20210404/J93b/606a79d37cdb8c1f14994dc0/-1117Wx1400H-461049415-orange-MODEL2.jpg"
+},
+{
+    name:"Lace Round Neck Top",
+    brand:"GOSTYLE",
+    price:"482",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210403/gvqg/60686b0af997dd7b645de466/-1117Wx1400H-461132761-black-MODEL.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20210403/hDZh/60686b0af997dd7b645de4af/-1117Wx1400H-461132761-black-MODEL2.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20210403/TfvR/60686b0af997dd7b645de499/-1117Wx1400H-461132761-black-MODEL3.jpg",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20210403/sjlS/60686b0af997dd7b645de494/-1117Wx1400H-461132761-black-MODEL4.jpg"
+},
+
 ]
 
