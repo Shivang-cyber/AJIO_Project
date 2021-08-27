@@ -877,3 +877,447 @@ let mentshirts=[
 ]
 
 
+
+menjackets=[
+    {
+        name:"Single-Breasted Pea Coat with Notched Lapel",
+        brand:"FORT COLLINS",
+        price:"1435",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20201028/mXMG/5f986b96f997dd8c8379c17c/-1117Wx1400H-460746094-khaki-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201028/NGDC/5f98709faeb269d563f06fa8/-1117Wx1400H-460746094-khaki-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201028/u8Fi/5f986f6eaeb269d563f0643b/-1117Wx1400H-460746094-khaki-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201028/mXMG/5f986b96f997dd8c8379c17c/-1117Wx1400H-460746094-khaki-MODEL.jpg"
+    },
+    {
+        name:"Panelled Jacket with Zipper Pockets",
+        brand:"FORT COLLINS",
+        price:"480",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20201104/Mtdd/5fa1a70baeb269d563f79b24/-473Wx593H-441104682-red-MODEL4.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201104/5lnb/5fa1bfa4aeb269d563f8511f/-1117Wx1400H-441104682-red-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201104/dJpA/5fa1a7c7f997dd8c8382682d/-1117Wx1400H-441104682-red-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201104/Mtdd/5fa1a70baeb269d563f79b57/-1117Wx1400H-441104682-red-MODEL4.jpg"
+    },
+    {
+        name:"Panelled Zip-Front Jacket",
+        brand:"FORT COLLINS",
+        price:"799",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210205/P4V2/601c43227cdb8c1f14365374/-1117Wx1400H-441111253-jetblack-MODEL4.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210205/OOyP/601c48527cdb8c1f14366f98/-1117Wx1400H-441111253-jetblack-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210205/NPr0/601c3d817cdb8c1f14364181/-1117Wx1400H-441111253-jetblack-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210205/P4V2/601c43227cdb8c1f14365374/-1117Wx1400H-441111253-jetblack-MODEL4.jpg"
+    },
+    {
+        name:"Will Hooded Jacket with Flap Pockets",
+        brand:"JACK & JONES",
+        price:"3500",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210105/SwDX/5ff36067f997dd8c17b8450a/-1117Wx1400H-460763882-green-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210105/nIzN/5ff36dfef997dd8c17b87e6e/-1117Wx1400H-460763882-green-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210105/0WvG/5ff368d8aeb2694fd307c7c4/-1117Wx1400H-460763882-green-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210105/gLoL/5ff36f61f997dd8c17b8843c/-1117Wx1400H-460763882-green-MODEL4.jpg"
+    },
+    {
+        name:"Perth Padded Zip-Front with Zip Pockets",
+        brand:"JACK & JONES",
+        price:"1500",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210316/jw7B/6050cd6a7cdb8c1f1464f210/-1117Wx1400H-460763887-navy-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201111/p4Gm/5fac0029aeb269d56309be80/-1117Wx1400H-460763887-navy-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201111/Xm0F/5fabfe59f997dd8c8395c421/-1117Wx1400H-460763887-navy-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201111/CaT6/5fabfd1df997dd8c8395b8b5/-1117Wx1400H-460763887-navy-MODEL4.jpg"
+    },
+    {
+        name:"Collar-Neck Jacket with Insert Pockets",
+        brand:"JACK & JONES",
+        price:"1092",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210805/m4wO/610ae723f997ddce8994e2b6/-1117Wx1400H-462631373-green-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210805/wzoO/610ae723f997ddce8994e30e/-1117Wx1400H-462631373-green-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210805/QjUb/610ae723f997ddce8994e30c/-1117Wx1400H-462631373-green-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210805/5mAa/610ae73df997ddce8994e4b3/-1117Wx1400H-462631373-green-MODEL4.jpg"
+    },
+    {
+        name:"Hooded Quilted Jacket",
+        brand:"CAMPUS SUTRA",
+        price:"756",
+        image1:"https://assets.ajio.com/medias/sys_master/root/h94/hed/11914309337118/-1117Wx1400H-460161933-black-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/h22/h00/11914310123550/-1117Wx1400H-460161933-black-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/h42/h4d/11914309861406/-1117Wx1400H-460161933-black-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/h52/hff/11914308026398/-1117Wx1400H-460161933-black-MODEL4.jpg"
+    },
+    {
+        name:"Banff Trucker Jacket with Insert Pockets",
+        brand:"CAMPUS SUTRA",
+        price:"1750",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210316/4lqW/6050c938f997dd5c4013a5b8/-1117Wx1400H-460763883-brown-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201111/WFPw/5fac02fbaeb269d56309d1a9/-1117Wx1400H-460763883-brown-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201111/Z3nW/5fac0071aeb269d56309c0d9/-1117Wx1400H-460763883-brown-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201111/oB0y/5fabffb4f997dd8c8395cfcf/-1117Wx1400H-460763883-brown-MODEL4.jpg"
+    },
+    {
+        name:"Single-Breasted Pea Coat with Notched Lapel",
+        brand:"FORT COLLINS",
+        price:"1435",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20201028/mXMG/5f986b96f997dd8c8379c17c/-1117Wx1400H-460746094-khaki-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201028/NGDC/5f98709faeb269d563f06fa8/-1117Wx1400H-460746094-khaki-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201028/u8Fi/5f986f6eaeb269d563f0643b/-1117Wx1400H-460746094-khaki-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201028/mXMG/5f986b96f997dd8c8379c17c/-1117Wx1400H-460746094-khaki-MODEL.jpg"
+    },
+    {
+        name:"Panelled Jacket with Zipper Pockets",
+        brand:"FORT COLLINS",
+        price:"480",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20201104/Mtdd/5fa1a70baeb269d563f79b24/-473Wx593H-441104682-red-MODEL4.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201104/5lnb/5fa1bfa4aeb269d563f8511f/-1117Wx1400H-441104682-red-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201104/dJpA/5fa1a7c7f997dd8c8382682d/-1117Wx1400H-441104682-red-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201104/Mtdd/5fa1a70baeb269d563f79b57/-1117Wx1400H-441104682-red-MODEL4.jpg"
+    },
+    {
+        name:"Panelled Zip-Front Jacket",
+        brand:"FORT COLLINS",
+        price:"799",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210205/P4V2/601c43227cdb8c1f14365374/-1117Wx1400H-441111253-jetblack-MODEL4.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210205/OOyP/601c48527cdb8c1f14366f98/-1117Wx1400H-441111253-jetblack-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210205/NPr0/601c3d817cdb8c1f14364181/-1117Wx1400H-441111253-jetblack-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210205/P4V2/601c43227cdb8c1f14365374/-1117Wx1400H-441111253-jetblack-MODEL4.jpg"
+    },
+    {
+        name:"Will Hooded Jacket with Flap Pockets",
+        brand:"JACK & JONES",
+        price:"3500",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210105/SwDX/5ff36067f997dd8c17b8450a/-1117Wx1400H-460763882-green-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210105/nIzN/5ff36dfef997dd8c17b87e6e/-1117Wx1400H-460763882-green-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210105/0WvG/5ff368d8aeb2694fd307c7c4/-1117Wx1400H-460763882-green-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210105/gLoL/5ff36f61f997dd8c17b8843c/-1117Wx1400H-460763882-green-MODEL4.jpg"
+    },
+    {
+        name:"Perth Padded Zip-Front with Zip Pockets",
+        brand:"JACK & JONES",
+        price:"1500",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210316/jw7B/6050cd6a7cdb8c1f1464f210/-1117Wx1400H-460763887-navy-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201111/p4Gm/5fac0029aeb269d56309be80/-1117Wx1400H-460763887-navy-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201111/Xm0F/5fabfe59f997dd8c8395c421/-1117Wx1400H-460763887-navy-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201111/CaT6/5fabfd1df997dd8c8395b8b5/-1117Wx1400H-460763887-navy-MODEL4.jpg"
+    },
+    {
+        name:"Collar-Neck Jacket with Insert Pockets",
+        brand:"JACK & JONES",
+        price:"1092",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210805/m4wO/610ae723f997ddce8994e2b6/-1117Wx1400H-462631373-green-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210805/wzoO/610ae723f997ddce8994e30e/-1117Wx1400H-462631373-green-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210805/QjUb/610ae723f997ddce8994e30c/-1117Wx1400H-462631373-green-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210805/5mAa/610ae73df997ddce8994e4b3/-1117Wx1400H-462631373-green-MODEL4.jpg"
+    },
+    {
+        name:"Hooded Quilted Jacket",
+        brand:"CAMPUS SUTRA",
+        price:"756",
+        image1:"https://assets.ajio.com/medias/sys_master/root/h94/hed/11914309337118/-1117Wx1400H-460161933-black-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/h22/h00/11914310123550/-1117Wx1400H-460161933-black-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/h42/h4d/11914309861406/-1117Wx1400H-460161933-black-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/h52/hff/11914308026398/-1117Wx1400H-460161933-black-MODEL4.jpg"
+    },
+    {
+        name:"Banff Trucker Jacket with Insert Pockets",
+        brand:"CAMPUS SUTRA",
+        price:"1750",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210316/4lqW/6050c938f997dd5c4013a5b8/-1117Wx1400H-460763883-brown-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201111/WFPw/5fac02fbaeb269d56309d1a9/-1117Wx1400H-460763883-brown-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201111/Z3nW/5fac0071aeb269d56309c0d9/-1117Wx1400H-460763883-brown-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201111/oB0y/5fabffb4f997dd8c8395cfcf/-1117Wx1400H-460763883-brown-MODEL4.jpg"
+    },
+    {
+        name:"Single-Breasted Pea Coat with Notched Lapel",
+        brand:"FORT COLLINS",
+        price:"1435",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20201028/mXMG/5f986b96f997dd8c8379c17c/-1117Wx1400H-460746094-khaki-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201028/NGDC/5f98709faeb269d563f06fa8/-1117Wx1400H-460746094-khaki-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201028/u8Fi/5f986f6eaeb269d563f0643b/-1117Wx1400H-460746094-khaki-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201028/mXMG/5f986b96f997dd8c8379c17c/-1117Wx1400H-460746094-khaki-MODEL.jpg"
+    },
+    {
+        name:"Panelled Jacket with Zipper Pockets",
+        brand:"FORT COLLINS",
+        price:"480",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20201104/Mtdd/5fa1a70baeb269d563f79b24/-473Wx593H-441104682-red-MODEL4.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201104/5lnb/5fa1bfa4aeb269d563f8511f/-1117Wx1400H-441104682-red-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201104/dJpA/5fa1a7c7f997dd8c8382682d/-1117Wx1400H-441104682-red-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201104/Mtdd/5fa1a70baeb269d563f79b57/-1117Wx1400H-441104682-red-MODEL4.jpg"
+    },
+    {
+        name:"Panelled Zip-Front Jacket",
+        brand:"FORT COLLINS",
+        price:"799",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210205/P4V2/601c43227cdb8c1f14365374/-1117Wx1400H-441111253-jetblack-MODEL4.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210205/OOyP/601c48527cdb8c1f14366f98/-1117Wx1400H-441111253-jetblack-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210205/NPr0/601c3d817cdb8c1f14364181/-1117Wx1400H-441111253-jetblack-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210205/P4V2/601c43227cdb8c1f14365374/-1117Wx1400H-441111253-jetblack-MODEL4.jpg"
+    },
+    {
+        name:"Will Hooded Jacket with Flap Pockets",
+        brand:"JACK & JONES",
+        price:"3500",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210105/SwDX/5ff36067f997dd8c17b8450a/-1117Wx1400H-460763882-green-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210105/nIzN/5ff36dfef997dd8c17b87e6e/-1117Wx1400H-460763882-green-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210105/0WvG/5ff368d8aeb2694fd307c7c4/-1117Wx1400H-460763882-green-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210105/gLoL/5ff36f61f997dd8c17b8843c/-1117Wx1400H-460763882-green-MODEL4.jpg"
+    },
+    {
+        name:"Perth Padded Zip-Front with Zip Pockets",
+        brand:"JACK & JONES",
+        price:"1500",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210316/jw7B/6050cd6a7cdb8c1f1464f210/-1117Wx1400H-460763887-navy-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201111/p4Gm/5fac0029aeb269d56309be80/-1117Wx1400H-460763887-navy-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201111/Xm0F/5fabfe59f997dd8c8395c421/-1117Wx1400H-460763887-navy-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201111/CaT6/5fabfd1df997dd8c8395b8b5/-1117Wx1400H-460763887-navy-MODEL4.jpg"
+    },
+    {
+        name:"Collar-Neck Jacket with Insert Pockets",
+        brand:"JACK & JONES",
+        price:"1092",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210805/m4wO/610ae723f997ddce8994e2b6/-1117Wx1400H-462631373-green-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210805/wzoO/610ae723f997ddce8994e30e/-1117Wx1400H-462631373-green-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210805/QjUb/610ae723f997ddce8994e30c/-1117Wx1400H-462631373-green-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210805/5mAa/610ae73df997ddce8994e4b3/-1117Wx1400H-462631373-green-MODEL4.jpg"
+    },
+    {
+        name:"Hooded Quilted Jacket",
+        brand:"CAMPUS SUTRA",
+        price:"756",
+        image1:"https://assets.ajio.com/medias/sys_master/root/h94/hed/11914309337118/-1117Wx1400H-460161933-black-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/h22/h00/11914310123550/-1117Wx1400H-460161933-black-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/h42/h4d/11914309861406/-1117Wx1400H-460161933-black-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/h52/hff/11914308026398/-1117Wx1400H-460161933-black-MODEL4.jpg"
+    },
+    {
+        name:"Banff Trucker Jacket with Insert Pockets",
+        brand:"CAMPUS SUTRA",
+        price:"1750",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210316/4lqW/6050c938f997dd5c4013a5b8/-1117Wx1400H-460763883-brown-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201111/WFPw/5fac02fbaeb269d56309d1a9/-1117Wx1400H-460763883-brown-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201111/Z3nW/5fac0071aeb269d56309c0d9/-1117Wx1400H-460763883-brown-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201111/oB0y/5fabffb4f997dd8c8395cfcf/-1117Wx1400H-460763883-brown-MODEL4.jpg"
+    }
+]
+
+
+
+mentrackpants=[
+    {
+        name:"Colourblock Joggers with Elasticated Waist Tie-up",
+        brand:"TEAMSPIRIT",
+        price:"590",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210403/eiVi/6068dd28aeb269a9e33a6285/-1117Wx1400H-462064796-grey-MODEL2.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210403/eiVi/6068dd28aeb269a9e33a6285/-1117Wx1400H-462064796-grey-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210403/JNQ1/6068dd28aeb269a9e33a625f/-1117Wx1400H-462064796-grey-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210403/x7NJ/6068dd28aeb269a9e33a628f/-1117Wx1400H-462064796-grey-MODEL4.jpg"
+    },
+    {
+        name:"Track Pants with Contrast Taping",
+        brand:"TEAMSPIRIT",
+        price:"499",
+        image1:"https://assets.ajio.com/medias/sys_master/root/h00/h96/15879860158494/-1117Wx1400H-441031716-ltblue-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/hdb/hb2/15879848624158/-1117Wx1400H-441031716-ltblue-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/h85/ha5/15879865663518/-1117Wx1400H-441031716-ltblue-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/h55/haa/15879863009310/-1117Wx1400H-441031716-ltblue-MODEL4.jpg"
+    },
+    {
+        name:"MAPM Track Pants with Insert Pockets",
+        brand:"PUMA",
+        price:"2499",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20201019/yxPz/5f8daae5aeb269d563e4738e/-1117Wx1400H-460726223-grey-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201019/wkXo/5f8dac7faeb269d563e47c6d/-1117Wx1400H-460726223-grey-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201019/VP4U/5f8dab18f997dd8c836cfbcc/-1117Wx1400H-460726223-grey-MODEL4.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201020/6vuN/5f8de0c4aeb269d563e50446/-1117Wx1400H-460726223-grey-MODEL5.jpg"
+    },
+    {
+        name:"Camouflage Print Joggers with Insert Pockets",
+        brand:"PUMA",
+        price:"1599",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210629/xs4y/60da3da8aeb269a9e32e384e/-1117Wx1400H-441120523-olive-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210629/aU0C/60da3b27aeb269a9e32e10ed/-1117Wx1400H-441120523-olive-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210629/CYd9/60da38beaeb269a9e32deac5/-1117Wx1400H-441120523-olive-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210629/pkUM/60da3633aeb269a9e32dc066/-1117Wx1400H-441120523-olive-MODEL4.jpg"
+    },
+    {
+        name:"Straight Track Pants with Elasticated Waistband",
+        brand:"PUMA",
+        price:"1124",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210621/gMfe/60d02ff7aeb269a9e3fcd7d6/-1117Wx1400H-462453437-maroon-MODEL2.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210621/lCvH/60d02ff7aeb269a9e3fcd7ee/-1117Wx1400H-462453437-maroon-MODEL3.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210621/sYn8/60d02ff7aeb269a9e3fcd7dd/-1117Wx1400H-462453437-maroon-MODEL4.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210621/qqP9/60d02ff7aeb269a9e3fcd7dc/-1117Wx1400H-462453437-maroon-MODEL5.jpg"
+    },
+    {
+        name:"Heathered Joggers with Elasticated Waist",
+        brand:"NIKE",
+        price:"2316",
+        image1:"https://assets.ajio.com/medias/sys_master/root/h61/h5c/14075648180254/-1117Wx1400H-460403588-multi-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/h72/h0c/14075650474014/-1117Wx1400H-460403588-multi-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/h24/h9a/14075656667166/-1117Wx1400H-460403588-multi-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/hde/he4/14075637432350/-1117Wx1400H-460403588-multi-MODEL4.jpg"
+    },
+    {
+        name:"Dri-Fit Logo Print Tapered Training Pants",
+        brand:"NIKE",
+        price:"2636",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210609/nWPi/60bfb970f997ddb312c0cad6/-1117Wx1400H-460825126-black-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210609/omC0/60bfc5cdaeb269a9e3dfe302/-1117Wx1400H-460825126-black-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210609/bdxR/60bfb807aeb269a9e3dfb5ad/-1117Wx1400H-460825126-black-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210609/kUFB/60bfb9e8f997ddb312c0cd34/-1117Wx1400H-460825126-black-MODEL4.jpg"
+    },
+    {
+        name:"Joggers with Insert Pockets",
+        brand:"NIKE",
+        price:"999",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20201219/oZFP/5fdd5d8daeb269d56348ac47/-1117Wx1400H-461730998-grey-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201219/RfaV/5fdd5dbfaeb269d56348b13e/-1117Wx1400H-461730998-grey-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201219/dZSN/5fdd5dbfaeb269d56348b139/-1117Wx1400H-461730998-grey-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201219/ckyr/5fdd5dbfaeb269d56348b126/-1117Wx1400H-461730998-grey-MODEL4.jpg"
+    },
+    {
+        name:"Colourblock Joggers with Elasticated Waist Tie-up",
+        brand:"TEAMSPIRIT",
+        price:"590",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210403/eiVi/6068dd28aeb269a9e33a6285/-1117Wx1400H-462064796-grey-MODEL2.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210403/eiVi/6068dd28aeb269a9e33a6285/-1117Wx1400H-462064796-grey-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210403/JNQ1/6068dd28aeb269a9e33a625f/-1117Wx1400H-462064796-grey-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210403/x7NJ/6068dd28aeb269a9e33a628f/-1117Wx1400H-462064796-grey-MODEL4.jpg"
+    },
+    {
+        name:"Track Pants with Contrast Taping",
+        brand:"TEAMSPIRIT",
+        price:"499",
+        image1:"https://assets.ajio.com/medias/sys_master/root/h00/h96/15879860158494/-1117Wx1400H-441031716-ltblue-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/hdb/hb2/15879848624158/-1117Wx1400H-441031716-ltblue-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/h85/ha5/15879865663518/-1117Wx1400H-441031716-ltblue-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/h55/haa/15879863009310/-1117Wx1400H-441031716-ltblue-MODEL4.jpg"
+    },
+    {
+        name:"MAPM Track Pants with Insert Pockets",
+        brand:"PUMA",
+        price:"2499",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20201019/yxPz/5f8daae5aeb269d563e4738e/-1117Wx1400H-460726223-grey-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201019/wkXo/5f8dac7faeb269d563e47c6d/-1117Wx1400H-460726223-grey-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201019/VP4U/5f8dab18f997dd8c836cfbcc/-1117Wx1400H-460726223-grey-MODEL4.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201020/6vuN/5f8de0c4aeb269d563e50446/-1117Wx1400H-460726223-grey-MODEL5.jpg"
+    },
+    {
+        name:"Camouflage Print Joggers with Insert Pockets",
+        brand:"PUMA",
+        price:"1599",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210629/xs4y/60da3da8aeb269a9e32e384e/-1117Wx1400H-441120523-olive-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210629/aU0C/60da3b27aeb269a9e32e10ed/-1117Wx1400H-441120523-olive-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210629/CYd9/60da38beaeb269a9e32deac5/-1117Wx1400H-441120523-olive-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210629/pkUM/60da3633aeb269a9e32dc066/-1117Wx1400H-441120523-olive-MODEL4.jpg"
+    },
+    {
+        name:"Straight Track Pants with Elasticated Waistband",
+        brand:"PUMA",
+        price:"1124",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210621/gMfe/60d02ff7aeb269a9e3fcd7d6/-1117Wx1400H-462453437-maroon-MODEL2.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210621/lCvH/60d02ff7aeb269a9e3fcd7ee/-1117Wx1400H-462453437-maroon-MODEL3.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210621/sYn8/60d02ff7aeb269a9e3fcd7dd/-1117Wx1400H-462453437-maroon-MODEL4.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210621/qqP9/60d02ff7aeb269a9e3fcd7dc/-1117Wx1400H-462453437-maroon-MODEL5.jpg"
+    },
+    {
+        name:"Heathered Joggers with Elasticated Waist",
+        brand:"NIKE",
+        price:"2316",
+        image1:"https://assets.ajio.com/medias/sys_master/root/h61/h5c/14075648180254/-1117Wx1400H-460403588-multi-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/h72/h0c/14075650474014/-1117Wx1400H-460403588-multi-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/h24/h9a/14075656667166/-1117Wx1400H-460403588-multi-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/hde/he4/14075637432350/-1117Wx1400H-460403588-multi-MODEL4.jpg"
+    },
+    {
+        name:"Dri-Fit Logo Print Tapered Training Pants",
+        brand:"NIKE",
+        price:"2636",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210609/nWPi/60bfb970f997ddb312c0cad6/-1117Wx1400H-460825126-black-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210609/omC0/60bfc5cdaeb269a9e3dfe302/-1117Wx1400H-460825126-black-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210609/bdxR/60bfb807aeb269a9e3dfb5ad/-1117Wx1400H-460825126-black-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210609/kUFB/60bfb9e8f997ddb312c0cd34/-1117Wx1400H-460825126-black-MODEL4.jpg"
+    },
+    {
+        name:"Joggers with Insert Pockets",
+        brand:"NIKE",
+        price:"999",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20201219/oZFP/5fdd5d8daeb269d56348ac47/-1117Wx1400H-461730998-grey-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201219/RfaV/5fdd5dbfaeb269d56348b13e/-1117Wx1400H-461730998-grey-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201219/dZSN/5fdd5dbfaeb269d56348b139/-1117Wx1400H-461730998-grey-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201219/ckyr/5fdd5dbfaeb269d56348b126/-1117Wx1400H-461730998-grey-MODEL4.jpg"
+    },
+    {
+        name:"Colourblock Joggers with Elasticated Waist Tie-up",
+        brand:"TEAMSPIRIT",
+        price:"590",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210403/eiVi/6068dd28aeb269a9e33a6285/-1117Wx1400H-462064796-grey-MODEL2.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210403/eiVi/6068dd28aeb269a9e33a6285/-1117Wx1400H-462064796-grey-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210403/JNQ1/6068dd28aeb269a9e33a625f/-1117Wx1400H-462064796-grey-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210403/x7NJ/6068dd28aeb269a9e33a628f/-1117Wx1400H-462064796-grey-MODEL4.jpg"
+    },
+    {
+        name:"Track Pants with Contrast Taping",
+        brand:"TEAMSPIRIT",
+        price:"499",
+        image1:"https://assets.ajio.com/medias/sys_master/root/h00/h96/15879860158494/-1117Wx1400H-441031716-ltblue-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/hdb/hb2/15879848624158/-1117Wx1400H-441031716-ltblue-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/h85/ha5/15879865663518/-1117Wx1400H-441031716-ltblue-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/h55/haa/15879863009310/-1117Wx1400H-441031716-ltblue-MODEL4.jpg"
+    },
+    {
+        name:"MAPM Track Pants with Insert Pockets",
+        brand:"PUMA",
+        price:"2499",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20201019/yxPz/5f8daae5aeb269d563e4738e/-1117Wx1400H-460726223-grey-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201019/wkXo/5f8dac7faeb269d563e47c6d/-1117Wx1400H-460726223-grey-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201019/VP4U/5f8dab18f997dd8c836cfbcc/-1117Wx1400H-460726223-grey-MODEL4.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201020/6vuN/5f8de0c4aeb269d563e50446/-1117Wx1400H-460726223-grey-MODEL5.jpg"
+    },
+    {
+        name:"Camouflage Print Joggers with Insert Pockets",
+        brand:"PUMA",
+        price:"1599",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210629/xs4y/60da3da8aeb269a9e32e384e/-1117Wx1400H-441120523-olive-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210629/aU0C/60da3b27aeb269a9e32e10ed/-1117Wx1400H-441120523-olive-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210629/CYd9/60da38beaeb269a9e32deac5/-1117Wx1400H-441120523-olive-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210629/pkUM/60da3633aeb269a9e32dc066/-1117Wx1400H-441120523-olive-MODEL4.jpg"
+    },
+    {
+        name:"Straight Track Pants with Elasticated Waistband",
+        brand:"PUMA",
+        price:"1124",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210621/gMfe/60d02ff7aeb269a9e3fcd7d6/-1117Wx1400H-462453437-maroon-MODEL2.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210621/lCvH/60d02ff7aeb269a9e3fcd7ee/-1117Wx1400H-462453437-maroon-MODEL3.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210621/sYn8/60d02ff7aeb269a9e3fcd7dd/-1117Wx1400H-462453437-maroon-MODEL4.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210621/qqP9/60d02ff7aeb269a9e3fcd7dc/-1117Wx1400H-462453437-maroon-MODEL5.jpg"
+    },
+    {
+        name:"Heathered Joggers with Elasticated Waist",
+        brand:"NIKE",
+        price:"2316",
+        image1:"https://assets.ajio.com/medias/sys_master/root/h61/h5c/14075648180254/-1117Wx1400H-460403588-multi-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/h72/h0c/14075650474014/-1117Wx1400H-460403588-multi-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/h24/h9a/14075656667166/-1117Wx1400H-460403588-multi-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/hde/he4/14075637432350/-1117Wx1400H-460403588-multi-MODEL4.jpg"
+    },
+    {
+        name:"Dri-Fit Logo Print Tapered Training Pants",
+        brand:"NIKE",
+        price:"2636",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210609/nWPi/60bfb970f997ddb312c0cad6/-1117Wx1400H-460825126-black-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210609/omC0/60bfc5cdaeb269a9e3dfe302/-1117Wx1400H-460825126-black-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210609/bdxR/60bfb807aeb269a9e3dfb5ad/-1117Wx1400H-460825126-black-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210609/kUFB/60bfb9e8f997ddb312c0cd34/-1117Wx1400H-460825126-black-MODEL4.jpg"
+    },
+    {
+        name:"Joggers with Insert Pockets",
+        brand:"NIKE",
+        price:"999",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20201219/oZFP/5fdd5d8daeb269d56348ac47/-1117Wx1400H-461730998-grey-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201219/RfaV/5fdd5dbfaeb269d56348b13e/-1117Wx1400H-461730998-grey-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201219/dZSN/5fdd5dbfaeb269d56348b139/-1117Wx1400H-461730998-grey-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201219/ckyr/5fdd5dbfaeb269d56348b126/-1117Wx1400H-461730998-grey-MODEL4.jpg"
+    }
+]
+
+
+
+
