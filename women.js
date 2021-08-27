@@ -56,24 +56,61 @@ let Tops=[
         image3:"https://assets.ajio.com/medias/sys_master/root/20210403/TfvR/60686b0af997dd7b645de499/-1117Wx1400H-461132761-black-MODEL3.jpg",
         image4:"https://assets.ajio.com/medias/sys_master/root/20210403/sjlS/60686b0af997dd7b645de494/-1117Wx1400H-461132761-black-MODEL4.jpg"
     },
+   
     {
-        name:"",
-        brand:"",
-        price:"",
-        image1:"",
-        image2:"",
-        image3:"",
-        image4:""
-    },
-    {
-        name:"",
-        brand:"",
-        price:"",
-        image1:"",
-        image2:"",
-        image3:"",
-        image4:""
-    }
+        name: 'Cotton Woven Ikat Shirt with Band Collar',
+        brand: 'MOLCHA',
+        price: '899',
+        image1: 'https://assets.ajio.com/medias/sys_master/root/20210525/RnMa/60ad16f7f997ddb312a8aa4e/-1117Wx1400H-460850701-purple-MODEL.jpg',
+        image2: 'https://assets.ajio.com/medias/sys_master/root/20210428/whoe/60895bacf997dd7b64c6a8c0/-1117Wx1400H-460850701-purple-MODEL2.jpg',
+        image3: 'https://assets.ajio.com/medias/sys_master/root/20210428/rFGO/608960efaeb269a9e3a51fc3/-1117Wx1400H-460850701-purple-MODEL3.jpg',
+        image4: 'https://assets.ajio.com/medias/sys_master/root/20210525/JRMJ/60ad176ff997ddb312a8accd/-1117Wx1400H-460850701-purple-MARKETING.jpg',
+      },
+      {
+        name: 'Handblock Print Bagh Craft Cotton Top',
+        brand: 'MOLCHA',
+        price: '799',
+        image1: 'https://assets.ajio.com/medias/sys_master/root/h0d/hf3/12391707246622/-1117Wx1400H-460272313-black-MODEL.jpg',
+        image2: 'https://assets.ajio.com/medias/sys_master/root/h39/hc6/12391705935902/-1117Wx1400H-460272313-black-MODEL3.jpg',
+        image3: 'https://assets.ajio.com/medias/sys_master/root/ha1/h71/12391707836446/-1117Wx1400H-460272313-black-MODEL4.jpg',
+        image4: 'https://assets.ajio.com/medias/sys_master/root/h09/he5/12391705411614/-1117Wx1400H-460272313-black-MODEL6.jpg',
+      },
+      {
+        name: 'Cotton Slub Bird Print High-Low Top',
+        brand: 'INDIE PICKS',
+        price: '699',
+        image1: 'https://assets.ajio.com/medias/sys_master/root/h43/h56/12830518935582/-1117Wx1400H-460291560-green-MODEL.jpg',
+        image2: 'https://assets.ajio.com/medias/sys_master/root/h4b/h5c/12830517100574/-1117Wx1400H-460291560-green-MODEL2.jpg',
+        image3: 'https://assets.ajio.com/medias/sys_master/root/h4f/h0e/12830516838430/-1117Wx1400H-460291560-green-MODEL3.jpg',
+        image4: 'https://assets.ajio.com/medias/sys_master/root/h05/h2b/12830519328798/-1117Wx1400H-460291560-green-MODEL6.jpg',
+      },
+      {
+        name: 'Nima Cotton Dobby Sleeveless Top',
+        brand: 'INDIE PICKS',
+        price: '439',
+        image1: 'https://assets.ajio.com/medias/sys_master/root/20210525/AhUd/60ad1244f997ddb312a89446/-1117Wx1400H-460850699-blue-MODEL.jpg',
+        image2: 'https://assets.ajio.com/medias/sys_master/root/20210428/ly5k/60895bc9f997dd7b64c6ab17/-1117Wx1400H-460850699-blue-MODEL2.jpg',
+        image3: 'https://assets.ajio.com/medias/sys_master/root/20210428/Pw9U/608960edf997dd7b64c6c305/-1117Wx1400H-460850699-blue-MODEL3.jpg',
+        image4: 'https://assets.ajio.com/medias/sys_master/root/20210525/KHMm/60ad12cfaeb269a9e3c89cf6/-1117Wx1400H-460850699-blue-MARKETING.jpg',
+      },
+      {
+        name: 'Handspun Embroidered Khadi Cotton Asymmetrical',
+        brand: 'EKMATRA',
+        price: '616',
+        image1: 'https://assets.ajio.com/medias/sys_master/root/20200929/bG6t/5f72474ef997dd8c835127ec/-1117Wx1400H-460727673-lightgreen-MODEL.jpg',
+        image2: 'https://assets.ajio.com/medias/sys_master/root/20200923/SG2X/5f6b672df997dd8c834b0b92/-1117Wx1400H-460727673-lightgreen-MODEL2.jpg',
+        image3: 'https://assets.ajio.com/medias/sys_master/root/20200923/1xVB/5f6b6723aeb269d563c90dca/-1117Wx1400H-460727673-lightgreen-MODEL3.jpg',
+        image4: 'https://assets.ajio.com/medias/sys_master/root/20200923/uVFQ/5f6b69067cdb8c21e36aab27/-1117Wx1400H-460727673-lightgreen-MODEL4.jpg',
+      },
+      {
+        name: 'Mangalgiri Angrakha Tunic',
+        brand: 'EKMATRA',
+        price: '1200',
+        image1: 'https://assets.ajio.com/medias/sys_master/root/20210112/fHsc/5ffcb52e7cdb8c1f1426091f/-1117Wx1400H-460704757-grey-MODEL.jpg',
+        image2: 'https://assets.ajio.com/medias/sys_master/root/20210112/zhRi/5ffca361f997dd5c40d42044/-1117Wx1400H-460704757-grey-MODEL2.jpg',
+        image3: 'https://assets.ajio.com/medias/sys_master/root/20210112/lONa/5ffc9adf7cdb8c1f1425bd64/-1117Wx1400H-460704757-grey-MODEL3.jpg',
+        image4: 'https://assets.ajio.com/medias/sys_master/root/20210112/cCJX/5ffcb25b7cdb8c1f1426001f/-1117Wx1400H-460704757-grey-MODEL4.jpg',
+      },
 ]
 
 
@@ -109,7 +146,7 @@ let T_shirt=[
     },
     {
         name:"Striped Full Sleeves Top",
-        brand:"109 F",
+        brand:"SUPERDRY",
         price:"1,259",
         image1:"https://assets.ajio.com/medias/sys_master/root/20210612/Gldp/60c3d7c5aeb269a9e3e59402/-1117Wx1400H-462505228-green-MODEL.jpg",
         image2:"https://assets.ajio.com/medias/sys_master/root/20210612/E0LX/60c3d7c5aeb269a9e3e5944c/-1117Wx1400H-462505228-green-MODEL2.jpg",
@@ -135,22 +172,58 @@ let T_shirt=[
         image4:"https://assets.ajio.com/medias/sys_master/root/20210331/zJFG/6063777caeb269a9e32d340f/-1117Wx1400H-462225166-white-MODEL4.jpg"
     },
     {
-        name:"",
-        brand:"",
-        price:"",
-        image1:"",
-        image2:"",
-        image3:"",
-        image4:""
+        name:"Vintage Brand Print Crew-Neck T-shirt",
+        brand:"SUPERDRY",
+        price:"1500",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210616/RzA9/60ca12c6aeb269a9e3eaed55/-1117Wx1400H-410289536-5pw-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210616/F98p/60ca12d1f997ddb312ccb6df/-1117Wx1400H-410289536-5pw-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210616/fQNi/60ca151bf997ddb312ccc06b/-1117Wx1400H-410289536-5pw-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210616/E1gg/60ca12d2aeb269a9e3eaee2a/-1117Wx1400H-410289536-5pw-MODEL6.jpg"
     },
     {
-        name:"",
-        brand:"",
-        price:"",
-        image1:"",
-        image2:"",
-        image3:"",
-        image4:""
+        name:"Athletics Crew-Neck T-shirt",
+        brand:"SUPERDRY",
+        price:"1300",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210506/mPnL/60940a78aeb269a9e3b565b5/-1117Wx1400H-410272425-3fb-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210506/xZTv/60940822aeb269a9e3b55d6e/-1117Wx1400H-410272425-3fb-MODEL3.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210506/42DS/60940a0faeb269a9e3b564cd/-1117Wx1400H-410272425-3fb-MODEL4.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210506/GxtP/609407a1f997ddb31293f13b/-1117Wx1400H-410272425-3fb-MODEL2.jpg"
+    },
+    {
+        name:"Printed Crew-Neck T-shirt",
+        brand:"RIO",
+        price:"319",
+        image1:"https://assets.ajio.com/medias/sys_master/root/he2/h9d/14492123693086/-1117Wx1400H-440999281-charcoal-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/hd7/hf8/14492125691934/-1117Wx1400H-440999281-charcoal-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/hd8/hdc/14492116123678/-1117Wx1400H-440999281-charcoal-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/h10/hab/14492127330334/-1117Wx1400H-440999281-charcoal-MODEL4.jpg"
+    },
+    {
+        name:"Graphic Print Crew-Neck T-shirt",
+        brand:"RIO",
+        price:"552",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210814/R4WB/611782dff997ddce899f6ef8/-1117Wx1400H-462784771-white-MODEL3.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210814/meZN/611782dff997ddce899f6ecd/-1117Wx1400H-462784771-white-MODEL.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210814/kw4h/611782dff997ddce899f6ef9/-1117Wx1400H-462784771-white-MODEL2.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210814/DYDE/611782dff997ddce899f6f08/-1117Wx1400H-462784771-white-MODEL4.jpg"
+    },
+    {
+        name:"Typography Print Crew-Neck T-shirt",
+        brand:"V&M",
+        price:"460",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210420/tHE4/607e14e6f997dd7b64b6da3e/-1117Wx1400H-462307852-purple-MODEL2.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210420/ihFI/607e14e6f997dd7b64b6da44/-1117Wx1400H-462307852-purple-MODEL3.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210420/wjAZ/607e14e6f997dd7b64b6da3b/-1117Wx1400H-462307852-purple-MODEL4.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210420/VlTs/607e14e6f997dd7b64b6da45/-1117Wx1400H-462307852-purple-MODEL5.jpg"
+    },
+    {
+        name:"V-neck Short-Sleeve T-shirt",
+        brand:"V&M",
+        price:"890",
+        image1:"https://assets.ajio.com/medias/sys_master/root/ajio/catalog/5ef511be7cdb8c721b73a30a/-1117Wx1400H-410245017-022-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/ajio/catalog/5ef4fce0aeb2693175802c16/-1117Wx1400H-410245017-022-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/ajio/catalog/5ef4fce27cdb8c721b734be8/-1117Wx1400H-410245017-022-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/ajio/catalog/5ef5117e481085a2e2662a83/-1117Wx1400H-410245017-022-MODEL4.jpg"
     }
 ]
 
@@ -214,22 +287,58 @@ let Jeans=[
         image4:"https://assets.ajio.com/medias/sys_master/root/20210521/S5mm/60a6b216f997ddb312a4b29f/-1117Wx1400H-460899006-blue-MODEL4.jpg"
     },
     {
-        name:"",
-        brand:"",
-        price:"",
-        image1:"",
-        image2:"",
-        image3:"",
-        image4:""
+        name:"Lightly Washed Skinny Fit Jeans",
+        brand:"SPYKAR",
+        price:"1,569",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210106/IR2n/5ff5db91f997dd5c40ceb446/-1117Wx1400H-460791861-grey-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210106/oQk1/5ff5d392aeb2696981467826/-1117Wx1400H-460791861-grey-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210106/dXZW/5ff5d5e77cdb8c1f141fcb1f/-1117Wx1400H-460791861-grey-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210106/LwDv/5ff5d4f77cdb8c1f141fc848/-1117Wx1400H-460791861-grey-MODEL4.jpg"
     },
     {
-        name:"",
-        brand:"",
-        price:"",
-        image1:"",
-        image2:"",
-        image3:"",
-        image4:""
+        name:"WB 710 Mid-Rise Super Skinny Jeans",
+        brand:"SPYKAR",
+        price:"1,519",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210517/vU3j/60a28913aeb269a9e3c14cd4/-1117Wx1400H-460892356-blue-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210517/Hyx6/60a28a06aeb269a9e3c15065/-1117Wx1400H-460892356-blue-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210517/zxY3/60a28a0bf997ddb312a08b6d/-1117Wx1400H-460892356-blue-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210517/Y5Pr/60a28af6aeb269a9e3c1536a/-1117Wx1400H-460892356-blue-MODEL4.jpg"
+    },
+    {
+        name:"Light Cloud Wash Distressed Skinny Jeans",
+        brand:"LEVIS",
+        price:"1,799",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20201117/LQC8/5fb3e5c1aeb269d563109a05/-1117Wx1400H-441101118-ltblue-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201117/u9zn/5fb3e9cbf997dd8c839d648b/-1117Wx1400H-441101118-ltblue-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20201117/Hkuz/5fb3ee7aaeb269d56310d771/-1117Wx1400H-441101118-ltblue-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20201117/wzHa/5fb3f058aeb269d56310e545/-1117Wx1400H-441101118-ltblue-MODEL4.jpg"
+    },
+    {
+        name:"High-Rise Skinny Jeans with Frayed Hems",
+        brand:"LEVIS",
+        price:"877",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210403/Y0zY/60690a7e7cdb8c1f14806eba/-1117Wx1400H-461044160-blue-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210403/jx3O/60690a7e7cdb8c1f14806efc/-1117Wx1400H-461044160-blue-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210403/3L1M/60690a7e7cdb8c1f14806eea/-1117Wx1400H-461044160-blue-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210403/YBjg/60690a7e7cdb8c1f14806ef4/-1117Wx1400H-461044160-blue-MODEL4.jpg"
+    },
+    {
+        name:"Mid-Rise Jeans with 5-Pockets",
+        brand:"DNMX",
+        price:"699",
+        image1:"https://assets.ajio.com/medias/sys_master/root/h9a/he8/12081354801182/-1117Wx1400H-440794191-ltblue-MODEL2.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/h26/hdb/12081354539038/-1117Wx1400H-440794191-ltblue-MODEL3.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/he1/h4e/12081355063326/-1117Wx1400H-440794191-ltblue-MODEL4.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/hd0/h7f/12081355325470/-1117Wx1400H-440794191-ltblue-MODEL5.jpg"
+    },
+    {
+        name:"Washed Slim Fit Jeans",
+        brand:"DNMX",
+        price:"999",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210528/xPHz/60b10ec0f997ddb312ad2421/-1117Wx1400H-441120628-ltblue-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210528/fFmV/60b108b7aeb269a9e3ccd08b/-1117Wx1400H-441120628-ltblue-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210528/xcd4/60b107b8aeb269a9e3cccc8a/-1117Wx1400H-441120628-ltblue-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210528/bsv2/60b10ebfaeb269a9e3cce606/-1117Wx1400H-441120628-ltblue-MODEL4.jpg"
     }
 ]
 
@@ -291,24 +400,61 @@ let Kurtis=[
         image3:" https://assets.ajio.com/medias/sys_master/root/20210723/a126/60fa7bb4aeb269a9e350cdc5/-1117Wx1400H-461834809-maroon-MODEL3.jpg",
         image4:" https://assets.ajio.com/medias/sys_master/root/20210723/rHdk/60fa7bc3aeb269a9e350ce78/-1117Wx1400H-461834809-maroon-MODEL5.jpg"
     },
+  
     {
-        name:"",
-        brand:"",
-        price:"",
-        image1:"",
-        image2:"",
-        image3:"",
-        image4:""
-    },
-    {
-        name:"",
-        brand:"",
-        price:"",
-        image1:"",
-        image2:"",
-        image3:"",
-        image4:""
-    }
+        name: 'Embroidered Cotton Straight Kurta',
+        brand: 'INDIE PICKS',
+        price: '800',
+        image1: 'https://assets.ajio.com/medias/sys_master/root/20210112/66EH/5ffcab4cf997dd5c40d435bc/-1117Wx1400H-460736235-yellow-MODEL.jpg',
+        image2: 'https://assets.ajio.com/medias/sys_master/root/20210112/SJzv/5ffc9b55aeb26969814b1306/-1117Wx1400H-460736235-yellow-MODEL3.jpg',
+        image3: 'https://assets.ajio.com/medias/sys_master/root/20210112/rEQG/5ffc9b5ff997dd5c40d4094e/-1117Wx1400H-460736235-yellow-MODEL2.jpg',
+        image4: 'https://assets.ajio.com/medias/sys_master/root/20210112/KrhK/5ffcb519aeb26969814b47e5/-1117Wx1400H-460736235-yellow-MODEL4.jpg',
+      },
+      {
+        name: 'Floral Print Straight Kurta with Notched Neckline',
+        brand: 'INDIE PICKS',
+        price: '549',
+        image1: 'https://assets.ajio.com/medias/sys_master/root/20210526/63Td/60ae3fb4aeb269a9e3cabf03/-1117Wx1400H-460886211-black-MODEL.jpg',
+        image2: 'https://assets.ajio.com/medias/sys_master/root/20210526/REXc/60ae40adaeb269a9e3cac4ce/-1117Wx1400H-460886211-black-MODEL2.jpg',
+        image3: 'https://assets.ajio.com/medias/sys_master/root/20210526/uATv/60ae418baeb269a9e3cac76d/-1117Wx1400H-460886211-black-MODEL3.jpg',
+        image4: 'https://assets.ajio.com/medias/sys_master/root/20210526/vSH7/60ae4025aeb269a9e3cac1c6/-1117Wx1400H-460886211-black-MODEL4.jpg',
+      },
+      {
+        name: 'Handblock Printed Chanderi Anarkali Kurta',
+        brand: 'BAGH',
+        price: '2,850',
+        image1: 'https://assets.ajio.com/medias/sys_master/root/20210205/ne7O/601d3cf47cdb8c1f1437589c/-1117Wx1400H-460811213-peach-MODEL.jpg',
+        image2: 'https://assets.ajio.com/medias/sys_master/root/20210108/v2NJ/5ff88c1faeb269698149ab86/-1117Wx1400H-460811213-peach-MODEL2.jpg',
+        image3: 'https://assets.ajio.com/medias/sys_master/root/20210108/a7QM/5ff87968aeb2696981498627/-1117Wx1400H-460811213-peach-MODEL3.jpg',
+        image4: 'https://assets.ajio.com/medias/sys_master/root/20210205/V16l/601d65bbaeb26969815ee1fd/-1117Wx1400H-460811213-peach-MARKETING.jpg',
+      },
+      {
+        name: 'Hand-Embroidered A-line Kurta',
+        brand: 'BAGH',
+        price: '2,900',
+        image1: 'https://assets.ajio.com/medias/sys_master/root/20210416/rTPD/6079936caeb269a9e392f4ea/-1117Wx1400H-460845505-red-MODEL.jpg',
+        image2: 'https://assets.ajio.com/medias/sys_master/root/20210402/HDq8/606733b5f997dd7b645bcdd7/-1117Wx1400H-460845505-red-MODEL2.jpg',
+        image3: 'https://assets.ajio.com/medias/sys_master/root/20210402/Ejbs/60673c9baeb269a9e32fdee3/-1117Wx1400H-460845505-red-MODEL3.jpg',
+        image4: 'https://assets.ajio.com/medias/sys_master/root/20210402/jTng/60673865aeb269a9e32fd457/-1117Wx1400H-460845505-red-MODEL5.jpg',
+      },
+      {
+        name: 'Schiffli Embroidered Straight Kurta',
+        brand: 'AVAA',
+        price: '899',
+        image1: 'https://assets.ajio.com/medias/sys_master/root/20210608/YH0C/60bf9106f997ddb312c0ae5e/-1117Wx1400H-460896397-white-MODEL.jpg',
+        image2: 'https://assets.ajio.com/medias/sys_master/root/20210608/aj4o/60bf9166f997ddb312c0b475/-1117Wx1400H-460896397-white-MODEL3.jpg',
+        image3: 'https://assets.ajio.com/medias/sys_master/root/20210608/Vz7R/60bf91cbf997ddb312c0ba92/-1117Wx1400H-460896397-white-MODEL4.jpg',
+        image4: 'https://assets.ajio.com/medias/sys_master/root/20210608/ARsC/60bf8fe0f997ddb312c09df2/-1117Wx1400H-460896397-white-MODEL2.jpg',
+      },
+      {
+        name: 'Chitraang Tie & Dye Shibori Straight Cotton Kurta with Bead Detail',
+        brand: 'AVAA',
+        price: '2,099',
+        image1: 'https://assets.ajio.com/medias/sys_master/root/20210825/c7Pg/61254cee7cdb8cb82404d077/-1117Wx1400H-460886584-purple-MODEL.jpg',
+        image2: 'https://assets.ajio.com/medias/sys_master/root/20210730/sFPT/6103f231f997ddb31240cda4/-1117Wx1400H-460886584-purple-MODEL2.jpg',
+        image3: 'https://assets.ajio.com/medias/sys_master/root/20210730/85pX/6103f394aeb269a9e35afc9f/-1117Wx1400H-460886584-purple-MODEL3.jpg',
+        image4: 'https://assets.ajio.com/medias/sys_master/root/20210730/XTPx/6103f231f997ddb31240cddf/-1117Wx1400H-460886584-purple-MODEL4.jpg',
+      },
 ]
 
 
@@ -370,24 +516,63 @@ let Sarees=[
         image3:" https://assets.ajio.com/medias/sys_master/root/20210528/ajA5/60b01dcdf997ddb312ac8b15/-1117Wx1400H-462454571-green-MODEL3.jpg",
         image4:" https://assets.ajio.com/medias/sys_master/root/20210528/g6Nl/60b01dcdf997ddb312ac8b19/-1117Wx1400H-462454571-green-MODEL4.jpg"
     },
+
+    //adding some more items
     {
-        name:"",
-        brand:"",
-        price:"",
-        image1:"",
-        image2:"",
-        image3:"",
-        image4:""
-    },
-    {
-        name:"",
-        brand:"",
-        price:"",
-        image1:"",
-        image2:"",
-        image3:"",
-        image4:""
-    }
+        name: 'South Cotton Checked Saree with Zari Line',
+        brand: 'Indie Picks',
+        price: '640',
+        image1:"https://assets.ajio.com/medias/sys_master/root/20201124/lOCi/5fbccdbff997dd8c83a55cf4/-1117Wx1400H-460762475-green-MODEL.jpg ",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201124/t5KC/5fbcbfbdaeb269d56317db3e/-1117Wx1400H-460762475-green-MODEL3.jpg ",
+        image3:" https://assets.ajio.com/medias/sys_master/root/20201124/GY8X/5fbcbfacf997dd8c83a4dcb2/-1117Wx1400H-460762475-green-MODEL2.jpg",
+        image4:" https://assets.ajio.com/medias/sys_master/root/20201124/efRq/5fbcc06cf997dd8c83a4e378/-1117Wx1400H-460762475-green-MODEL4.jpg",
+      },
+      {
+        name: 'Kalamkari Handblock Printed Cotton Saree',
+        brand: 'SUN KALAMKARI',
+        price: '1299',
+        image1:"https://assets.ajio.com/medias/sys_master/root/20201126/ZbuM/5fbee345f997dd8c83aa415d/-1117Wx1400H-460793740-grey-MODEL.jpg ",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201126/76OK/5fbedf18f997dd8c83aa0506/-1117Wx1400H-460793740-grey-MODEL2.jpg ",
+        image3:" https://assets.ajio.com/medias/sys_master/root/20201126/Ypyz/5fbee59bf997dd8c83aa659d/-1117Wx1400H-460793740-grey-MODEL3.jpg",
+        image4:" https://assets.ajio.com/medias/sys_master/root/20201126/7L7S/5fbedd83aeb269d5631cab2e/-1117Wx1400H-460793740-grey-MODEL4.jpg",
+      },
+      {
+        name: 'Handloom Bengal Tant Tangail Cotton Saree',
+        brand: 'SUN KALAMKARI',
+        price: '1100',
+        image1:" https://assets.ajio.com/medias/sys_master/root/20200929/bKM4/5f723859aeb269d563ccb4b0/-1117Wx1400H-460668242-lightbrown-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20200929/wPNJ/5f7241e47cdb8c21e36e83e9/-1117Wx1400H-460668242-lightbrown-MODEL2.jpg ",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20200929/pZkB/5f7238477cdb8c21e36e4665/-1117Wx1400H-460668242-lightbrown-MODEL3.jpg ",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20200929/Tnv3/5f72374ef997dd8c835073d5/-1117Wx1400H-460668242-lightbrown-MODEL4.jpg ",
+      
+      },
+      {
+        name: 'Handloom Bhagalpur Pure Silk Tussar Dupion Saree',
+        brand: 'INDIE PICKS',
+        price: '2200',
+        image1:" https://assets.ajio.com/medias/sys_master/root/20201221/AWij/5fe05377aeb269d5634ae4f9/-1117Wx1400H-460783379-blue-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201217/4MgO/5fda9390aeb269d56340f7ce/-1117Wx1400H-460783379-blue-MODEL2.jpg ",
+        image3:" https://assets.ajio.com/medias/sys_master/root/20201217/0lyd/5fdaa5e8f997dd8c83d083e7/-1117Wx1400H-460783379-blue-MODEL3.jpg",
+        image4:" https://assets.ajio.com/medias/sys_master/root/20201217/kGdV/5fda9d34f997dd8c83d03c3a/-1117Wx1400H-460783379-blue-MODEL4.jpg",
+      },
+      {
+        name: 'Banarasi Silk Jacquard Saree with Zari Border',
+        brand: 'BANARASI SILK WORKS',
+        price: '1800',
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210324/vrdC/605b585ff997dd7b6454294c/-1117Wx1400H-460397653-red-MODEL.jpg ",
+        image2:" https://assets.ajio.com/medias/sys_master/root/h0d/h5d/13806028488734/-1117Wx1400H-460397653-red-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/h33/h68/13806025506846/-1117Wx1400H-460397653-red-OUTFIT.jpg ",
+        image4:" https://assets.ajio.com/medias/sys_master/root/h3e/hd3/13806002700318/-1117Wx1400H-460397653-red-OUTFIT2.jpg",
+      },
+      {
+        name: 'Banarasi Heavy Silk Kataan Brocade Wedding Saree',
+        brand: 'BANARASI SILK WORKS',
+        price: '5120',
+        image1:" https://assets.ajio.com/medias/sys_master/root/20201009/Lj2d/5f8086a6aeb269d563d684b0/-1117Wx1400H-460748078-multi-MODEL.jpg",
+        image2:" https://assets.ajio.com/medias/sys_master/root/20201009/xe8z/5f8082e6f997dd8c835df6e3/-1117Wx1400H-460748078-multi-MODEL2.jpg",
+        image3:" https://assets.ajio.com/medias/sys_master/root/20201009/FNhD/5f807e44f997dd8c835dc770/-1117Wx1400H-460748078-multi-MODEL4.jpg",
+        image4:" https://assets.ajio.com/medias/sys_master/root/20201009/eGsD/5f8086a0f997dd8c835e226a/-1117Wx1400H-460748078-multi-MODEL3.jpg",
+      }
 ]
 
 //FOOTWEAR //item1
