@@ -547,6 +547,114 @@ let Dresses = [
     image3: 'https://assets.ajio.com/medias/sys_master/root/20200923/Rvcz/5f6b6583f997dd8c834aff81/-1117Wx1400H-460727690-indigo-MODEL3.jpg',
     image4: 'https://assets.ajio.com/medias/sys_master/root/20200923/qF7V/5f6b66b6f997dd8c834b083d/-1117Wx1400H-460727690-indigo-MODEL4.jpg',
   },
+  {
+    name: 'Craft Bagh Handblock Print A-line Cotton Dress',
+    brand: 'INDIE PICKS',
+    price: '1119',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/h81/h46/12923588444190/-1117Wx1400H-460272397-beige-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/h46/ha1/12923587133470/-1117Wx1400H-460272397-beige-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/hae/h17/12923588771870/-1117Wx1400H-460272397-beige-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/h14/ha4/12923586871326/-1117Wx1400H-460272397-beige-MODEL4.jpg',
+  },
+  {
+    name: 'Handblock Printed Kalamkari Cotton Sattva Overlay Dress',
+    brand: 'INDIE PICKS',
+    price: '2999',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210817/QCVB/611abf0e7cdb8cb824f99f67/-1117Wx1400H-460851861-red-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210817/HN24/611ad95caeb269a2687431cd/-1117Wx1400H-460851861-red-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210817/Noru/611ab1f2f997ddce89a0385a/-1117Wx1400H-460851861-red-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210817/ylkY/611aba5ef997ddce89a050df/-1117Wx1400H-460851861-red-MODEL4.jpg',
+  },
+  {
+    name: 'Embellished Gown Dress',
+    brand: 'SAADHVI',
+    price: '788',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20201031/KHps/5f9c6f0ef997dd8c83808df9/-1117Wx1400H-460763557-black-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20201022/GMJN/5f912107f997dd8c837382ef/-1117Wx1400H-460763557-black-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20201022/xVKt/5f911dbdaeb269d563ea554c/-1117Wx1400H-460763557-black-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20201031/bpqo/5f9c6a66f997dd8c83806376/-1117Wx1400H-460763557-black-MARKETING.jpg',
+  },
+  {
+    name: 'Handloom Cotton Dress with Kalamkari Print',
+    brand: 'SAADHVI',
+    price: '2119',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210218/nYBJ/602e656aaeb2696981683929/-1117Wx1400H-460809990-blue-MODEL2.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210218/I7mW/602e65e5f997dd5c40f38190/-1117Wx1400H-460809990-blue-MODEL3.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210317/FdPH/60522396aeb269a9e31ddd7e/-1117Wx1400H-460809990-blue-MARKETING.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210218/pV9J/602e66547cdb8c1f14436e6a/-1117Wx1400H-460809990-blue-MODEL4.jpg',
+  },
+  {
+    name: 'Block Print Dress',
+    brand: 'VEDIC',
+    price: '1350',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210519/UpeW/60a442dcaeb269a9e3c3652b/-1117Wx1400H-462427153-blue-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210519/vvM5/60a442dcaeb269a9e3c3655b/-1117Wx1400H-462427153-blue-MODEL3.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210519/5bJD/60a442dcaeb269a9e3c36545/-1117Wx1400H-462427153-blue-MODEL4.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210519/7PIo/60a442dcaeb269a9e3c36581/-1117Wx1400H-462427153-blue-MODEL2.jpg',
+  },
+  {
+    name: 'Hand-Spun Khadi Shift Cotton Dress',
+    brand: 'VEDIC',
+    price: '840',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20200929/Wnke/5f724e94f997dd8c83516c81/-1117Wx1400H-460727690-indigo-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20200923/PLwk/5f6b6634aeb269d563c90a68/-1117Wx1400H-460727690-indigo-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20200923/Rvcz/5f6b6583f997dd8c834aff81/-1117Wx1400H-460727690-indigo-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20200923/qF7V/5f6b66b6f997dd8c834b083d/-1117Wx1400H-460727690-indigo-MODEL4.jpg',
+  },
+  {
+    name: 'Craft Bagh Handblock Print A-line Cotton Dress',
+    brand: 'INDIE PICKS',
+    price: '1119',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/h81/h46/12923588444190/-1117Wx1400H-460272397-beige-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/h46/ha1/12923587133470/-1117Wx1400H-460272397-beige-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/hae/h17/12923588771870/-1117Wx1400H-460272397-beige-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/h14/ha4/12923586871326/-1117Wx1400H-460272397-beige-MODEL4.jpg',
+  },
+  {
+    name: 'Handblock Printed Kalamkari Cotton Sattva Overlay Dress',
+    brand: 'INDIE PICKS',
+    price: '2999',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210817/QCVB/611abf0e7cdb8cb824f99f67/-1117Wx1400H-460851861-red-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210817/HN24/611ad95caeb269a2687431cd/-1117Wx1400H-460851861-red-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210817/Noru/611ab1f2f997ddce89a0385a/-1117Wx1400H-460851861-red-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210817/ylkY/611aba5ef997ddce89a050df/-1117Wx1400H-460851861-red-MODEL4.jpg',
+  },
+  {
+    name: 'Embellished Gown Dress',
+    brand: 'SAADHVI',
+    price: '788',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20201031/KHps/5f9c6f0ef997dd8c83808df9/-1117Wx1400H-460763557-black-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20201022/GMJN/5f912107f997dd8c837382ef/-1117Wx1400H-460763557-black-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20201022/xVKt/5f911dbdaeb269d563ea554c/-1117Wx1400H-460763557-black-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20201031/bpqo/5f9c6a66f997dd8c83806376/-1117Wx1400H-460763557-black-MARKETING.jpg',
+  },
+  {
+    name: 'Handloom Cotton Dress with Kalamkari Print',
+    brand: 'SAADHVI',
+    price: '2119',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210218/nYBJ/602e656aaeb2696981683929/-1117Wx1400H-460809990-blue-MODEL2.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210218/I7mW/602e65e5f997dd5c40f38190/-1117Wx1400H-460809990-blue-MODEL3.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210317/FdPH/60522396aeb269a9e31ddd7e/-1117Wx1400H-460809990-blue-MARKETING.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210218/pV9J/602e66547cdb8c1f14436e6a/-1117Wx1400H-460809990-blue-MODEL4.jpg',
+  },
+  {
+    name: 'Block Print Dress',
+    brand: 'VEDIC',
+    price: '1350',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210519/UpeW/60a442dcaeb269a9e3c3652b/-1117Wx1400H-462427153-blue-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210519/vvM5/60a442dcaeb269a9e3c3655b/-1117Wx1400H-462427153-blue-MODEL3.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210519/5bJD/60a442dcaeb269a9e3c36545/-1117Wx1400H-462427153-blue-MODEL4.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210519/7PIo/60a442dcaeb269a9e3c36581/-1117Wx1400H-462427153-blue-MODEL2.jpg',
+  },
+  {
+    name: 'Hand-Spun Khadi Shift Cotton Dress',
+    brand: 'VEDIC',
+    price: '840',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20200929/Wnke/5f724e94f997dd8c83516c81/-1117Wx1400H-460727690-indigo-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20200923/PLwk/5f6b6634aeb269d563c90a68/-1117Wx1400H-460727690-indigo-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20200923/Rvcz/5f6b6583f997dd8c834aff81/-1117Wx1400H-460727690-indigo-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20200923/qF7V/5f6b66b6f997dd8c834b083d/-1117Wx1400H-460727690-indigo-MODEL4.jpg',
+  },
 ]
 
 let Tops = [
@@ -767,5 +875,447 @@ let Tops = [
   image4:"https://assets.ajio.com/medias/sys_master/root/20210403/sjlS/60686b0af997dd7b645de494/-1117Wx1400H-461132761-black-MODEL4.jpg"
 },
 
+]
+
+let Juttis=[
+  {
+      name:"Cleo Dual-Strap Slingback Sandals",
+      brand:"CROCS",
+      price:"1539",
+      image1:" https://assets.ajio.com/medias/sys_master/root/20210319/6PCG/6054bdaeaeb269a9e31fef61/-1117Wx1400H-460845438-rosegold-MODEL.jpg",
+      image2:" https://assets.ajio.com/medias/sys_master/root/20210319/YmRE/6054c1e1aeb269a9e31ffb80/-1117Wx1400H-460845438-rosegold-MODEL2.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210319/N7pW/6054c07baeb269a9e31ff794/-1117Wx1400H-460845438-rosegold-MODEL3.jpg ",
+      image4:"https://assets.ajio.com/medias/sys_master/root/20210319/c1C7/6054c25baeb269a9e31ffd06/-1117Wx1400H-460845438-rosegold-MODEL4.jpg " 
+  },
+  {
+      name:"Embellished T-strap Sandals with Buckle Closure",
+      brand:"STEVE MADDEN",
+      price:"2600",
+      image1:"https://assets.ajio.com/medias/sys_master/root/20200724/opre/5f19da3b7cdb8c220784cb56/-1117Wx1400H-460603284-black-MODEL.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/ha9/h2e/15951648391198/-1117Wx1400H-460603284-black-MODEL2.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/h31/hcb/15951643148318/-1117Wx1400H-460603284-black-MODEL4.jpg",
+      image4:"https://assets.ajio.com/medias/sys_master/root/h08/h94/15951645835294/-1117Wx1400H-460603284-black-MODEL5.jpg"
+  },
+  {
+      name:"Tulum Slip-On Flat Sandals with Heel Counter",
+      brand:"CROCS",
+      price:"2342",
+      image1:" https://assets.ajio.com/medias/sys_master/root/20210107/SiRr/5ff6fc47aeb2696981472947/-1117Wx1400H-450137544-beige-MODEL.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/20210107/cxxh/5ff6fadfaeb26969814726c1/-1117Wx1400H-450137544-beige-MODEL2.jpg ",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210107/ht43/5ff6f88a7cdb8c1f1420a3f3/-1117Wx1400H-450137544-beige-MODEL3.jpg ",
+      image4:" https://assets.ajio.com/medias/sys_master/root/20210107/O1Lx/5ff6f6a5f997dd5c40cf6c74/-1117Wx1400H-450137544-beige-MODEL4.jpg"
+  },
+  {
+      name:"Pop Ups- Glamathon- Embellished Slides",
+      brand:"SKECHERS",
+      price:"2375",
+      image1:" https://assets.ajio.com/medias/sys_master/root/20210701/3jB5/60dcbfd6aeb269a9e3324b20/-1117Wx1400H-450144578-whtpatent-MODEL.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/20210701/bNg9/60dcebf5aeb269a9e33364c5/-1117Wx1400H-450144578-whtpatent-MODEL2.jpg ",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210701/0hr0/60dcef76f997ddb31216bdf2/-1117Wx1400H-450144578-whtpatent-MODEL3.jpg ",
+      image4:" https://assets.ajio.com/medias/sys_master/root/20210701/SyF5/60dcd079f997ddb312156ac7/-1117Wx1400H-450144578-whtpatent-MODEL6.jpg"
+  },
+  {
+      name:"Thong-Strap Slip-On Sandals",
+      brand:"HI-ATTITUDE",
+      price:"349",
+      image1:"https://assets.ajio.com/medias/sys_master/root/h36/h57/14066417336350/-1117Wx1400H-410161152-moulinrougere-MODEL.jpg ",
+      image2:" https://assets.ajio.com/medias/sys_master/root/heb/h01/14066436472862/-1117Wx1400H-410161152-moulinrougere-OUTFIT.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/h2a/h4b/14066420744222/-1117Wx1400H-410161152-moulinrougere-OUTFIT2.jpg ",
+      image4:" https://assets.ajio.com/medias/sys_master/root/haa/h66/14066403770398/-1117Wx1400H-410161152-moulinrougere-OUTFIT4.jpg"
+  },
+  {
+      name:"Toe-Ring Flat Sandals with Bow",
+      brand:"EVERQUPID",
+      price:"494",
+      image1:"https://assets.ajio.com/medias/sys_master/root/20210202/iDwl/60187b767cdb8c1f1433380a/-1117Wx1400H-450137473-nude-MODEL.jpg ",
+      image2:" https://assets.ajio.com/medias/sys_master/root/20210202/L3NH/60188349aeb26969815ad564/-1117Wx1400H-450137473-nude-MODEL2.jpg",
+      image3:" https://assets.ajio.com/medias/sys_master/root/20210202/tgBa/60186b25aeb26969815a3e2e/-1117Wx1400H-450137473-nude-MODEL3.jpg",
+      image4:"https://assets.ajio.com/medias/sys_master/root/20210202/KnrF/60185c5ff997dd5c40e2b37f/-1117Wx1400H-450137473-nude-MODEL4.jpg "
+  },
+  {
+      name:"Cleo Dual-Strap Slingback Sandals",
+      brand:"CROCS",
+      price:"1539",
+      image1:" https://assets.ajio.com/medias/sys_master/root/20210319/6PCG/6054bdaeaeb269a9e31fef61/-1117Wx1400H-460845438-rosegold-MODEL.jpg",
+      image2:" https://assets.ajio.com/medias/sys_master/root/20210319/YmRE/6054c1e1aeb269a9e31ffb80/-1117Wx1400H-460845438-rosegold-MODEL2.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210319/N7pW/6054c07baeb269a9e31ff794/-1117Wx1400H-460845438-rosegold-MODEL3.jpg ",
+      image4:"https://assets.ajio.com/medias/sys_master/root/20210319/c1C7/6054c25baeb269a9e31ffd06/-1117Wx1400H-460845438-rosegold-MODEL4.jpg " 
+  },
+  {
+      name:"Embellished T-strap Sandals with Buckle Closure",
+      brand:"STEVE MADDEN",
+      price:"2600",
+      image1:"https://assets.ajio.com/medias/sys_master/root/20200724/opre/5f19da3b7cdb8c220784cb56/-1117Wx1400H-460603284-black-MODEL.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/ha9/h2e/15951648391198/-1117Wx1400H-460603284-black-MODEL2.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/h31/hcb/15951643148318/-1117Wx1400H-460603284-black-MODEL4.jpg",
+      image4:"https://assets.ajio.com/medias/sys_master/root/h08/h94/15951645835294/-1117Wx1400H-460603284-black-MODEL5.jpg"
+  },
+  {
+      name:"Tulum Slip-On Flat Sandals with Heel Counter",
+      brand:"CROCS",
+      price:"2342",
+      image1:" https://assets.ajio.com/medias/sys_master/root/20210107/SiRr/5ff6fc47aeb2696981472947/-1117Wx1400H-450137544-beige-MODEL.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/20210107/cxxh/5ff6fadfaeb26969814726c1/-1117Wx1400H-450137544-beige-MODEL2.jpg ",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210107/ht43/5ff6f88a7cdb8c1f1420a3f3/-1117Wx1400H-450137544-beige-MODEL3.jpg ",
+      image4:" https://assets.ajio.com/medias/sys_master/root/20210107/O1Lx/5ff6f6a5f997dd5c40cf6c74/-1117Wx1400H-450137544-beige-MODEL4.jpg"
+  },
+  {
+      name:"Pop Ups- Glamathon- Embellished Slides",
+      brand:"SKECHERS",
+      price:"2375",
+      image1:" https://assets.ajio.com/medias/sys_master/root/20210701/3jB5/60dcbfd6aeb269a9e3324b20/-1117Wx1400H-450144578-whtpatent-MODEL.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/20210701/bNg9/60dcebf5aeb269a9e33364c5/-1117Wx1400H-450144578-whtpatent-MODEL2.jpg ",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210701/0hr0/60dcef76f997ddb31216bdf2/-1117Wx1400H-450144578-whtpatent-MODEL3.jpg ",
+      image4:" https://assets.ajio.com/medias/sys_master/root/20210701/SyF5/60dcd079f997ddb312156ac7/-1117Wx1400H-450144578-whtpatent-MODEL6.jpg"
+  },
+  {
+      name:"Thong-Strap Slip-On Sandals",
+      brand:"HI-ATTITUDE",
+      price:"349",
+      image1:"https://assets.ajio.com/medias/sys_master/root/h36/h57/14066417336350/-1117Wx1400H-410161152-moulinrougere-MODEL.jpg ",
+      image2:" https://assets.ajio.com/medias/sys_master/root/heb/h01/14066436472862/-1117Wx1400H-410161152-moulinrougere-OUTFIT.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/h2a/h4b/14066420744222/-1117Wx1400H-410161152-moulinrougere-OUTFIT2.jpg ",
+      image4:" https://assets.ajio.com/medias/sys_master/root/haa/h66/14066403770398/-1117Wx1400H-410161152-moulinrougere-OUTFIT4.jpg"
+  },
+  {
+      name:"Toe-Ring Flat Sandals with Bow",
+      brand:"EVERQUPID",
+      price:"494",
+      image1:"https://assets.ajio.com/medias/sys_master/root/20210202/iDwl/60187b767cdb8c1f1433380a/-1117Wx1400H-450137473-nude-MODEL.jpg ",
+      image2:" https://assets.ajio.com/medias/sys_master/root/20210202/L3NH/60188349aeb26969815ad564/-1117Wx1400H-450137473-nude-MODEL2.jpg",
+      image3:" https://assets.ajio.com/medias/sys_master/root/20210202/tgBa/60186b25aeb26969815a3e2e/-1117Wx1400H-450137473-nude-MODEL3.jpg",
+      image4:"https://assets.ajio.com/medias/sys_master/root/20210202/KnrF/60185c5ff997dd5c40e2b37f/-1117Wx1400H-450137473-nude-MODEL4.jpg "
+  },
+  {
+      name:"Cleo Dual-Strap Slingback Sandals",
+      brand:"CROCS",
+      price:"1539",
+      image1:" https://assets.ajio.com/medias/sys_master/root/20210319/6PCG/6054bdaeaeb269a9e31fef61/-1117Wx1400H-460845438-rosegold-MODEL.jpg",
+      image2:" https://assets.ajio.com/medias/sys_master/root/20210319/YmRE/6054c1e1aeb269a9e31ffb80/-1117Wx1400H-460845438-rosegold-MODEL2.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210319/N7pW/6054c07baeb269a9e31ff794/-1117Wx1400H-460845438-rosegold-MODEL3.jpg ",
+      image4:"https://assets.ajio.com/medias/sys_master/root/20210319/c1C7/6054c25baeb269a9e31ffd06/-1117Wx1400H-460845438-rosegold-MODEL4.jpg " 
+  },
+  {
+      name:"Embellished T-strap Sandals with Buckle Closure",
+      brand:"STEVE MADDEN",
+      price:"2600",
+      image1:"https://assets.ajio.com/medias/sys_master/root/20200724/opre/5f19da3b7cdb8c220784cb56/-1117Wx1400H-460603284-black-MODEL.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/ha9/h2e/15951648391198/-1117Wx1400H-460603284-black-MODEL2.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/h31/hcb/15951643148318/-1117Wx1400H-460603284-black-MODEL4.jpg",
+      image4:"https://assets.ajio.com/medias/sys_master/root/h08/h94/15951645835294/-1117Wx1400H-460603284-black-MODEL5.jpg"
+  },
+  {
+      name:"Tulum Slip-On Flat Sandals with Heel Counter",
+      brand:"CROCS",
+      price:"2342",
+      image1:" https://assets.ajio.com/medias/sys_master/root/20210107/SiRr/5ff6fc47aeb2696981472947/-1117Wx1400H-450137544-beige-MODEL.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/20210107/cxxh/5ff6fadfaeb26969814726c1/-1117Wx1400H-450137544-beige-MODEL2.jpg ",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210107/ht43/5ff6f88a7cdb8c1f1420a3f3/-1117Wx1400H-450137544-beige-MODEL3.jpg ",
+      image4:" https://assets.ajio.com/medias/sys_master/root/20210107/O1Lx/5ff6f6a5f997dd5c40cf6c74/-1117Wx1400H-450137544-beige-MODEL4.jpg"
+  },
+  {
+      name:"Pop Ups- Glamathon- Embellished Slides",
+      brand:"SKECHERS",
+      price:"2375",
+      image1:" https://assets.ajio.com/medias/sys_master/root/20210701/3jB5/60dcbfd6aeb269a9e3324b20/-1117Wx1400H-450144578-whtpatent-MODEL.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/20210701/bNg9/60dcebf5aeb269a9e33364c5/-1117Wx1400H-450144578-whtpatent-MODEL2.jpg ",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210701/0hr0/60dcef76f997ddb31216bdf2/-1117Wx1400H-450144578-whtpatent-MODEL3.jpg ",
+      image4:" https://assets.ajio.com/medias/sys_master/root/20210701/SyF5/60dcd079f997ddb312156ac7/-1117Wx1400H-450144578-whtpatent-MODEL6.jpg"
+  },
+  {
+      name:"Thong-Strap Slip-On Sandals",
+      brand:"HI-ATTITUDE",
+      price:"349",
+      image1:"https://assets.ajio.com/medias/sys_master/root/h36/h57/14066417336350/-1117Wx1400H-410161152-moulinrougere-MODEL.jpg ",
+      image2:" https://assets.ajio.com/medias/sys_master/root/heb/h01/14066436472862/-1117Wx1400H-410161152-moulinrougere-OUTFIT.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/h2a/h4b/14066420744222/-1117Wx1400H-410161152-moulinrougere-OUTFIT2.jpg ",
+      image4:" https://assets.ajio.com/medias/sys_master/root/haa/h66/14066403770398/-1117Wx1400H-410161152-moulinrougere-OUTFIT4.jpg"
+  },
+  {
+      name:"Toe-Ring Flat Sandals with Bow",
+      brand:"EVERQUPID",
+      price:"494",
+      image1:"https://assets.ajio.com/medias/sys_master/root/20210202/iDwl/60187b767cdb8c1f1433380a/-1117Wx1400H-450137473-nude-MODEL.jpg ",
+      image2:" https://assets.ajio.com/medias/sys_master/root/20210202/L3NH/60188349aeb26969815ad564/-1117Wx1400H-450137473-nude-MODEL2.jpg",
+      image3:" https://assets.ajio.com/medias/sys_master/root/20210202/tgBa/60186b25aeb26969815a3e2e/-1117Wx1400H-450137473-nude-MODEL3.jpg",
+      image4:"https://assets.ajio.com/medias/sys_master/root/20210202/KnrF/60185c5ff997dd5c40e2b37f/-1117Wx1400H-450137473-nude-MODEL4.jpg "
+  },
+  {
+      name:"Cleo Dual-Strap Slingback Sandals",
+      brand:"CROCS",
+      price:"1539",
+      image1:" https://assets.ajio.com/medias/sys_master/root/20210319/6PCG/6054bdaeaeb269a9e31fef61/-1117Wx1400H-460845438-rosegold-MODEL.jpg",
+      image2:" https://assets.ajio.com/medias/sys_master/root/20210319/YmRE/6054c1e1aeb269a9e31ffb80/-1117Wx1400H-460845438-rosegold-MODEL2.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210319/N7pW/6054c07baeb269a9e31ff794/-1117Wx1400H-460845438-rosegold-MODEL3.jpg ",
+      image4:"https://assets.ajio.com/medias/sys_master/root/20210319/c1C7/6054c25baeb269a9e31ffd06/-1117Wx1400H-460845438-rosegold-MODEL4.jpg " 
+  },
+  {
+      name:"Embellished T-strap Sandals with Buckle Closure",
+      brand:"STEVE MADDEN",
+      price:"2600",
+      image1:"https://assets.ajio.com/medias/sys_master/root/20200724/opre/5f19da3b7cdb8c220784cb56/-1117Wx1400H-460603284-black-MODEL.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/ha9/h2e/15951648391198/-1117Wx1400H-460603284-black-MODEL2.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/h31/hcb/15951643148318/-1117Wx1400H-460603284-black-MODEL4.jpg",
+      image4:"https://assets.ajio.com/medias/sys_master/root/h08/h94/15951645835294/-1117Wx1400H-460603284-black-MODEL5.jpg"
+  },
+  {
+      name:"Tulum Slip-On Flat Sandals with Heel Counter",
+      brand:"CROCS",
+      price:"2342",
+      image1:" https://assets.ajio.com/medias/sys_master/root/20210107/SiRr/5ff6fc47aeb2696981472947/-1117Wx1400H-450137544-beige-MODEL.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/20210107/cxxh/5ff6fadfaeb26969814726c1/-1117Wx1400H-450137544-beige-MODEL2.jpg ",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210107/ht43/5ff6f88a7cdb8c1f1420a3f3/-1117Wx1400H-450137544-beige-MODEL3.jpg ",
+      image4:" https://assets.ajio.com/medias/sys_master/root/20210107/O1Lx/5ff6f6a5f997dd5c40cf6c74/-1117Wx1400H-450137544-beige-MODEL4.jpg"
+  },
+  {
+      name:"Pop Ups- Glamathon- Embellished Slides",
+      brand:"SKECHERS",
+      price:"2375",
+      image1:" https://assets.ajio.com/medias/sys_master/root/20210701/3jB5/60dcbfd6aeb269a9e3324b20/-1117Wx1400H-450144578-whtpatent-MODEL.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/20210701/bNg9/60dcebf5aeb269a9e33364c5/-1117Wx1400H-450144578-whtpatent-MODEL2.jpg ",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210701/0hr0/60dcef76f997ddb31216bdf2/-1117Wx1400H-450144578-whtpatent-MODEL3.jpg ",
+      image4:" https://assets.ajio.com/medias/sys_master/root/20210701/SyF5/60dcd079f997ddb312156ac7/-1117Wx1400H-450144578-whtpatent-MODEL6.jpg"
+  },
+  {
+      name:"Thong-Strap Slip-On Sandals",
+      brand:"HI-ATTITUDE",
+      price:"349",
+      image1:"https://assets.ajio.com/medias/sys_master/root/h36/h57/14066417336350/-1117Wx1400H-410161152-moulinrougere-MODEL.jpg ",
+      image2:" https://assets.ajio.com/medias/sys_master/root/heb/h01/14066436472862/-1117Wx1400H-410161152-moulinrougere-OUTFIT.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/h2a/h4b/14066420744222/-1117Wx1400H-410161152-moulinrougere-OUTFIT2.jpg ",
+      image4:" https://assets.ajio.com/medias/sys_master/root/haa/h66/14066403770398/-1117Wx1400H-410161152-moulinrougere-OUTFIT4.jpg"
+  },
+  {
+      name:"Toe-Ring Flat Sandals with Bow",
+      brand:"EVERQUPID",
+      price:"494",
+      image1:"https://assets.ajio.com/medias/sys_master/root/20210202/iDwl/60187b767cdb8c1f1433380a/-1117Wx1400H-450137473-nude-MODEL.jpg ",
+      image2:" https://assets.ajio.com/medias/sys_master/root/20210202/L3NH/60188349aeb26969815ad564/-1117Wx1400H-450137473-nude-MODEL2.jpg",
+      image3:" https://assets.ajio.com/medias/sys_master/root/20210202/tgBa/60186b25aeb26969815a3e2e/-1117Wx1400H-450137473-nude-MODEL3.jpg",
+      image4:"https://assets.ajio.com/medias/sys_master/root/20210202/KnrF/60185c5ff997dd5c40e2b37f/-1117Wx1400H-450137473-nude-MODEL4.jpg "
+  },
+ 
+ 
+ 
+]
+
+let shirts=[
+  {
+      name:"Full Sleeves Slim Fit Shirt",
+      brand:"DENNISLINGO PREMIUM ATTIRE",
+      price:"573",
+      image1:"https://assets.ajio.com/medias/sys_master/root/20210420/lnR0/607ecc69aeb269a9e39720bb/-473Wx593H-462323964-green-MODEL5.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/20210420/R70k/607ecc5baeb269a9e3971fef/-1117Wx1400H-462323964-green-MODEL.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210420/yN6s/607ecc69aeb269a9e39720e8/-1117Wx1400H-462323964-green-MODEL3.jpg",
+      image4:"https://assets.ajio.com/medias/sys_master/root/20210420/BJmQ/607ecc69aeb269a9e39720e4/-1117Wx1400H-462323964-green-MODEL4.jpg" 
+  },
+  {
+      name:"Checked Slim Fit Shirt with Patch Pocket",
+      brand:"DENNISLINGO PREMIUM ATTIRE",
+      price:"799",
+      image1:"https://assets.ajio.com/medias/sys_master/root/20210403/CDSb/6068696cf997dd7b645dbfb4/-1117Wx1400H-461119026-black-MODEL7.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/20210403/ywxs/60686961f997dd7b645dbe78/-1117Wx1400H-461119026-black-MODEL.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210403/WY5B/60686961f997dd7b645dbeb0/-1117Wx1400H-461119026-black-MODEL2.jpg",
+      image4:"https://assets.ajio.com/medias/sys_master/root/20210403/ldrQ/60686961f997dd7b645dbead/-1117Wx1400H-461119026-black-MODEL4.jpg"
+  },
+  {
+      name:"Floral Print Slim Fit Shirt",
+      brand:"DENNISLINGO PREMIUM ATTIRE",
+      price:"487",
+      image1:"https://assets.ajio.com/medias/sys_master/root/20210403/Yf0g/60687031aeb269a9e33233f6/-473Wx593H-461135251-blue-MODEL3.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/20210403/GmQ4/60687031aeb269a9e33233f3/-473Wx593H-461135251-blue-MODEL5.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210403/vHdZ/60687031aeb269a9e3323410/-473Wx593H-461135251-blue-MODEL6.jpg",
+      image4:"https://assets.ajio.com/medias/sys_master/root/20210403/Yf0g/60687031aeb269a9e33233f6/-473Wx593H-461135251-blue-MODEL3.jpg"
+  },
+  {
+      name:"Graphic Print Slim Fit Shirt",
+      brand:"PEPE JEANS",
+      price:"649",
+      image1:"https://assets.ajio.com/medias/sys_master/root/20210617/BXoo/60ca52fbf997ddb312cd3683/-1117Wx1400H-460442258-maroon-MODEL.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/20210617/pSb1/60ca52fbf997ddb312cd369b/-1117Wx1400H-460442258-maroon-MODEL2.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210617/dp1o/60ca499eaeb269a9e3eb379c/-1117Wx1400H-460442258-maroon-MODEL3.jpg",
+      image4:"https://assets.ajio.com/medias/sys_master/root/20210617/Tf5v/60ca4ecbf997ddb312cd252f/-1117Wx1400H-460442258-maroon-MODEL4.jpg"
+  },
+  {
+      name:"Checked Shirt with Patch Pocket",
+      brand:"PEPE JEANS",
+      price:"1299",
+      image1:"https://assets.ajio.com/medias/sys_master/root/20210803/HqmY/61095db37cdb8cb824e872d4/-1117Wx1400H-460419438-grey-MODEL.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/20210803/ZJcc/610965a9f997dd85166aa890/-1117Wx1400H-460419438-grey-MODEL2.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210803/H0i7/610966a8aeb269a268671299/-1117Wx1400H-460419438-grey-MODEL3.jpg",
+      image4:"https://assets.ajio.com/medias/sys_master/root/20210803/19OU/6109678f7cdb8cb824e8947a/-1117Wx1400H-460419438-grey-MODEL4.jpg"
+  },
+  {
+      name:"Striped Slim Fit Shirt",
+      brand:"LOUIS PHILIPPE",
+      price:"2294",
+      image1:"https://assets.ajio.com/medias/sys_master/root/20201105/oGvT/5fa2f504f997dd8c83860b0a/-1117Wx1400H-441101350-navy-MODEL.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/20201105/h1Sd/5fa2f450aeb269d563faed37/-1117Wx1400H-441101350-navy-MODEL2.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20201105/TgPz/5fa2f39baeb269d563fae759/-1117Wx1400H-441101350-navy-MODEL3.jpg",
+      image4:"https://assets.ajio.com/medias/sys_master/root/20201105/MfBp/5fa2f4d0aeb269d563faf168/-1117Wx1400H-441101350-navy-MODEL4.jpg"
+  },
+  {
+      name:"Checked Slim Fit Shirt with Patch Pocket",
+      brand:"PEPE JEANS",
+      price:"612",
+      image1:"https://assets.ajio.com/medias/sys_master/root/20210316/JrrR/6050ca22aeb269698187e889/-473Wx593H-460601683-blue-MODEL.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/h26/h68/15814080462878/-473Wx593H-460601683-blue-MODEL3.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/h31/hc6/15814079545374/-473Wx593H-460601683-blue-MODEL4.jpg",
+      image4:"https://assets.ajio.com/medias/sys_master/root/20210316/47fm/6050cc797cdb8c1f1464ef69/-473Wx593H-460601683-blue-MARKETING.jpg"
+  },
+  {
+      name:"Textured Shirt with Patch Pocket",
+      brand:"LOUIS PHILIPPE",
+      price:"799",
+      image1:"https://assets.ajio.com/medias/sys_master/root/20210311/bsKn/60491288aeb26969817f46bd/-473Wx593H-460842258-mustard-MODEL.jpg",
+      image2:"https://assets.ajio.com/medias/sys_master/root/20210311/Zs4H/60491b71aeb26969817f5d6d/-473Wx593H-460842258-mustard-MODEL3.jpg",
+      image3:"https://assets.ajio.com/medias/sys_master/root/20210311/wSsm/604918a8aeb26969817f56a0/-473Wx593H-460842258-mustard-MODEL5.jpg",
+      image4:"https://assets.ajio.com/medias/sys_master/root/20210311/bqVi/604912097cdb8c1f145db484/-473Wx593H-460842258-mustard-MODEL7.jpg"
+  },
+  {
+    name:"Full Sleeves Slim Fit Shirt",
+    brand:"DENNISLINGO PREMIUM ATTIRE",
+    price:"573",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210420/lnR0/607ecc69aeb269a9e39720bb/-473Wx593H-462323964-green-MODEL5.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20210420/R70k/607ecc5baeb269a9e3971fef/-1117Wx1400H-462323964-green-MODEL.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20210420/yN6s/607ecc69aeb269a9e39720e8/-1117Wx1400H-462323964-green-MODEL3.jpg",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20210420/BJmQ/607ecc69aeb269a9e39720e4/-1117Wx1400H-462323964-green-MODEL4.jpg" 
+},
+{
+    name:"Checked Slim Fit Shirt with Patch Pocket",
+    brand:"DENNISLINGO PREMIUM ATTIRE",
+    price:"799",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210403/CDSb/6068696cf997dd7b645dbfb4/-1117Wx1400H-461119026-black-MODEL7.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20210403/ywxs/60686961f997dd7b645dbe78/-1117Wx1400H-461119026-black-MODEL.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20210403/WY5B/60686961f997dd7b645dbeb0/-1117Wx1400H-461119026-black-MODEL2.jpg",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20210403/ldrQ/60686961f997dd7b645dbead/-1117Wx1400H-461119026-black-MODEL4.jpg"
+},
+{
+    name:"Floral Print Slim Fit Shirt",
+    brand:"DENNISLINGO PREMIUM ATTIRE",
+    price:"487",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210403/Yf0g/60687031aeb269a9e33233f6/-473Wx593H-461135251-blue-MODEL3.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20210403/GmQ4/60687031aeb269a9e33233f3/-473Wx593H-461135251-blue-MODEL5.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20210403/vHdZ/60687031aeb269a9e3323410/-473Wx593H-461135251-blue-MODEL6.jpg",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20210403/Yf0g/60687031aeb269a9e33233f6/-473Wx593H-461135251-blue-MODEL3.jpg"
+},
+{
+    name:"Graphic Print Slim Fit Shirt",
+    brand:"PEPE JEANS",
+    price:"649",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210617/BXoo/60ca52fbf997ddb312cd3683/-1117Wx1400H-460442258-maroon-MODEL.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20210617/pSb1/60ca52fbf997ddb312cd369b/-1117Wx1400H-460442258-maroon-MODEL2.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20210617/dp1o/60ca499eaeb269a9e3eb379c/-1117Wx1400H-460442258-maroon-MODEL3.jpg",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20210617/Tf5v/60ca4ecbf997ddb312cd252f/-1117Wx1400H-460442258-maroon-MODEL4.jpg"
+},
+{
+    name:"Checked Shirt with Patch Pocket",
+    brand:"PEPE JEANS",
+    price:"1299",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210803/HqmY/61095db37cdb8cb824e872d4/-1117Wx1400H-460419438-grey-MODEL.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20210803/ZJcc/610965a9f997dd85166aa890/-1117Wx1400H-460419438-grey-MODEL2.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20210803/H0i7/610966a8aeb269a268671299/-1117Wx1400H-460419438-grey-MODEL3.jpg",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20210803/19OU/6109678f7cdb8cb824e8947a/-1117Wx1400H-460419438-grey-MODEL4.jpg"
+},
+{
+    name:"Striped Slim Fit Shirt",
+    brand:"LOUIS PHILIPPE",
+    price:"2294",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20201105/oGvT/5fa2f504f997dd8c83860b0a/-1117Wx1400H-441101350-navy-MODEL.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20201105/h1Sd/5fa2f450aeb269d563faed37/-1117Wx1400H-441101350-navy-MODEL2.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20201105/TgPz/5fa2f39baeb269d563fae759/-1117Wx1400H-441101350-navy-MODEL3.jpg",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20201105/MfBp/5fa2f4d0aeb269d563faf168/-1117Wx1400H-441101350-navy-MODEL4.jpg"
+},
+{
+    name:"Checked Slim Fit Shirt with Patch Pocket",
+    brand:"PEPE JEANS",
+    price:"612",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210316/JrrR/6050ca22aeb269698187e889/-473Wx593H-460601683-blue-MODEL.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/h26/h68/15814080462878/-473Wx593H-460601683-blue-MODEL3.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/h31/hc6/15814079545374/-473Wx593H-460601683-blue-MODEL4.jpg",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20210316/47fm/6050cc797cdb8c1f1464ef69/-473Wx593H-460601683-blue-MARKETING.jpg"
+},
+{
+    name:"Textured Shirt with Patch Pocket",
+    brand:"LOUIS PHILIPPE",
+    price:"799",
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210311/bsKn/60491288aeb26969817f46bd/-473Wx593H-460842258-mustard-MODEL.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20210311/Zs4H/60491b71aeb26969817f5d6d/-473Wx593H-460842258-mustard-MODEL3.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20210311/wSsm/604918a8aeb26969817f56a0/-473Wx593H-460842258-mustard-MODEL5.jpg",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20210311/bqVi/604912097cdb8c1f145db484/-473Wx593H-460842258-mustard-MODEL7.jpg"
+},
+{
+  name:"Full Sleeves Slim Fit Shirt",
+  brand:"DENNISLINGO PREMIUM ATTIRE",
+  price:"573",
+  image1:"https://assets.ajio.com/medias/sys_master/root/20210420/lnR0/607ecc69aeb269a9e39720bb/-473Wx593H-462323964-green-MODEL5.jpg",
+  image2:"https://assets.ajio.com/medias/sys_master/root/20210420/R70k/607ecc5baeb269a9e3971fef/-1117Wx1400H-462323964-green-MODEL.jpg",
+  image3:"https://assets.ajio.com/medias/sys_master/root/20210420/yN6s/607ecc69aeb269a9e39720e8/-1117Wx1400H-462323964-green-MODEL3.jpg",
+  image4:"https://assets.ajio.com/medias/sys_master/root/20210420/BJmQ/607ecc69aeb269a9e39720e4/-1117Wx1400H-462323964-green-MODEL4.jpg" 
+},
+{
+  name:"Checked Slim Fit Shirt with Patch Pocket",
+  brand:"DENNISLINGO PREMIUM ATTIRE",
+  price:"799",
+  image1:"https://assets.ajio.com/medias/sys_master/root/20210403/CDSb/6068696cf997dd7b645dbfb4/-1117Wx1400H-461119026-black-MODEL7.jpg",
+  image2:"https://assets.ajio.com/medias/sys_master/root/20210403/ywxs/60686961f997dd7b645dbe78/-1117Wx1400H-461119026-black-MODEL.jpg",
+  image3:"https://assets.ajio.com/medias/sys_master/root/20210403/WY5B/60686961f997dd7b645dbeb0/-1117Wx1400H-461119026-black-MODEL2.jpg",
+  image4:"https://assets.ajio.com/medias/sys_master/root/20210403/ldrQ/60686961f997dd7b645dbead/-1117Wx1400H-461119026-black-MODEL4.jpg"
+},
+{
+  name:"Floral Print Slim Fit Shirt",
+  brand:"DENNISLINGO PREMIUM ATTIRE",
+  price:"487",
+  image1:"https://assets.ajio.com/medias/sys_master/root/20210403/Yf0g/60687031aeb269a9e33233f6/-473Wx593H-461135251-blue-MODEL3.jpg",
+  image2:"https://assets.ajio.com/medias/sys_master/root/20210403/GmQ4/60687031aeb269a9e33233f3/-473Wx593H-461135251-blue-MODEL5.jpg",
+  image3:"https://assets.ajio.com/medias/sys_master/root/20210403/vHdZ/60687031aeb269a9e3323410/-473Wx593H-461135251-blue-MODEL6.jpg",
+  image4:"https://assets.ajio.com/medias/sys_master/root/20210403/Yf0g/60687031aeb269a9e33233f6/-473Wx593H-461135251-blue-MODEL3.jpg"
+},
+{
+  name:"Graphic Print Slim Fit Shirt",
+  brand:"PEPE JEANS",
+  price:"649",
+  image1:"https://assets.ajio.com/medias/sys_master/root/20210617/BXoo/60ca52fbf997ddb312cd3683/-1117Wx1400H-460442258-maroon-MODEL.jpg",
+  image2:"https://assets.ajio.com/medias/sys_master/root/20210617/pSb1/60ca52fbf997ddb312cd369b/-1117Wx1400H-460442258-maroon-MODEL2.jpg",
+  image3:"https://assets.ajio.com/medias/sys_master/root/20210617/dp1o/60ca499eaeb269a9e3eb379c/-1117Wx1400H-460442258-maroon-MODEL3.jpg",
+  image4:"https://assets.ajio.com/medias/sys_master/root/20210617/Tf5v/60ca4ecbf997ddb312cd252f/-1117Wx1400H-460442258-maroon-MODEL4.jpg"
+},
+{
+  name:"Checked Shirt with Patch Pocket",
+  brand:"PEPE JEANS",
+  price:"1299",
+  image1:"https://assets.ajio.com/medias/sys_master/root/20210803/HqmY/61095db37cdb8cb824e872d4/-1117Wx1400H-460419438-grey-MODEL.jpg",
+  image2:"https://assets.ajio.com/medias/sys_master/root/20210803/ZJcc/610965a9f997dd85166aa890/-1117Wx1400H-460419438-grey-MODEL2.jpg",
+  image3:"https://assets.ajio.com/medias/sys_master/root/20210803/H0i7/610966a8aeb269a268671299/-1117Wx1400H-460419438-grey-MODEL3.jpg",
+  image4:"https://assets.ajio.com/medias/sys_master/root/20210803/19OU/6109678f7cdb8cb824e8947a/-1117Wx1400H-460419438-grey-MODEL4.jpg"
+},
+{
+  name:"Striped Slim Fit Shirt",
+  brand:"LOUIS PHILIPPE",
+  price:"2294",
+  image1:"https://assets.ajio.com/medias/sys_master/root/20201105/oGvT/5fa2f504f997dd8c83860b0a/-1117Wx1400H-441101350-navy-MODEL.jpg",
+  image2:"https://assets.ajio.com/medias/sys_master/root/20201105/h1Sd/5fa2f450aeb269d563faed37/-1117Wx1400H-441101350-navy-MODEL2.jpg",
+  image3:"https://assets.ajio.com/medias/sys_master/root/20201105/TgPz/5fa2f39baeb269d563fae759/-1117Wx1400H-441101350-navy-MODEL3.jpg",
+  image4:"https://assets.ajio.com/medias/sys_master/root/20201105/MfBp/5fa2f4d0aeb269d563faf168/-1117Wx1400H-441101350-navy-MODEL4.jpg"
+},
+{
+  name:"Checked Slim Fit Shirt with Patch Pocket",
+  brand:"PEPE JEANS",
+  price:"612",
+  image1:"https://assets.ajio.com/medias/sys_master/root/20210316/JrrR/6050ca22aeb269698187e889/-473Wx593H-460601683-blue-MODEL.jpg",
+  image2:"https://assets.ajio.com/medias/sys_master/root/h26/h68/15814080462878/-473Wx593H-460601683-blue-MODEL3.jpg",
+  image3:"https://assets.ajio.com/medias/sys_master/root/h31/hc6/15814079545374/-473Wx593H-460601683-blue-MODEL4.jpg",
+  image4:"https://assets.ajio.com/medias/sys_master/root/20210316/47fm/6050cc797cdb8c1f1464ef69/-473Wx593H-460601683-blue-MARKETING.jpg"
+},
+{
+  name:"Textured Shirt with Patch Pocket",
+  brand:"LOUIS PHILIPPE",
+  price:"799",
+  image1:"https://assets.ajio.com/medias/sys_master/root/20210311/bsKn/60491288aeb26969817f46bd/-473Wx593H-460842258-mustard-MODEL.jpg",
+  image2:"https://assets.ajio.com/medias/sys_master/root/20210311/Zs4H/60491b71aeb26969817f5d6d/-473Wx593H-460842258-mustard-MODEL3.jpg",
+  image3:"https://assets.ajio.com/medias/sys_master/root/20210311/wSsm/604918a8aeb26969817f56a0/-473Wx593H-460842258-mustard-MODEL5.jpg",
+  image4:"https://assets.ajio.com/medias/sys_master/root/20210311/bqVi/604912097cdb8c1f145db484/-473Wx593H-460842258-mustard-MODEL7.jpg"
+},
+  
 ]
 
