@@ -163,4 +163,17 @@ let kidsShoes = [
     image4:
       "https://assets.ajio.com/medias/sys_master/root/20210716/kVdG/60f07efdf997ddb312282146/-1117Wx1400H-460915081-grey-MODEL4.jpg",
   },
+  {
+    name: "Slingback Flat Shoes with Bow Accent",
+    brand: "D'CHICA",
+    price: 475,
+    image1:
+      "https://assets.ajio.com/medias/sys_master/root/20210702/UPup/60df2b08f997ddb312191981/-1117Wx1400H-460903084-black-MODEL4.jpg",
+    image2:
+      "https://assets.ajio.com/medias/sys_master/root/20210702/zJCB/60df30a0f997ddb312193106/-1117Wx1400H-460903084-black-MODEL5.jpg",
+    image3:
+      "https://assets.ajio.com/medias/sys_master/root/20210702/IXH1/60df35c0f997ddb31219465a/-1117Wx1400H-460903084-black-MODEL3.jpg",
+    image4:
+      "https://assets.ajio.com/medias/sys_master/root/20210702/UPup/60df2b08f997ddb312191981/-1117Wx1400H-460903084-black-MODEL4.jpg",
+  },
 ];
