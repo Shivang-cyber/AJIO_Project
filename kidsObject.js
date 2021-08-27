@@ -1,4 +1,4 @@
-let kids = [
+let kidsShirts = [
   {
     name: "Star Print Shirt with Patch Pocket",
     brand: "612 LEAGUE",
@@ -34,30 +34,7 @@ let kids = [
     image3:
       "https://assets.ajio.com/medias/sys_master/root/20210209/Mltb/6022a96f7cdb8c1f143b13ba/-1117Wx1400H-441035869-green-MODEL3.jpg",
   },
-  {
-    name: "Embellished V-neck Shift Dress",
-    brand: "CUTECUMBER",
-    price: 1795,
-    image1:
-      "https://assets.ajio.com/medias/sys_master/root/20210720/2uJ2/60f5e3d0f997ddb3122c933c/-1117Wx1400H-462643139-black-MODEL.jpg",
-    image2:
-      "https://assets.ajio.com/medias/sys_master/root/20210720/SWsZ/60f5e3d0f997ddb3122c9382/-1117Wx1400H-462643139-black-MODEL2.jpg",
-    image3:
-      "https://assets.ajio.com/medias/sys_master/root/20210720/y2In/60f5e3d0f997ddb3122c937c/-1117Wx1400H-462643139-black-MODEL3.jpg",
-    image4:
-      "https://assets.ajio.com/medias/sys_master/root/20210720/veYe/60f5e3d0f997ddb3122c939f/-1117Wx1400H-462643139-black-MODEL4.jpg",
-  },
-  {
-    name: "Graphic Print Tank T-shirt",
-    brand: "RIO GIRLS",
-    price: 900,
-    image1:
-      "https://assets.ajio.com/medias/sys_master/root/20210312/odPX/604b616daeb26969818263d8/-1117Wx1400H-441118318-white-MODEL.jpg",
-    image2:
-      "https://assets.ajio.com/medias/sys_master/root/20210312/0Kio/604b5f927cdb8c1f14600e7e/-1117Wx1400H-441118318-white-MODEL2.jpg",
-    image3:
-      "https://assets.ajio.com/medias/sys_master/root/20210312/Y4A4/604b5f99aeb2696981825df5/-1117Wx1400H-441118318-white-MODEL3.jpg",
-  },
+
   {
     name: "Logo Print Zip-Front Hoodie",
     brand: "GAP",
@@ -94,5 +71,54 @@ let kids = [
       "https://assets.ajio.com/medias/sys_master/root/20210415/0Br7/60783370f997dd7b64b2dfd9/-1117Wx1400H-441118718-yellow-MODEL2.jpg",
     image3:
       "https://assets.ajio.com/medias/sys_master/root/20210415/o1Bd/607835adf997dd7b64b2ed2f/-1117Wx1400H-441118718-yellow-MODEL3.jpg",
+  },
+];
+
+let girlsDress = [
+  {
+    name: "Graphic Print Tank T-shirt",
+    brand: "RIO GIRLS",
+    price: 900,
+    image1:
+      "https://assets.ajio.com/medias/sys_master/root/20210312/odPX/604b616daeb26969818263d8/-1117Wx1400H-441118318-white-MODEL.jpg",
+    image2:
+      "https://assets.ajio.com/medias/sys_master/root/20210312/0Kio/604b5f927cdb8c1f14600e7e/-1117Wx1400H-441118318-white-MODEL2.jpg",
+    image3:
+      "https://assets.ajio.com/medias/sys_master/root/20210312/Y4A4/604b5f99aeb2696981825df5/-1117Wx1400H-441118318-white-MODEL3.jpg",
+  },
+  {
+    name: "Embellished V-neck Shift Dress",
+    brand: "CUTECUMBER",
+    price: 1795,
+    image1:
+      "https://assets.ajio.com/medias/sys_master/root/20210720/2uJ2/60f5e3d0f997ddb3122c933c/-1117Wx1400H-462643139-black-MODEL.jpg",
+    image2:
+      "https://assets.ajio.com/medias/sys_master/root/20210720/SWsZ/60f5e3d0f997ddb3122c9382/-1117Wx1400H-462643139-black-MODEL2.jpg",
+    image3:
+      "https://assets.ajio.com/medias/sys_master/root/20210720/y2In/60f5e3d0f997ddb3122c937c/-1117Wx1400H-462643139-black-MODEL3.jpg",
+    image4:
+      "https://assets.ajio.com/medias/sys_master/root/20210720/veYe/60f5e3d0f997ddb3122c939f/-1117Wx1400H-462643139-black-MODEL4.jpg",
+  },
+  {
+    name: "Graphic Print Top",
+    brand: "KG FRENDZ",
+    price: 1795,
+    image1:
+      "https://assets.ajio.com/medias/sys_master/root/20210112/7Qaa/5ffca8157cdb8c1f1425e375/-1117Wx1400H-441111291-white-MODEL.jpg",
+    image2:
+      "https://assets.ajio.com/medias/sys_master/root/20210112/vu0P/5ffc99ebf997dd5c40d40537/-1117Wx1400H-441111291-white-MODEL2.jpg",
+    image3:
+      "https://assets.ajio.com/medias/sys_master/root/20210112/fokt/5ffca5bfaeb26969814b2855/-1117Wx1400H-441111291-white-MODEL3.jpg",
+  },
+  {
+    name: "Floral A-line Dress",
+    brand: "TINY GIRL",
+    price: 1235,
+    image1:
+      "https://assets.ajio.com/medias/sys_master/root/20201217/RiCh/5fda996cf997dd8c83d01b13/-1117Wx1400H-460796719-gray-MODEL.jpg",
+    image2:
+      "https://assets.ajio.com/medias/sys_master/root/20201217/1aed/5fda9762aeb269d5634110d0/-1117Wx1400H-460796719-gray-MODEL2.jpg",
+    image3:
+      "https://assets.ajio.com/medias/sys_master/root/20201217/yQH8/5fda9807f997dd8c83d00ff2/-1117Wx1400H-460796719-gray-MODEL3.jpg",
   },
 ];
