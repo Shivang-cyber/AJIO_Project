@@ -83,7 +83,6 @@
       .dropdown-content {
         display: none;
         position: fixed;
-        background-color: #f9f9f9;
         background-color: rgb(255, 255, 255);
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         top: 94px;
@@ -206,6 +205,7 @@
         color: #3d5060;
         border: none;
         background-color: white;
+        cursor: pointer;
       }
       #searLink {
         height: 78px;
@@ -500,30 +500,48 @@
                   <h5>NEW IN: FOOTWEAR & ACCS</h5>
                   <h5>INTERNATIONAL BRANDS</h5>
                   <h5>WESTERN WEAR</h5>
-                  <p><button onclick="cato(menjackets)">Jackets & Coats</button></p>
-                  <p><button>Jeans</button></p>
-                  <p><button>Shirts</button></p>
-                  <p><button>Shorts & 3/4ths</button></p>
-                  <p><button>Seatshirts & Hoodies</button></p>
-                  <p><button>Tracks Pants</button></p>
-                  <p><button>Trousers & Pants</button></p>
-                  <p><button>T-Shirts</button></p>
+                  <p>
+                    <button onclick="cato(menjackets)">Jackets & Coats</button>
+                  </p>
+                  <p><button onclick="cato(menpants)">Jeans</button></p>
+                  <p><button onclick="cato(menshirts)">Shirts</button></p>
+                  <p>
+                    <button onclick="cato(menpants)">Shorts & 3/4ths</button>
+                  </p>
+                  <p>
+                    <button onclick="cato(menjackets)">
+                      Seatshirts & Hoodies
+                    </button>
+                  </p>
+                  <p>
+                    <button onclick="cato(mentrackpants)">Tracks Pants</button>
+                  </p>
+                  <p>
+                    <button onclick="cato(menpants)">Trousers & Pants</button>
+                  </p>
+                  <p><button onclick="cato(menshirts)">T-Shirts</button></p>
                   <h5>ETHNIC & FESTIVE</h5>
-                  <p><button>Kurtas And Shirts</button></p>
-                  <p><button>Nehru Jackets</button></p>
+                  <p>
+                    <button onclick="cato(Kurtas)">Kurtas And Shirts</button>
+                  </p>
+                  <p><button onclick="cato(Kurtas)">Nehru Jackets</button></p>
                 </div>
                 <div>
                   <h5>FOOTWEAR</h5>
-                  <p><button>Casual Shoes</button></p>
-                  <p><button>Flip-Flops & Slippers</button></p>
-                  <p><button>Formal Shoes</button></p>
-                  <p><button>Sandals</button></p>
-                  <p><button>Sneakers</button></p>
-                  <p><button>Sports Shoes</button></p>
+                  <p><button onclick="cato(menshoe)">Casual Shoes</button></p>
+                  <p>
+                    <button onclick="cato(menshoe)">
+                      Flip-Flops & Slippers
+                    </button>
+                  </p>
+                  <p><button onclick="cato(menshoe)">Formal Shoes</button></p>
+                  <p><button onclick="cato(menshoe)">Sandals</button></p>
+                  <p><button onclick="cato(menshoe)">Sneakers</button></p>
+                  <p><button onclick="cato(menshoe)">Sports Shoes</button></p>
                   <h5>NIGHT & LOUNGEWEAR</h5>
-                  <p><button>Briefs</button></p>
-                  <p><button>Trunks</button></p>
-                  <p><button>Vests</button></p>
+                  <p><button onclick="cato(menpants)">Briefs</button></p>
+                  <p><button onclick="cato(menpants)">Trunks</button></p>
+                  <p><button onclick="cato(menshirts)">Vests</button></p>
                 </div>
                 <div>
                   <h5>ACCESSORIES</h5>
@@ -544,9 +562,17 @@
                 <div>
                   <h5>FEATURED</h5>
                   <p><button>Bags Under 1499</button></p>
-                  <p><button>Footwear Under 1499</button></p>
-                  <p><button>Jeans Under 1199</button></p>
-                  <p><button>Shorts & 3/4ths Under 699</button></p>
+                  <p>
+                    <button onclick="cato(menshoe)">Footwear Under 1499</button>
+                  </p>
+                  <p>
+                    <button onclick="cato(menpants)">Jeans Under 1199</button>
+                  </p>
+                  <p>
+                    <button onclick="cato(menpants)">
+                      Shorts & 3/4ths Under 699
+                    </button>
+                  </p>
                   <h5>#AJIORECOMMENDS</h5>
                   <p><button>Play Time</button></p>
                 </div>
@@ -568,39 +594,61 @@
                   <h5>NEW IN: CLOTHING</h5>
                   <h5>NEW IN: FOOTWEAR & ACCS</h5>
                   <h5>WESTERN WEAR</h5>
-                  <p><button>Tops</button></p>
-                  <p><button>T-Shirts</button></p>
-                  <p><button>Jeans & Jeggings</button></p>
-                  <p><button>Dresses</button></p>
-                  <p><button>Trousers & Pants</button></p>
-                  <p><button>Shirts</button></p>
-                  <p><button>Tracks Pants</button></p>
-                  <p><button>Skirts & Shorts</button></p>
-                  <p><button>Jackets & Coats</button></p>
-                  <p><button>Jumpsuits & Playsuits</button></p>
-                  <p><button>Shrugs & Boleros</button></p>
-                  <p><button>Seatshirts & Hoodies</button></p>
-                  <p><button>Sweater & Cardigans</button></p>
+                  <p><button onclick="cato(WTops)">Tops</button></p>
+                  <p><button onclick="cato(WTshirt)">T-Shirts</button></p>
+                  <p>
+                    <button onclick="cato(WJeans)">Jeans & Jeggings</button>
+                  </p>
+                  <p><button onclick="cato(WDress)">Dresses</button></p>
+                  <p>
+                    <button onclick="cato(WJeans)">Trousers & Pants</button>
+                  </p>
+                  <p><button onclick="cato(Wshirts)">Shirts</button></p>
+                  <p><button onclick="cato(WJeans)">Tracks Pants</button></p>
+                  <p><button onclick="cato(WDress)">Skirts & Shorts</button></p>
+                  <p><button onclick="cato(WTops)">Jackets & Coats</button></p>
+                  <p>
+                    <button onclick="cato(WTops)">Jumpsuits & Playsuits</button>
+                  </p>
+                  <p><button onclick="cato(WTops)">Shrugs & Boleros</button></p>
+                  <p>
+                    <button onclick="cato(WTops)">Seatshirts & Hoodies</button>
+                  </p>
+                  <p>
+                    <button onclick="cato(WTops)">Sweater & Cardigans</button>
+                  </p>
                 </div>
                 <div>
                   <h5>ETHNIC WEAR</h5>
-                  <p><button>Kurtas</button></p>
-                  <p><button>Salwars & Churidars</button></p>
-                  <p><button>Kurtis & Tunics</button></p>
-                  <p><button>Sarees</button></p>
-                  <p><button>Dupattas</button></p>
-                  <p><button>Dress Material</button></p>
-                  <p><button>Kurta Suit sets</button></p>
-                  <p><button>Blouses</button></p>
-                  <p><button>Leggings</button></p>
-                  <p><button>Jackets & Shrugs</button></p>
-                  <p><button>Shirts & Ghagras</button></p>
-                  <p><button>Shawls & Wraps</button></p>
-                  <p><button>Palazzos & Culottes</button></p>
+                  <p><button onclick="cato(WKurtis)">Kurtas</button></p>
+                  <p>
+                    <button onclick="cato(WKurtis)">Salwars & Churidars</button>
+                  </p>
+                  <p>
+                    <button onclick="cato(WKurtis)">Kurtis & Tunics</button>
+                  </p>
+                  <p><button onclick="cato(WSarees)">Sarees</button></p>
+                  <p><button onclick="cato(WKurtis)">Dupattas</button></p>
+                  <p><button onclick="cato(WDress)">Dress Material</button></p>
+                  <p>
+                    <button onclick="cato(WKurtis)">Kurta Suit sets</button>
+                  </p>
+                  <p><button onclick="cato(WTops)">Blouses</button></p>
+                  <p><button onclick="cato(WJeans)">Leggings</button></p>
+                  <p><button onclick="cato(WTops)">Jackets & Shrugs</button></p>
+                  <p>
+                    <button onclick="cato(Wshirts)">Shirts & Ghagras</button>
+                  </p>
+                  <p><button onclick="cato(WKurtis)">Shawls & Wraps</button></p>
+                  <p>
+                    <button onclick="cato(WDress)">Palazzos & Culottes</button>
+                  </p>
                   <h5>LINGERIE & INNERWEAR</h5>
-                  <p><button>Bras</button></p>
-                  <p><button>Panties</button></p>
-                  <p><button>Camisoles & Slips</button></p>
+                  <p><button onclick="cato(WTops)">Bras</button></p>
+                  <p><button onclick="cato(WJeans)">Panties</button></p>
+                  <p>
+                    <button onclick="cato(WJeans)">Camisoles & Slips</button>
+                  </p>
                 </div>
                 <div>
                   <h5>WINTER</h5>
@@ -612,29 +660,47 @@
                   <h5>FUSION WEAR</h5>
                   <p><button>Dresses & Gowns</button></p>
                   <p><button>Kurtas</button></p>
-                  <p><button>Kurtis & Tunics</button></p>
-                  <p><button>Pants & Shorts</button></p>
-                  <p><button>Jackets & Shrugs</button></p>
-                  <p><button>Shirts, Tops & Tunics</button></p>
+                  <p>
+                    <button onclick="cato(WKurtis)">Kurtis & Tunics</button>
+                  </p>
+                  <p><button onclick="cato(WJeans)">Pants & Shorts</button></p>
+                  <p><button onclick="cato(WTops)">Jackets & Shrugs</button></p>
+                  <p>
+                    <button onclick="cato(Wshirts)">
+                      Shirts, Tops & Tunics
+                    </button>
+                  </p>
                   <h5>FASHION JEWELLERY</h5>
                   <h5>BAGS, BELTS & WALLETS</h5>
                 </div>
                 <div>
                   <h5>FOOTWEAR</h5>
-                  <p><button>Casual Shoes</button></p>
-                  <p><button>Flats Sandals</button></p>
-                  <p><button>Sports Shoes</button></p>
-                  <p><button>Flip Flop & Slippers</button></p>
-                  <p><button>Heeled Sandals</button></p>
-                  <p><button>Heeled Shoes</button></p>
-                  <p><button>Boots</button></p>
+                  <p><button onclick="cato(WSandals)">Casual Shoes</button></p>
+                  <p><button onclick="cato(WSandals)">Flats Sandals</button></p>
+                  <p><button onclick="cato(WSandals)">Sports Shoes</button></p>
+                  <p>
+                    <button onclick="cato(WSandals)">
+                      Flip Flop & Slippers
+                    </button>
+                  </p>
+                  <p>
+                    <button onclick="cato(WSandals)">Heeled Sandals</button>
+                  </p>
+                  <p><button onclick="cato(WSandals)">Heeled Shoes</button></p>
+                  <p><button onclick="cato(WSandals)">Boots</button></p>
                   <h5>SUNGLASSES & FRAMES</h5>
                   <h5>WATCHES</h5>
                   <h5>FEATURED</h5>
-                  <p><button>Dresses Under 999</button></p>
-                  <p><button>Footwear Under 799</button></p>
-                  <p><button>Sarees Under 799</button></p>
-                  <p><button>Top Under 499</button></p>
+                  <p>
+                    <button onclick="cato(WDress)">Dresses Under 999</button>
+                  </p>
+                  <p>
+                    <button onclick="cato(WSandals)">Footwear Under 799</button>
+                  </p>
+                  <p>
+                    <button onclick="cato(WSarees)">Sarees Under 799</button>
+                  </p>
+                  <p><button onclick="cato(WTops)">Top Under 499</button></p>
                   <h5>#AJIORECOMMENDS</h5>
                   <p><button>Play Time</button></p>
                 </div>
@@ -649,7 +715,6 @@
               <div class="catog">
                 <p>Shop By:</p>
                 <p>CATEGORIES</p>
-                <p>BRANDS</p>
               </div>
               <div class="part">
                 <div>
@@ -657,37 +722,65 @@
                   <h5>NEW IN: FOOTWEAR & ACCS</h5>
                   <h5>INNERWEAR & SLEEPWEAR</h5>
                   <h5>BOYS</h5>
-                  <p><button>Denims & Trousers</button></p>
-                  <p><button>Joggers & Tracks Pants</button></p>
-                  <p><button>Outerwear</button></p>
-                  <p><button>Shirts</button></p>
-                  <p><button>Shorts & 3/4ths</button></p>
-                  <p><button>T-Shirts</button></p>
+                  <p>
+                    <button onclick="cato(kidsShirts)">
+                      Denims & Trousers
+                    </button>
+                  </p>
+                  <p>
+                    <button onclick="cato(kidsShirts)">
+                      Joggers & Tracks Pants
+                    </button>
+                  </p>
+                  <p><button onclick="cato(kidsShirts)">Outerwear</button></p>
+                  <p><button onclick="cato(kidsShirts)">Shirts</button></p>
+                  <p>
+                    <button onclick="cato(kidsShirts)">Shorts & 3/4ths</button>
+                  </p>
+                  <p><button onclick="cato(kidsShirts)">T-Shirts</button></p>
                   <h5>SHOP BY AGE</h5>
-                  <p><button>0-2 Years</button></p>
-                  <p><button>2-5 Years</button></p>
-                  <p><button>5-10 Years</button></p>
-                  <p><button>10-14 Years</button></p>
+                  <p><button onclick="cato(kidsShirts)">0-2 Years</button></p>
+                  <p><button onclick="cato(kidsShirts)">2-5 Years</button></p>
+                  <p><button onclick="cato(kidsShirts)">5-10 Years</button></p>
+                  <p><button onclick="cato(kidsShirts)">10-14 Years</button></p>
                 </div>
                 <div>
                   <h5>FEATURED</h5>
-                  <p><button>Denims Under 799</button></p>
-                  <p><button>Shirts Under 599</button></p>
+                  <p>
+                    <button onclick="cato(kidsShirts)">Denims Under 799</button>
+                  </p>
+                  <p>
+                    <button onclick="cato(kidsShirts)">Shirts Under 599</button>
+                  </p>
                   <p><button>T-Shirts Under 399</button></p>
                   <h5>GIRLS</h5>
-                  <p><button>Dresses & Frocks</button></p>
-                  <p><button>Jeans & Jeggings</button></p>
-                  <p><button>Leggings</button></p>
-                  <p><button>Outerwear</button></p>
-                  <p><button>Skirts & Shorts</button></p>
-                  <p><button>Tops & T-Shirts</button></p>
+                  <p>
+                    <button onclick="cato(girlsDress)">Dresses & Frocks</button>
+                  </p>
+                  <p>
+                    <button onclick="cato(girlsDress)">Jeans & Jeggings</button>
+                  </p>
+                  <p><button onclick="cato(girlsDress)">Leggings</button></p>
+                  <p><button onclick="cato(girlsDress)">Outerwear</button></p>
+                  <p>
+                    <button onclick="cato(girlsDress)">Skirts & Shorts</button>
+                  </p>
+                  <p>
+                    <button onclick="cato(girlsDress)">Tops & T-Shirts</button>
+                  </p>
                   <h5>SHOP BY AGE</h5>
-                  <p><button>2-5 Years</button></p>
-                  <p><button>5-10 Years</button></p>
-                  <p><button>10-14 Years</button></p>
+                  <p><button onclick="cato(girlsDress)">2-5 Years</button></p>
+                  <p><button onclick="cato(girlsDress)">5-10 Years</button></p>
+                  <p><button onclick="cato(girlsDress)">10-14 Years</button></p>
                   <h5>FEATURED</h5>
-                  <p><button>Dresses Under 499</button></p>
-                  <p><button>Tops Under 399</button></p>
+                  <p>
+                    <button onclick="cato(girlsDress)">
+                      Dresses Under 499
+                    </button>
+                  </p>
+                  <p>
+                    <button onclick="cato(girlsDress)">Tops Under 399</button>
+                  </p>
                 </div>
                 <div>
                   <h5>BABY</h5>
@@ -733,7 +826,6 @@
               <div class="catog">
                 <p>Shop By:</p>
                 <p>CATEGORIES</p>
-                <p>BRANDS</p>
               </div>
               <div class="part">
                 <div>
@@ -743,17 +835,27 @@
                   <h5>NEW IN: FOOTWEAR & ACCS</h5>
                   <h5>NEW IN: HOME</h5>
                   <h5>CLOTHING</h5>
-                  <p><button>Sarees</button></p>
-                  <p><button>Kurtas</button></p>
-                  <p><button>Dresses</button></p>
-                  <p><button>Tops & Tunics</button></p>
-                  <p><button>Dupattas</button></p>
-                  <p><button>Dress Materials</button></p>
-                  <p><button>Blouses & Blouse Fabrics</button></p>
-                  <p><button>Pants Skirts & Palazzos</button></p>
+                  <p><button onclick="cato(Indie_Saree)">Sarees</button></p>
+                  <p><button onclick="cato(kurtas)">Kurtas</button></p>
+                  <p><button onclick="cato(Dresses)">Dresses</button></p>
+                  <p><button onclick="cato(Tops)">Tops & Tunics</button></p>
+                  <p><button onclick="cato(Tops)">Dupattas</button></p>
+                  <p>
+                    <button onclick="cato(Dresses)">Dress Materials</button>
+                  </p>
+                  <p>
+                    <button onclick="cato(Tops)">
+                      Blouses & Blouse Fabrics
+                    </button>
+                  </p>
+                  <p>
+                    <button onclick="cato(Dresses)">
+                      Pants Skirts & Palazzos
+                    </button>
+                  </p>
                   <h5>FOOTWEAR</h5>
-                  <p><button>Chappals</button></p>
-                  <p><button>Juttis</button></p>
+                  <p><button onclick="cato(WSandals)">Chappals</button></p>
+                  <p><button onclick="cato(Juttis)">Juttis</button></p>
                 </div>
                 <div>
                   <h5>FASHION JEWELLERY</h5>
@@ -766,10 +868,14 @@
                   <p><button>Shawls & Wraps</button></p>
                   <p><button>Stoles & Scarves</button></p>
                   <h5>MENSWEAR</h5>
-                  <p><button>Kurtas</button></p>
-                  <p><button>Nehru Jackets and Ties</button></p>
-                  <p><button>Shirts</button></p>
-                  <p><button>Footwear</button></p>
+                  <p><button onclick="cato(Kurtas)">Kurtas</button></p>
+                  <p>
+                    <button onclick="cato(menshirts)">
+                      Nehru Jackets and Ties
+                    </button>
+                  </p>
+                  <p><button onclick="cato(menshirts)">Shirts</button></p>
+                  <p><button onclick="cato(Juttis)">Footwear</button></p>
                   <h5>HOME</h5>
                   <h5>WORLD CRAFTS</h5>
                 </div>
@@ -797,12 +903,39 @@
                 </div>
                 <div>
                   <h5>FEATURED BRANDS</h5>
-                  <p><button>Indie Picks</button></p>
-                  <p><button>Footwear Under 1499</button></p>
-                  <p><button>Jeans Under 1199</button></p>
-                  <p><button>Shorts & 3/4ths Under 699</button></p>
-                  <h5>#AJIORECOMMENDS</h5>
-                  <p><button>Play Time</button></p>
+                  <p>
+                    <button onclick="cato(Indie_Saree)">Indie Picks</button>
+                  </p>
+                  <p>
+                    <button onclick="cato(Indie_Saree)">
+                      Indie Picks By AJIO
+                    </button>
+                  </p>
+                  <p>
+                    <button onclick="cato(Indie_Saree)">
+                      Indie Picks Essentials
+                    </button>
+                  </p>
+                  <p><button onclick="cato(Indie_Saree)">Molcha</button></p>
+                  <p><button onclick="cato(WDress)">Pretty Woman</button></p>
+                  <p><button>Swadesh</button></p>
+                  <p><button>Pothys</button></p>
+                  <p><button>Rudrakaashe By MSU</button></p>
+                  <h5>FEATURED</h5>
+                  <p>
+                    <button onclick="cato(Indie_Saree)">
+                      Sarees Under 999
+                    </button>
+                  </p>
+                  <p>
+                    <button onclick="cato(kurtas)">
+                      Kurtas And Sets At 1499
+                    </button>
+                  </p>
+                  <p><button>Dupattas Undedr 499</button></p>
+                  <p><button>Earring Under 299</button></p>
+                  <h5>CELEBRATION</h5>
+                  <p><button>Handpicked Loom</button></p>
                 </div>
               </div>
             </div>
@@ -815,64 +948,68 @@
               <div class="catog">
                 <p>Shop By:</p>
                 <p>CATEGORIES</p>
-                <p>BRANDS</p>
               </div>
               <div class="part">
                 <div>
-                  <h5>NEW IN: CLOTHING</h5>
-                  <h5>NEW IN: FOOTWEAR & ACCS</h5>
-                  <h5>INTERNATIONAL BRANDS</h5>
-                  <h5>WESTERN WEAR</h5>
-                  <p><button>Jackets & Coats</button></p>
-                  <p><button>Jeans</button></p>
-                  <p><button>Shirts</button></p>
-                  <p><button>Shorts & 3/4ths</button></p>
-                  <p><button>Seatshirts & Hoodies</button></p>
-                  <p><button>Tracks Pants</button></p>
-                  <p><button>Trousers & Pants</button></p>
-                  <p><button>T-Shirts</button></p>
-                  <h5>ETHNIC & FESTIVE</h5>
-                  <p><button>Kurtas And Shirts</button></p>
-                  <p><button>Nehru Jackets</button></p>
+                  <h5>NEW IN: HOME</h5>
+                  <h5>BED LINEN</h5>
+                  <p><button onclick="cato(bedsheet)">Bedsheeets</button></p>
+                  <p>
+                    <button onclick="cato(Bedcover_sets)">
+                      Bedcovers & Sets
+                    </button>
+                  </p>
+                  <p>
+                    <button onclick="cato(blanket)">
+                      Blankets, Dohars & Quilts
+                    </button>
+                  </p>
+                  <h5>CUSHIONS & COVERS</h5>
+                  <h5>CURTAINS & ACCESSORIES</h5>
+                  <h5>CARPETS, RUGS & DHURRIES</h5>
+                  <h5>DINING & KITCHEN</h5>
+                  <h5>BATH</h5>
+                  <h5>HOME DECOR</h5>
+                  <p><button>Aromas & Candles</button></p>
+                  <p><button>Artifacts</button></p>
+                  <p><button>Wall Arts</button></p>
+                  <h5>STATIONERY</h5>
                 </div>
                 <div>
-                  <!-- bshbisa -->
-                  <h5>FOOTWEAR</h5>
-                  <p><button>Casual Shoes</button></p>
-                  <p><button>Flip-Flops & Slippers</button></p>
-                  <p><button>Formal Shoes</button></p>
-                  <p><button>Sandals</button></p>
-                  <p><button>Sneakers</button></p>
-                  <p><button>Sports Shoes</button></p>
-                  <h5>NIGHT & LOUNGEWEAR</h5>
-                  <p><button>Briefs</button></p>
-                  <p><button>Trunks</button></p>
-                  <p><button>Vests</button></p>
+                  <h5>FEATURED STORIES</h5>
+                  <p><button>Cushion Covers Under 499</button></p>
+                  <p><button>Bedsheet Under 999</button></p>
+                  <p><button>Wall Painting Under 499</button></p>
+                  <p><button>Curtains Under 1499</button></p>
+                  <p><button>Mats Under 499</button></p>
+                  <p><button>Gift Zone Upto 75 Percecnt Off</button></p>
+                  <p><button>Heritage Of India</button></p>
+                  <h5>EXCLUSIVE BRANDS</h5>
+                  <p><button>Indie Picks</button></p>
+                  <p><button>Muji</button></p>
                 </div>
                 <div>
-                  <h5>ACCESSORIES</h5>
-                  <p><button>Backpacks</button></p>
-                  <p><button>Bags & Wallets</button></p>
-                  <p><button>Belts</button></p>
-                  <p><button>Caps & Hats</button></p>
-                  <p><button>Fashion Accesories</button></p>
-                  <p><button>Socks</button></p>
-                  <p><button>Sunglasses & Frames</button></p>
-                  <p><button>Wallets</button></p>
-                  <p><button>Watches</button></p>
-                  <h5>WINTERWEAR</h5>
-                  <h5>PRECIOUS JEWELLERY</h5>
-                  <h5>HOME & KITCHEN</h5>
-                  <h5>GROOMING</h5>
-                </div>
-                <div>
-                  <h5>FEATURED</h5>
-                  <p><button>Bags Under 1499</button></p>
-                  <p><button>Footwear Under 1499</button></p>
-                  <p><button>Jeans Under 1199</button></p>
-                  <p><button>Shorts & 3/4ths Under 699</button></p>
-                  <h5>#AJIORECOMMENDS</h5>
-                  <p>Play Time</p>
+                  <h5>FEATURED BRANDS</h5>
+                  <p><button>Swayam</button></p>
+                  <p><button>Ddecor</button></p>
+                  <p><button>Maspar</button></p>
+                  <p><button>Trident</button></p>
+                  <p><button>Story At Home</button></p>
+                  <p><button>Raymond Home</button></p>
+                  <p><button>Sej By Nisha Gupta</button></p>
+                  <p><button>Chumbak</button></p>
+                  <p><button>Layers</button></p>
+                  <p><button>Bellacasa</button></p>
+                  <p><button>Romee</button></p>
+                  <p><button>Arrabi</button></p>
+                  <p><button>Bianca</button></p>
+                  <p><button>Home Sizzler</button></p>
+                  <p><button>House This</button></p>
+                  <p><button>Houzzcode</button></p>
+                  <p><button>Salona Bichona</button></p>
+                  <p><button>Sheen Decor</button></p>
+                  <p><button>Shades of Life</button></p>
+                  <p><button>Soumya</button></p>
                 </div>
               </div>
             </div>
@@ -998,17 +1135,17 @@
 <script>
   // First drop down menu
   var abb = []
-function cato(arr) {
-  console.log(5);
-   var len = abb.length
-   if (len!=0) {
-    abb = []
-   }
-   abb.push(arr)
-   let ABB = JSON.stringify(abb)
-   localStorage.setItem('CATO',ABB)
-   window.open('catologue.html')
-}
+  function cato(arr) {
+    console.log(5)
+    var len = abb.length
+    if (len != 0) {
+      abb = []
+    }
+    abb.push(arr)
+    let ABB = JSON.stringify(abb)
+    localStorage.setItem('CATO', ABB)
+    window.open('catologue.html')
+  }
 
   var front_1 = [
     {
@@ -1055,7 +1192,7 @@ function cato(arr) {
   // First carousel
   var k = document.getElementById('block1')
   var an = document.createElement('IMG')
-  an.setAttribute('width', '100%')
+  an.setAttribute('min-width', '1800px')
   an.setAttribute('height', '619')
   an.setAttribute('class', 'in-left')
   an.src = front_1[0].img1
@@ -1063,7 +1200,7 @@ function cato(arr) {
   // second carousel
   var k1 = document.getElementById('block5')
   var ans = document.createElement('IMG')
-  ans.setAttribute('width', '100%')
+  an.setAttribute('min-width', '1800px')
   ans.setAttribute('height', '619')
   ans.setAttribute('class', 'in-left')
   ans.src = front_4[0].img
@@ -1071,7 +1208,7 @@ function cato(arr) {
   // First Wide Imagery
   var k2 = document.getElementById('block2')
   var ant = document.createElement('IMG')
-  ant.setAttribute('width', '100%')
+  an.setAttribute('min-width', '1800px')
   ant.setAttribute('height', '149')
   ant.src = front_2[0].img
   k2.appendChild(ant)
@@ -1079,7 +1216,7 @@ function cato(arr) {
   // Second Wide Imagery
   var k3 = document.getElementById('block3')
   var anu = document.createElement('IMG')
-  anu.setAttribute('width', '100%')
+  an.setAttribute('min-width', '1800px')
   anu.setAttribute('height', '85')
   anu.src = front_2[1].img
   k3.appendChild(anu)
@@ -1087,7 +1224,7 @@ function cato(arr) {
   // Third Wide Imagery
   var k4 = document.getElementById('block4')
   var anv = document.createElement('IMG')
-  anv.setAttribute('width', '100%')
+  an.setAttribute('min-width', '1800px')
   anv.setAttribute('height', '621')
   anv.src = front_2[2].img
   k4.appendChild(anv)
@@ -1128,13 +1265,13 @@ function cato(arr) {
   ]
   var k5 = document.getElementById('block7')
   var anw = document.createElement('IMG')
-  anw.setAttribute('width', '100%')
+  an.setAttribute('min-width', '1800px')
   anw.setAttribute('height', '85')
   anw.src = block6[0].img
   k5.appendChild(anw)
   var k6 = document.getElementById('block7')
   var anx = document.createElement('IMG')
-  anx.setAttribute('width', '100%')
+  an.setAttribute('min-width', '1800px')
   anx.setAttribute('height', '140')
   anx.src = block6[5].img
   k6.appendChild(anx)
