@@ -22,6 +22,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script
       src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
       data-auto-a11y="true"
@@ -32,7 +34,6 @@
       }
       * {
         margin: 0;
-        font-family: 'Roboto', sans-serif;
       }
       a {
         text-decoration: none;
@@ -272,6 +273,7 @@
         width: 75%;
         margin: auto;
         display: flex;
+        font-family: 'Lora', serif;
       }
       #CRT_SW {
         width: 70%;
@@ -280,20 +282,85 @@
       #TOT_SW {
         width: 30%;
         height: 100%;
-        background-color: violet;
       }
       #M {
-        background-color: yellow;
         display: flex;
         align-items: baseline;
+        font-family: 'Lora', serif;
       }
       #M > p,
       #M > h2 {
-        padding: 5px;
+        padding: 15px;
       }
       #BRT {
         background-color: yellowgreen;
         height: 80%;
+        width: 98%;
+        margin: auto;
+        margin-top: 10px;
+      }
+      #TOT_SW > div {
+        width: 90%;
+        background-color: rgb(250, 250, 250);
+
+        margin: auto;
+        border: 1px solid rgb(204, 204, 204);
+      }
+      #TOT_SW > div > div:nth-child(1) {
+        width: 90%;
+        margin: auto;
+        height: 50px;
+        background-color: rgb(254, 251, 228);
+        margin-top: 20px;
+        text-align: right;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      #TOT_SW > div > div > p {
+        margin-right: 15px;
+        color: rgb(23, 109, 168);
+        font-weight: 700;
+      }
+      #TOT_SW > div > div:nth-child(2) {
+        margin-left: 18px;
+        margin-top: 10px;
+        font-size: 16px;
+      }
+      #TOT_SW > div > button {
+        width: 100%;
+        height: 60px;
+        border: none;
+        background-color: rgb(213, 162, 73);
+        color: white;
+        font-weight: 600;
+        letter-spacing: 1.1px;
+        font-size: 14px;
+        margin-top: 22px;
+        cursor: pointer;
+      }
+      .BR {
+        display: flex;
+        margin-left: 20px;
+        margin-top: 13px;
+      }
+      .BR > div:nth-child(1) {
+        font-size: 14px;
+        width: 50%;
+      }
+      #bold {
+        font-weight: 700;
+      }
+      #AA,
+      #AB,
+      #AC,
+      #AD {
+        width: 50%;
+        font-size: 13px;
+        text-align: right;
+        margin-right: 20px;
       }
     </style>
   </head>
@@ -338,7 +405,29 @@
           </div>
           <div id="BRT"></div>
         </div>
-        <div id="TOT_SW"></div>
+        <div id="TOT_SW">
+          <div>
+            <div><p>What is AJIO Wallet?</p></div>
+            <div><h4>Order Details</h4></div>
+            <div class="BR">
+              <div>Bag total</div>
+              <div id="AA"></div>
+            </div>
+            <div class="BR">
+              <div>Bag Discount</div>
+              <div id="AB" style="color: rgb(176, 153, 117)"></div>
+            </div>
+            <div class="BR">
+              <div>Delivery</div>
+              <div id="AC" style="color: rgb(176, 153, 117)">FREE</div>
+            </div>
+            <div class="BR" id="bold">
+              <div>Total Amount</div>
+              <div id="AD"></div>
+            </div>
+            <button id="BUT">PROCEED TO SHIPPING</button>
+          </div>
+        </div>
       </div>
 
       <div id="EMP">
