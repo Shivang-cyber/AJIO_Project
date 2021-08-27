@@ -238,7 +238,7 @@
         margin-top: 10px;
       }
       .A {
-        position: fixed;
+        position: absolute;
         font-size: 15px;
         overflow: hidden;
         z-index: 5;
@@ -1193,40 +1193,40 @@
   // First carousel
   var k = document.getElementById('block1')
   var an = document.createElement('IMG')
-  an.setAttribute('min-width', '1800px')
-  an.setAttribute('height', '619')
+  an.setAttribute('width', '100%')
+  an.setAttribute('height', '30%')
   an.setAttribute('class', 'in-left')
   an.src = front_1[0].img1
 
   // second carousel
   var k1 = document.getElementById('block5')
   var ans = document.createElement('IMG')
-  an.setAttribute('min-width', '1800px')
-  ans.setAttribute('height', '619')
+  ans.setAttribute('width', '100%')
+  ans.setAttribute('height', '30%')
   ans.setAttribute('class', 'in-left')
   ans.src = front_4[0].img
 
   // First Wide Imagery
   var k2 = document.getElementById('block2')
   var ant = document.createElement('IMG')
-  an.setAttribute('min-width', '1800px')
-  ant.setAttribute('height', '149')
+  ant.setAttribute('width', '100%')
+  ant.setAttribute('height', '30%')
   ant.src = front_2[0].img
   k2.appendChild(ant)
 
   // Second Wide Imagery
   var k3 = document.getElementById('block3')
   var anu = document.createElement('IMG')
-  an.setAttribute('min-width', '1800px')
-  anu.setAttribute('height', '85')
+  anu.setAttribute('width', '100%')
+  anu.setAttribute('height', '30%')
   anu.src = front_2[1].img
   k3.appendChild(anu)
 
   // Third Wide Imagery
   var k4 = document.getElementById('block4')
   var anv = document.createElement('IMG')
-  an.setAttribute('min-width', '1800px')
-  anv.setAttribute('height', '621')
+  anv.setAttribute('width', '100%')
+  anv.setAttribute('height', '100%')
   anv.src = front_2[2].img
   k4.appendChild(anv)
 
@@ -1265,14 +1265,15 @@
     },
   ]
   var k5 = document.getElementById('block7')
+  k5.style.overflow = 'hidden'
   var anw = document.createElement('IMG')
-  an.setAttribute('min-width', '1800px')
+  anw.setAttribute('width', '100%')
   anw.setAttribute('height', '85')
   anw.src = block6[0].img
   k5.appendChild(anw)
   var k6 = document.getElementById('block7')
   var anx = document.createElement('IMG')
-  an.setAttribute('min-width', '1800px')
+  anx.setAttribute('width', '100%')
   anx.setAttribute('height', '140')
   anx.src = block6[5].img
   k6.appendChild(anx)
