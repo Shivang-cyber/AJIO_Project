@@ -3,1685 +3,226 @@ let Indie_Saree = [
     name: 'South Cotton Checked Saree with Zari Line',
     brand: 'Indie Picks',
     price: '640',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20201202/yKVC/5fc7afe2aeb269d563260794/-473Wx593H-460793625-blue-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20201202/D8Vw/5fc7af2eaeb269d5632602d6/-473Wx593H-460793625-blue-MODEL2.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20201202/Ov6g/5fc7ae37aeb269d56325fb02/-473Wx593H-460793625-blue-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20201202/Ov6g/5fc7ae37aeb269d56325fb02/-473Wx593H-460793625-blue-MODEL4.jpg',
+    image1:"https://assets.ajio.com/medias/sys_master/root/20201124/lOCi/5fbccdbff997dd8c83a55cf4/-1117Wx1400H-460762475-green-MODEL.jpg ",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20201124/t5KC/5fbcbfbdaeb269d56317db3e/-1117Wx1400H-460762475-green-MODEL3.jpg ",
+    image3:" https://assets.ajio.com/medias/sys_master/root/20201124/GY8X/5fbcbfacf997dd8c83a4dcb2/-1117Wx1400H-460762475-green-MODEL2.jpg",
+    image4:" https://assets.ajio.com/medias/sys_master/root/20201124/efRq/5fbcc06cf997dd8c83a4e378/-1117Wx1400H-460762475-green-MODEL4.jpg",
   },
   {
     name: 'Kalamkari Handblock Printed Cotton Saree',
     brand: 'SUN KALAMKARI',
     price: '1299',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210518/Oeb5/60a3ef45aeb269a9e3c261f5/-473Wx593H-460763516-multi-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210608/yiCk/60bf92fdaeb269a9e3dfafbd/-473Wx593H-460763516-multi-MARKETING.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210608/yiCk/60bf92fdaeb269a9e3dfafbd/-473Wx593H-460763516-multi-MARKETING.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210608/yiCk/60bf92fdaeb269a9e3dfafbd/-473Wx593H-460763516-multi-MARKETING.jpg',
+    image1:"https://assets.ajio.com/medias/sys_master/root/20201126/ZbuM/5fbee345f997dd8c83aa415d/-1117Wx1400H-460793740-grey-MODEL.jpg ",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20201126/76OK/5fbedf18f997dd8c83aa0506/-1117Wx1400H-460793740-grey-MODEL2.jpg ",
+    image3:" https://assets.ajio.com/medias/sys_master/root/20201126/Ypyz/5fbee59bf997dd8c83aa659d/-1117Wx1400H-460793740-grey-MODEL3.jpg",
+    image4:" https://assets.ajio.com/medias/sys_master/root/20201126/7L7S/5fbedd83aeb269d5631cab2e/-1117Wx1400H-460793740-grey-MODEL4.jpg",
   },
   {
     name: 'Handloom Bengal Tant Tangail Cotton Saree',
-    brand: 'INDIE PICKS',
-    price: '1100',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210226/LQGo/6039123f7cdb8c1f144f290e/-473Wx593H-460811338-maroon-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210226/qGWw/603911baf997dd5c40fd134c/-473Wx593H-460811338-maroon-MARKETING.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210226/qGWw/603911baf997dd5c40fd134c/-473Wx593H-460811338-maroon-MARKETING.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210226/qGWw/603911baf997dd5c40fd134c/-473Wx593H-460811338-maroon-MARKETING.jpg',
-  },
-  {
-    name: 'Handloom Bhagalpur Pure Silk Tussar Dupion Saree',
-    brand: 'INDIE PICKS',
-    price: '2200',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200929/iaAo/5f722e387cdb8c21e36deb66/-473Wx593H-460700143-black-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200925/9EK4/5f6ced6caeb269d563c9f754/-473Wx593H-460700143-black-MODEL2.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200925/xtJU/5f6ce99daeb269d563c9e6f2/-473Wx593H-460700143-black-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200929/QIfC/5f724e507cdb8c21e36ede74/-473Wx593H-460700143-black-MARKETING.jpg',
-  },
-  {
-    name: 'Banarasi Silk Jacquard Saree with Zari Border',
-    brand: 'BANARASI SILK WORKS',
-    price: '1800',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/aOC8/5f57d3f5aeb269ef8ebb9ab3/-473Wx593H-460683748-yellow-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/aOC8/5f57d3f5aeb269ef8ebb9ab3/-473Wx593H-460683748-yellow-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/aOC8/5f57d3f5aeb269ef8ebb9ab3/-473Wx593H-460683748-yellow-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/aOC8/5f57d3f5aeb269ef8ebb9ab3/-473Wx593H-460683748-yellow-MODEL4.jpg',
-  },
-  {
-    name: 'Banarasi Heavy Silk Kataan Brocade Wedding Saree',
-    brand: 'BANARASI SILK WORKS',
-    price: '5120',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200804/TfZQ/5f2899b8f997dd227790e1fd/-473Wx593H-460619037-pink-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200804/TfZQ/5f2899b8f997dd227790e1fd/-473Wx593H-460619037-pink-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200804/TfZQ/5f2899b8f997dd227790e1fd/-473Wx593H-460619037-pink-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200804/TfZQ/5f2899b8f997dd227790e1fd/-473Wx593H-460619037-pink-MODEL4.jpg',
-  },
-  {
-    name: 'Banarasi Silk Satin Brocade Saree',
-    brand: 'BANARASI SILK WORKS',
-    price: '3150',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/gcV1/5f8f3af5aeb269d563e750e5/-473Wx593H-460737369-blue-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/MUvR/5f8f4183aeb269d563e79b6c/-473Wx593H-460737369-blue-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/MUvR/5f8f4183aeb269d563e79b6c/-473Wx593H-460737369-blue-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/MUvR/5f8f4183aeb269d563e79b6c/-473Wx593H-460737369-blue-MODEL4.jpg',
-  },
-  {
-    name: 'South Cotton Chettinad Border Saree',
-    brand: 'INDIE PICKS',
-    price: '480',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200923/mcqB/5f6b65faaeb269d563c909bb/-473Wx593H-460694603-magenta-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200923/eJYr/5f6b68c7f997dd8c834b170c/-473Wx593H-460694603-magenta-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200923/eJYr/5f6b68c7f997dd8c834b170c/-473Wx593H-460694603-magenta-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200923/eJYr/5f6b68c7f997dd8c834b170c/-473Wx593H-460694603-magenta-MODEL4.jpg',
-  },
-  {
-    name: 'Banarasi Silk Jacquard Saree with Zari Border',
-    brand: 'BANARASI SILK WORKS',
-    price: '1800',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/g27x/5f57d0bd7cdb8c766296b1e1/-473Wx593H-460683758-orange-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/g27x/5f57d0bd7cdb8c766296b1e1/-473Wx593H-460683758-orange-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/g27x/5f57d0bd7cdb8c766296b1e1/-473Wx593H-460683758-orange-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/g27x/5f57d0bd7cdb8c766296b1e1/-473Wx593H-460683758-orange-MODEL4.jpg',
-  },
-  {
-    name: 'Woven Saree with Motifs',
-    brand: 'BANARASI SILK WORKS',
-    price: '3500',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20201020/WmPa/5f8edd67aeb269d563e66b2e/-473Wx593H-460737490-purple-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20201020/pePh/5f8eda5faeb269d563e65741/-473Wx593H-460737490-purple-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20201020/JsVW/5f8ee56daeb269d563e6a4cf/-473Wx593H-460737490-purple-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20201020/JsVW/5f8ee56daeb269d563e6a4cf/-473Wx593H-460737490-purple-MODEL4.jpg',
-  },
-  {
-    name: 'Akola Handblock Printed Nandana Pure Maheshwari',
-    brand: 'INDIE PICKS',
-    price: '3600',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210222/nf6N/6033d364f997dd5c40f68033/-473Wx593H-460810031-indigo-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210222/nf6N/6033d364f997dd5c40f68033/-473Wx593H-460810031-indigo-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210222/nf6N/6033d364f997dd5c40f68033/-473Wx593H-460810031-indigo-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210222/nf6N/6033d364f997dd5c40f68033/-473Wx593H-460810031-indigo-MODEL4.jpg',
-  },
-  {
-    name: 'Banarasi Silk Satin Brocade Saree',
-    brand: 'BANARASI SILK WORKS',
-    price: '3500',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/pFuT/5f8f30bff997dd8c836fe93e/-473Wx593H-460737423-purple-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/pFuT/5f8f30bff997dd8c836fe93e/-473Wx593H-460737423-purple-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/pFuT/5f8f30bff997dd8c836fe93e/-473Wx593H-460737423-purple-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/pFuT/5f8f30bff997dd8c836fe93e/-473Wx593H-460737423-purple-MODEL4.jpg',
-  },
-  {
-    name: 'South Cotton Checked Saree with Zari Line',
-    brand: 'Indie Picks',
-    price: '640',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20201202/yKVC/5fc7afe2aeb269d563260794/-473Wx593H-460793625-blue-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20201202/D8Vw/5fc7af2eaeb269d5632602d6/-473Wx593H-460793625-blue-MODEL2.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20201202/Ov6g/5fc7ae37aeb269d56325fb02/-473Wx593H-460793625-blue-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20201202/Ov6g/5fc7ae37aeb269d56325fb02/-473Wx593H-460793625-blue-MODEL4.jpg',
-  },
-  {
-    name: 'Kalamkari Handblock Printed Cotton Saree',
     brand: 'SUN KALAMKARI',
-    price: '1299',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210518/Oeb5/60a3ef45aeb269a9e3c261f5/-473Wx593H-460763516-multi-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210608/yiCk/60bf92fdaeb269a9e3dfafbd/-473Wx593H-460763516-multi-MARKETING.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210608/yiCk/60bf92fdaeb269a9e3dfafbd/-473Wx593H-460763516-multi-MARKETING.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210608/yiCk/60bf92fdaeb269a9e3dfafbd/-473Wx593H-460763516-multi-MARKETING.jpg',
-  },
-  {
-    name: 'Handloom Bengal Tant Tangail Cotton Saree',
-    brand: 'INDIE PICKS',
     price: '1100',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210226/LQGo/6039123f7cdb8c1f144f290e/-473Wx593H-460811338-maroon-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210226/qGWw/603911baf997dd5c40fd134c/-473Wx593H-460811338-maroon-MARKETING.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210226/qGWw/603911baf997dd5c40fd134c/-473Wx593H-460811338-maroon-MARKETING.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210226/qGWw/603911baf997dd5c40fd134c/-473Wx593H-460811338-maroon-MARKETING.jpg',
+    image1:" https://assets.ajio.com/medias/sys_master/root/20200929/bKM4/5f723859aeb269d563ccb4b0/-1117Wx1400H-460668242-lightbrown-MODEL.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20200929/wPNJ/5f7241e47cdb8c21e36e83e9/-1117Wx1400H-460668242-lightbrown-MODEL2.jpg ",
+    image3:"https://assets.ajio.com/medias/sys_master/root/20200929/pZkB/5f7238477cdb8c21e36e4665/-1117Wx1400H-460668242-lightbrown-MODEL3.jpg ",
+    image4:"https://assets.ajio.com/medias/sys_master/root/20200929/Tnv3/5f72374ef997dd8c835073d5/-1117Wx1400H-460668242-lightbrown-MODEL4.jpg ",
+  
   },
   {
     name: 'Handloom Bhagalpur Pure Silk Tussar Dupion Saree',
     brand: 'INDIE PICKS',
     price: '2200',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200929/iaAo/5f722e387cdb8c21e36deb66/-473Wx593H-460700143-black-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200925/9EK4/5f6ced6caeb269d563c9f754/-473Wx593H-460700143-black-MODEL2.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200925/xtJU/5f6ce99daeb269d563c9e6f2/-473Wx593H-460700143-black-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200929/QIfC/5f724e507cdb8c21e36ede74/-473Wx593H-460700143-black-MARKETING.jpg',
+    image1:" https://assets.ajio.com/medias/sys_master/root/20201221/AWij/5fe05377aeb269d5634ae4f9/-1117Wx1400H-460783379-blue-MODEL.jpg",
+    image2:"https://assets.ajio.com/medias/sys_master/root/20201217/4MgO/5fda9390aeb269d56340f7ce/-1117Wx1400H-460783379-blue-MODEL2.jpg ",
+    image3:" https://assets.ajio.com/medias/sys_master/root/20201217/0lyd/5fdaa5e8f997dd8c83d083e7/-1117Wx1400H-460783379-blue-MODEL3.jpg",
+    image4:" https://assets.ajio.com/medias/sys_master/root/20201217/kGdV/5fda9d34f997dd8c83d03c3a/-1117Wx1400H-460783379-blue-MODEL4.jpg",
   },
   {
     name: 'Banarasi Silk Jacquard Saree with Zari Border',
     brand: 'BANARASI SILK WORKS',
     price: '1800',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/aOC8/5f57d3f5aeb269ef8ebb9ab3/-473Wx593H-460683748-yellow-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/aOC8/5f57d3f5aeb269ef8ebb9ab3/-473Wx593H-460683748-yellow-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/aOC8/5f57d3f5aeb269ef8ebb9ab3/-473Wx593H-460683748-yellow-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/aOC8/5f57d3f5aeb269ef8ebb9ab3/-473Wx593H-460683748-yellow-MODEL4.jpg',
+    image1:"https://assets.ajio.com/medias/sys_master/root/20210324/vrdC/605b585ff997dd7b6454294c/-1117Wx1400H-460397653-red-MODEL.jpg ",
+    image2:" https://assets.ajio.com/medias/sys_master/root/h0d/h5d/13806028488734/-1117Wx1400H-460397653-red-MODEL2.jpg",
+    image3:"https://assets.ajio.com/medias/sys_master/root/h33/h68/13806025506846/-1117Wx1400H-460397653-red-OUTFIT.jpg ",
+    image4:" https://assets.ajio.com/medias/sys_master/root/h3e/hd3/13806002700318/-1117Wx1400H-460397653-red-OUTFIT2.jpg",
   },
   {
     name: 'Banarasi Heavy Silk Kataan Brocade Wedding Saree',
     brand: 'BANARASI SILK WORKS',
     price: '5120',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200804/TfZQ/5f2899b8f997dd227790e1fd/-473Wx593H-460619037-pink-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200804/TfZQ/5f2899b8f997dd227790e1fd/-473Wx593H-460619037-pink-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200804/TfZQ/5f2899b8f997dd227790e1fd/-473Wx593H-460619037-pink-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200804/TfZQ/5f2899b8f997dd227790e1fd/-473Wx593H-460619037-pink-MODEL4.jpg',
-  },
+    image1:" https://assets.ajio.com/medias/sys_master/root/20201009/Lj2d/5f8086a6aeb269d563d684b0/-1117Wx1400H-460748078-multi-MODEL.jpg",
+    image2:" https://assets.ajio.com/medias/sys_master/root/20201009/xe8z/5f8082e6f997dd8c835df6e3/-1117Wx1400H-460748078-multi-MODEL2.jpg",
+    image3:" https://assets.ajio.com/medias/sys_master/root/20201009/FNhD/5f807e44f997dd8c835dc770/-1117Wx1400H-460748078-multi-MODEL4.jpg",
+    image4:" https://assets.ajio.com/medias/sys_master/root/20201009/eGsD/5f8086a0f997dd8c835e226a/-1117Wx1400H-460748078-multi-MODEL3.jpg",
+  }
+]
+  let kurtas=[
   {
-    name: 'Banarasi Silk Satin Brocade Saree',
-    brand: 'BANARASI SILK WORKS',
-    price: '3150',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/gcV1/5f8f3af5aeb269d563e750e5/-473Wx593H-460737369-blue-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/MUvR/5f8f4183aeb269d563e79b6c/-473Wx593H-460737369-blue-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/MUvR/5f8f4183aeb269d563e79b6c/-473Wx593H-460737369-blue-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/MUvR/5f8f4183aeb269d563e79b6c/-473Wx593H-460737369-blue-MODEL4.jpg',
-  },
-  {
-    name: 'South Cotton Chettinad Border Saree',
+    name: 'Embroidered Cotton Straight Kurta',
     brand: 'INDIE PICKS',
-    price: '480',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200923/mcqB/5f6b65faaeb269d563c909bb/-473Wx593H-460694603-magenta-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200923/eJYr/5f6b68c7f997dd8c834b170c/-473Wx593H-460694603-magenta-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200923/eJYr/5f6b68c7f997dd8c834b170c/-473Wx593H-460694603-magenta-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200923/eJYr/5f6b68c7f997dd8c834b170c/-473Wx593H-460694603-magenta-MODEL4.jpg',
+    price: '800',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210112/66EH/5ffcab4cf997dd5c40d435bc/-1117Wx1400H-460736235-yellow-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210112/SJzv/5ffc9b55aeb26969814b1306/-1117Wx1400H-460736235-yellow-MODEL3.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210112/rEQG/5ffc9b5ff997dd5c40d4094e/-1117Wx1400H-460736235-yellow-MODEL2.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210112/KrhK/5ffcb519aeb26969814b47e5/-1117Wx1400H-460736235-yellow-MODEL4.jpg',
   },
   {
-    name: 'Banarasi Silk Jacquard Saree with Zari Border',
-    brand: 'BANARASI SILK WORKS',
-    price: '1800',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/g27x/5f57d0bd7cdb8c766296b1e1/-473Wx593H-460683758-orange-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/g27x/5f57d0bd7cdb8c766296b1e1/-473Wx593H-460683758-orange-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/g27x/5f57d0bd7cdb8c766296b1e1/-473Wx593H-460683758-orange-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/g27x/5f57d0bd7cdb8c766296b1e1/-473Wx593H-460683758-orange-MODEL4.jpg',
-  },
-  {
-    name: 'Woven Saree with Motifs',
-    brand: 'BANARASI SILK WORKS',
-    price: '3500',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20201020/WmPa/5f8edd67aeb269d563e66b2e/-473Wx593H-460737490-purple-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20201020/pePh/5f8eda5faeb269d563e65741/-473Wx593H-460737490-purple-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20201020/JsVW/5f8ee56daeb269d563e6a4cf/-473Wx593H-460737490-purple-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20201020/JsVW/5f8ee56daeb269d563e6a4cf/-473Wx593H-460737490-purple-MODEL4.jpg',
-  },
-  {
-    name: 'Akola Handblock Printed Nandana Pure Maheshwari',
+    name: 'Floral Print Straight Kurta with Notched Neckline',
     brand: 'INDIE PICKS',
-    price: '3600',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210222/nf6N/6033d364f997dd5c40f68033/-473Wx593H-460810031-indigo-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210222/nf6N/6033d364f997dd5c40f68033/-473Wx593H-460810031-indigo-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210222/nf6N/6033d364f997dd5c40f68033/-473Wx593H-460810031-indigo-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210222/nf6N/6033d364f997dd5c40f68033/-473Wx593H-460810031-indigo-MODEL4.jpg',
+    price: '549',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210526/63Td/60ae3fb4aeb269a9e3cabf03/-1117Wx1400H-460886211-black-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210526/REXc/60ae40adaeb269a9e3cac4ce/-1117Wx1400H-460886211-black-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210526/uATv/60ae418baeb269a9e3cac76d/-1117Wx1400H-460886211-black-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210526/vSH7/60ae4025aeb269a9e3cac1c6/-1117Wx1400H-460886211-black-MODEL4.jpg',
   },
   {
-    name: 'Banarasi Silk Satin Brocade Saree',
-    brand: 'BANARASI SILK WORKS',
-    price: '3500',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/pFuT/5f8f30bff997dd8c836fe93e/-473Wx593H-460737423-purple-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/pFuT/5f8f30bff997dd8c836fe93e/-473Wx593H-460737423-purple-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/pFuT/5f8f30bff997dd8c836fe93e/-473Wx593H-460737423-purple-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/pFuT/5f8f30bff997dd8c836fe93e/-473Wx593H-460737423-purple-MODEL4.jpg',
+    name: 'Handblock Printed Chanderi Anarkali Kurta',
+    brand: 'BAGH',
+    price: '2,850',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210205/ne7O/601d3cf47cdb8c1f1437589c/-1117Wx1400H-460811213-peach-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210108/v2NJ/5ff88c1faeb269698149ab86/-1117Wx1400H-460811213-peach-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210108/a7QM/5ff87968aeb2696981498627/-1117Wx1400H-460811213-peach-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210205/V16l/601d65bbaeb26969815ee1fd/-1117Wx1400H-460811213-peach-MARKETING.jpg',
   },
   {
-    name: 'South Cotton Checked Saree with Zari Line',
-    brand: 'Indie Picks',
-    price: '640',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20201202/yKVC/5fc7afe2aeb269d563260794/-473Wx593H-460793625-blue-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20201202/D8Vw/5fc7af2eaeb269d5632602d6/-473Wx593H-460793625-blue-MODEL2.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20201202/Ov6g/5fc7ae37aeb269d56325fb02/-473Wx593H-460793625-blue-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20201202/Ov6g/5fc7ae37aeb269d56325fb02/-473Wx593H-460793625-blue-MODEL4.jpg',
+    name: 'Hand-Embroidered A-line Kurta',
+    brand: 'BAGH',
+    price: '2,900',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210416/rTPD/6079936caeb269a9e392f4ea/-1117Wx1400H-460845505-red-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210402/HDq8/606733b5f997dd7b645bcdd7/-1117Wx1400H-460845505-red-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210402/Ejbs/60673c9baeb269a9e32fdee3/-1117Wx1400H-460845505-red-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210402/jTng/60673865aeb269a9e32fd457/-1117Wx1400H-460845505-red-MODEL5.jpg',
   },
   {
-    name: 'Kalamkari Handblock Printed Cotton Saree',
-    brand: 'SUN KALAMKARI',
-    price: '1299',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210518/Oeb5/60a3ef45aeb269a9e3c261f5/-473Wx593H-460763516-multi-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210608/yiCk/60bf92fdaeb269a9e3dfafbd/-473Wx593H-460763516-multi-MARKETING.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210608/yiCk/60bf92fdaeb269a9e3dfafbd/-473Wx593H-460763516-multi-MARKETING.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210608/yiCk/60bf92fdaeb269a9e3dfafbd/-473Wx593H-460763516-multi-MARKETING.jpg',
+    name: 'Schiffli Embroidered Straight Kurta',
+    brand: 'AVAA',
+    price: '899',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210608/YH0C/60bf9106f997ddb312c0ae5e/-1117Wx1400H-460896397-white-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210608/aj4o/60bf9166f997ddb312c0b475/-1117Wx1400H-460896397-white-MODEL3.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210608/Vz7R/60bf91cbf997ddb312c0ba92/-1117Wx1400H-460896397-white-MODEL4.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210608/ARsC/60bf8fe0f997ddb312c09df2/-1117Wx1400H-460896397-white-MODEL2.jpg',
   },
   {
-    name: 'Handloom Bengal Tant Tangail Cotton Saree',
+    name: 'Chitraang Tie & Dye Shibori Straight Cotton Kurta with Bead Detail',
+    brand: 'AVAA',
+    price: '2,099',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210825/c7Pg/61254cee7cdb8cb82404d077/-1117Wx1400H-460886584-purple-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210730/sFPT/6103f231f997ddb31240cda4/-1117Wx1400H-460886584-purple-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210730/85pX/6103f394aeb269a9e35afc9f/-1117Wx1400H-460886584-purple-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210730/XTPx/6103f231f997ddb31240cddf/-1117Wx1400H-460886584-purple-MODEL4.jpg',
+  },
+]
+  
+let Dresses = [
+  {
+    name: 'Craft Bagh Handblock Print A-line Cotton Dress',
     brand: 'INDIE PICKS',
-    price: '1100',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210226/LQGo/6039123f7cdb8c1f144f290e/-473Wx593H-460811338-maroon-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210226/qGWw/603911baf997dd5c40fd134c/-473Wx593H-460811338-maroon-MARKETING.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210226/qGWw/603911baf997dd5c40fd134c/-473Wx593H-460811338-maroon-MARKETING.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210226/qGWw/603911baf997dd5c40fd134c/-473Wx593H-460811338-maroon-MARKETING.jpg',
+    price: '1,119',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/h81/h46/12923588444190/-1117Wx1400H-460272397-beige-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/h46/ha1/12923587133470/-1117Wx1400H-460272397-beige-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/hae/h17/12923588771870/-1117Wx1400H-460272397-beige-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/h14/ha4/12923586871326/-1117Wx1400H-460272397-beige-MODEL4.jpg',
   },
   {
-    name: 'Handloom Bhagalpur Pure Silk Tussar Dupion Saree',
+    name: 'Handblock Printed Kalamkari Cotton Sattva Overlay Dress',
     brand: 'INDIE PICKS',
-    price: '2200',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200929/iaAo/5f722e387cdb8c21e36deb66/-473Wx593H-460700143-black-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200925/9EK4/5f6ced6caeb269d563c9f754/-473Wx593H-460700143-black-MODEL2.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200925/xtJU/5f6ce99daeb269d563c9e6f2/-473Wx593H-460700143-black-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200929/QIfC/5f724e507cdb8c21e36ede74/-473Wx593H-460700143-black-MARKETING.jpg',
+    price: '2,999',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210817/QCVB/611abf0e7cdb8cb824f99f67/-1117Wx1400H-460851861-red-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210817/HN24/611ad95caeb269a2687431cd/-1117Wx1400H-460851861-red-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210817/Noru/611ab1f2f997ddce89a0385a/-1117Wx1400H-460851861-red-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210817/ylkY/611aba5ef997ddce89a050df/-1117Wx1400H-460851861-red-MODEL4.jpg',
   },
   {
-    name: 'Banarasi Silk Jacquard Saree with Zari Border',
-    brand: 'BANARASI SILK WORKS',
-    price: '1800',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/aOC8/5f57d3f5aeb269ef8ebb9ab3/-473Wx593H-460683748-yellow-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/aOC8/5f57d3f5aeb269ef8ebb9ab3/-473Wx593H-460683748-yellow-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/aOC8/5f57d3f5aeb269ef8ebb9ab3/-473Wx593H-460683748-yellow-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/aOC8/5f57d3f5aeb269ef8ebb9ab3/-473Wx593H-460683748-yellow-MODEL4.jpg',
+    name: 'Embellished Gown Dress',
+    brand: 'SAADHVI',
+    price: '788',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20201031/KHps/5f9c6f0ef997dd8c83808df9/-1117Wx1400H-460763557-black-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20201022/GMJN/5f912107f997dd8c837382ef/-1117Wx1400H-460763557-black-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20201022/xVKt/5f911dbdaeb269d563ea554c/-1117Wx1400H-460763557-black-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20201031/bpqo/5f9c6a66f997dd8c83806376/-1117Wx1400H-460763557-black-MARKETING.jpg',
   },
   {
-    name: 'Banarasi Heavy Silk Kataan Brocade Wedding Saree',
-    brand: 'BANARASI SILK WORKS',
-    price: '5120',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200804/TfZQ/5f2899b8f997dd227790e1fd/-473Wx593H-460619037-pink-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200804/TfZQ/5f2899b8f997dd227790e1fd/-473Wx593H-460619037-pink-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200804/TfZQ/5f2899b8f997dd227790e1fd/-473Wx593H-460619037-pink-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200804/TfZQ/5f2899b8f997dd227790e1fd/-473Wx593H-460619037-pink-MODEL4.jpg',
+    name: 'Handloom Cotton Dress with Kalamkari Print',
+    brand: 'SAADHVI',
+    price: '2,119',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210218/nYBJ/602e656aaeb2696981683929/-1117Wx1400H-460809990-blue-MODEL2.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210218/I7mW/602e65e5f997dd5c40f38190/-1117Wx1400H-460809990-blue-MODEL3.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210317/FdPH/60522396aeb269a9e31ddd7e/-1117Wx1400H-460809990-blue-MARKETING.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210218/pV9J/602e66547cdb8c1f14436e6a/-1117Wx1400H-460809990-blue-MODEL4.jpg',
   },
   {
-    name: 'Banarasi Silk Satin Brocade Saree',
-    brand: 'BANARASI SILK WORKS',
-    price: '3150',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/gcV1/5f8f3af5aeb269d563e750e5/-473Wx593H-460737369-blue-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/MUvR/5f8f4183aeb269d563e79b6c/-473Wx593H-460737369-blue-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/MUvR/5f8f4183aeb269d563e79b6c/-473Wx593H-460737369-blue-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/MUvR/5f8f4183aeb269d563e79b6c/-473Wx593H-460737369-blue-MODEL4.jpg',
+    name: 'Block Print Dress',
+    brand: 'VEDIC',
+    price: '1,350',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210519/UpeW/60a442dcaeb269a9e3c3652b/-1117Wx1400H-462427153-blue-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210519/vvM5/60a442dcaeb269a9e3c3655b/-1117Wx1400H-462427153-blue-MODEL3.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210519/5bJD/60a442dcaeb269a9e3c36545/-1117Wx1400H-462427153-blue-MODEL4.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210519/7PIo/60a442dcaeb269a9e3c36581/-1117Wx1400H-462427153-blue-MODEL2.jpg',
   },
   {
-    name: 'South Cotton Chettinad Border Saree',
-    brand: 'INDIE PICKS',
-    price: '480',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200923/mcqB/5f6b65faaeb269d563c909bb/-473Wx593H-460694603-magenta-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200923/eJYr/5f6b68c7f997dd8c834b170c/-473Wx593H-460694603-magenta-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200923/eJYr/5f6b68c7f997dd8c834b170c/-473Wx593H-460694603-magenta-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200923/eJYr/5f6b68c7f997dd8c834b170c/-473Wx593H-460694603-magenta-MODEL4.jpg',
-  },
-  {
-    name: 'Banarasi Silk Jacquard Saree with Zari Border',
-    brand: 'BANARASI SILK WORKS',
-    price: '1800',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/g27x/5f57d0bd7cdb8c766296b1e1/-473Wx593H-460683758-orange-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/g27x/5f57d0bd7cdb8c766296b1e1/-473Wx593H-460683758-orange-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/g27x/5f57d0bd7cdb8c766296b1e1/-473Wx593H-460683758-orange-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200909/g27x/5f57d0bd7cdb8c766296b1e1/-473Wx593H-460683758-orange-MODEL4.jpg',
-  },
-  {
-    name: 'Woven Saree with Motifs',
-    brand: 'BANARASI SILK WORKS',
-    price: '3500',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20201020/WmPa/5f8edd67aeb269d563e66b2e/-473Wx593H-460737490-purple-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20201020/pePh/5f8eda5faeb269d563e65741/-473Wx593H-460737490-purple-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20201020/JsVW/5f8ee56daeb269d563e6a4cf/-473Wx593H-460737490-purple-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20201020/JsVW/5f8ee56daeb269d563e6a4cf/-473Wx593H-460737490-purple-MODEL4.jpg',
-  },
-  {
-    name: 'Akola Handblock Printed Nandana Pure Maheshwari',
-    brand: 'INDIE PICKS',
-    price: '3600',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210222/nf6N/6033d364f997dd5c40f68033/-473Wx593H-460810031-indigo-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210222/nf6N/6033d364f997dd5c40f68033/-473Wx593H-460810031-indigo-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210222/nf6N/6033d364f997dd5c40f68033/-473Wx593H-460810031-indigo-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210222/nf6N/6033d364f997dd5c40f68033/-473Wx593H-460810031-indigo-MODEL4.jpg',
-  },
-  {
-    name: 'Banarasi Silk Satin Brocade Saree',
-    brand: 'BANARASI SILK WORKS',
-    price: '3500',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/pFuT/5f8f30bff997dd8c836fe93e/-473Wx593H-460737423-purple-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/pFuT/5f8f30bff997dd8c836fe93e/-473Wx593H-460737423-purple-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/pFuT/5f8f30bff997dd8c836fe93e/-473Wx593H-460737423-purple-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20201021/pFuT/5f8f30bff997dd8c836fe93e/-473Wx593H-460737423-purple-MODEL4.jpg',
+    name: 'Hand-Spun Khadi Shift Cotton Dress',
+    brand: 'VEDIC',
+    price: '840',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20200929/Wnke/5f724e94f997dd8c83516c81/-1117Wx1400H-460727690-indigo-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20200923/PLwk/5f6b6634aeb269d563c90a68/-1117Wx1400H-460727690-indigo-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20200923/Rvcz/5f6b6583f997dd8c834aff81/-1117Wx1400H-460727690-indigo-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20200923/qF7V/5f6b66b6f997dd8c834b083d/-1117Wx1400H-460727690-indigo-MODEL4.jpg',
   },
 ]
 
-var Indie_kurtas = [
+let Tops = [
   {
-    name: 'Jaipuri Print Rooh Cotton Straight Kurta',
-    brand: 'INDIE PICKS',
-    price: '1299',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210719/mouj/60f5a95baeb269a9e3475c3b/-473Wx593H-460907599-teal-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210719/EiLI/60f5aa40f997ddb3122bdfbe/-473Wx593H-460907599-teal-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210719/EiLI/60f5aa40f997ddb3122bdfbe/-473Wx593H-460907599-teal-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210719/EiLI/60f5aa40f997ddb3122bdfbe/-473Wx593H-460907599-teal-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Print Kalamkari Angrakha Kurta',
-    brand: 'INDIE PICKS',
-    price: '2449',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210702/FBhw/60de0c15f997ddb312174747/-473Wx593H-460865822-red-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210629/doli/60da4322aeb269a9e32e992f/-473Wx593H-460865822-red-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210629/doli/60da4322aeb269a9e32e992f/-473Wx593H-460865822-red-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210629/doli/60da4322aeb269a9e32e992f/-473Wx593H-460865822-red-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Ajrak Print Cotton Angrakha Kurta',
-    brand: 'INDIE PICKS',
-    price: '1949',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Ajrak Print Cotton Angrakha Kurta',
-    brand: 'INDIE PICKS',
-    price: '1949',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/EK9T/60e36be5f997ddb3121bb907/-473Wx593H-460899123-black-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/EK9T/60e36be5f997ddb3121bb907/-473Wx593H-460899123-black-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/EK9T/60e36be5f997ddb3121bb907/-473Wx593H-460899123-black-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Print Cotton Straight Kurta with Concealed Placket',
-    brand: 'INDIE PICKS',
-    price: '800',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20201028/M6pB/5f9875a9f997dd8c837a1db5/-473Wx593H-460745711-beige-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20201028/M6pB/5f9875a9f997dd8c837a1db5/-473Wx593H-460745711-beige-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20201028/M6pB/5f9875a9f997dd8c837a1db5/-473Wx593H-460745711-beige-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20201028/M6pB/5f9875a9f997dd8c837a1db5/-473Wx593H-460745711-beige-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Print Ajrak Cotton A-line Kurta',
-    brand: 'INDIE PICKS',
-    price: '1218',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200910/4Ng4/5f59279aaeb269ef8ebcb0f8/-473Wx593H-460544013-beige-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200910/4Ng4/5f59279aaeb269ef8ebcb0f8/-473Wx593H-460544013-beige-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200910/Z6jY/5f5922487cdb8c766297f477/-473Wx593H-460544013-beige-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200919/MMzw/5f650c72f997dd8c83469612/-473Wx593H-460544013-beige-MARKETING.jpg',
-  },
-  {
-    name: 'Handblock Ajrak Print Cotton Straight Kurta',
+    name: 'Cotton Woven Ikat Shirt with Band Collar',
     brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/wB0Q/611540517cdb8cb824f5e75c/-473Wx593H-460917740-maroon-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/wB0Q/611540517cdb8cb824f5e75c/-473Wx593H-460917740-maroon-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/wB0Q/611540517cdb8cb824f5e75c/-473Wx593H-460917740-maroon-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/Byei/61153ef57cdb8cb824f5e335/-473Wx593H-460917740-maroon-MODEL4.jpg',
+    price: '899',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210525/RnMa/60ad16f7f997ddb312a8aa4e/-1117Wx1400H-460850701-purple-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210428/whoe/60895bacf997dd7b64c6a8c0/-1117Wx1400H-460850701-purple-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210428/rFGO/608960efaeb269a9e3a51fc3/-1117Wx1400H-460850701-purple-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210525/JRMJ/60ad176ff997ddb312a8accd/-1117Wx1400H-460850701-purple-MARKETING.jpg',
   },
   {
-    name: 'Handblock Ajrak Print Kurta',
+    name: 'Handblock Print Bagh Craft Cotton Top',
     brand: 'MOLCHA',
-    price: '999',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/aV6B/6112d8e6aeb269a2686ecdd3/-473Wx593H-460917708-cream-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/aV6B/6112d8e6aeb269a2686ecdd3/-473Wx593H-460917708-cream-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/aV6B/6112d8e6aeb269a2686ecdd3/-473Wx593H-460917708-cream-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/K8fC/6112f1bc7cdb8cb824f32259/-473Wx593H-460917708-cream-MODEL4.jpg',
+    price: '799',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/h0d/hf3/12391707246622/-1117Wx1400H-460272313-black-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/h39/hc6/12391705935902/-1117Wx1400H-460272313-black-MODEL3.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/ha1/h71/12391707836446/-1117Wx1400H-460272313-black-MODEL4.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/h09/he5/12391705411614/-1117Wx1400H-460272313-black-MODEL6.jpg',
   },
   {
-    name: 'Printed Flared Kurta with Gota Patti',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/htXB/6112ce1aaeb269a2686eb60a/-473Wx593H-460917668-white-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/htXB/6112ce1aaeb269a2686eb60a/-473Wx593H-460917668-white-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/htXB/6112ce1aaeb269a2686eb60a/-473Wx593H-460917668-white-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/htXB/6112ce1aaeb269a2686eb60a/-473Wx593H-460917668-white-MODEL3.jpg',
-  },
-  {
-    name: 'Printed Cotton Straight Kurta with Gota Patti',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/kXgG/611539c8f997ddce899d12cb/-473Wx593H-460917686-pink-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/kXgG/611539c8f997ddce899d12cb/-473Wx593H-460917686-pink-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/kXgG/611539c8f997ddce899d12cb/-473Wx593H-460917686-pink-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/qyL5/611539c67cdb8cb824f5d39e/-473Wx593H-460917686-pink-MODEL4.jpg',
-  },
-  {
-    name: 'Floral Print Cotton Straight Kurta',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/1CWZ/61153ab1f997ddce899d151b/-473Wx593H-460917760-purple-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/1CWZ/61153ab1f997ddce899d151b/-473Wx593H-460917760-purple-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/1CWZ/61153ab1f997ddce899d151b/-473Wx593H-460917760-purple-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/mRBJ/611539d47cdb8cb824f5d446/-473Wx593H-460917760-purple-MODEL4.jpg',
-  },
-  {
-    name: 'Printed Cotton Straight Kurta with Gota Patti',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/G64r/611546ebaeb269a2687128c4/-473Wx593H-460917666-green-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/G64r/611546ebaeb269a2687128c4/-473Wx593H-460917666-green-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/G64r/611546ebaeb269a2687128c4/-473Wx593H-460917666-green-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/G64r/611546ebaeb269a2687128c4/-473Wx593H-460917666-green-MODEL4.jpg',
-  },
-  {
-    name: 'Hand-Embroidered Cotton Straight Kurta',
-    brand: 'AVAA',
-    price: '1688',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/8bQ7/606731e1f997dd7b645bc8b5/-473Wx593H-460845465-navyblue-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/jskV/60673ac0aeb269a9e32fda00/-473Wx593H-460845465-navyblue-MODEL5.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/jskV/60673ac0aeb269a9e32fda00/-473Wx593H-460845465-navyblue-MODEL5.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/jskV/60673ac0aeb269a9e32fda00/-473Wx593H-460845465-navyblue-MODEL5.jpg',
-  },
-  {
-    name: 'Hand-Embroidered Straight Kurta',
-    brand: 'AVAA',
-    price: '1838',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/3Hfg/60673878aeb269a9e32fd512/-473Wx593H-460845484-black-MODEL6.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/3Hfg/60673878aeb269a9e32fd512/-473Wx593H-460845484-black-MODEL6.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/3Hfg/60673878aeb269a9e32fd512/-473Wx593H-460845484-black-MODEL6.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/M1Uc/6079944daeb269a9e392f751/-473Wx593H-460845484-black-MARKETING.jpg',
-  },
-  {
-    name: 'Zardozi Hand-Embroidered Chanderi A-line Kurta',
-    brand: 'AVAA',
-    price: '1763',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/BGr0/6067377baeb269a9e32fd1f8/-473Wx593H-460845461-fuschia-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/gVbl/606731d47cdb8c1f14739d5e/-473Wx593H-460845461-fuschia-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/SGp1/60798afbaeb269a9e392d723/-473Wx593H-460845461-fuschia-MARKETING.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/SGp1/60798afbaeb269a9e392d723/-473Wx593H-460845461-fuschia-MARKETING.jpg',
-  },
-  {
-    name: 'Hand-Embroidered Foil Print A-line Chanderi Kurta',
-    brand: 'AVAA',
-    price: '1500',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/j3PY/60798dbef997dd7b64b38a2a/-473Wx593H-460845491-pink-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/T8vo/6067352caeb269a9e32fcbc6/-473Wx593H-460845491-pink-MODEL2.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/H2ms/60673a56f997dd7b645be263/-473Wx593H-460845491-pink-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/UynF/606734b3f997dd7b645bd169/-473Wx593H-460845491-pink-MODEL4.jpg',
-  },
-  {
-    name: 'Hand-Embroidered Chanderi Straight Kurta',
-    brand: 'AVAA',
-    price: '1718',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/kzhX/60673953aeb269a9e32fd652/-473Wx593H-460845489-olive-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/CsJM/606734abaeb269a9e32fc9a7/-473Wx593H-460845489-olive-MODEL5.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/Jg7V/60799102f997dd7b64b398a9/-473Wx593H-460845489-olive-MARKETING.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/Jg7V/60799102f997dd7b64b398a9/-473Wx593H-460845489-olive-MARKETING.jpg',
-  },
-  {
-    name: 'Embroidered Straight Kurta',
-    brand: 'AVAA',
-    price: '1650',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/cIo2/607995c0f997dd7b64b3aefb/-473Wx593H-460845496-orange-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/IpW7/60673c28aeb269a9e32fddd8/-473Wx593H-460845496-orange-MODEL2.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/rOyT/60673700aeb269a9e32fd073/-473Wx593H-460845496-orange-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/XMnW/6067342bf997dd7b645bcf2f/-473Wx593H-460845496-orange-MODEL5.jpg',
-  },
-  {
-    name: 'Hand-Embroidered A-line Kurta',
-    brand: 'AVAA',
-    price: '1868',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/uTNp/60673b38f997dd7b645be482/-473Wx593H-460845477-mustard-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/uTNp/60673b38f997dd7b645be482/-473Wx593H-460845477-mustard-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/uTNp/60673b38f997dd7b645be482/-473Wx593H-460845477-mustard-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/Uewz/607994c3aeb269a9e392f949/-473Wx593H-460845477-mustard-MARKETING.jpg',
-  },
-  {
-    name: 'Jaipuri Print Rooh Cotton Straight Kurta',
+    name: 'Cotton Slub Bird Print High-Low Top',
     brand: 'INDIE PICKS',
-    price: '1299',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210719/mouj/60f5a95baeb269a9e3475c3b/-473Wx593H-460907599-teal-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210719/EiLI/60f5aa40f997ddb3122bdfbe/-473Wx593H-460907599-teal-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210719/EiLI/60f5aa40f997ddb3122bdfbe/-473Wx593H-460907599-teal-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210719/EiLI/60f5aa40f997ddb3122bdfbe/-473Wx593H-460907599-teal-MODEL4.jpg',
+    price: '699',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/h43/h56/12830518935582/-1117Wx1400H-460291560-green-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/h4b/h5c/12830517100574/-1117Wx1400H-460291560-green-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/h4f/h0e/12830516838430/-1117Wx1400H-460291560-green-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/h05/h2b/12830519328798/-1117Wx1400H-460291560-green-MODEL6.jpg',
   },
   {
-    name: 'Handblock Print Kalamkari Angrakha Kurta',
+    name: 'Nima Cotton Dobby Sleeveless Top',
     brand: 'INDIE PICKS',
-    price: '2449',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210702/FBhw/60de0c15f997ddb312174747/-473Wx593H-460865822-red-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210629/doli/60da4322aeb269a9e32e992f/-473Wx593H-460865822-red-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210629/doli/60da4322aeb269a9e32e992f/-473Wx593H-460865822-red-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210629/doli/60da4322aeb269a9e32e992f/-473Wx593H-460865822-red-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Ajrak Print Cotton Angrakha Kurta',
-    brand: 'INDIE PICKS',
-    price: '1949',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Ajrak Print Cotton Angrakha Kurta',
-    brand: 'INDIE PICKS',
-    price: '1949',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/EK9T/60e36be5f997ddb3121bb907/-473Wx593H-460899123-black-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/EK9T/60e36be5f997ddb3121bb907/-473Wx593H-460899123-black-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/EK9T/60e36be5f997ddb3121bb907/-473Wx593H-460899123-black-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Print Cotton Straight Kurta with Concealed Placket',
-    brand: 'INDIE PICKS',
-    price: '800',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20201028/M6pB/5f9875a9f997dd8c837a1db5/-473Wx593H-460745711-beige-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20201028/M6pB/5f9875a9f997dd8c837a1db5/-473Wx593H-460745711-beige-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20201028/M6pB/5f9875a9f997dd8c837a1db5/-473Wx593H-460745711-beige-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20201028/M6pB/5f9875a9f997dd8c837a1db5/-473Wx593H-460745711-beige-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Print Ajrak Cotton A-line Kurta',
-    brand: 'INDIE PICKS',
-    price: '1218',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200910/4Ng4/5f59279aaeb269ef8ebcb0f8/-473Wx593H-460544013-beige-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200910/4Ng4/5f59279aaeb269ef8ebcb0f8/-473Wx593H-460544013-beige-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200910/Z6jY/5f5922487cdb8c766297f477/-473Wx593H-460544013-beige-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200919/MMzw/5f650c72f997dd8c83469612/-473Wx593H-460544013-beige-MARKETING.jpg',
-  },
-  {
-    name: 'Handblock Ajrak Print Cotton Straight Kurta',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/wB0Q/611540517cdb8cb824f5e75c/-473Wx593H-460917740-maroon-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/wB0Q/611540517cdb8cb824f5e75c/-473Wx593H-460917740-maroon-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/wB0Q/611540517cdb8cb824f5e75c/-473Wx593H-460917740-maroon-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/Byei/61153ef57cdb8cb824f5e335/-473Wx593H-460917740-maroon-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Ajrak Print Kurta',
-    brand: 'MOLCHA',
-    price: '999',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/aV6B/6112d8e6aeb269a2686ecdd3/-473Wx593H-460917708-cream-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/aV6B/6112d8e6aeb269a2686ecdd3/-473Wx593H-460917708-cream-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/aV6B/6112d8e6aeb269a2686ecdd3/-473Wx593H-460917708-cream-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/K8fC/6112f1bc7cdb8cb824f32259/-473Wx593H-460917708-cream-MODEL4.jpg',
-  },
-  {
-    name: 'Printed Flared Kurta with Gota Patti',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/htXB/6112ce1aaeb269a2686eb60a/-473Wx593H-460917668-white-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/htXB/6112ce1aaeb269a2686eb60a/-473Wx593H-460917668-white-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/htXB/6112ce1aaeb269a2686eb60a/-473Wx593H-460917668-white-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/htXB/6112ce1aaeb269a2686eb60a/-473Wx593H-460917668-white-MODEL3.jpg',
-  },
-  {
-    name: 'Printed Cotton Straight Kurta with Gota Patti',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/kXgG/611539c8f997ddce899d12cb/-473Wx593H-460917686-pink-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/kXgG/611539c8f997ddce899d12cb/-473Wx593H-460917686-pink-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/kXgG/611539c8f997ddce899d12cb/-473Wx593H-460917686-pink-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/qyL5/611539c67cdb8cb824f5d39e/-473Wx593H-460917686-pink-MODEL4.jpg',
-  },
-  {
-    name: 'Floral Print Cotton Straight Kurta',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/1CWZ/61153ab1f997ddce899d151b/-473Wx593H-460917760-purple-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/1CWZ/61153ab1f997ddce899d151b/-473Wx593H-460917760-purple-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/1CWZ/61153ab1f997ddce899d151b/-473Wx593H-460917760-purple-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/mRBJ/611539d47cdb8cb824f5d446/-473Wx593H-460917760-purple-MODEL4.jpg',
-  },
-  {
-    name: 'Printed Cotton Straight Kurta with Gota Patti',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/G64r/611546ebaeb269a2687128c4/-473Wx593H-460917666-green-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/G64r/611546ebaeb269a2687128c4/-473Wx593H-460917666-green-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/G64r/611546ebaeb269a2687128c4/-473Wx593H-460917666-green-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/G64r/611546ebaeb269a2687128c4/-473Wx593H-460917666-green-MODEL4.jpg',
-  },
-  {
-    name: 'Hand-Embroidered Cotton Straight Kurta',
-    brand: 'AVAA',
-    price: '1688',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/8bQ7/606731e1f997dd7b645bc8b5/-473Wx593H-460845465-navyblue-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/jskV/60673ac0aeb269a9e32fda00/-473Wx593H-460845465-navyblue-MODEL5.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/jskV/60673ac0aeb269a9e32fda00/-473Wx593H-460845465-navyblue-MODEL5.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/jskV/60673ac0aeb269a9e32fda00/-473Wx593H-460845465-navyblue-MODEL5.jpg',
-  },
-  {
-    name: 'Hand-Embroidered Straight Kurta',
-    brand: 'AVAA',
-    price: '1838',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/3Hfg/60673878aeb269a9e32fd512/-473Wx593H-460845484-black-MODEL6.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/3Hfg/60673878aeb269a9e32fd512/-473Wx593H-460845484-black-MODEL6.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/3Hfg/60673878aeb269a9e32fd512/-473Wx593H-460845484-black-MODEL6.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/M1Uc/6079944daeb269a9e392f751/-473Wx593H-460845484-black-MARKETING.jpg',
-  },
-  {
-    name: 'Zardozi Hand-Embroidered Chanderi A-line Kurta',
-    brand: 'AVAA',
-    price: '1763',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/BGr0/6067377baeb269a9e32fd1f8/-473Wx593H-460845461-fuschia-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/gVbl/606731d47cdb8c1f14739d5e/-473Wx593H-460845461-fuschia-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/SGp1/60798afbaeb269a9e392d723/-473Wx593H-460845461-fuschia-MARKETING.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/SGp1/60798afbaeb269a9e392d723/-473Wx593H-460845461-fuschia-MARKETING.jpg',
-  },
-  {
-    name: 'Hand-Embroidered Foil Print A-line Chanderi Kurta',
-    brand: 'AVAA',
-    price: '1500',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/j3PY/60798dbef997dd7b64b38a2a/-473Wx593H-460845491-pink-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/T8vo/6067352caeb269a9e32fcbc6/-473Wx593H-460845491-pink-MODEL2.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/H2ms/60673a56f997dd7b645be263/-473Wx593H-460845491-pink-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/UynF/606734b3f997dd7b645bd169/-473Wx593H-460845491-pink-MODEL4.jpg',
-  },
-  {
-    name: 'Hand-Embroidered Chanderi Straight Kurta',
-    brand: 'AVAA',
-    price: '1718',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/kzhX/60673953aeb269a9e32fd652/-473Wx593H-460845489-olive-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/CsJM/606734abaeb269a9e32fc9a7/-473Wx593H-460845489-olive-MODEL5.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/Jg7V/60799102f997dd7b64b398a9/-473Wx593H-460845489-olive-MARKETING.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/Jg7V/60799102f997dd7b64b398a9/-473Wx593H-460845489-olive-MARKETING.jpg',
-  },
-  {
-    name: 'Embroidered Straight Kurta',
-    brand: 'AVAA',
-    price: '1650',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/cIo2/607995c0f997dd7b64b3aefb/-473Wx593H-460845496-orange-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/IpW7/60673c28aeb269a9e32fddd8/-473Wx593H-460845496-orange-MODEL2.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/rOyT/60673700aeb269a9e32fd073/-473Wx593H-460845496-orange-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/XMnW/6067342bf997dd7b645bcf2f/-473Wx593H-460845496-orange-MODEL5.jpg',
-  },
-  {
-    name: 'Hand-Embroidered A-line Kurta',
-    brand: 'AVAA',
-    price: '1868',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/uTNp/60673b38f997dd7b645be482/-473Wx593H-460845477-mustard-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/uTNp/60673b38f997dd7b645be482/-473Wx593H-460845477-mustard-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/uTNp/60673b38f997dd7b645be482/-473Wx593H-460845477-mustard-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/Uewz/607994c3aeb269a9e392f949/-473Wx593H-460845477-mustard-MARKETING.jpg',
-  },
-  {
-    name: 'Jaipuri Print Rooh Cotton Straight Kurta',
-    brand: 'INDIE PICKS',
-    price: '1299',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210719/mouj/60f5a95baeb269a9e3475c3b/-473Wx593H-460907599-teal-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210719/EiLI/60f5aa40f997ddb3122bdfbe/-473Wx593H-460907599-teal-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210719/EiLI/60f5aa40f997ddb3122bdfbe/-473Wx593H-460907599-teal-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210719/EiLI/60f5aa40f997ddb3122bdfbe/-473Wx593H-460907599-teal-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Print Kalamkari Angrakha Kurta',
-    brand: 'INDIE PICKS',
-    price: '2449',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210702/FBhw/60de0c15f997ddb312174747/-473Wx593H-460865822-red-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210629/doli/60da4322aeb269a9e32e992f/-473Wx593H-460865822-red-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210629/doli/60da4322aeb269a9e32e992f/-473Wx593H-460865822-red-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210629/doli/60da4322aeb269a9e32e992f/-473Wx593H-460865822-red-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Ajrak Print Cotton Angrakha Kurta',
-    brand: 'INDIE PICKS',
-    price: '1949',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Ajrak Print Cotton Angrakha Kurta',
-    brand: 'INDIE PICKS',
-    price: '1949',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/EK9T/60e36be5f997ddb3121bb907/-473Wx593H-460899123-black-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/EK9T/60e36be5f997ddb3121bb907/-473Wx593H-460899123-black-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/EK9T/60e36be5f997ddb3121bb907/-473Wx593H-460899123-black-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Print Cotton Straight Kurta with Concealed Placket',
-    brand: 'INDIE PICKS',
-    price: '800',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20201028/M6pB/5f9875a9f997dd8c837a1db5/-473Wx593H-460745711-beige-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20201028/M6pB/5f9875a9f997dd8c837a1db5/-473Wx593H-460745711-beige-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20201028/M6pB/5f9875a9f997dd8c837a1db5/-473Wx593H-460745711-beige-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20201028/M6pB/5f9875a9f997dd8c837a1db5/-473Wx593H-460745711-beige-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Print Ajrak Cotton A-line Kurta',
-    brand: 'INDIE PICKS',
-    price: '1218',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200910/4Ng4/5f59279aaeb269ef8ebcb0f8/-473Wx593H-460544013-beige-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200910/4Ng4/5f59279aaeb269ef8ebcb0f8/-473Wx593H-460544013-beige-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200910/Z6jY/5f5922487cdb8c766297f477/-473Wx593H-460544013-beige-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200919/MMzw/5f650c72f997dd8c83469612/-473Wx593H-460544013-beige-MARKETING.jpg',
-  },
-  {
-    name: 'Handblock Ajrak Print Cotton Straight Kurta',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/wB0Q/611540517cdb8cb824f5e75c/-473Wx593H-460917740-maroon-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/wB0Q/611540517cdb8cb824f5e75c/-473Wx593H-460917740-maroon-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/wB0Q/611540517cdb8cb824f5e75c/-473Wx593H-460917740-maroon-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/Byei/61153ef57cdb8cb824f5e335/-473Wx593H-460917740-maroon-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Ajrak Print Kurta',
-    brand: 'MOLCHA',
-    price: '999',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/aV6B/6112d8e6aeb269a2686ecdd3/-473Wx593H-460917708-cream-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/aV6B/6112d8e6aeb269a2686ecdd3/-473Wx593H-460917708-cream-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/aV6B/6112d8e6aeb269a2686ecdd3/-473Wx593H-460917708-cream-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/K8fC/6112f1bc7cdb8cb824f32259/-473Wx593H-460917708-cream-MODEL4.jpg',
-  },
-  {
-    name: 'Printed Flared Kurta with Gota Patti',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/htXB/6112ce1aaeb269a2686eb60a/-473Wx593H-460917668-white-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/htXB/6112ce1aaeb269a2686eb60a/-473Wx593H-460917668-white-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/htXB/6112ce1aaeb269a2686eb60a/-473Wx593H-460917668-white-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/htXB/6112ce1aaeb269a2686eb60a/-473Wx593H-460917668-white-MODEL3.jpg',
-  },
-  {
-    name: 'Printed Cotton Straight Kurta with Gota Patti',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/kXgG/611539c8f997ddce899d12cb/-473Wx593H-460917686-pink-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/kXgG/611539c8f997ddce899d12cb/-473Wx593H-460917686-pink-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/kXgG/611539c8f997ddce899d12cb/-473Wx593H-460917686-pink-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/qyL5/611539c67cdb8cb824f5d39e/-473Wx593H-460917686-pink-MODEL4.jpg',
-  },
-  {
-    name: 'Floral Print Cotton Straight Kurta',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/1CWZ/61153ab1f997ddce899d151b/-473Wx593H-460917760-purple-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/1CWZ/61153ab1f997ddce899d151b/-473Wx593H-460917760-purple-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/1CWZ/61153ab1f997ddce899d151b/-473Wx593H-460917760-purple-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/mRBJ/611539d47cdb8cb824f5d446/-473Wx593H-460917760-purple-MODEL4.jpg',
-  },
-  {
-    name: 'Printed Cotton Straight Kurta with Gota Patti',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/G64r/611546ebaeb269a2687128c4/-473Wx593H-460917666-green-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/G64r/611546ebaeb269a2687128c4/-473Wx593H-460917666-green-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/G64r/611546ebaeb269a2687128c4/-473Wx593H-460917666-green-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/G64r/611546ebaeb269a2687128c4/-473Wx593H-460917666-green-MODEL4.jpg',
-  },
-  {
-    name: 'Hand-Embroidered Cotton Straight Kurta',
-    brand: 'AVAA',
-    price: '1688',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/8bQ7/606731e1f997dd7b645bc8b5/-473Wx593H-460845465-navyblue-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/jskV/60673ac0aeb269a9e32fda00/-473Wx593H-460845465-navyblue-MODEL5.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/jskV/60673ac0aeb269a9e32fda00/-473Wx593H-460845465-navyblue-MODEL5.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/jskV/60673ac0aeb269a9e32fda00/-473Wx593H-460845465-navyblue-MODEL5.jpg',
-  },
-  {
-    name: 'Hand-Embroidered Straight Kurta',
-    brand: 'AVAA',
-    price: '1838',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/3Hfg/60673878aeb269a9e32fd512/-473Wx593H-460845484-black-MODEL6.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/3Hfg/60673878aeb269a9e32fd512/-473Wx593H-460845484-black-MODEL6.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/3Hfg/60673878aeb269a9e32fd512/-473Wx593H-460845484-black-MODEL6.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/M1Uc/6079944daeb269a9e392f751/-473Wx593H-460845484-black-MARKETING.jpg',
-  },
-  {
-    name: 'Zardozi Hand-Embroidered Chanderi A-line Kurta',
-    brand: 'AVAA',
-    price: '1763',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/BGr0/6067377baeb269a9e32fd1f8/-473Wx593H-460845461-fuschia-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/gVbl/606731d47cdb8c1f14739d5e/-473Wx593H-460845461-fuschia-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/SGp1/60798afbaeb269a9e392d723/-473Wx593H-460845461-fuschia-MARKETING.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/SGp1/60798afbaeb269a9e392d723/-473Wx593H-460845461-fuschia-MARKETING.jpg',
-  },
-  {
-    name: 'Hand-Embroidered Foil Print A-line Chanderi Kurta',
-    brand: 'AVAA',
-    price: '1500',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/j3PY/60798dbef997dd7b64b38a2a/-473Wx593H-460845491-pink-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/T8vo/6067352caeb269a9e32fcbc6/-473Wx593H-460845491-pink-MODEL2.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/H2ms/60673a56f997dd7b645be263/-473Wx593H-460845491-pink-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/UynF/606734b3f997dd7b645bd169/-473Wx593H-460845491-pink-MODEL4.jpg',
-  },
-  {
-    name: 'Hand-Embroidered Chanderi Straight Kurta',
-    brand: 'AVAA',
-    price: '1718',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/kzhX/60673953aeb269a9e32fd652/-473Wx593H-460845489-olive-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/CsJM/606734abaeb269a9e32fc9a7/-473Wx593H-460845489-olive-MODEL5.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/Jg7V/60799102f997dd7b64b398a9/-473Wx593H-460845489-olive-MARKETING.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/Jg7V/60799102f997dd7b64b398a9/-473Wx593H-460845489-olive-MARKETING.jpg',
-  },
-  {
-    name: 'Embroidered Straight Kurta',
-    brand: 'AVAA',
-    price: '1650',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/cIo2/607995c0f997dd7b64b3aefb/-473Wx593H-460845496-orange-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/IpW7/60673c28aeb269a9e32fddd8/-473Wx593H-460845496-orange-MODEL2.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/rOyT/60673700aeb269a9e32fd073/-473Wx593H-460845496-orange-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/XMnW/6067342bf997dd7b645bcf2f/-473Wx593H-460845496-orange-MODEL5.jpg',
-  },
-  {
-    name: 'Hand-Embroidered A-line Kurta',
-    brand: 'AVAA',
-    price: '1868',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/uTNp/60673b38f997dd7b645be482/-473Wx593H-460845477-mustard-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/uTNp/60673b38f997dd7b645be482/-473Wx593H-460845477-mustard-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/uTNp/60673b38f997dd7b645be482/-473Wx593H-460845477-mustard-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/Uewz/607994c3aeb269a9e392f949/-473Wx593H-460845477-mustard-MARKETING.jpg',
-  },
-  {
-    name: 'Jaipuri Print Rooh Cotton Straight Kurta',
-    brand: 'INDIE PICKS',
-    price: '1299',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210719/mouj/60f5a95baeb269a9e3475c3b/-473Wx593H-460907599-teal-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210719/EiLI/60f5aa40f997ddb3122bdfbe/-473Wx593H-460907599-teal-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210719/EiLI/60f5aa40f997ddb3122bdfbe/-473Wx593H-460907599-teal-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210719/EiLI/60f5aa40f997ddb3122bdfbe/-473Wx593H-460907599-teal-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Print Kalamkari Angrakha Kurta',
-    brand: 'INDIE PICKS',
-    price: '2449',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210702/FBhw/60de0c15f997ddb312174747/-473Wx593H-460865822-red-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210629/doli/60da4322aeb269a9e32e992f/-473Wx593H-460865822-red-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210629/doli/60da4322aeb269a9e32e992f/-473Wx593H-460865822-red-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210629/doli/60da4322aeb269a9e32e992f/-473Wx593H-460865822-red-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Ajrak Print Cotton Angrakha Kurta',
-    brand: 'INDIE PICKS',
-    price: '1949',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Ajrak Print Cotton Angrakha Kurta',
-    brand: 'INDIE PICKS',
-    price: '1949',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/EK9T/60e36be5f997ddb3121bb907/-473Wx593H-460899123-black-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/EK9T/60e36be5f997ddb3121bb907/-473Wx593H-460899123-black-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/EK9T/60e36be5f997ddb3121bb907/-473Wx593H-460899123-black-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210706/dkpV/60e36a71aeb269a9e338221a/-473Wx593H-460899123-black-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Print Cotton Straight Kurta with Concealed Placket',
-    brand: 'INDIE PICKS',
-    price: '800',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20201028/M6pB/5f9875a9f997dd8c837a1db5/-473Wx593H-460745711-beige-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20201028/M6pB/5f9875a9f997dd8c837a1db5/-473Wx593H-460745711-beige-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20201028/M6pB/5f9875a9f997dd8c837a1db5/-473Wx593H-460745711-beige-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20201028/M6pB/5f9875a9f997dd8c837a1db5/-473Wx593H-460745711-beige-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Print Ajrak Cotton A-line Kurta',
-    brand: 'INDIE PICKS',
-    price: '1218',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20200910/4Ng4/5f59279aaeb269ef8ebcb0f8/-473Wx593H-460544013-beige-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20200910/4Ng4/5f59279aaeb269ef8ebcb0f8/-473Wx593H-460544013-beige-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20200910/Z6jY/5f5922487cdb8c766297f477/-473Wx593H-460544013-beige-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20200919/MMzw/5f650c72f997dd8c83469612/-473Wx593H-460544013-beige-MARKETING.jpg',
-  },
-  {
-    name: 'Handblock Ajrak Print Cotton Straight Kurta',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/wB0Q/611540517cdb8cb824f5e75c/-473Wx593H-460917740-maroon-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/wB0Q/611540517cdb8cb824f5e75c/-473Wx593H-460917740-maroon-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/wB0Q/611540517cdb8cb824f5e75c/-473Wx593H-460917740-maroon-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/Byei/61153ef57cdb8cb824f5e335/-473Wx593H-460917740-maroon-MODEL4.jpg',
-  },
-  {
-    name: 'Handblock Ajrak Print Kurta',
-    brand: 'MOLCHA',
-    price: '999',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/aV6B/6112d8e6aeb269a2686ecdd3/-473Wx593H-460917708-cream-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/aV6B/6112d8e6aeb269a2686ecdd3/-473Wx593H-460917708-cream-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/aV6B/6112d8e6aeb269a2686ecdd3/-473Wx593H-460917708-cream-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/K8fC/6112f1bc7cdb8cb824f32259/-473Wx593H-460917708-cream-MODEL4.jpg',
-  },
-  {
-    name: 'Printed Flared Kurta with Gota Patti',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/htXB/6112ce1aaeb269a2686eb60a/-473Wx593H-460917668-white-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/htXB/6112ce1aaeb269a2686eb60a/-473Wx593H-460917668-white-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/htXB/6112ce1aaeb269a2686eb60a/-473Wx593H-460917668-white-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210811/htXB/6112ce1aaeb269a2686eb60a/-473Wx593H-460917668-white-MODEL3.jpg',
-  },
-  {
-    name: 'Printed Cotton Straight Kurta with Gota Patti',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/kXgG/611539c8f997ddce899d12cb/-473Wx593H-460917686-pink-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/kXgG/611539c8f997ddce899d12cb/-473Wx593H-460917686-pink-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/kXgG/611539c8f997ddce899d12cb/-473Wx593H-460917686-pink-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/qyL5/611539c67cdb8cb824f5d39e/-473Wx593H-460917686-pink-MODEL4.jpg',
-  },
-  {
-    name: 'Floral Print Cotton Straight Kurta',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/1CWZ/61153ab1f997ddce899d151b/-473Wx593H-460917760-purple-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/1CWZ/61153ab1f997ddce899d151b/-473Wx593H-460917760-purple-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/1CWZ/61153ab1f997ddce899d151b/-473Wx593H-460917760-purple-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/mRBJ/611539d47cdb8cb824f5d446/-473Wx593H-460917760-purple-MODEL4.jpg',
-  },
-  {
-    name: 'Printed Cotton Straight Kurta with Gota Patti',
-    brand: 'MOLCHA',
-    price: '1499',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/G64r/611546ebaeb269a2687128c4/-473Wx593H-460917666-green-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/G64r/611546ebaeb269a2687128c4/-473Wx593H-460917666-green-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/G64r/611546ebaeb269a2687128c4/-473Wx593H-460917666-green-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210812/G64r/611546ebaeb269a2687128c4/-473Wx593H-460917666-green-MODEL4.jpg',
-  },
-  {
-    name: 'Hand-Embroidered Cotton Straight Kurta',
-    brand: 'AVAA',
-    price: '1688',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/8bQ7/606731e1f997dd7b645bc8b5/-473Wx593H-460845465-navyblue-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/jskV/60673ac0aeb269a9e32fda00/-473Wx593H-460845465-navyblue-MODEL5.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/jskV/60673ac0aeb269a9e32fda00/-473Wx593H-460845465-navyblue-MODEL5.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/jskV/60673ac0aeb269a9e32fda00/-473Wx593H-460845465-navyblue-MODEL5.jpg',
-  },
-  {
-    name: 'Hand-Embroidered Straight Kurta',
-    brand: 'AVAA',
-    price: '1838',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/3Hfg/60673878aeb269a9e32fd512/-473Wx593H-460845484-black-MODEL6.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/3Hfg/60673878aeb269a9e32fd512/-473Wx593H-460845484-black-MODEL6.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/3Hfg/60673878aeb269a9e32fd512/-473Wx593H-460845484-black-MODEL6.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/M1Uc/6079944daeb269a9e392f751/-473Wx593H-460845484-black-MARKETING.jpg',
-  },
-  {
-    name: 'Zardozi Hand-Embroidered Chanderi A-line Kurta',
-    brand: 'AVAA',
-    price: '1763',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/BGr0/6067377baeb269a9e32fd1f8/-473Wx593H-460845461-fuschia-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/gVbl/606731d47cdb8c1f14739d5e/-473Wx593H-460845461-fuschia-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/SGp1/60798afbaeb269a9e392d723/-473Wx593H-460845461-fuschia-MARKETING.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/SGp1/60798afbaeb269a9e392d723/-473Wx593H-460845461-fuschia-MARKETING.jpg',
-  },
-  {
-    name: 'Hand-Embroidered Foil Print A-line Chanderi Kurta',
-    brand: 'AVAA',
-    price: '1500',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/j3PY/60798dbef997dd7b64b38a2a/-473Wx593H-460845491-pink-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/T8vo/6067352caeb269a9e32fcbc6/-473Wx593H-460845491-pink-MODEL2.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/H2ms/60673a56f997dd7b645be263/-473Wx593H-460845491-pink-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/UynF/606734b3f997dd7b645bd169/-473Wx593H-460845491-pink-MODEL4.jpg',
-  },
-  {
-    name: 'Hand-Embroidered Chanderi Straight Kurta',
-    brand: 'AVAA',
-    price: '1718',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/kzhX/60673953aeb269a9e32fd652/-473Wx593H-460845489-olive-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/CsJM/606734abaeb269a9e32fc9a7/-473Wx593H-460845489-olive-MODEL5.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/Jg7V/60799102f997dd7b64b398a9/-473Wx593H-460845489-olive-MARKETING.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/Jg7V/60799102f997dd7b64b398a9/-473Wx593H-460845489-olive-MARKETING.jpg',
-  },
-  {
-    name: 'Embroidered Straight Kurta',
-    brand: 'AVAA',
-    price: '1650',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/cIo2/607995c0f997dd7b64b3aefb/-473Wx593H-460845496-orange-MODEL.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/IpW7/60673c28aeb269a9e32fddd8/-473Wx593H-460845496-orange-MODEL2.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/rOyT/60673700aeb269a9e32fd073/-473Wx593H-460845496-orange-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/XMnW/6067342bf997dd7b645bcf2f/-473Wx593H-460845496-orange-MODEL5.jpg',
-  },
-  {
-    name: 'Hand-Embroidered A-line Kurta',
-    brand: 'AVAA',
-    price: '1868',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/uTNp/60673b38f997dd7b645be482/-473Wx593H-460845477-mustard-MODEL4.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/uTNp/60673b38f997dd7b645be482/-473Wx593H-460845477-mustard-MODEL4.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210402/uTNp/60673b38f997dd7b645be482/-473Wx593H-460845477-mustard-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210416/Uewz/607994c3aeb269a9e392f949/-473Wx593H-460845477-mustard-MARKETING.jpg',
-  },
-]
-var Indie_dress = [
-  {
-    name: 'Mangalgiri Lapel-Collar A-line Cotton Dress',
-    brand: 'INDIE PICKS',
-    price: '1120',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210112/zzK3/5ffcb172f997dd5c40d448e3/-473Wx593H-460704788-coral-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210112/zzK3/5ffcb172f997dd5c40d448e3/-473Wx593H-460704788-coral-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210112/zzK3/5ffcb172f997dd5c40d448e3/-473Wx593H-460704788-coral-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210112/zzK3/5ffcb172f997dd5c40d448e3/-473Wx593H-460704788-coral-MODEL3.jpg',
-  },
-  {
-    name: 'Mangalgiri Cotton Printed A-line Dress with Slip Pocket',
-    brand: 'INDIE PICKS',
-    price: '1440',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210112/DaVk/5ffca0117cdb8c1f1425cc4a/-473Wx593H-460704751-yellow-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210112/DaVk/5ffca0117cdb8c1f1425cc4a/-473Wx593H-460704751-yellow-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210112/gPNC/5ffc9f1baeb26969814b1a1c/-473Wx593H-460704751-yellow-MODEL4.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210112/gPNC/5ffc9f1baeb26969814b1a1c/-473Wx593H-460704751-yellow-MODEL4.jpg',
-  },
-  {
-    name: 'Paisley Designs Handloom Ikat Woven Cotton A-line Maxi Dress',
-    brand: 'INDIE PICKS',
-    price: '1819',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20210617/ANve/60cb6aeaaeb269a9e3ed29ce/-473Wx593H-460882874-white-MODEL3.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20210617/ANve/60cb6aeaaeb269a9e3ed29ce/-473Wx593H-460882874-white-MODEL3.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20210617/ANve/60cb6aeaaeb269a9e3ed29ce/-473Wx593H-460882874-white-MODEL3.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20210617/ANve/60cb6aeaaeb269a9e3ed29ce/-473Wx593H-460882874-white-MODEL3.jpg',
-  },
-  {
-    name: 'Hand Tie-Dye Clamp-Dyed A-line Dress with Embroidery',
-    brand: 'INDIE PICKS',
-    price: '580',
-    image1:
-      'https://assets.ajio.com/medias/sys_master/root/20201016/IvEP/5f89bfbff997dd8c8369d8d0/-473Wx593H-460698118-yellow-MARKETING.jpg',
-    image2:
-      'https://assets.ajio.com/medias/sys_master/root/20201016/IvEP/5f89bfbff997dd8c8369d8d0/-473Wx593H-460698118-yellow-MARKETING.jpg',
-    image3:
-      'https://assets.ajio.com/medias/sys_master/root/20201016/IvEP/5f89bfbff997dd8c8369d8d0/-473Wx593H-460698118-yellow-MARKETING.jpg',
-    image4:
-      'https://assets.ajio.com/medias/sys_master/root/20201016/IvEP/5f89bfbff997dd8c8369d8d0/-473Wx593H-460698118-yellow-MARKETING.jpg',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
-  },
-  {
-    name: '',
-    brand: '',
-    price: '',
-    image1: '',
-    image2: '',
-    image3: '',
-    image4: '',
+    price: '439',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210525/AhUd/60ad1244f997ddb312a89446/-1117Wx1400H-460850699-blue-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210428/ly5k/60895bc9f997dd7b64c6ab17/-1117Wx1400H-460850699-blue-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210428/Pw9U/608960edf997dd7b64c6c305/-1117Wx1400H-460850699-blue-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210525/KHMm/60ad12cfaeb269a9e3c89cf6/-1117Wx1400H-460850699-blue-MARKETING.jpg',
+  },
+  {
+    name: 'Handspun Embroidered Khadi Cotton Asymmetrical',
+    brand: 'EKMATRA',
+    price: '616',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20200929/bG6t/5f72474ef997dd8c835127ec/-1117Wx1400H-460727673-lightgreen-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20200923/SG2X/5f6b672df997dd8c834b0b92/-1117Wx1400H-460727673-lightgreen-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20200923/1xVB/5f6b6723aeb269d563c90dca/-1117Wx1400H-460727673-lightgreen-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20200923/uVFQ/5f6b69067cdb8c21e36aab27/-1117Wx1400H-460727673-lightgreen-MODEL4.jpg',
+  },
+  {
+    name: 'Mangalgiri Angrakha Tunic',
+    brand: 'EKMATRA',
+    price: '1200',
+    image1: 'https://assets.ajio.com/medias/sys_master/root/20210112/fHsc/5ffcb52e7cdb8c1f1426091f/-1117Wx1400H-460704757-grey-MODEL.jpg',
+    image2: 'https://assets.ajio.com/medias/sys_master/root/20210112/zhRi/5ffca361f997dd5c40d42044/-1117Wx1400H-460704757-grey-MODEL2.jpg',
+    image3: 'https://assets.ajio.com/medias/sys_master/root/20210112/lONa/5ffc9adf7cdb8c1f1425bd64/-1117Wx1400H-460704757-grey-MODEL3.jpg',
+    image4: 'https://assets.ajio.com/medias/sys_master/root/20210112/cCJX/5ffcb25b7cdb8c1f1426001f/-1117Wx1400H-460704757-grey-MODEL4.jpg',
   },
 ]
 
-var front_ = [
-  {
-    img1: 'https://assets.ajio.com/medias/sys_master/images/images/h5f/hb5/34912270385182/23082021-d-unisex-topcarousel-p1-eoss-50to80.jpg',
-    img2: 'https://assets.ajio.com/medias/sys_master/images/images/he3/h11/34918447153182/24082021-d-unisex-topcarousel-p3-ucb-40to70.jpg',
-    img3: 'https://assets.ajio.com/medias/sys_master/images/images/h51/h35/34918447218718/24082021-d-unisex-topcarousel-p4-festivecollection-40to80.jpg',
-    img4: 'https://assets.ajio.com/medias/sys_master/images/images/h9b/ha3/34918447284254/24082021-d-unisex-topcarousel-p5-ishin-upto70.jpg',
-    img5: 'https://assets.ajio.com/medias/sys_master/images/images/h0a/h17/34918447349790/24082021-d-unisex-topcarousel-p6-diamondjewellery-flat30.jpg',
-  },
-]
