@@ -667,6 +667,225 @@ let WJeans=[
 
 ]
 
+let WDress = [
+    {
+      name: 'Craft Bagh Handblock Print A-line Cotton Dress',
+      brand: 'INDIE PICKS',
+      price: '1119',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/h81/h46/12923588444190/-1117Wx1400H-460272397-beige-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/h46/ha1/12923587133470/-1117Wx1400H-460272397-beige-MODEL2.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/hae/h17/12923588771870/-1117Wx1400H-460272397-beige-MODEL3.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/h14/ha4/12923586871326/-1117Wx1400H-460272397-beige-MODEL4.jpg',
+    },
+    {
+      name: 'Handblock Printed Kalamkari Cotton Sattva Overlay Dress',
+      brand: 'INDIE PICKS',
+      price: '2999',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20210817/QCVB/611abf0e7cdb8cb824f99f67/-1117Wx1400H-460851861-red-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20210817/HN24/611ad95caeb269a2687431cd/-1117Wx1400H-460851861-red-MODEL2.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20210817/Noru/611ab1f2f997ddce89a0385a/-1117Wx1400H-460851861-red-MODEL3.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20210817/ylkY/611aba5ef997ddce89a050df/-1117Wx1400H-460851861-red-MODEL4.jpg',
+    },
+    {
+      name: 'Embellished Gown Dress',
+      brand: 'SAADHVI',
+      price: '788',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20201031/KHps/5f9c6f0ef997dd8c83808df9/-1117Wx1400H-460763557-black-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20201022/GMJN/5f912107f997dd8c837382ef/-1117Wx1400H-460763557-black-MODEL2.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20201022/xVKt/5f911dbdaeb269d563ea554c/-1117Wx1400H-460763557-black-MODEL3.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20201031/bpqo/5f9c6a66f997dd8c83806376/-1117Wx1400H-460763557-black-MARKETING.jpg',
+    },
+    {
+      name: 'Handloom Cotton Dress with Kalamkari Print',
+      brand: 'SAADHVI',
+      price: '2119',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20210218/nYBJ/602e656aaeb2696981683929/-1117Wx1400H-460809990-blue-MODEL2.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20210218/I7mW/602e65e5f997dd5c40f38190/-1117Wx1400H-460809990-blue-MODEL3.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20210317/FdPH/60522396aeb269a9e31ddd7e/-1117Wx1400H-460809990-blue-MARKETING.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20210218/pV9J/602e66547cdb8c1f14436e6a/-1117Wx1400H-460809990-blue-MODEL4.jpg',
+    },
+    {
+      name: 'Block Print Dress',
+      brand: 'VEDIC',
+      price: '1350',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20210519/UpeW/60a442dcaeb269a9e3c3652b/-1117Wx1400H-462427153-blue-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20210519/vvM5/60a442dcaeb269a9e3c3655b/-1117Wx1400H-462427153-blue-MODEL3.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20210519/5bJD/60a442dcaeb269a9e3c36545/-1117Wx1400H-462427153-blue-MODEL4.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20210519/7PIo/60a442dcaeb269a9e3c36581/-1117Wx1400H-462427153-blue-MODEL2.jpg',
+    },
+    {
+      name: 'Hand-Spun Khadi Shift Cotton Dress',
+      brand: 'VEDIC',
+      price: '840',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20200929/Wnke/5f724e94f997dd8c83516c81/-1117Wx1400H-460727690-indigo-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20200923/PLwk/5f6b6634aeb269d563c90a68/-1117Wx1400H-460727690-indigo-MODEL2.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20200923/Rvcz/5f6b6583f997dd8c834aff81/-1117Wx1400H-460727690-indigo-MODEL3.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20200923/qF7V/5f6b66b6f997dd8c834b083d/-1117Wx1400H-460727690-indigo-MODEL4.jpg',
+    },
+    {
+      name: 'Craft Bagh Handblock Print A-line Cotton Dress',
+      brand: 'INDIE PICKS',
+      price: '1119',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/h81/h46/12923588444190/-1117Wx1400H-460272397-beige-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/h46/ha1/12923587133470/-1117Wx1400H-460272397-beige-MODEL2.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/hae/h17/12923588771870/-1117Wx1400H-460272397-beige-MODEL3.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/h14/ha4/12923586871326/-1117Wx1400H-460272397-beige-MODEL4.jpg',
+    },
+    {
+      name: 'Handblock Printed Kalamkari Cotton Sattva Overlay Dress',
+      brand: 'INDIE PICKS',
+      price: '2999',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20210817/QCVB/611abf0e7cdb8cb824f99f67/-1117Wx1400H-460851861-red-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20210817/HN24/611ad95caeb269a2687431cd/-1117Wx1400H-460851861-red-MODEL2.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20210817/Noru/611ab1f2f997ddce89a0385a/-1117Wx1400H-460851861-red-MODEL3.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20210817/ylkY/611aba5ef997ddce89a050df/-1117Wx1400H-460851861-red-MODEL4.jpg',
+    },
+    {
+      name: 'Embellished Gown Dress',
+      brand: 'SAADHVI',
+      price: '788',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20201031/KHps/5f9c6f0ef997dd8c83808df9/-1117Wx1400H-460763557-black-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20201022/GMJN/5f912107f997dd8c837382ef/-1117Wx1400H-460763557-black-MODEL2.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20201022/xVKt/5f911dbdaeb269d563ea554c/-1117Wx1400H-460763557-black-MODEL3.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20201031/bpqo/5f9c6a66f997dd8c83806376/-1117Wx1400H-460763557-black-MARKETING.jpg',
+    },
+    {
+      name: 'Handloom Cotton Dress with Kalamkari Print',
+      brand: 'SAADHVI',
+      price: '2119',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20210218/nYBJ/602e656aaeb2696981683929/-1117Wx1400H-460809990-blue-MODEL2.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20210218/I7mW/602e65e5f997dd5c40f38190/-1117Wx1400H-460809990-blue-MODEL3.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20210317/FdPH/60522396aeb269a9e31ddd7e/-1117Wx1400H-460809990-blue-MARKETING.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20210218/pV9J/602e66547cdb8c1f14436e6a/-1117Wx1400H-460809990-blue-MODEL4.jpg',
+    },
+    {
+      name: 'Block Print Dress',
+      brand: 'VEDIC',
+      price: '1350',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20210519/UpeW/60a442dcaeb269a9e3c3652b/-1117Wx1400H-462427153-blue-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20210519/vvM5/60a442dcaeb269a9e3c3655b/-1117Wx1400H-462427153-blue-MODEL3.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20210519/5bJD/60a442dcaeb269a9e3c36545/-1117Wx1400H-462427153-blue-MODEL4.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20210519/7PIo/60a442dcaeb269a9e3c36581/-1117Wx1400H-462427153-blue-MODEL2.jpg',
+    },
+    {
+      name: 'Hand-Spun Khadi Shift Cotton Dress',
+      brand: 'VEDIC',
+      price: '840',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20200929/Wnke/5f724e94f997dd8c83516c81/-1117Wx1400H-460727690-indigo-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20200923/PLwk/5f6b6634aeb269d563c90a68/-1117Wx1400H-460727690-indigo-MODEL2.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20200923/Rvcz/5f6b6583f997dd8c834aff81/-1117Wx1400H-460727690-indigo-MODEL3.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20200923/qF7V/5f6b66b6f997dd8c834b083d/-1117Wx1400H-460727690-indigo-MODEL4.jpg',
+    },
+    {
+      name: 'Craft Bagh Handblock Print A-line Cotton Dress',
+      brand: 'INDIE PICKS',
+      price: '1119',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/h81/h46/12923588444190/-1117Wx1400H-460272397-beige-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/h46/ha1/12923587133470/-1117Wx1400H-460272397-beige-MODEL2.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/hae/h17/12923588771870/-1117Wx1400H-460272397-beige-MODEL3.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/h14/ha4/12923586871326/-1117Wx1400H-460272397-beige-MODEL4.jpg',
+    },
+    {
+      name: 'Handblock Printed Kalamkari Cotton Sattva Overlay Dress',
+      brand: 'INDIE PICKS',
+      price: '2999',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20210817/QCVB/611abf0e7cdb8cb824f99f67/-1117Wx1400H-460851861-red-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20210817/HN24/611ad95caeb269a2687431cd/-1117Wx1400H-460851861-red-MODEL2.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20210817/Noru/611ab1f2f997ddce89a0385a/-1117Wx1400H-460851861-red-MODEL3.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20210817/ylkY/611aba5ef997ddce89a050df/-1117Wx1400H-460851861-red-MODEL4.jpg',
+    },
+    {
+      name: 'Embellished Gown Dress',
+      brand: 'SAADHVI',
+      price: '788',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20201031/KHps/5f9c6f0ef997dd8c83808df9/-1117Wx1400H-460763557-black-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20201022/GMJN/5f912107f997dd8c837382ef/-1117Wx1400H-460763557-black-MODEL2.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20201022/xVKt/5f911dbdaeb269d563ea554c/-1117Wx1400H-460763557-black-MODEL3.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20201031/bpqo/5f9c6a66f997dd8c83806376/-1117Wx1400H-460763557-black-MARKETING.jpg',
+    },
+    {
+      name: 'Handloom Cotton Dress with Kalamkari Print',
+      brand: 'SAADHVI',
+      price: '2119',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20210218/nYBJ/602e656aaeb2696981683929/-1117Wx1400H-460809990-blue-MODEL2.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20210218/I7mW/602e65e5f997dd5c40f38190/-1117Wx1400H-460809990-blue-MODEL3.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20210317/FdPH/60522396aeb269a9e31ddd7e/-1117Wx1400H-460809990-blue-MARKETING.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20210218/pV9J/602e66547cdb8c1f14436e6a/-1117Wx1400H-460809990-blue-MODEL4.jpg',
+    },
+    {
+      name: 'Block Print Dress',
+      brand: 'VEDIC',
+      price: '1350',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20210519/UpeW/60a442dcaeb269a9e3c3652b/-1117Wx1400H-462427153-blue-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20210519/vvM5/60a442dcaeb269a9e3c3655b/-1117Wx1400H-462427153-blue-MODEL3.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20210519/5bJD/60a442dcaeb269a9e3c36545/-1117Wx1400H-462427153-blue-MODEL4.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20210519/7PIo/60a442dcaeb269a9e3c36581/-1117Wx1400H-462427153-blue-MODEL2.jpg',
+    },
+    {
+      name: 'Hand-Spun Khadi Shift Cotton Dress',
+      brand: 'VEDIC',
+      price: '840',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20200929/Wnke/5f724e94f997dd8c83516c81/-1117Wx1400H-460727690-indigo-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20200923/PLwk/5f6b6634aeb269d563c90a68/-1117Wx1400H-460727690-indigo-MODEL2.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20200923/Rvcz/5f6b6583f997dd8c834aff81/-1117Wx1400H-460727690-indigo-MODEL3.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20200923/qF7V/5f6b66b6f997dd8c834b083d/-1117Wx1400H-460727690-indigo-MODEL4.jpg',
+    },
+    {
+      name: 'Craft Bagh Handblock Print A-line Cotton Dress',
+      brand: 'INDIE PICKS',
+      price: '1119',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/h81/h46/12923588444190/-1117Wx1400H-460272397-beige-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/h46/ha1/12923587133470/-1117Wx1400H-460272397-beige-MODEL2.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/hae/h17/12923588771870/-1117Wx1400H-460272397-beige-MODEL3.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/h14/ha4/12923586871326/-1117Wx1400H-460272397-beige-MODEL4.jpg',
+    },
+    {
+      name: 'Handblock Printed Kalamkari Cotton Sattva Overlay Dress',
+      brand: 'INDIE PICKS',
+      price: '2999',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20210817/QCVB/611abf0e7cdb8cb824f99f67/-1117Wx1400H-460851861-red-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20210817/HN24/611ad95caeb269a2687431cd/-1117Wx1400H-460851861-red-MODEL2.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20210817/Noru/611ab1f2f997ddce89a0385a/-1117Wx1400H-460851861-red-MODEL3.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20210817/ylkY/611aba5ef997ddce89a050df/-1117Wx1400H-460851861-red-MODEL4.jpg',
+    },
+    {
+      name: 'Embellished Gown Dress',
+      brand: 'SAADHVI',
+      price: '788',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20201031/KHps/5f9c6f0ef997dd8c83808df9/-1117Wx1400H-460763557-black-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20201022/GMJN/5f912107f997dd8c837382ef/-1117Wx1400H-460763557-black-MODEL2.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20201022/xVKt/5f911dbdaeb269d563ea554c/-1117Wx1400H-460763557-black-MODEL3.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20201031/bpqo/5f9c6a66f997dd8c83806376/-1117Wx1400H-460763557-black-MARKETING.jpg',
+    },
+    {
+      name: 'Handloom Cotton Dress with Kalamkari Print',
+      brand: 'SAADHVI',
+      price: '2119',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20210218/nYBJ/602e656aaeb2696981683929/-1117Wx1400H-460809990-blue-MODEL2.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20210218/I7mW/602e65e5f997dd5c40f38190/-1117Wx1400H-460809990-blue-MODEL3.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20210317/FdPH/60522396aeb269a9e31ddd7e/-1117Wx1400H-460809990-blue-MARKETING.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20210218/pV9J/602e66547cdb8c1f14436e6a/-1117Wx1400H-460809990-blue-MODEL4.jpg',
+    },
+    {
+      name: 'Block Print Dress',
+      brand: 'VEDIC',
+      price: '1350',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20210519/UpeW/60a442dcaeb269a9e3c3652b/-1117Wx1400H-462427153-blue-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20210519/vvM5/60a442dcaeb269a9e3c3655b/-1117Wx1400H-462427153-blue-MODEL3.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20210519/5bJD/60a442dcaeb269a9e3c36545/-1117Wx1400H-462427153-blue-MODEL4.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20210519/7PIo/60a442dcaeb269a9e3c36581/-1117Wx1400H-462427153-blue-MODEL2.jpg',
+    },
+    {
+      name: 'Hand-Spun Khadi Shift Cotton Dress',
+      brand: 'VEDIC',
+      price: '840',
+      image1: 'https://assets.ajio.com/medias/sys_master/root/20200929/Wnke/5f724e94f997dd8c83516c81/-1117Wx1400H-460727690-indigo-MODEL.jpg',
+      image2: 'https://assets.ajio.com/medias/sys_master/root/20200923/PLwk/5f6b6634aeb269d563c90a68/-1117Wx1400H-460727690-indigo-MODEL2.jpg',
+      image3: 'https://assets.ajio.com/medias/sys_master/root/20200923/Rvcz/5f6b6583f997dd8c834aff81/-1117Wx1400H-460727690-indigo-MODEL3.jpg',
+      image4: 'https://assets.ajio.com/medias/sys_master/root/20200923/qF7V/5f6b66b6f997dd8c834b083d/-1117Wx1400H-460727690-indigo-MODEL4.jpg',
+    },
+  ]
+
 
 // ETHNIC WEAR //item1
 
@@ -1227,6 +1446,115 @@ let WSandals=[
         image3:" https://assets.ajio.com/medias/sys_master/root/20210202/tgBa/60186b25aeb26969815a3e2e/-1117Wx1400H-450137473-nude-MODEL3.jpg",
         image4:"https://assets.ajio.com/medias/sys_master/root/20210202/KnrF/60185c5ff997dd5c40e2b37f/-1117Wx1400H-450137473-nude-MODEL4.jpg "
     },
+    {
+        name:"Cleo Dual-Strap Slingback Sandals",
+        brand:"CROCS",
+        price:"1539",
+        image1:" https://assets.ajio.com/medias/sys_master/root/20210319/6PCG/6054bdaeaeb269a9e31fef61/-1117Wx1400H-460845438-rosegold-MODEL.jpg",
+        image2:" https://assets.ajio.com/medias/sys_master/root/20210319/YmRE/6054c1e1aeb269a9e31ffb80/-1117Wx1400H-460845438-rosegold-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210319/N7pW/6054c07baeb269a9e31ff794/-1117Wx1400H-460845438-rosegold-MODEL3.jpg ",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210319/c1C7/6054c25baeb269a9e31ffd06/-1117Wx1400H-460845438-rosegold-MODEL4.jpg " 
+    },
+    {
+        name:"Embellished T-strap Sandals with Buckle Closure",
+        brand:"STEVE MADDEN",
+        price:"2600",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20200724/opre/5f19da3b7cdb8c220784cb56/-1117Wx1400H-460603284-black-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/ha9/h2e/15951648391198/-1117Wx1400H-460603284-black-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/h31/hcb/15951643148318/-1117Wx1400H-460603284-black-MODEL4.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/h08/h94/15951645835294/-1117Wx1400H-460603284-black-MODEL5.jpg"
+    },
+    {
+        name:"Tulum Slip-On Flat Sandals with Heel Counter",
+        brand:"CROCS",
+        price:"2342",
+        image1:" https://assets.ajio.com/medias/sys_master/root/20210107/SiRr/5ff6fc47aeb2696981472947/-1117Wx1400H-450137544-beige-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210107/cxxh/5ff6fadfaeb26969814726c1/-1117Wx1400H-450137544-beige-MODEL2.jpg ",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210107/ht43/5ff6f88a7cdb8c1f1420a3f3/-1117Wx1400H-450137544-beige-MODEL3.jpg ",
+        image4:" https://assets.ajio.com/medias/sys_master/root/20210107/O1Lx/5ff6f6a5f997dd5c40cf6c74/-1117Wx1400H-450137544-beige-MODEL4.jpg"
+    },
+    {
+        name:"Pop Ups- Glamathon- Embellished Slides",
+        brand:"SKECHERS",
+        price:"2375",
+        image1:" https://assets.ajio.com/medias/sys_master/root/20210701/3jB5/60dcbfd6aeb269a9e3324b20/-1117Wx1400H-450144578-whtpatent-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210701/bNg9/60dcebf5aeb269a9e33364c5/-1117Wx1400H-450144578-whtpatent-MODEL2.jpg ",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210701/0hr0/60dcef76f997ddb31216bdf2/-1117Wx1400H-450144578-whtpatent-MODEL3.jpg ",
+        image4:" https://assets.ajio.com/medias/sys_master/root/20210701/SyF5/60dcd079f997ddb312156ac7/-1117Wx1400H-450144578-whtpatent-MODEL6.jpg"
+    },
+    {
+        name:"Thong-Strap Slip-On Sandals",
+        brand:"HI-ATTITUDE",
+        price:"349",
+        image1:"https://assets.ajio.com/medias/sys_master/root/h36/h57/14066417336350/-1117Wx1400H-410161152-moulinrougere-MODEL.jpg ",
+        image2:" https://assets.ajio.com/medias/sys_master/root/heb/h01/14066436472862/-1117Wx1400H-410161152-moulinrougere-OUTFIT.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/h2a/h4b/14066420744222/-1117Wx1400H-410161152-moulinrougere-OUTFIT2.jpg ",
+        image4:" https://assets.ajio.com/medias/sys_master/root/haa/h66/14066403770398/-1117Wx1400H-410161152-moulinrougere-OUTFIT4.jpg"
+    },
+    {
+        name:"Toe-Ring Flat Sandals with Bow",
+        brand:"EVERQUPID",
+        price:"494",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210202/iDwl/60187b767cdb8c1f1433380a/-1117Wx1400H-450137473-nude-MODEL.jpg ",
+        image2:" https://assets.ajio.com/medias/sys_master/root/20210202/L3NH/60188349aeb26969815ad564/-1117Wx1400H-450137473-nude-MODEL2.jpg",
+        image3:" https://assets.ajio.com/medias/sys_master/root/20210202/tgBa/60186b25aeb26969815a3e2e/-1117Wx1400H-450137473-nude-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210202/KnrF/60185c5ff997dd5c40e2b37f/-1117Wx1400H-450137473-nude-MODEL4.jpg "
+    },
+    {
+        name:"Cleo Dual-Strap Slingback Sandals",
+        brand:"CROCS",
+        price:"1539",
+        image1:" https://assets.ajio.com/medias/sys_master/root/20210319/6PCG/6054bdaeaeb269a9e31fef61/-1117Wx1400H-460845438-rosegold-MODEL.jpg",
+        image2:" https://assets.ajio.com/medias/sys_master/root/20210319/YmRE/6054c1e1aeb269a9e31ffb80/-1117Wx1400H-460845438-rosegold-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210319/N7pW/6054c07baeb269a9e31ff794/-1117Wx1400H-460845438-rosegold-MODEL3.jpg ",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210319/c1C7/6054c25baeb269a9e31ffd06/-1117Wx1400H-460845438-rosegold-MODEL4.jpg " 
+    },
+    {
+        name:"Embellished T-strap Sandals with Buckle Closure",
+        brand:"STEVE MADDEN",
+        price:"2600",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20200724/opre/5f19da3b7cdb8c220784cb56/-1117Wx1400H-460603284-black-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/ha9/h2e/15951648391198/-1117Wx1400H-460603284-black-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/h31/hcb/15951643148318/-1117Wx1400H-460603284-black-MODEL4.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/h08/h94/15951645835294/-1117Wx1400H-460603284-black-MODEL5.jpg"
+    },
+    {
+        name:"Tulum Slip-On Flat Sandals with Heel Counter",
+        brand:"CROCS",
+        price:"2342",
+        image1:" https://assets.ajio.com/medias/sys_master/root/20210107/SiRr/5ff6fc47aeb2696981472947/-1117Wx1400H-450137544-beige-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210107/cxxh/5ff6fadfaeb26969814726c1/-1117Wx1400H-450137544-beige-MODEL2.jpg ",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210107/ht43/5ff6f88a7cdb8c1f1420a3f3/-1117Wx1400H-450137544-beige-MODEL3.jpg ",
+        image4:" https://assets.ajio.com/medias/sys_master/root/20210107/O1Lx/5ff6f6a5f997dd5c40cf6c74/-1117Wx1400H-450137544-beige-MODEL4.jpg"
+    },
+    {
+        name:"Pop Ups- Glamathon- Embellished Slides",
+        brand:"SKECHERS",
+        price:"2375",
+        image1:" https://assets.ajio.com/medias/sys_master/root/20210701/3jB5/60dcbfd6aeb269a9e3324b20/-1117Wx1400H-450144578-whtpatent-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210701/bNg9/60dcebf5aeb269a9e33364c5/-1117Wx1400H-450144578-whtpatent-MODEL2.jpg ",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210701/0hr0/60dcef76f997ddb31216bdf2/-1117Wx1400H-450144578-whtpatent-MODEL3.jpg ",
+        image4:" https://assets.ajio.com/medias/sys_master/root/20210701/SyF5/60dcd079f997ddb312156ac7/-1117Wx1400H-450144578-whtpatent-MODEL6.jpg"
+    },
+    {
+        name:"Thong-Strap Slip-On Sandals",
+        brand:"HI-ATTITUDE",
+        price:"349",
+        image1:"https://assets.ajio.com/medias/sys_master/root/h36/h57/14066417336350/-1117Wx1400H-410161152-moulinrougere-MODEL.jpg ",
+        image2:" https://assets.ajio.com/medias/sys_master/root/heb/h01/14066436472862/-1117Wx1400H-410161152-moulinrougere-OUTFIT.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/h2a/h4b/14066420744222/-1117Wx1400H-410161152-moulinrougere-OUTFIT2.jpg ",
+        image4:" https://assets.ajio.com/medias/sys_master/root/haa/h66/14066403770398/-1117Wx1400H-410161152-moulinrougere-OUTFIT4.jpg"
+    },
+    {
+        name:"Toe-Ring Flat Sandals with Bow",
+        brand:"EVERQUPID",
+        price:"494",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210202/iDwl/60187b767cdb8c1f1433380a/-1117Wx1400H-450137473-nude-MODEL.jpg ",
+        image2:" https://assets.ajio.com/medias/sys_master/root/20210202/L3NH/60188349aeb26969815ad564/-1117Wx1400H-450137473-nude-MODEL2.jpg",
+        image3:" https://assets.ajio.com/medias/sys_master/root/20210202/tgBa/60186b25aeb26969815a3e2e/-1117Wx1400H-450137473-nude-MODEL3.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210202/KnrF/60185c5ff997dd5c40e2b37f/-1117Wx1400H-450137473-nude-MODEL4.jpg "
+    },
+   
    
    
 ]
@@ -1343,6 +1671,115 @@ let WShoes=[
         image3:" https://assets.ajio.com/medias/sys_master/root/h90/h15/12735672352798/-1117Wx1400H-460301054-grey-OUTFIT2.jpg",
         image4:" https://assets.ajio.com/medias/sys_master/root/hf2/hec/12735672877086/-1117Wx1400H-460301054-grey-OUTFIT3.jpg"
     },
+    {
+        name:"Interflex Runner Sports Shoes",
+        brand:"PUMA",
+        price:"2249",
+        image1:" https://assets.ajio.com/medias/sys_master/root/20201022/mIAs/5f911b76aeb269d563ea4625/-1117Wx1400H-460736659-grey-MODEL.jpg",
+        image2:" https://assets.ajio.com/medias/sys_master/root/20201022/ZmuP/5f912058aeb269d563ea66af/-1117Wx1400H-460736659-grey-MODEL2.jpg",
+        image3:" https://assets.ajio.com/medias/sys_master/root/20201022/4Rrg/5f911ccdaeb269d563ea4eda/-1117Wx1400H-460736659-grey-MODEL3.jpg",
+        image4:" https://assets.ajio.com/medias/sys_master/root/20201022/p1E5/5f911d0ef997dd8c83736161/-1117Wx1400H-460736659-grey-MODEL4.jpg" 
+    },
+    {
+        name:"Go Walk Evolution Ultra Enhance Low-Tops Lace-up Sports Shoes",
+        brand:"SKECHERS",
+        price:"3179",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210616/TYMI/60ca1caaaeb269a9e3eb107d/-1117Wx1400H-460896080-onion-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210607/fzWN/60be355faeb269a9e3da9270/-1117Wx1400H-460896080-onion-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210607/fXlz/60be3894f997ddb312bba87d/-1117Wx1400H-460896080-onion-MODEL5.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210607/z1TS/60be3550f997ddb312bb9b67/-1117Wx1400H-460896080-onion-MODEL3.jpg"
+    },
+    {
+        name:"Knitted Lace-Up Running Shoes",
+        brand:"CAMPUS",
+        price:"769",
+        image1:" https://assets.ajio.com/medias/sys_master/root/20201022/kXsc/5f9121bbf997dd8c837388ac/-1117Wx1400H-460736659-red-MODEL.jpg",
+        image2:" https://assets.ajio.com/medias/sys_master/root/20201022/3acy/5f911c58aeb269d563ea4c0b/-1117Wx1400H-460736659-red-MODEL2.jpg",
+        image3:" https://assets.ajio.com/medias/sys_master/root/20201022/bzVM/5f9122aef997dd8c83739116/-1117Wx1400H-460736659-red-MODEL3.jpg",
+        image4:" https://assets.ajio.com/medias/sys_master/root/20201022/3Sp2/5f911ba3f997dd8c83735468/-1117Wx1400H-460736659-red-MODEL6.jpg"
+    },
+    {
+        name:"Claire Lace-Up Running Shoes",
+        brand:"CAMPUS",
+        price:"1000",
+        image1:" https://assets.ajio.com/medias/sys_master/root/20201022/4QwR/5f911fa2f997dd8c837376bf/-1117Wx1400H-460736660-black-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201022/tLZn/5f911cd0f997dd8c83735f55/-1117Wx1400H-460736660-black-MODEL2.jpg ",
+        image3:" https://assets.ajio.com/medias/sys_master/root/20201022/IgfH/5f911dc2f997dd8c837366d1/-1117Wx1400H-460736660-black-MODEL3.jpg",
+        image4:" https://assets.ajio.com/medias/sys_master/root/20201022/GIwx/5f912108aeb269d563ea6c89/-1117Wx1400H-460736660-black-MODEL6.jpg"
+    },
+    {
+        name:"Agile Low Runner 2.0 Shoes",
+        brand:"SUPERDRY",
+        price:"4500",
+        image1:" https://assets.ajio.com/medias/sys_master/root/20210727/6GdK/60ff37e1aeb269a9e353d325/-1117Wx1400H-460927762-mauve-MODEL.jpg",
+        image2:" https://assets.ajio.com/medias/sys_master/root/20210727/7FAr/60ff19e1f997ddb31238b8cb/-1117Wx1400H-460927762-mauve-MODEL3.jpg",
+        image3:" https://assets.ajio.com/medias/sys_master/root/20210727/Dkhn/60ff5955f997ddb3123a32d7/-1117Wx1400H-460927762-mauve-MODEL4.jpg",
+        image4:" https://assets.ajio.com/medias/sys_master/root/20210727/bN5g/60ff2969f997ddb31238f6cf/-1117Wx1400H-460927762-mauve-MODEL2.jpg"
+    },
+    {
+        name:"Textured Lace-Up Sports Shoes",
+        brand:"EVERQUPID",
+        price:"759",
+        image1:"https://assets.ajio.com/medias/sys_master/root/h72/hbb/12735672090654/-1117Wx1400H-460301054-grey-MODEL.jpg ",
+        image2:" https://assets.ajio.com/medias/sys_master/root/h20/h40/12735674187806/-1117Wx1400H-460301054-grey-OUTFIT.jpg",
+        image3:" https://assets.ajio.com/medias/sys_master/root/h90/h15/12735672352798/-1117Wx1400H-460301054-grey-OUTFIT2.jpg",
+        image4:" https://assets.ajio.com/medias/sys_master/root/hf2/hec/12735672877086/-1117Wx1400H-460301054-grey-OUTFIT3.jpg"
+    },
+    {
+        name:"Interflex Runner Sports Shoes",
+        brand:"PUMA",
+        price:"2249",
+        image1:" https://assets.ajio.com/medias/sys_master/root/20201022/mIAs/5f911b76aeb269d563ea4625/-1117Wx1400H-460736659-grey-MODEL.jpg",
+        image2:" https://assets.ajio.com/medias/sys_master/root/20201022/ZmuP/5f912058aeb269d563ea66af/-1117Wx1400H-460736659-grey-MODEL2.jpg",
+        image3:" https://assets.ajio.com/medias/sys_master/root/20201022/4Rrg/5f911ccdaeb269d563ea4eda/-1117Wx1400H-460736659-grey-MODEL3.jpg",
+        image4:" https://assets.ajio.com/medias/sys_master/root/20201022/p1E5/5f911d0ef997dd8c83736161/-1117Wx1400H-460736659-grey-MODEL4.jpg" 
+    },
+    {
+        name:"Go Walk Evolution Ultra Enhance Low-Tops Lace-up Sports Shoes",
+        brand:"SKECHERS",
+        price:"3179",
+        image1:"https://assets.ajio.com/medias/sys_master/root/20210616/TYMI/60ca1caaaeb269a9e3eb107d/-1117Wx1400H-460896080-onion-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20210607/fzWN/60be355faeb269a9e3da9270/-1117Wx1400H-460896080-onion-MODEL2.jpg",
+        image3:"https://assets.ajio.com/medias/sys_master/root/20210607/fXlz/60be3894f997ddb312bba87d/-1117Wx1400H-460896080-onion-MODEL5.jpg",
+        image4:"https://assets.ajio.com/medias/sys_master/root/20210607/z1TS/60be3550f997ddb312bb9b67/-1117Wx1400H-460896080-onion-MODEL3.jpg"
+    },
+    {
+        name:"Knitted Lace-Up Running Shoes",
+        brand:"CAMPUS",
+        price:"769",
+        image1:" https://assets.ajio.com/medias/sys_master/root/20201022/kXsc/5f9121bbf997dd8c837388ac/-1117Wx1400H-460736659-red-MODEL.jpg",
+        image2:" https://assets.ajio.com/medias/sys_master/root/20201022/3acy/5f911c58aeb269d563ea4c0b/-1117Wx1400H-460736659-red-MODEL2.jpg",
+        image3:" https://assets.ajio.com/medias/sys_master/root/20201022/bzVM/5f9122aef997dd8c83739116/-1117Wx1400H-460736659-red-MODEL3.jpg",
+        image4:" https://assets.ajio.com/medias/sys_master/root/20201022/3Sp2/5f911ba3f997dd8c83735468/-1117Wx1400H-460736659-red-MODEL6.jpg"
+    },
+    {
+        name:"Claire Lace-Up Running Shoes",
+        brand:"CAMPUS",
+        price:"1000",
+        image1:" https://assets.ajio.com/medias/sys_master/root/20201022/4QwR/5f911fa2f997dd8c837376bf/-1117Wx1400H-460736660-black-MODEL.jpg",
+        image2:"https://assets.ajio.com/medias/sys_master/root/20201022/tLZn/5f911cd0f997dd8c83735f55/-1117Wx1400H-460736660-black-MODEL2.jpg ",
+        image3:" https://assets.ajio.com/medias/sys_master/root/20201022/IgfH/5f911dc2f997dd8c837366d1/-1117Wx1400H-460736660-black-MODEL3.jpg",
+        image4:" https://assets.ajio.com/medias/sys_master/root/20201022/GIwx/5f912108aeb269d563ea6c89/-1117Wx1400H-460736660-black-MODEL6.jpg"
+    },
+    {
+        name:"Agile Low Runner 2.0 Shoes",
+        brand:"SUPERDRY",
+        price:"4500",
+        image1:" https://assets.ajio.com/medias/sys_master/root/20210727/6GdK/60ff37e1aeb269a9e353d325/-1117Wx1400H-460927762-mauve-MODEL.jpg",
+        image2:" https://assets.ajio.com/medias/sys_master/root/20210727/7FAr/60ff19e1f997ddb31238b8cb/-1117Wx1400H-460927762-mauve-MODEL3.jpg",
+        image3:" https://assets.ajio.com/medias/sys_master/root/20210727/Dkhn/60ff5955f997ddb3123a32d7/-1117Wx1400H-460927762-mauve-MODEL4.jpg",
+        image4:" https://assets.ajio.com/medias/sys_master/root/20210727/bN5g/60ff2969f997ddb31238f6cf/-1117Wx1400H-460927762-mauve-MODEL2.jpg"
+    },
+    {
+        name:"Textured Lace-Up Sports Shoes",
+        brand:"EVERQUPID",
+        price:"759",
+        image1:"https://assets.ajio.com/medias/sys_master/root/h72/hbb/12735672090654/-1117Wx1400H-460301054-grey-MODEL.jpg ",
+        image2:" https://assets.ajio.com/medias/sys_master/root/h20/h40/12735674187806/-1117Wx1400H-460301054-grey-OUTFIT.jpg",
+        image3:" https://assets.ajio.com/medias/sys_master/root/h90/h15/12735672352798/-1117Wx1400H-460301054-grey-OUTFIT2.jpg",
+        image4:" https://assets.ajio.com/medias/sys_master/root/hf2/hec/12735672877086/-1117Wx1400H-460301054-grey-OUTFIT3.jpg"
+    },
+   
    
 ]
 
@@ -1458,6 +1895,114 @@ let WSunglass=[
             image3:" https://assets.ajio.com/medias/sys_master/root/20210506/HWni/6094016aaeb269a9e3b51138/-1117Wx1400H-462364792-multi-MODEL3.jpg",
             image4:" https://assets.ajio.com/medias/sys_master/root/20210506/hBGi/6094016aaeb269a9e3b5114a/-1117Wx1400H-462364792-multi-MODEL4.jpg"
         },
+        {
+            name:"Full-Rim Cat-Eye Sunglasses",
+            brand:"FOSSIL",
+            price:"2607",
+            image1:"https://assets.ajio.com/medias/sys_master/root/20210706/jqUS/60e47da8f997ddb3121dba84/-1117Wx1400H-460915758-gold-MODEL.jpg ",
+            image2:"https://assets.ajio.com/medias/sys_master/root/20210706/svcH/60e4770cf997ddb3121d9f0d/-1117Wx1400H-460915758-gold-MODEL4.jpg ",
+            image3:" https://assets.ajio.com/medias/sys_master/root/20210706/Cud9/60e47786aeb269a9e33a144e/-1117Wx1400H-460915758-gold-MODEL6.jpg",
+            image4:" https://assets.ajio.com/medias/sys_master/root/20210706/T3nt/60e484a1aeb269a9e33a43ad/-1117Wx1400H-460915758-gold-MODEL3.jpg" 
+        },
+        {
+            name:"UV-Protected Full-Rim Cat-Eye",
+            brand:"KENNETH COLE",
+            price:"1540",
+            image1:"https://assets.ajio.com/medias/sys_master/root/20210706/916h/60e48075f997ddb3121dc66c/-1117Wx1400H-460915758-silver-MODEL.jpg ",
+            image2:" https://assets.ajio.com/medias/sys_master/root/20210706/tKoC/60e471e4aeb269a9e33a00f6/-1117Wx1400H-460915758-silver-MODEL2.jpg",
+            image3:"https://assets.ajio.com/medias/sys_master/root/20210706/oUG4/60e479e7f997ddb3121dab03/-1117Wx1400H-460915758-silver-MODEL3.jpg ",
+            image4:" https://assets.ajio.com/medias/sys_master/root/20210706/DE1l/60e4786faeb269a9e33a16f1/-1117Wx1400H-460915758-silver-MODEL4.jpg"
+        },
+        {
+            name:" Full-Rim Cat-Eye Sunglasses",
+            brand:"MAXMARA",
+            price:"2278",
+            image1:"https://assets.ajio.com/medias/sys_master/root/20210506/I9wX/609402b9f997ddb31293b507/-1117Wx1400H-462364665-multi-MODEL.jpg ",
+            image2:" https://assets.ajio.com/medias/sys_master/root/20210506/V5eX/609402b9f997ddb31293b534/-1117Wx1400H-462364665-multi-MODEL2.jpg",
+            image3:" https://assets.ajio.com/medias/sys_master/root/20210506/Tp78/609402b9f997ddb31293b533/-1117Wx1400H-462364665-multi-MODEL3.jpg",
+            image4:" https://assets.ajio.com/medias/sys_master/root/20210506/DNSW/609402b9f997ddb31293b547/-1117Wx1400H-462364665-multi-MODEL4.jpg"
+        },
+        {
+            name:" Full-Rim Rectangular Sunglasses",
+            brand:"MAXMARA",
+            price:"3082",
+            image1:" https://assets.ajio.com/medias/sys_master/root/20210504/rsyC/6090848daeb269a9e3af7870/-1117Wx1400H-462364481-brown-MODEL.jpg",
+            image2:" https://assets.ajio.com/medias/sys_master/root/20210504/ycfE/6090848daeb269a9e3af78b2/-1117Wx1400H-462364481-brown-MODEL2.jpg",
+            image3:"https://assets.ajio.com/medias/sys_master/root/20210504/vi07/6090848daeb269a9e3af78d9/-1117Wx1400H-462364481-brown-MODEL3.jpg ",
+            image4:" https://assets.ajio.com/medias/sys_master/root/20210504/Qa1T/6090848daeb269a9e3af78b7/-1117Wx1400H-462364481-brown-MODEL4.jpg"
+        },
+        {
+            name:"UV-Protected Mirrored Full-Rim Circular Sunglasses",
+            brand:"KENNETH COLE",
+            price:"1755",
+            image1:" https://assets.ajio.com/medias/sys_master/root/20210706/X84X/60e4796ff997ddb3121da8e1/-1117Wx1400H-460915758-copper-MODEL.jpg",
+            image2:" https://assets.ajio.com/medias/sys_master/root/20210706/qSkU/60e48596aeb269a9e33a4688/-1117Wx1400H-460915758-copper-MODEL2.jpg",
+            image3:" https://assets.ajio.com/medias/sys_master/root/20210706/TJXt/60e47ac7aeb269a9e33a2086/-1117Wx1400H-460915758-copper-MODEL3.jpg",
+            image4:"https://assets.ajio.com/medias/sys_master/root/20210706/rXBo/60e47a54f997ddb3121dac3b/-1117Wx1400H-460915758-copper-MODEL4.jpg "
+        },
+        {
+            name:"Gradient Clubmaster Sunglasses",
+            brand:"TOMMY HILFIGER",
+            price:"6338",
+            image1:" https://assets.ajio.com/medias/sys_master/root/20210506/K9DE/6094016aaeb269a9e3b510e3/-1117Wx1400H-462364792-multi-MODEL.jpg",
+            image2:"https://assets.ajio.com/medias/sys_master/root/20210506/hvq3/6094016aaeb269a9e3b51126/-1117Wx1400H-462364792-multi-MODEL2.jpg ",
+            image3:" https://assets.ajio.com/medias/sys_master/root/20210506/HWni/6094016aaeb269a9e3b51138/-1117Wx1400H-462364792-multi-MODEL3.jpg",
+            image4:" https://assets.ajio.com/medias/sys_master/root/20210506/hBGi/6094016aaeb269a9e3b5114a/-1117Wx1400H-462364792-multi-MODEL4.jpg"
+        },
+            {
+                name:"Full-Rim Cat-Eye Sunglasses",
+                brand:"FOSSIL",
+                price:"2607",
+                image1:"https://assets.ajio.com/medias/sys_master/root/20210706/jqUS/60e47da8f997ddb3121dba84/-1117Wx1400H-460915758-gold-MODEL.jpg ",
+                image2:"https://assets.ajio.com/medias/sys_master/root/20210706/svcH/60e4770cf997ddb3121d9f0d/-1117Wx1400H-460915758-gold-MODEL4.jpg ",
+                image3:" https://assets.ajio.com/medias/sys_master/root/20210706/Cud9/60e47786aeb269a9e33a144e/-1117Wx1400H-460915758-gold-MODEL6.jpg",
+                image4:" https://assets.ajio.com/medias/sys_master/root/20210706/T3nt/60e484a1aeb269a9e33a43ad/-1117Wx1400H-460915758-gold-MODEL3.jpg" 
+            },
+            {
+                name:"UV-Protected Full-Rim Cat-Eye",
+                brand:"KENNETH COLE",
+                price:"1540",
+                image1:"https://assets.ajio.com/medias/sys_master/root/20210706/916h/60e48075f997ddb3121dc66c/-1117Wx1400H-460915758-silver-MODEL.jpg ",
+                image2:" https://assets.ajio.com/medias/sys_master/root/20210706/tKoC/60e471e4aeb269a9e33a00f6/-1117Wx1400H-460915758-silver-MODEL2.jpg",
+                image3:"https://assets.ajio.com/medias/sys_master/root/20210706/oUG4/60e479e7f997ddb3121dab03/-1117Wx1400H-460915758-silver-MODEL3.jpg ",
+                image4:" https://assets.ajio.com/medias/sys_master/root/20210706/DE1l/60e4786faeb269a9e33a16f1/-1117Wx1400H-460915758-silver-MODEL4.jpg"
+            },
+            {
+                name:" Full-Rim Cat-Eye Sunglasses",
+                brand:"MAXMARA",
+                price:"2278",
+                image1:"https://assets.ajio.com/medias/sys_master/root/20210506/I9wX/609402b9f997ddb31293b507/-1117Wx1400H-462364665-multi-MODEL.jpg ",
+                image2:" https://assets.ajio.com/medias/sys_master/root/20210506/V5eX/609402b9f997ddb31293b534/-1117Wx1400H-462364665-multi-MODEL2.jpg",
+                image3:" https://assets.ajio.com/medias/sys_master/root/20210506/Tp78/609402b9f997ddb31293b533/-1117Wx1400H-462364665-multi-MODEL3.jpg",
+                image4:" https://assets.ajio.com/medias/sys_master/root/20210506/DNSW/609402b9f997ddb31293b547/-1117Wx1400H-462364665-multi-MODEL4.jpg"
+            },
+            {
+                name:" Full-Rim Rectangular Sunglasses",
+                brand:"MAXMARA",
+                price:"3082",
+                image1:" https://assets.ajio.com/medias/sys_master/root/20210504/rsyC/6090848daeb269a9e3af7870/-1117Wx1400H-462364481-brown-MODEL.jpg",
+                image2:" https://assets.ajio.com/medias/sys_master/root/20210504/ycfE/6090848daeb269a9e3af78b2/-1117Wx1400H-462364481-brown-MODEL2.jpg",
+                image3:"https://assets.ajio.com/medias/sys_master/root/20210504/vi07/6090848daeb269a9e3af78d9/-1117Wx1400H-462364481-brown-MODEL3.jpg ",
+                image4:" https://assets.ajio.com/medias/sys_master/root/20210504/Qa1T/6090848daeb269a9e3af78b7/-1117Wx1400H-462364481-brown-MODEL4.jpg"
+            },
+            {
+                name:"UV-Protected Mirrored Full-Rim Circular Sunglasses",
+                brand:"KENNETH COLE",
+                price:"1755",
+                image1:" https://assets.ajio.com/medias/sys_master/root/20210706/X84X/60e4796ff997ddb3121da8e1/-1117Wx1400H-460915758-copper-MODEL.jpg",
+                image2:" https://assets.ajio.com/medias/sys_master/root/20210706/qSkU/60e48596aeb269a9e33a4688/-1117Wx1400H-460915758-copper-MODEL2.jpg",
+                image3:" https://assets.ajio.com/medias/sys_master/root/20210706/TJXt/60e47ac7aeb269a9e33a2086/-1117Wx1400H-460915758-copper-MODEL3.jpg",
+                image4:"https://assets.ajio.com/medias/sys_master/root/20210706/rXBo/60e47a54f997ddb3121dac3b/-1117Wx1400H-460915758-copper-MODEL4.jpg "
+            },
+            {
+                name:"Gradient Clubmaster Sunglasses",
+                brand:"TOMMY HILFIGER",
+                price:"6338",
+                image1:" https://assets.ajio.com/medias/sys_master/root/20210506/K9DE/6094016aaeb269a9e3b510e3/-1117Wx1400H-462364792-multi-MODEL.jpg",
+                image2:"https://assets.ajio.com/medias/sys_master/root/20210506/hvq3/6094016aaeb269a9e3b51126/-1117Wx1400H-462364792-multi-MODEL2.jpg ",
+                image3:" https://assets.ajio.com/medias/sys_master/root/20210506/HWni/6094016aaeb269a9e3b51138/-1117Wx1400H-462364792-multi-MODEL3.jpg",
+                image4:" https://assets.ajio.com/medias/sys_master/root/20210506/hBGi/6094016aaeb269a9e3b5114a/-1117Wx1400H-462364792-multi-MODEL4.jpg"
+            },
     
 ]
 
