@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+    rel="stylesheet"
+  />
   <link
     rel="icon"
     href="https://image.apktoy.com/img/e6/com.ril.ajio/icon.png"
@@ -30,7 +36,6 @@
   <style>
     * {
       margin: 0;
-      font-family: 'Roboto', sans-serif;
     }
     a {
       text-decoration: none;
@@ -433,6 +438,25 @@
       font-size: 15px;
       color: rgb(204, 204, 204);
       margin-bottom: 10px;
+    }
+    #left > div > h3 {
+      margin-top: 70px;
+      margin-left: 100px;
+    }
+    #left > div > p > button {
+      border: none;
+      margin-top: 15px;
+      background-color: white;
+      margin-left: 100px;
+      cursor: pointer;
+    }
+    #BKL {
+      width: 60%;
+      margin-left: 500px;
+      margin-top: 70px;
+      margin-bottom: -50px;
+      text-align: center;
+      font-family: 'Lora', serif;
     }
   </style>
   <body>
@@ -991,9 +1015,7 @@
           <form>
             <input type="text" placeholder="   SearchAJIO" id="inp" />
           </form>
-          <div class="A">
-          
-          </div>
+          <div class="A"></div>
           <a href="/closet.html" id="closet">
             <p></p>
             <i class="fas fa-caret-up"></i>
@@ -1008,19 +1030,27 @@
     <div id="gre"></div>
     <br /><br /><br /><br />
     <!-- sign in -->
-
-    <!-- <div id="Top"></div> -->
+    <!-- 
+    <div id="Top"></div> -->
+    <div id="BKL">
+      <h1>Choose from a Wide Variety of products</h1>
+      <p style="margin-top: 20px">
+        AJIO chooses from the top brands from around the world and only brings
+        you top quality items to choose from.
+      </p>
+    </div>
     <div id="main">
       <div id="left">
         <div>
           <h3>Sort by Price</h3>
-          <p><button>Price: High to Low</button></p>
-          <p><button>Price: Low to High</button></p>
-          
+          <p><button onclick="pp()">By Popularity</button></p>
+          <p><button onclick="hl()">Price: High to Low</button></p>
+          <p><button onclick="lh()">Price: Low to High</button></p>
         </div>
         <div></div>
         <div></div>
       </div>
+
       <div id="right"></div>
     </div>
     <div id="block8">
@@ -1108,8 +1138,212 @@
 
   var KATO = localStorage.getItem('CATO')
   KATO = JSON.parse(KATO)
-  console.log(KATO[0])
+
   var A = [...KATO[0]]
+  var BB = [...KATO[0]]
+  function pp() {
+    while (block.firstChild) {
+      block.removeChild(block.firstChild)
+    }
+    BB.map(function (prod) {
+      var N = prod.name
+      var B = prod.brand
+      var P = Number(prod.price)
+      var p = 100
+      var div = document.createElement('BUTTON')
+      div.style.width = '330px'
+      div.style.height = '531px'
+      div.style.display = 'block'
+      div.style.border = 'none'
+      div.style.backgroundColor = 'white'
+      div.style.cursor = 'pointer'
+      div.onclick = function () {
+        var len = temp.length
+        if (len != 0) {
+          temp = []
+        }
+        temp.push(prod)
+        let TEMP = JSON.stringify(temp)
+        localStorage.setItem('TEMP', TEMP)
+        window.open('prodHollow.html')
+      }
+      div.style.textAlign = 'center'
+      div.setAttribute('class', 'pr_bl')
+      div.style.marginTop = '30px'
+      var IMA = document.createElement('img')
+      IMA.src = prod.image1
+      var im = [prod.image1, prod.image2, prod.image3, prod.image4]
+      var i = 0
+      setInterval(function () {
+        if (i > 3) {
+          i = 0
+        }
+        IMA.src = im[i]
+        i++
+      }, 4000)
+
+      IMA.style.width = '90%'
+      var BRAND = document.createElement('h4')
+      BRAND.innerHTML = B
+      var NAME = document.createElement('h2')
+      NAME.innerHTML = N
+      var PRICE = document.createElement('div')
+      var ze = document.createElement('p')
+      ze.setAttribute('class', 'ze')
+      ze.innerHTML = 'Rs.' + P
+      var zf = document.createElement('p')
+      zf.setAttribute('class', 'zf')
+      var ex = P + p
+      zf.innerHTML = 'Rs.' + ex
+      zf.style.textDecoration = 'line-through'
+      var zg = document.createElement('p')
+      zg.innerHTML = '(25% off)'
+      zg.setAttribute('class', 'zg')
+      PRICE.append(ze, zf, zg)
+      div.append(IMA, BRAND, NAME, PRICE)
+      block.append(div)
+    })
+  }
+
+  function lh() {
+    console.log(5)
+    A = A.sort(function (a, b) {
+      return Number(a.price) - Number(b.price)
+    })
+
+    while (block.firstChild) {
+      block.removeChild(block.firstChild)
+    }
+    A.map(function (prod) {
+      var N = prod.name
+      var B = prod.brand
+      var P = Number(prod.price)
+      var p = 100
+      var div = document.createElement('BUTTON')
+      div.style.width = '330px'
+      div.style.height = '531px'
+      div.style.display = 'block'
+      div.style.border = 'none'
+      div.style.backgroundColor = 'white'
+      div.style.cursor = 'pointer'
+      div.onclick = function () {
+        var len = temp.length
+        if (len != 0) {
+          temp = []
+        }
+        temp.push(prod)
+        let TEMP = JSON.stringify(temp)
+        localStorage.setItem('TEMP', TEMP)
+        window.open('prodHollow.html')
+      }
+      div.style.textAlign = 'center'
+      div.setAttribute('class', 'pr_bl')
+      div.style.marginTop = '30px'
+      var IMA = document.createElement('img')
+      IMA.src = prod.image1
+      var im = [prod.image1, prod.image2, prod.image3, prod.image4]
+      var i = 0
+      setInterval(function () {
+        if (i > 3) {
+          i = 0
+        }
+        IMA.src = im[i]
+        i++
+      }, 4000)
+
+      IMA.style.width = '90%'
+      var BRAND = document.createElement('h4')
+      BRAND.innerHTML = B
+      var NAME = document.createElement('h2')
+      NAME.innerHTML = N
+      var PRICE = document.createElement('div')
+      var ze = document.createElement('p')
+      ze.setAttribute('class', 'ze')
+      ze.innerHTML = 'Rs.' + P
+      var zf = document.createElement('p')
+      zf.setAttribute('class', 'zf')
+      var ex = P + p
+      zf.innerHTML = 'Rs.' + ex
+      zf.style.textDecoration = 'line-through'
+      var zg = document.createElement('p')
+      zg.innerHTML = '(25% off)'
+      zg.setAttribute('class', 'zg')
+      PRICE.append(ze, zf, zg)
+      div.append(IMA, BRAND, NAME, PRICE)
+      block.append(div)
+    })
+  }
+
+  function hl() {
+    console.log(5)
+    A = A.sort(function (a, b) {
+      return Number(b.price) - Number(a.price)
+    })
+
+    while (block.firstChild) {
+      block.removeChild(block.firstChild)
+    }
+    A.map(function (prod) {
+      var N = prod.name
+      var B = prod.brand
+      var P = Number(prod.price)
+      var p = 100
+      var div = document.createElement('BUTTON')
+      div.style.width = '330px'
+      div.style.height = '531px'
+      div.style.display = 'block'
+      div.style.border = 'none'
+      div.style.backgroundColor = 'white'
+      div.style.cursor = 'pointer'
+      div.onclick = function () {
+        var len = temp.length
+        if (len != 0) {
+          temp = []
+        }
+        temp.push(prod)
+        let TEMP = JSON.stringify(temp)
+        localStorage.setItem('TEMP', TEMP)
+        window.open('prodHollow.html')
+      }
+      div.style.textAlign = 'center'
+      div.setAttribute('class', 'pr_bl')
+      div.style.marginTop = '30px'
+      var IMA = document.createElement('img')
+      IMA.src = prod.image1
+      var im = [prod.image1, prod.image2, prod.image3, prod.image4]
+      var i = 0
+      setInterval(function () {
+        if (i > 3) {
+          i = 0
+        }
+        IMA.src = im[i]
+        i++
+      }, 4000)
+
+      IMA.style.width = '90%'
+      var BRAND = document.createElement('h4')
+      BRAND.innerHTML = B
+      var NAME = document.createElement('h2')
+      NAME.innerHTML = N
+      var PRICE = document.createElement('div')
+      var ze = document.createElement('p')
+      ze.setAttribute('class', 'ze')
+      ze.innerHTML = 'Rs.' + P
+      var zf = document.createElement('p')
+      zf.setAttribute('class', 'zf')
+      var ex = P + p
+      zf.innerHTML = 'Rs.' + ex
+      zf.style.textDecoration = 'line-through'
+      var zg = document.createElement('p')
+      zg.innerHTML = '(25% off)'
+      zg.setAttribute('class', 'zg')
+      PRICE.append(ze, zf, zg)
+      div.append(IMA, BRAND, NAME, PRICE)
+      block.append(div)
+    })
+  }
+
+  // console.log(KATO[0])
   function definer() {
     A.map(function (prod) {
       var N = prod.name
@@ -1138,9 +1372,7 @@
       div.style.marginTop = '30px'
       var IMA = document.createElement('img')
       IMA.src = prod.image1
-
       var im = [prod.image1, prod.image2, prod.image3, prod.image4]
-      console.log(im)
       var i = 0
       setInterval(function () {
         if (i > 3) {
@@ -1175,7 +1407,6 @@
   definer()
   var abb = []
   function cato(arr) {
-    console.log(5)
     var len = abb.length
     if (len != 0) {
       abb = []
