@@ -69,7 +69,9 @@
     #links > div > a {
       color: #3d5060;
       text-align: center;
-      padding: 14px;
+      z-index: 7;
+      padding: 18px;
+      padding-bottom: 20px;
       text-decoration: none;
       font-size: 14px;
       margin: auto;
@@ -81,10 +83,10 @@
     .dropdown-content {
       display: none;
       position: fixed;
-      background-color: #f9f9f9;
       background-color: rgb(255, 255, 255);
+      z-index: 7;
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-      top: 94px;
+      top: 88px;
       left: 14%;
     }
 
@@ -200,12 +202,12 @@
       font-size: 14px;
       color: #3d5060;
     }
-          .part > div > p > button {
-        color: #3d5060;
-        border: none;
-        background-color: white;
-        cursor: pointer;
-      }
+    .part > div > p > button {
+      color: #3d5060;
+      border: none;
+      background-color: white;
+      cursor: pointer;
+    }
     .part > div > p > a {
       color: #3d5060;
     }
@@ -226,15 +228,15 @@
       margin-right: 23px;
       margin-bottom: 11px;
     }
-          #mini-lnk > button {
-        border: none;
-        background-color: white;
-        color: rgb(42, 46, 49);
-        margin-left: -10px;
-        margin-top: -1px;
-        margin-right: 10px;
-        cursor: pointer;
-      }
+    #mini-lnk > button {
+      border: none;
+      background-color: white;
+      color: rgb(42, 46, 49);
+      margin-left: -10px;
+      margin-top: -1px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
     #sear_block {
       display: flex;
     }
@@ -435,7 +437,7 @@
   </style>
   <body>
     <!-- Navbar -->
-      <!-- Navbar -->
+    <!-- Navbar -->
     <div id="blue"></div>
     <div id="navbar">
       <a href="/home.html">
@@ -1007,8 +1009,6 @@
     <br /><br /><br /><br />
 
     <!-- sign in -->
-   
-
 
     <!-- <div id="Top"></div> -->
     <div id="main">
@@ -1089,7 +1089,11 @@
     </div>
   </body>
 </html>
-
+<script src="/DATA.js"></script>
+<script src="/kidsObject.js"></script>
+<script src="/home_furniture.js"></script>
+<script src="/men.js"></script>
+<script src="/women.js"></script>
 <script>
   var block = document.getElementById('right')
   var temp = []
@@ -1110,7 +1114,7 @@
       div.style.display = 'block'
       div.style.border = 'none'
       div.style.backgroundColor = 'white'
-      div.style.cursor = "pointer"
+      div.style.cursor = 'pointer'
       div.onclick = function () {
         var len = temp.length
         if (len != 0) {
@@ -1161,9 +1165,16 @@
     })
   }
   definer()
-
-
-
-
-
+  var abb = []
+  function cato(arr) {
+    console.log(5)
+    var len = abb.length
+    if (len != 0) {
+      abb = []
+    }
+    abb.push(arr)
+    let ABB = JSON.stringify(abb)
+    localStorage.setItem('CATO', ABB)
+    window.open('catologue.html')
+  }
 </script>
