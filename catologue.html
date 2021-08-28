@@ -1,427 +1,425 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Document</title>
-</head>
-    <link
-      rel="icon"
-      href="https://image.apktoy.com/img/e6/com.ril.ajio/icon.png"
-      type="image/x-icon"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
-      data-auto-a11y="true"
-    ></script>
-<style>
-  * {
-        margin: 0;
-        font-family: 'Roboto', sans-serif;
-      }
-      a {
-        text-decoration: none;
-      }
-      #blue {
-        overflow: hidden;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        height: 3px;
-        background-color: rgb(44, 65, 82);
-        z-index: 6;
-      }
-      #navbar {
-        overflow: hidden;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        justify-content: center;
-        height: 90px;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        box-shadow: #e0e0e0 0px 2px, #c9c9c9 0px 5px;
-        z-index: 5;
-      }
-      #ima_head {
-        height: 38px;
-        margin-top: 27px;
-        margin-left: 0%;
-      }
-      #links {
-        margin-top: 54px;
-        margin-left: 15.5%;
-        min-width: 400px;
-      }
-      #links > div > a {
-        color: #3d5060;
-        text-align: center;
-        padding: 14px;
-        text-decoration: none;
-        font-size: 14px;
-        margin: auto;
-      }
-      .dropdown {
-        position: relative;
-        display: inline-block;
-      }
-      .dropdown-content {
-        display: none;
-        position: fixed;
-        background-color: #f9f9f9;
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        top: 94px;
-        left: 14%;
-      }
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link
+    rel="icon"
+    href="https://image.apktoy.com/img/e6/com.ril.ajio/icon.png"
+    type="image/x-icon"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+    rel="stylesheet"
+  />
+  <script
+    src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    data-auto-a11y="true"
+  ></script>
+  <style>
+    * {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+    a {
+      text-decoration: none;
+    }
+    #blue {
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 3px;
+      background-color: rgb(44, 65, 82);
+      z-index: 6;
+    }
+    #navbar {
+      overflow: hidden;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
+      height: 90px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      box-shadow: #e0e0e0 0px 2px, #c9c9c9 0px 5px;
+      z-index: 5;
+    }
+    #ima_head {
+      height: 38px;
+      margin-top: 27px;
+      margin-left: 0%;
+    }
+    #links {
+      margin-top: 54px;
+      margin-left: 15.5%;
+      min-width: 400px;
+    }
+    #links > div > a {
+      color: #3d5060;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+      font-size: 14px;
+      margin: auto;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: fixed;
+      background-color: #f9f9f9;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      top: 94px;
+      left: 14%;
+    }
 
-      @keyframes fadeIn {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
       }
+      100% {
+        opacity: 1;
+      }
+    }
 
-      @-moz-keyframes fadeIn {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
+    @-moz-keyframes fadeIn {
+      0% {
+        opacity: 0;
       }
+      100% {
+        opacity: 1;
+      }
+    }
 
-      @-webkit-keyframes fadeIn {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
+    @-webkit-keyframes fadeIn {
+      0% {
+        opacity: 0;
       }
+      100% {
+        opacity: 1;
+      }
+    }
 
-      @-o-keyframes fadeIn {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
+    @-o-keyframes fadeIn {
+      0% {
+        opacity: 0;
       }
+      100% {
+        opacity: 1;
+      }
+    }
 
-      @-ms-keyframes fadeIn {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
+    @-ms-keyframes fadeIn {
+      0% {
+        opacity: 0;
       }
-      .dropdown:hover .dropdown-content {
-        display: flex;
-        animation: fadeIn 1s;
-        -webkit-animation: fadeIn 1s;
-        -moz-animation: fadeIn 1s;
-        -o-animation: fadeIn 1s;
-        -ms-animation: fadeIn 1s;
+      100% {
+        opacity: 1;
       }
+    }
+    .dropdown:hover .dropdown-content {
+      display: flex;
+      animation: fadeIn 1s;
+      -webkit-animation: fadeIn 1s;
+      -moz-animation: fadeIn 1s;
+      -o-animation: fadeIn 1s;
+      -ms-animation: fadeIn 1s;
+    }
 
-      .d1 {
-        width: 1180px;
-        height: 564px;
-        z-index: 15;
-      }
-      .catog {
-        height: 53px;
-        /* background-color: rgb(105, 103, 107); */
-        width: 100%;
-        display: flex;
-        align-items: center;
-        border-bottom: 0.5px solid #e0e0e0;
-        border-top: 0.5 solid #e0e0e0;
-      }
-      .catog > p {
-        margin: 10px;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: rgb(214, 214, 214);
-        font-size: 14px;
-        margin-left: 20px;
-      }
-      .catog > p:nth-child(2) {
-        width: 128px;
-        background-color: rgb(248, 248, 248);
-        color: #3d5060;
-        margin-left: 0px;
-      }
-      .catog > p:nth-child(3) {
-        width: 128px;
-        background-color: rgb(248, 248, 248);
-        color: #3d5060;
-        margin-left: 0px;
-      }
-      .part {
-        height: 511px;
-        width: 100%;
+    .d1 {
+      width: 1180px;
+      height: 564px;
+      z-index: 15;
+    }
+    .catog {
+      height: 53px;
+      /* background-color: rgb(105, 103, 107); */
+      width: 100%;
+      display: flex;
+      align-items: center;
+      border-bottom: 0.5px solid #e0e0e0;
+      border-top: 0.5 solid #e0e0e0;
+    }
+    .catog > p {
+      margin: 10px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(214, 214, 214);
+      font-size: 14px;
+      margin-left: 20px;
+    }
+    .catog > p:nth-child(2) {
+      width: 128px;
+      background-color: rgb(248, 248, 248);
+      color: #3d5060;
+      margin-left: 0px;
+    }
+    .catog > p:nth-child(3) {
+      width: 128px;
+      background-color: rgb(248, 248, 248);
+      color: #3d5060;
+      margin-left: 0px;
+    }
+    .part {
+      height: 511px;
+      width: 100%;
 
-        display: flex;
-      }
-      .part > div {
-        width: 25%;
-        height: 100%;
-        display: block;
-      }
-      .part > div > h5 {
-        margin: 18px;
-        margin-top: 16px;
-        margin-bottom: 10px;
-      }
-      .part > div > p {
-        margin: 18px;
-        margin-top: 4px;
-        margin-bottom: 4px;
-        font-size: 14px;
-        color: #3d5060;
-      }
-      .part > div > p > a {
-        color: #3d5060;
-      }
-      #searLink {
-        height: 78px;
-        width: 390px;
-      }
+      display: flex;
+    }
+    .part > div {
+      width: 25%;
+      height: 100%;
+      display: block;
+    }
+    .part > div > h5 {
+      margin: 18px;
+      margin-top: 16px;
+      margin-bottom: 10px;
+    }
+    .part > div > p {
+      margin: 18px;
+      margin-top: 4px;
+      margin-bottom: 4px;
+      font-size: 14px;
+      color: #3d5060;
+    }
+    .part > div > p > a {
+      color: #3d5060;
+    }
+    #searLink {
+      height: 78px;
+      width: 390px;
+    }
 
-      #mini-lnk {
-        display: flex;
-        padding: 0;
-      }
-      #mini-lnk > a {
-        color: rgb(42, 46, 49);
+    #mini-lnk {
+      display: flex;
+      padding: 0;
+    }
+    #mini-lnk > a {
+      color: rgb(42, 46, 49);
 
-        font-size: 12px;
-        margin-top: 10px;
-        margin-right: 23px;
-        margin-bottom: 11px;
-      }
-      #sear_block {
-        display: flex;
-      }
-      #inp {
-        height: 30px;
-        width: 248px;
-        border-radius: 50px;
-        border: 1px solid black;
-        margin-left: 10px;
-        margin-bottom: 13px;
-        background-color: #fffded;
-        margin-top: 10px;
-      }
-      .A {
-        position: fixed;
-        font-size: 15px;
-        overflow: hidden;
-        z-index: 5;
-        right: 380px;
-        top: 54px;
-      }
-      #closet,
-      #cart {
-        height: 35px;
-        width: 35px;
-        background-color: #2c4152;
-        margin-top: 12px;
-        margin-left: 10px;
-        border-radius: 100%;
-        color: white;
-        text-align: center;
-      }
-      #cart {
-        margin-left: 10px;
-      }
-      #cart > p,
-      #closet > p {
-        font-size: 0;
-        margin-top: 7px;
-      }
- #Top{
-  height: 90px;
-  background-color: orange;
- }
-#main{
- width: 100%;
- display: flex;
- justify-content: center;
+      font-size: 12px;
+      margin-top: 10px;
+      margin-right: 23px;
+      margin-bottom: 11px;
+    }
+    #sear_block {
+      display: flex;
+    }
+    #inp {
+      height: 30px;
+      width: 248px;
+      border-radius: 50px;
+      border: 1px solid black;
+      margin-left: 10px;
+      margin-bottom: 13px;
+      background-color: #fffded;
+      margin-top: 10px;
+    }
+    .A {
+      position: fixed;
+      font-size: 15px;
+      overflow: hidden;
+      z-index: 5;
+      right: 380px;
+      top: 54px;
+    }
+    #closet,
+    #cart {
+      height: 35px;
+      width: 35px;
+      background-color: #2c4152;
+      margin-top: 12px;
+      margin-left: 10px;
+      border-radius: 100%;
+      color: white;
+      text-align: center;
+    }
+    #cart {
+      margin-left: 10px;
+    }
+    #cart > p,
+    #closet > p {
+      font-size: 0;
+      margin-top: 7px;
+    }
+    #Top {
+      height: 90px;
+      background-color: orange;
+    }
+    #main {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    #left {
+      margin-top: 50px;
+      width: 20%;
+      height: 900px;
+      background-color: darkcyan;
+    }
+    #right {
+      width: 1050px;
 
-}
-#left{
- margin-top: 50px;
- width: 20%;
- height: 900px;
- background-color: darkcyan;
-}
-#right{
+      margin: 50px;
+      display: grid;
+      grid-template-columns: 28% 28% 28%;
+      row-gap: 10px;
+      column-gap: 5%;
+    }
+    .pr_bl {
+      margin: auto;
+      margin-left: 10px;
+      margin-bottom: -50px;
+    }
+    .pr_bl > h4 {
+      font-size: 12px;
+      font-weight: 700;
+      color: rgb(177, 153, 117);
+      margin-top: 20px;
+    }
+    .pr_bl > h2 {
+      margin-top: 10px;
+      font-size: 15px;
+      font-weight: 100;
+    }
+    .pr_bl > div {
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+    }
+    .ze {
+      font-size: 15px;
+      margin-top: 1px;
+      font-weight: 600;
+    }
+    .zf {
+      font-size: 12px;
+      margin-top: 4px;
+      margin-left: 5px;
+      margin-right: 5px;
+      color: rgb(154, 154, 154);
+    }
+    .zg {
+      color: rgb(177, 153, 117);
+      font-size: 12px;
+      margin-top: 3px;
+    }
+    #block8 {
+      display: flex;
+      width: 100%;
+      height: 130px;
+      justify-content: center;
+    }
+    #block8 > div {
+      width: 25%;
+      text-align: center;
+      font-size: 40px;
+      margin-top: 20px;
+    }
+    #block8 > div > p {
+      margin-top: 15px;
+      font-size: 16px;
+      font-family: 'Lora', serif;
+      font-weight: 600;
+    }
+    #fnal {
+      height: 520px;
+      width: 100%;
+      background-color: rgb(44, 65, 82);
+    }
+    #fnal > div:nth-child(1) {
+      width: 100%;
+      height: 350px;
+      display: flex;
+      justify-content: center;
+      margin-left: 0px;
+    }
+    #fnal > div > div {
+      width: 70%;
+      height: 100%;
 
-width: 1050px;
-
-margin: 50px;
-display: grid;
-grid-template-columns: 28% 28% 28%;
-row-gap: 10px;
-column-gap: 5%;
-}
-.pr_bl{
- margin: auto;
- margin-left: 10px;
- margin-bottom: -50px;
-}
-.pr_bl>h4{
- font-size: 12px;
- font-weight: 700;
- color:rgb(177, 153, 117) ;
- margin-top: 20px;
-}
-.pr_bl>h2{
-margin-top: 10px;
-font-size: 15px;
-font-weight: 100;
-}
-.pr_bl>div{
- margin: 10px;
- display: flex;
- justify-content: center;
-}
-.ze{
- font-size: 15px;
- margin-top: 1px;
- font-weight: 600;
-}
-.zf{
-font-size: 12px;
-margin-top: 4px;
-margin-left: 5px;
-margin-right: 5px;
-color: rgb(154, 154, 154);
-}
-.zg{
- color: rgb(177, 153, 117);
- font-size: 12px;
- margin-top: 3px;
-}
-      #block8 {
-        display: flex;
-        width: 100%;
-        height: 130px;
-        justify-content: center;
-      }
-      #block8 > div {
-        width: 25%;
-        text-align: center;
-        font-size: 40px;
-        margin-top: 20px;
-      }
-      #block8 > div > p {
-        margin-top: 15px;
-        font-size: 16px;
-        font-family: 'Lora', serif;
-        font-weight: 600;
-      }
-      #fnal {
-        height: 520px;
-        width: 100%;
-        background-color: rgb(44, 65, 82);
-      }
-      #fnal > div:nth-child(1) {
-        width: 100%;
-        height: 350px;
-        display: flex;
-        justify-content: center;
-        margin-left: 0px;
-      }
-      #fnal > div > div {
-        width: 70%;
-        height: 100%;
-
-        display: flex;
-      }
-      #fnal > div > div > div {
-        width: 25%;
-        height: 100%;
-        display: block;
-        color: white;
-      }
-      #fnal > div > div > div > h4 {
-        margin: 15px;
-        margin-top: 32px;
-        font-weight: 200;
-        margin-left: 10px;
-        color: rgb(204, 204, 204);
-        font-family: 'Lora', serif;
-      }
-      #fnal > div > div > div > p {
-        margin: 15px;
-        margin-top: 13px;
-        margin-bottom: 13px;
-        font-size: 11px;
-        font-weight: 100;
-        margin-left: 10px;
-      }
-      #fnal > div > div > div > p > a {
-        color: rgb(204, 204, 204);
-      }
-      #pay {
-        width: 100%;
-        height: 20%;
-        display: flex;
-        justify-content: center;
-      }
-      #w-line {
-        margin: auto;
-        width: 70%;
-        height: 1px;
-        background-color: rgb(204, 204, 204);
-      }
-      #pay > div {
-        width: 70%;
-        max-height: 32%;
-        justify-content: center;
-      }
-      #pay > div > div:nth-child(1) {
-        width: 70%;
-        height: 100%;
-      }
-      #pay > div > div:nth-child(2) {
-        width: 30%;
-        height: 100%;
-      }
-      #ICO {
-        font-size: 40px;
-      }
-      #ICO > h5 {
-        margin-top: 50px;
-        font-size: 15px;
-        color: rgb(204, 204, 204);
-        margin-bottom: 10px;
-      }
-</style>
-<body>
-     <!-- Navbar -->
+      display: flex;
+    }
+    #fnal > div > div > div {
+      width: 25%;
+      height: 100%;
+      display: block;
+      color: white;
+    }
+    #fnal > div > div > div > h4 {
+      margin: 15px;
+      margin-top: 32px;
+      font-weight: 200;
+      margin-left: 10px;
+      color: rgb(204, 204, 204);
+      font-family: 'Lora', serif;
+    }
+    #fnal > div > div > div > p {
+      margin: 15px;
+      margin-top: 13px;
+      margin-bottom: 13px;
+      font-size: 11px;
+      font-weight: 100;
+      margin-left: 10px;
+    }
+    #fnal > div > div > div > p > a {
+      color: rgb(204, 204, 204);
+    }
+    #pay {
+      width: 100%;
+      height: 20%;
+      display: flex;
+      justify-content: center;
+    }
+    #w-line {
+      margin: auto;
+      width: 70%;
+      height: 1px;
+      background-color: rgb(204, 204, 204);
+    }
+    #pay > div {
+      width: 70%;
+      max-height: 32%;
+      justify-content: center;
+    }
+    #pay > div > div:nth-child(1) {
+      width: 70%;
+      height: 100%;
+    }
+    #pay > div > div:nth-child(2) {
+      width: 30%;
+      height: 100%;
+    }
+    #ICO {
+      font-size: 40px;
+    }
+    #ICO > h5 {
+      margin-top: 50px;
+      font-size: 15px;
+      color: rgb(204, 204, 204);
+      margin-bottom: 10px;
+    }
+  </style>
+  <body>
+    <!-- Navbar -->
     <div id="blue"></div>
     <div id="navbar">
       <a href="/home.html">
@@ -804,7 +802,7 @@ color: rgb(154, 154, 154);
           </div>
         </div>
       </div>
-       <div id="searLink">
+      <div id="searLink">
         <div id="mini-lnk">
           <a href="" id="user_info">Hi shivang shukla</a>
           <a href="/AJIO_Project/myaccount.html">My Account</a>
@@ -830,15 +828,12 @@ color: rgb(154, 154, 154);
       </div>
     </div>
 
-
- <div id="Top"></div>
- <div id="main">
-  <div id="left"></div>
-  <div id="right">
-
-  </div>
- </div>
-     <div id="block8">
+    <div id="Top"></div>
+    <div id="main">
+      <div id="left"></div>
+      <div id="right"></div>
+    </div>
+    <div id="block8">
       <div>
         <i class="fas fa-sync-alt"></i>
         <p>EASY EXCHANGE<sup>*</sup></p>
@@ -910,69 +905,78 @@ color: rgb(154, 154, 154);
         </div>
       </div>
     </div>
-</body>
+  </body>
 </html>
-<script src="/AJIO_Project/DATA.js"></script>
-<script src="/AJIO_Project/kidsObject.js"></script>
-<script src="/AJIO_Project/home_furniture.js"></script>
-<script src="/AJIO_Project/men.js"></script>
-<script src="/AJIO_Project/women.js"></script>
-<script>
-var block = document.getElementById("right")
-var temp = []
 
-var KATO = localStorage.getItem('CATO')
-KATO = JSON.parse(KATO)
-console.log(KATO[0]);
-var A = [...KATO[0]]
-function definer() {
- A.map(function(prod){
-  var N = prod.name
-  var B = prod.brand
-  var P = Number(prod.price)
-  var p = 100
-  var div = document.createElement("BUTTON")
-  div.style.width = "330px"
-  div.style.height = "531px"
-  div.style.display = "block"
-  div.style.border = "none"
-  div.style.backgroundColor = "white"
-  div.onclick = function () {
-   var len = temp.length
-   if (len!=0) {
-    temp = []
-   }
-   temp.push(prod)
-   let TEMP = JSON.stringify(temp)
-   localStorage.setItem('TEMP',TEMP)
-   window.open('prodHollow.html')
+<script>
+  var block = document.getElementById('right')
+  var temp = []
+
+  var KATO = localStorage.getItem('CATO')
+  KATO = JSON.parse(KATO)
+  console.log(KATO[0])
+  var A = [...KATO[0]]
+  function definer() {
+    A.map(function (prod) {
+      var N = prod.name
+      var B = prod.brand
+      var P = Number(prod.price)
+      var p = 100
+      var div = document.createElement('BUTTON')
+      div.style.width = '330px'
+      div.style.height = '531px'
+      div.style.display = 'block'
+      div.style.border = 'none'
+      div.style.backgroundColor = 'white'
+      div.style.cursor = "pointer"
+      div.onclick = function () {
+        var len = temp.length
+        if (len != 0) {
+          temp = []
+        }
+        temp.push(prod)
+        let TEMP = JSON.stringify(temp)
+        localStorage.setItem('TEMP', TEMP)
+        window.open('prodHollow.html')
       }
-  div.style.textAlign = "center"
-  div.setAttribute("class","pr_bl")
-    div.style.marginTop = '30px'
-  var IMA = document.createElement("img")
-  IMA.src = prod.image1
-  IMA.style.width="90%"
-  var BRAND = document.createElement('h4')
-  BRAND.innerHTML = B
-  var NAME = document.createElement('h2')
-  NAME.innerHTML = N
-  var PRICE = document.createElement('div')
-  var ze =document.createElement('p')
-    ze.setAttribute("class","ze")
-  ze.innerHTML = "Rs."+P
-  var zf =document.createElement('p')
-    zf.setAttribute("class","zf")
-  var ex = P + p
-  zf.innerHTML = "Rs." + ex
-zf.style.textDecoration = "line-through"
-  var zg =document.createElement('p')
-  zg.innerHTML = '(25% off)'
-    zg.setAttribute("class","zg")
-  PRICE.append(ze,zf,zg)
-  div.append(IMA,BRAND,NAME,PRICE)
-  block.append(div)
- })
-}
-definer()
+      div.style.textAlign = 'center'
+      div.setAttribute('class', 'pr_bl')
+      div.style.marginTop = '30px'
+      var IMA = document.createElement('img')
+      IMA.src = prod.image1
+
+      var im = [prod.image1, prod.image2, prod.image3, prod.image4]
+      console.log(im)
+      var i = 0
+      setInterval(function () {
+        if (i > 3) {
+          i = 0
+        }
+        IMA.src = im[i]
+        i++
+      }, 4000)
+
+      IMA.style.width = '90%'
+      var BRAND = document.createElement('h4')
+      BRAND.innerHTML = B
+      var NAME = document.createElement('h2')
+      NAME.innerHTML = N
+      var PRICE = document.createElement('div')
+      var ze = document.createElement('p')
+      ze.setAttribute('class', 'ze')
+      ze.innerHTML = 'Rs.' + P
+      var zf = document.createElement('p')
+      zf.setAttribute('class', 'zf')
+      var ex = P + p
+      zf.innerHTML = 'Rs.' + ex
+      zf.style.textDecoration = 'line-through'
+      var zg = document.createElement('p')
+      zg.innerHTML = '(25% off)'
+      zg.setAttribute('class', 'zg')
+      PRICE.append(ze, zf, zg)
+      div.append(IMA, BRAND, NAME, PRICE)
+      block.append(div)
+    })
+  }
+  definer()
 </script>

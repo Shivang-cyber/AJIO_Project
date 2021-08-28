@@ -585,25 +585,7 @@ if (XX>599) {
   AC.innerHTML = "Rs. "+zz
 }
 var AD = document.getElementById("AD")
-var z = XX + zz
-var my = z.toString()
-smy = my.split('')
-if (smy.length>3) {
-  smy.reverse()
-  var h = smy.splice(0,3)
-  h.push(",")
-  for (let i = 0; i < smy.length; i++) {
-   h.push(smy[i])
-  }
-  h.reverse()
-  h = h.join('')
-}
-AD.innerHTML = "Rs. "+h
-var ARR = []
-ARR.push(z)
+AD.innerHTML = "Rs. "+ JSON.parse(localStorage.getItem("PR"))
 
-function store() {
-  localStorage.setItem("PR",JSON.stringify(ARR))
-  window.open("")
-}
+
 </script>

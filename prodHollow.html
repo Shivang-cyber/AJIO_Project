@@ -382,7 +382,6 @@
       .im {
         width: 50px;
         height: 70px;
-        background-color: coral;
         margin: 5px;
         /* margin: auto; */
         margin-top: 5px;
@@ -1208,7 +1207,6 @@
   </body>
 </html>
 <script>
-
   var J = localStorage.getItem('TEMP')
   J = JSON.parse(J)
   document.getElementById('name').innerHTML = J[0].name
@@ -1259,15 +1257,15 @@
   }, 4000)
   console.log(J)
 
-    if (localStorage.getItem('CART') === null) {
+  if (localStorage.getItem('CART') === null) {
     localStorage.setItem('CART', JSON.stringify([]))
   }
 
   function add() {
-  var cart = []
-  cart.push(J[0])
+    var cart = []
+    cart.push(J[0])
     let cart_data = JSON.parse(localStorage.getItem('CART'))
     cart_data.push(J[0])
     localStorage.setItem('CART', JSON.stringify(cart_data))
-}
+  }
 </script>
