@@ -619,6 +619,7 @@
         color: rgb(98, 98, 98);
         margin-top: 30px;
       }
+
     </style>
   </head>
   <body>
@@ -1167,10 +1168,10 @@
       </div>
       <div id="searLink">
         <div id="mini-lnk">
-          <a href="" id="user_info">Hi shivang shukla</a>
-          <a href="/myaccount.html">My Account</a>
+          <a href="" id="user_info"></a>
+          <a href="/AJIO_Project/myaccount.html">My Account</a>
           <button id="s_IN" onclick="sign()">Sign In</button>
-          <a href="/customerCare.html">Customer Care</a>
+          <a href="/AJIO_Project/customerCare.html">Customer Care</a>
         </div>
         <div id="sear_block">
           <form>
@@ -1333,8 +1334,8 @@
   Jl.addEventListener('click', close)
 
   function subm(event) {
-    event.preventDefault()
     var logs = document.getElementById('email').value
+    event.preventDefault()
     var SSS = document.getElementById('SIGN')
     while (SSS.firstChild) {
       SSS.removeChild(SSS.firstChild)
@@ -1350,8 +1351,171 @@
     dex2.style.marginTop = '40px'
     dex2.style.fontSize = '15px'
     dex2.style.color = 'rgb(69, 69, 69)'
+    var dex3 = document.createElement('div')
+    dex3.innerHTML = logs
+    dex3.setAttribute('id', 'log_i')
+    dex3.style.marginLeft = '30px'
+    dex3.style.marginTop = '20px'
+    dex3.style.fontSize = '15px'
+    dex3.style.color = 'rgb(69, 69, 69)'
+    var dex4 = document.createElement('input')
+    dex4.style.marginLeft = '30px'
+    dex4.placeholder = 'Name'
+    dex4.setAttribute('id', 'log_n')
+    dex4.style.marginTop = '30px'
+    dex4.style.border = '1px solid lightgrey'
+    dex4.style.borderStyle = 'none none solid none'
+    dex4.style.fontSize = '15px'
+    dex4.style.color = 'rgb(69, 69, 69)'
+    dex4.style.width = '75%'
+    var dex5 = document.createElement('input')
+    dex5.style.marginLeft = '30px'
+    dex5.placeholder = 'Mobile'
+    dex5.setAttribute('id', 'log_m')
+    dex5.style.marginTop = '40px'
+    dex5.style.border = '1px solid lightgrey'
+    dex5.style.borderStyle = 'none none solid none'
+    dex5.style.fontSize = '15px'
+    dex5.style.color = 'rgb(69, 69, 69)'
+    dex5.style.width = '75%'
+    var dex6 = document.createElement('input')
+    dex6.style.marginLeft = '30px'
+    dex6.placeholder = 'Password'
+    dex6.setAttribute('id', 'log_p')
+    dex6.style.marginTop = '40px'
+    dex6.style.border = '1px solid lightgrey'
+    dex6.style.borderStyle = 'none none solid none'
+    dex6.style.fontSize = '15px'
+    dex6.style.color = 'rgb(69, 69, 69)'
+    dex6.style.width = '75%'
+    var dex7 = document.createElement('input')
+    dex7.style.marginLeft = '30px'
+    dex7.placeholder = 'Street Address'
+    dex7.setAttribute('id', 'log_s')
+    dex7.style.marginTop = '40px'
+    dex7.style.border = '1px solid lightgrey'
+    dex7.style.borderStyle = 'none none solid none'
+    dex7.style.fontSize = '15px'
+    dex7.style.color = 'rgb(69, 69, 69)'
+    dex7.style.width = '75%'
+    var dex8 = document.createElement('input')
+    dex8.style.marginLeft = '30px'
+    dex8.placeholder = 'City'
+    dex8.setAttribute('id', 'log_c')
+    dex8.style.marginTop = '40px'
+    dex8.style.border = '1px solid lightgrey'
+    dex8.style.borderStyle = 'none none solid none'
+    dex8.style.fontSize = '15px'
+    dex8.style.color = 'rgb(69, 69, 69)'
+    dex8.style.width = '75%'
+    var dex9 = document.createElement('input')
+    dex9.style.marginLeft = '30px'
+    dex9.placeholder = 'State'
+    dex9.style.marginTop = '40px'
+    dex9.setAttribute('id', 'log_S')
+    dex9.style.border = '1px solid lightgrey'
+    dex9.style.borderStyle = 'none none solid none'
+    dex9.style.fontSize = '15px'
+    dex9.style.color = 'rgb(69, 69, 69)'
+    dex9.style.width = '75%'
+    var dex10 = document.createElement('input')
+    dex10.style.marginLeft = '30px'
+    dex10.placeholder = 'Pin Code'
+    dex10.setAttribute('id', 'log_P')
+    dex10.style.marginTop = '40px'
+    dex10.style.border = '1px solid lightgrey'
+    dex10.style.borderStyle = 'none none solid none'
+    dex10.style.fontSize = '15px'
+    dex10.style.color = 'rgb(69, 69, 69)'
+    dex10.style.width = '75%'
+    var dex11 = document.createElement('button')
+    dex11.style.marginLeft = '30px'
+    dex11.style.marginTop = '30px'
+    dex11.style.border = 'none'
+    dex11.style.fontSize = '15px'
+    dex11.style.color = 'rgb(69, 69, 69)'
+    dex11.style.width = '250px'
+    dex11.style.height = '60px'
+    dex11.style.backgroundColor = 'rgb(213, 162, 73)'
+    dex11.innerHTML = 'Sign In'
+    dex11.onclick = logDET
+    SSS.append(
+      dex1,
+      dex2,
+      dex3,
+      dex4,
+      dex5,
+      dex6,
+      dex7,
+      dex8,
+      dex9,
+      dex10,
+      dex11
+    )
+  }
 
-    SSS.append(dex1, dex2)
+  if (localStorage.getItem('ADDRES') === null) {
+    localStorage.setItem('ADDRES', JSON.stringify([]))
+  }
+  var addres = []
+  function logDET() {
+    var log_i = document.getElementById('log_i').innerHTML
+    var log_n = document.getElementById('log_n').value
+    var log_m = document.getElementById('log_m').value
+    var log_p = document.getElementById('log_p').value
+    var log_s = document.getElementById('log_s').value
+    var log_c = document.getElementById('log_c').value
+    var log_P = document.getElementById('log_P').value
+    var log_S = document.getElementById('log_S').value
+
+    var O = {
+      name: log_n,
+      mob: log_m,
+      email: log_i,
+      pass: log_p,
+      street: log_s,
+      city: log_c,
+      PIN: log_P,
+      state: log_S,
+    }
+
+    addres.push(O)
+    var ADT = JSON.stringify(addres)
+    localStorage.setItem('ADDRES', ADT)
+
+    console.log(addres)
+    var SSS = document.getElementById('SIGN')
+    while (SSS.firstChild) {
+      SSS.removeChild(SSS.firstChild)
+    }
+    thank()
+
+document.getElementById("s_IN").innerHTML="Sign Out"
+document.getElementById("user_info").innerHTML ="Hi "+log_n
+
+    setTimeout(function () {
+      document.getElementById('SIGN').style.display = 'none'
+      document.getElementById('gre_bk').style.display = 'none'
+    }, 2000)
+  }
+
+  function thank() {
+    var SSS = document.getElementById('SIGN')
+    var Thanks = document.createElement('div')
+    Thanks.style.display = 'flex'
+    Thanks.style.height = '100%'
+    Thanks.style.justifyContent = 'center'
+    Thanks.style.flexDirection = 'column'
+    Thanks.style.alignContent = 'center'
+    Thanks.style.textAlign = 'center'
+    var msgs = document.createElement('h1')
+    msgs.innerHTML = 'Thank You'
+    msgs.style.marginBottom = '50px'
+    msgs.style.color = 'rgb(171, 156, 116)'
+    var msg_sub = document.createElement('h2')
+    msg_sub.innerHTML = 'Continue Shopping'
+    Thanks.append(msgs, msg_sub)
+    SSS.append(Thanks)
   }
 
   document.getElementById('frm').addEventListener('submit', subm)
