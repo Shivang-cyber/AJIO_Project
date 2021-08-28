@@ -236,6 +236,16 @@
         margin-top: 10px;
         margin-right: 23px;
         margin-bottom: 11px;
+        cursor: pointer;
+      }
+      #mini-lnk > button {
+        border: none;
+        background-color: white;
+        color: rgb(42, 46, 49);
+        margin-left: -10px;
+        margin-top: -1px;
+        margin-right: 10px;
+        cursor: pointer;
       }
       #sear_block {
         display: flex;
@@ -486,6 +496,7 @@
       }
 
       #SIGN {
+        display: none;
         overflow: hidden;
         position: fixed;
         top: 20px;
@@ -496,6 +507,7 @@
         z-index: 10;
       }
       #gre_bk {
+        display: none;
         overflow: hidden;
         position: fixed;
         top: 0;
@@ -594,6 +606,7 @@
       }
       #SIGN > div > form > input:nth-child(2) {
         background-color: rgb(213, 162, 73);
+        cursor: pointer;
         width: 180px;
         height: 40px;
         color: white;
@@ -1156,7 +1169,7 @@
         <div id="mini-lnk">
           <a href="" id="user_info">Hi shivang shukla</a>
           <a href="/myaccount.html">My Account</a>
-          <a href="">Sign Out</a>
+          <button id="s_IN" onclick="sign()">Sign In</button>
           <a href="/customerCare.html">Customer Care</a>
         </div>
         <div id="sear_block">
@@ -1179,9 +1192,12 @@
     </div>
     <div id="gre"></div>
     <br /><br /><br /><br />
+
     <!-- sign in -->
     <div id="SIGN">
-      <div id="btm"><button>X</button></div>
+      <div id="btm">
+        <button id="JK">X</button>
+      </div>
       <div id="wel">Welcome to AJIO</div>
       <div>Join / Sign In using</div>
       <div>
@@ -1199,10 +1215,14 @@
         or
         <p></p>
       </div>
-      <div>Enter Mobile Number / Email*</div>
+      <div>Enter Email*</div>
       <div>
-        <form>
-          <input type="email" /><input type="submit" value="CONTINUE" />
+        <form id="frm">
+          <input id="email" type="email" /><input
+            type="submit"
+            value="CONTINUE"
+            required
+          />
         </form>
       </div>
       <div>By Signing In, I agree to Terms and Conditions.</div>
@@ -1299,6 +1319,43 @@
 <script src="/AJIO_Project/men.js"></script>
 <script src="/AJIO_Project/women.js"></script>
 <script>
+  // SIGN IN
+  function sign() {
+    document.getElementById('SIGN').style.display = 'block'
+    document.getElementById('gre_bk').style.display = 'block'
+  }
+
+  function close() {
+    document.getElementById('SIGN').style.display = 'none'
+    document.getElementById('gre_bk').style.display = 'none'
+  }
+  var Jl = document.getElementById('JK')
+  Jl.addEventListener('click', close)
+
+  function subm(event) {
+    event.preventDefault()
+    var logs = document.getElementById('email').value
+    var SSS = document.getElementById('SIGN')
+    while (SSS.firstChild) {
+      SSS.removeChild(SSS.firstChild)
+    }
+    var dex1 = document.createElement('div')
+    dex1.innerHTML = 'Welcome to AJIO'
+    dex1.style.marginLeft = '30px'
+    dex1.style.marginTop = '40px'
+    dex1.style.fontSize = '25px'
+    var dex2 = document.createElement('div')
+    dex2.innerHTML = 'Please set up your account'
+    dex2.style.marginLeft = '30px'
+    dex2.style.marginTop = '40px'
+    dex2.style.fontSize = '15px'
+    dex2.style.color = 'rgb(69, 69, 69)'
+
+    SSS.append(dex1, dex2)
+  }
+
+  document.getElementById('frm').addEventListener('submit', subm)
+
   // First drop down menu
   var abb = []
   function cato(arr) {
