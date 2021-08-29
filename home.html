@@ -1218,10 +1218,9 @@
       <div>Enter Email*</div>
       <div>
         <form id="frm">
-          <input id="email" type="email" /><input
+          <input id="email" required type="email" /><input
             type="submit"
-            value="CONTINUE"
-            required
+            value="CONTINUE" 
           />
         </form>
       </div>
@@ -1311,6 +1310,7 @@
         </div>
       </div>
     </div>
+    <div class="FRM"></div>
   </body>
 </html>
 <script src="/DATA.js"></script>
@@ -1319,6 +1319,7 @@
 <script src="/men.js"></script>
 <script src="/women.js"></script>
 <script>
+
   // SIGN IN
   function sign() {
     document.getElementById('SIGN').style.display = 'block'
@@ -1340,6 +1341,8 @@
       SSS.removeChild(SSS.firstChild)
     }
     var dex1 = document.createElement('div')
+    var DEX4 =document.createElement("form")
+    DEX4.setAttribute("class","FRM")
     dex1.innerHTML = 'Welcome to AJIO'
     dex1.style.marginLeft = '30px'
     dex1.style.marginTop = '40px'
@@ -1359,6 +1362,7 @@
     dex3.style.color = 'rgb(69, 69, 69)'
     var dex4 = document.createElement('input')
     dex4.style.marginLeft = '30px'
+    dex4.setAttribute("required","")
     dex4.placeholder = 'Name'
     dex4.setAttribute('id', 'log_n')
     dex4.style.marginTop = '30px'
@@ -1371,6 +1375,7 @@
     dex5.style.marginLeft = '30px'
     dex5.placeholder = 'Mobile'
     dex5.setAttribute('id', 'log_m')
+       dex5.setAttribute("required","")
     dex5.style.marginTop = '40px'
     dex5.style.border = '1px solid lightgrey'
     dex5.style.borderStyle = 'none none solid none'
@@ -1382,6 +1387,7 @@
     dex6.placeholder = 'Password'
     dex6.setAttribute('id', 'log_p')
     dex6.style.marginTop = '40px'
+       dex6.setAttribute("required","")
     dex6.style.border = '1px solid lightgrey'
     dex6.style.borderStyle = 'none none solid none'
     dex6.style.fontSize = '15px'
@@ -1392,6 +1398,7 @@
     dex7.placeholder = 'Street Address'
     dex7.setAttribute('id', 'log_s')
     dex7.style.marginTop = '40px'
+       dex7.setAttribute("required","")
     dex7.style.border = '1px solid lightgrey'
     dex7.style.borderStyle = 'none none solid none'
     dex7.style.fontSize = '15px'
@@ -1400,6 +1407,7 @@
     var dex8 = document.createElement('input')
     dex8.style.marginLeft = '30px'
     dex8.placeholder = 'City'
+       dex8.setAttribute("required","")
     dex8.setAttribute('id', 'log_c')
     dex8.style.marginTop = '40px'
     dex8.style.border = '1px solid lightgrey'
@@ -1410,6 +1418,7 @@
     var dex9 = document.createElement('input')
     dex9.style.marginLeft = '30px'
     dex9.placeholder = 'State'
+       dex9.setAttribute("required","")
     dex9.style.marginTop = '40px'
     dex9.setAttribute('id', 'log_S')
     dex9.style.border = '1px solid lightgrey'
@@ -1421,13 +1430,16 @@
     dex10.style.marginLeft = '30px'
     dex10.placeholder = 'Pin Code'
     dex10.setAttribute('id', 'log_P')
+       dex10.setAttribute("required","")
     dex10.style.marginTop = '40px'
     dex10.style.border = '1px solid lightgrey'
     dex10.style.borderStyle = 'none none solid none'
     dex10.style.fontSize = '15px'
     dex10.style.color = 'rgb(69, 69, 69)'
     dex10.style.width = '75%'
-    var dex11 = document.createElement('button')
+    var dex11 = document.createElement('input')
+    dex11.setAttribute("type","submit")
+    dex11.style.cursor = "pointer"
     dex11.style.marginLeft = '30px'
     dex11.style.marginTop = '30px'
     dex11.style.border = 'none'
@@ -1438,7 +1450,9 @@
     dex11.style.backgroundColor = 'rgb(213, 162, 73)'
     dex11.innerHTML = 'Sign In'
     dex11.onclick = logDET
-    SSS.append(
+  //   var ZSZ = document.getElementsByClassName("FRM")
+  // ZSZ.addEventListener("submit",logDET)
+    DEX4.append(
       dex1,
       dex2,
       dex3,
@@ -1451,7 +1465,10 @@
       dex10,
       dex11
     )
+    SSS.append(DEX4)
   }
+
+
 
   if (localStorage.getItem('ADDRES') === null) {
     localStorage.setItem('ADDRES', JSON.stringify([]))
@@ -1518,6 +1535,8 @@
   }
 
   document.getElementById('frm').addEventListener('submit', subm)
+
+  
 
   // First drop down menu
   var abb = []
