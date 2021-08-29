@@ -636,6 +636,37 @@
         background-color: white;
         color: grey;
       }
+      #float{
+        display: none;
+          position: absolute;
+          width: 300px;
+          height: 100px;
+border: 1px solid grey;
+background-color: white;
+          top: 40%;
+          left: 45%;
+          z-index: 6;
+          border-radius: 15px;
+      }
+      #float>div{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+        font-size: 15px;
+        color: rgb(194, 153, 117);
+      }
+      #blk{
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.4;
+        z-index: 5;
+        left: 0;
+        top: 0;
+      }
     </style>
   </head>
   <body>
@@ -1289,6 +1320,10 @@
             <p>Select your size to know your estimated delivery date.</p>
           </div>
           <button id="AddToB" onclick="add()">ADD TO BAG</button>
+          <div id="blk"></div>
+          <div id="float">
+            <div><h1>Item Added to Cart</h1></div>
+          </div>
           <div class="g"><sub>HANDPICKED STYLES | ASSURED QUALITY</sub></div>
           <button id="AddToC">SAVE TO CLOSET</button>
           <div id="U">
@@ -1440,10 +1475,17 @@
   }
 
   function add() {
+    document.getElementById("float").style.display="block"
+    document.getElementById("blk").style.display="block"
     var cart = []
     cart.push(J[0])
     let cart_data = JSON.parse(localStorage.getItem('CART'))
     cart_data.push(J[0])
     localStorage.setItem('CART', JSON.stringify(cart_data))
+setTimeout(function(){
+    document.getElementById("float").style.display="none"
+    document.getElementById("blk").style.display="none"
+}, 2000)
+
   }
 </script>
