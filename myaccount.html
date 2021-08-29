@@ -506,6 +506,37 @@
         color: rgb(204, 204, 204);
         margin-bottom: 10px;
       }
+                  #float{
+        display: none;
+          position: absolute;
+          width: 300px;
+          height: 100px;
+border: 1px solid grey;
+background-color: white;
+          top: 40%;
+          left: 43%;
+          z-index: 6;
+          border-radius: 15px;
+      }
+      #float>div{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+        font-size: 15px;
+        color: rgb(194, 153, 117);
+      }
+      #blk{
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.4;
+        z-index: 5;
+        left: 0;
+        top: 0;
+      }
     </style>
   </head>
   <body style="margin: 0">
@@ -918,6 +949,10 @@
         </div>
       </div>
     </div>
+            <div id="blk"></div>
+          <div id="float">
+            <div><h1>Please <a href="/home.html">Sign in</a> First</h1></div>
+          </div>
     <div id="mid">
       <div class="left">
         <h1>My Account</h1>
@@ -1029,3 +1064,12 @@
     </div>
   </body>
 </html>
+<script>
+  var JJ = localStorage.getItem("ADDRES")
+JJ = JSON.parse(JJ)
+
+if (JJ[0]==undefined) {
+    document.getElementById("float").style.display="block"
+    document.getElementById("blk").style.display="block"
+}
+</script>

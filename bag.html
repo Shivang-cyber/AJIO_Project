@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Cart</title>
     <link
       rel="icon"
       href="https://image.apktoy.com/img/e6/com.ril.ajio/icon.png"
@@ -577,6 +577,16 @@ background-color: white;
   var B = document.getElementById('EMP')
   var C = localStorage.getItem('CART')
   C = JSON.parse(C)
+
+if (C[0]==undefined) {
+
+    document.getElementById("float").style.display="block"
+    document.getElementById("blk").style.display="block"
+    document.getElementById('TOT_SW').style.display = "none"
+
+}
+
+
 
   if (C == []) {
     B.style.display = 'block'

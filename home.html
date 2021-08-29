@@ -619,6 +619,17 @@
         color: rgb(98, 98, 98);
         margin-top: 30px;
       }
+      #BLK_dn{
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        background-color: black;
+        opacity: 0.5;
+        top: 80px;
+        z-index: 4;
+      }
     </style>
   </head>
   <body>
@@ -633,8 +644,8 @@
         />
       </a>
       <div id="links">
-        <div class="dropdown">
-          <a class="active" href="">MEN</a>
+        <div class="dropdown" >
+          <a class="active" href="" id="test">MEN</a>
           <div class="dropdown-content">
             <div class="d1">
               <div class="catog">
@@ -1169,7 +1180,7 @@
         <div id="mini-lnk">
           <a href="" id="user_info"></a>
           <a href="/myaccount.html">My Account</a>
-          <button id="s_IN" onclick="sign()">Sign In</button>
+          <button id="s_IN" onclick="sign()">Sign Up</button>
           <a href="/customerCare.html">Customer Care</a>
         </div>
         <div id="sear_block">
@@ -1227,7 +1238,7 @@
       <div>By Signing In, I agree to Terms and Conditions.</div>
     </div>
     <div id="gre_bk"></div>
-
+          <div id="BLK_dn"></div>
     <!-- front page ui -->
     <div id="block1"></div>
     <div id="block2"></div>
@@ -1319,6 +1330,33 @@
 <script src="/men.js"></script>
 <script src="/women.js"></script>
 <script>
+function fn() {
+  
+  document.getElementById("BLK_dn").style.display = "block"
+}
+
+// let test = document.getElementById("test");
+// test.addEventListener("mouseenter", function( event ) {
+//   event.target.style.color = "purple";
+//   setTimeout(function() {
+//     event.target.style.color = "";
+//   }, 500);
+// }, false);
+
+// // This handler will be executed every time the cursor
+// // is moved over a different list item
+// test.addEventListener("mouseover", function( event ) {
+//   // highlight the mouseover target
+//   event.target.style.color = "orange";
+
+//   // reset the color after a short delay
+//   setTimeout(function() {
+//     event.target.style.color = "";
+//   }, 500);
+// }, false);
+
+
+
 
   // SIGN IN
   function sign() {
