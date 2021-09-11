@@ -1,5 +1,5 @@
 function navbar() {
- return `<div id="navbar">
+  return `<div id="navbar">
       <a href="/home.html">
         <img
           id="ima_head"
@@ -566,4 +566,17 @@ function navbar() {
       </div>
     </div>`
 }
+var abb = []
+function cato(arr) {
+  console.log(5)
+  var len = abb.length
+  if (len != 0) {
+    abb = []
+  }
+  abb.push(arr)
+  let ABB = JSON.stringify(abb)
+  localStorage.setItem('CATO', ABB)
+  window.open('catologue.html')
+}
+
 export default navbar
