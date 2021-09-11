@@ -63,9 +63,7 @@ function bottom() {
         <div>
           <div id="ICO">
             <h5>Payment methods</h5>
-            <i class="fas fa-university"></i> <i class="fab fa-cc-visa"></i>
-            <i class="fab fa-cc-mastercard"></i>
-            <i class="fas fa-money-bill-wave"></i>
+            <img src='./resources/img/icof.png'>
           </div>
           <div></div>
         </div>
