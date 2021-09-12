@@ -224,25 +224,26 @@
         margin-bottom: 11px;
       }
 
+#block8 {
+  margin-top: 5px;
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  width: 100%;
+  height: 130px;
+  justify-content: center;
+}
+#block8 > div {
+  width: 25%;
+  text-align: center;
+  font-size: 40px;
 
-      #block8 {
-        display: flex;
-        width: 100%;
-        height: 130px;
-        justify-content: center;
-      }
-      #block8 > div {
-        width: 25%;
-        text-align: center;
-        font-size: 40px;
-        margin-top: 20px;
-      }
-      #block8 > div > p {
-        margin-top: 15px;
-        font-size: 16px;
-        font-family: 'Lora', serif;
-        font-weight: 600;
-      }
+}
+#block8 > div > img {
+  width: 40%;
+}
+#block8 > div:nth-child(1){
+  margin-top: -5px;
+}
       #fnal {
         height: 520px;
         width: 100%;
@@ -521,79 +522,8 @@ color: #575757;
       </div>
 
     <!-- BOTTOM -->
+<div id="BOTTOMBAR"></div>
 
-    <div id="block8">
-      <div>
-        <i class="fas fa-sync-alt"></i>
-        <p>EASY EXCHANGE<sup>*</sup></p>
-      </div>
-      <div>
-        <i class="fas fa-hand-holding-heart"></i>
-        <p>100% HANDPICKED</p>
-      </div>
-      <div>
-        <i class="fas fa-check-circle"></i>
-        <p>ASSURED QUALITY</p>
-      </div>
-    </div>
-
-    <div id="fnal">
-      <div>
-        <div>
-          <div>
-            <h4>Ajio</h4>
-            <p><a href="">Who We Are</a></p>
-            <p><a href="">Join Our Team</a></p>
-            <p><a href="">Terms & Conditions</a></p>
-            <p><a href="">We Respect Your Privacy</a></p>
-            <p><a href="">Fees & Payments</a></p>
-            <p><a href="">Returns & Refunds</a></p>
-            <p><a href="">Promotions Terms & Conditions</a></p>
-          </div>
-          <div>
-            <h4>Help</h4>
-            <p><a href="">Track Your Order</a></p>
-            <p><a href="">Frequently Asked Questions</a></p>
-            <p><a href>Returns</a></p>
-            <p><a href="">Cancellation</a></p>
-            <p><a href="">Payments</a></p>
-            <p><a href="">Customer Care</a></p>
-            <p><a href="">How Do I Redeem My Coupon</a></p>
-          </div>
-          <div>
-            <h4>Shop by</h4>
-            <p><a href="">Men</a></p>
-            <p><a href="">Women</a></p>
-            <p><a href="">Kids</a></p>
-            <p><a href="">Indie</a></p>
-            <p><a href="">Stores</a></p>
-            <p><a href="">New Arrivals</a></p>
-            <p><a href="">Brand Directory</a></p>
-            <p><a href="">Home</a></p>
-            <p><a href="">Collections</a></p>
-          </div>
-          <div>
-            <h4>Follow us</h4>
-            <p><a href="">Facebook</a></p>
-            <p><a href="">Instagram</a></p>
-            <p><a href="">Twitter</a></p>
-            <p><a href="">Pinterest</a></p>
-          </div>
-        </div>
-      </div>
-      <div id="w-line"></div>
-      <div id="pay">
-        <div>
-          <div id="ICO">
-            <h5>Payment methods</h5>
-            <i class="fas fa-university"></i> <i class="fab fa-cc-visa"></i>
-            <i class="fab fa-cc-mastercard"></i>
-            <i class="fas fa-money-bill-wave"></i>
-          </div>
-          <div></div>
-        </div>
-      </div>
-    </div>
   </body>
 </html>
 <script>
@@ -619,10 +549,10 @@ aa = JSON.parse(aa)
 
 
 
-document.getElementById("NM").innerHTML = aa[0].name
+document.getElementById("NM").innerHTML = aa[0].Name
 document.getElementById("EM").innerHTML = aa[0].email
-document.getElementById("MOB").innerHTML = aa[0].mob
-document.getElementById("SR").innerHTML = aa[0].street
+document.getElementById("MOB").innerHTML = aa[0].MOB
+document.getElementById("SR").innerHTML = aa[0].str
 document.getElementById("CT").innerHTML = aa[0].city
 document.getElementById("ST").innerHTML = aa[0].state
 document.getElementById("PI").innerHTML = aa[0].PIN
@@ -664,3 +594,31 @@ function store() {
   window.open('checkout.html')
 }
 </script>
+<script>
+  function BB() {
+  if (localStorage.getItem('ADDRES') !== undefined) {
+    var azz = localStorage.getItem('ADDRES')
+    azz = JSON.parse(azz)
+
+    setTimeout(function () {
+  var ar = document.getElementById('user_info')
+  ar.innerHTML = 'Hi ' + azz[0].Name
+ var arz = document.getElementById('s_IN')
+  arz.innerHTML = 'Sign Out'
+}, 200)
+  }
+}
+BB()
+</script>
+<script type="text/javascript" src="./data/DATA.js"></script>
+
+
+
+<script type="module">
+  // navbar
+
+  // bottombar
+  import bottom from './comp/bottom.js'
+  document.getElementById('BOTTOMBAR').innerHTML = bottom()
+</script>
+<script src="./comp/signin.js"></script>

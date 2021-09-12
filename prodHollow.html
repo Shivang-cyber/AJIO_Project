@@ -156,3 +156,34 @@
   import bottom from './comp/bottom.js'
   document.getElementById('BOTTOMBAR').innerHTML = bottom()
 </script>
+<script>
+    var abb = []
+
+  function cato(arr) {
+    console.log(5)
+    var len = abb.length
+    if (len != 0) {
+      abb = []
+    }
+    abb.push(arr)
+    let ABB = JSON.stringify(abb)
+    localStorage.setItem('CATO', ABB)
+    window.open('catologue.html')
+  }
+  
+  function BB() {
+  if (localStorage.getItem('ADDRES') !== undefined) {
+    var azz = localStorage.getItem('ADDRES')
+    azz = JSON.parse(azz)
+
+    setTimeout(function () {
+  var ar = document.getElementById('user_info')
+  ar.innerHTML = 'Hi ' + azz[0].Name
+ var arz = document.getElementById('s_IN')
+  arz.innerHTML = 'Sign Out'
+}, 200)
+  }
+}
+BB()
+</script>
+<script type="text/javascript" src="./data/DATA.js"></script>

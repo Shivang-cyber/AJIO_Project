@@ -244,6 +244,7 @@
 <script src="./data/sub.js"></script>
 <!-- data files -->
 <script type="text/javascript" src="./data/DATA.js"></script>
+
 <script type="module">
   // navbar
   import navbar from './comp/NAV.js'
@@ -253,5 +254,25 @@
   document.getElementById('BOTTOMBAR').innerHTML = bottom()
 </script>
 <script src="./comp/signin.js"></script>
+
+
 <!-- slider and remaining functionality -->
 <script src="./comp/indexsliders.js"></script>
+
+
+<script>
+function BB() {
+  if (localStorage.getItem('ADDRES') !== undefined) {
+    var azz = localStorage.getItem('ADDRES')
+    azz = JSON.parse(azz)
+
+    setTimeout(function () {
+  var ar = document.getElementById('user_info')
+  ar.innerHTML = 'Hi ' + azz[0].Name
+ var arz = document.getElementById('s_IN')
+  arz.innerHTML = 'Sign Out'
+}, 200)
+  }
+}
+BB()
+</script>

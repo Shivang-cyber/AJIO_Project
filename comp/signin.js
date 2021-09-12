@@ -1,3 +1,18 @@
+localStorage.setItem('Log', JSON.stringify([]))
+function BB() {
+  if (localStorage.getItem('ADDRES') !== undefined) {
+    var azz = localStorage.getItem('ADDRES')
+    azz = JSON.parse(azz)
+
+    setTimeout(function () {
+  var ar = document.getElementById('user_info')
+  ar.innerHTML = 'Hi ' + azz[0].Name
+
+}, 200)
+  }
+}
+BB()
+
 function fn() {
   document.getElementById('BLK_dn').style.display = 'block'
 }
@@ -88,13 +103,12 @@ function pubm(event) {
   var pin = document.getElementById('pin').value
   var cit = document.getElementById('cit').value
   var stat = document.getElementById('state').value
-  addres.push(loc, str, pin, cit, stat)
-  O['ADDRESS'] = {}
-  O['ADDRESS']['loc'] = loc
-  O['ADDRESS']['str'] = str
-  O['ADDRESS']['pin'] = pin
-  O['ADDRESS']['city'] = cit
-  O['ADDRESS']['state'] = stat
+  var addr = { loc: loc, street: str, PINCODE: pin, CITY: cit, state: stat }
+  O['loc'] = loc
+  O['str'] = str
+  O['PIN'] = pin
+  O['city'] = cit
+  O['state'] = stat
   addres.push(O)
   localStorage.setItem('ADDRES', JSON.stringify(addres))
   var cdc = document.getElementById('addr')
