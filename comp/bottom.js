@@ -1,16 +1,15 @@
 function bottom() {
- return `    <div id="block8">
+  return `    <div id="block8">
       <div>
-        <i class="fas fa-sync-alt"></i>
-        <p>EASY EXCHANGE<sup>*</sup></p>
+        
+        <img src="./resources/img/ico (Custom).png" alt="">
+        
       </div>
       <div>
-        <i class="fas fa-hand-holding-heart"></i>
-        <p>100% HANDPICKED</p>
+        <img src="./resources/img/ico2.png" alt="">
       </div>
       <div>
-        <i class="fas fa-check-circle"></i>
-        <p>ASSURED QUALITY</p>
+        <img src="./resources/img/ico3.png" alt="">
       </div>
     </div>
 
