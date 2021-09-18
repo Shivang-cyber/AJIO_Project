@@ -1,4 +1,4 @@
-<h1>AJIO-CLONE</h1>
+<img src="https://static.punjabkesari.in/multimedia/2018_3image_12_58_137898755ajio-ll.jpg" style="width:150px;height:70px"><h1>AJIO-CLONE</h1>
 <p style="font-size:16px">AJIO, a fashion and lifestyle brand, is Reliance Retail's digital commerce initiative and is the ultimate fashion destination for styles that are handpicked, on trend and at prices that are the best you'll find anywhere.
 <p>We tried to clone the Ajio website from the scratch. For this, We have used the HTML, CSS and Vanilla JavaScript.</p>
 <h2>Appendix</h2>
