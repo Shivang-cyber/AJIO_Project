@@ -16,5 +16,5 @@
 <li><a style="border:none"href="https://github.com/Abhishek-015">Abhishek singh</a>
 <li><a style="border:none"href="https://github.com/amarjyotipatra">Amar jyoti patra</a>
  <h2>Feedback</h2>
-  <p>If you have any feedback, please reach out to us at kumarabhijeet0123@gmail.com / iamshivang@outlook.com / abhishek404singh@gmail.com / amarjyotipatra511@gmail.com</p>
+ <p>If you have any feedback, please reach out to us at :- <h5>> kumarabhijeet0123@gmail.com</h5><h5>> iamshivang@outlook.com</h5><h5>> abhishek404singh@gmail.com</h5> <h5> > amarjyotipatra511@gmail.com</h5></p>
 
