@@ -1,6 +1,6 @@
 <h1>AJIO-CLONE</h1>
 <p style="font-size:16px">AJIO, a fashion and lifestyle brand, is Reliance Retail's digital commerce initiative and is the ultimate fashion destination for styles that are handpicked, on trend and at prices that are the best you'll find anywhere.
-<p>We tried to clone the UpGrad website from the scratch. For this, We have used the HTML, CSS and Vanilla JavaScript.</p>
+<p>We tried to clone the Ajio website from the scratch. For this, We have used the HTML, CSS and Vanilla JavaScript.</p>
 <h2>Appendix</h2>
 <p style="font-size:16px">We also implemented some functionalities like image Carousel, Forms, Drop-down etc.
 <h2>How to use</h2>
