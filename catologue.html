@@ -52,15 +52,54 @@
 
     <div id="Top">
       <div>
-      <div id="headTCXT">MEN's</div>
-      <div id="SubYXY">Jackets & Coats</div>
-      <div id="dat">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi facere iure deleniti ipsam obcaecati dolor voluptatum iusto consequatur quam. Molestias enim odio, aperiam culpa magni atque itaque harum impedit labore facilis eos odit perferendis voluptates repudiandae distinctio officiis eveniet provident beatae dolor! Enim qui ratione impedit quaerat quibusdam fugit magnam. Deserunt natus dolorum ipsa nisi a perferendis voluptatibus accusamus libero laborum obcaecati quibusdam sit quis quos enim, odio sed maiores veniam numquam consectetur totam velit saepe temporibus ullam rerum. Soluta quaerat earum dolores dignissimos iusto saepe similique dolorum asperiores mollitia eligendi harum, possimus doloribus tempore fugit quasi nam itaque sint.</div>
-      <div id="remains"></div>
+        <div id="headTCXT">MEN's</div>
+        <div id="SubYXY">Jackets & Coats</div>
+        <div id="dat">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi facere
+          iure deleniti ipsam obcaecati dolor voluptatum iusto consequatur quam.
+          Molestias enim odio, aperiam culpa magni atque itaque harum impedit
+          labore facilis eos odit perferendis voluptates repudiandae distinctio
+          officiis eveniet provident beatae dolor! Enim qui ratione impedit
+          quaerat quibusdam fugit magnam. Deserunt natus dolorum ipsa nisi a
+          perferendis voluptatibus accusamus libero laborum obcaecati quibusdam
+          sit quis quos enim, odio sed maiores veniam numquam consectetur totam
+          velit saepe temporibus ullam rerum. Soluta quaerat earum dolores
+          dignissimos iusto saepe similique dolorum asperiores mollitia eligendi
+          harum, possimus doloribus tempore fugit quasi nam itaque sint.
+        </div>
+        <div id="remains">
+          <div id="R1">1,037 Items Found</div>
+          <div id="R2">
+            GRID
+            <div id="grid">
+              <div>
+                <p></p>
+                <p></p>
+                <p></p>
+              </div>
+              <div>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div id="R3">
+            SORT BY
+            <select id="cars">
+              <option value="volvo" id="SA">Relevance</option>
+              <option value="saab" id="SB">Price (low to high)</option>
+              <option value="opel" id="SC">Price (high to low)</option>
+            </select>
+          </div>
+        </div>
       </div>
     </div>
     <div id="main">
       <div id="left">
-        <button id="RFC">Refine By</button>
+        <button id="RFC">Refine By <i class="fas fa-chevron-down"></i></button>
         <div id="RF">
           <button id="AR1" onclick="al()">Gender</button>
           <div id="A1" class="AAA">
@@ -132,7 +171,7 @@
           <div>Colours</div>
           <div>Size & Fit</div>
         </div>
-        <button>More Filters</button>
+        <button>More Filters <i class="fas fa-chevron-down"></i></button>
         <!-- <div>
           <h3>Sort by Price</h3>
           <p><button onclick="pp()">By Popularity</button></p>
@@ -165,6 +204,7 @@
   var A = [...KATO[0]]
   var BB = [...KATO[0]]
   function pp() {
+    console.log(1)
     while (block.firstChild) {
       block.removeChild(block.firstChild)
     }
@@ -230,7 +270,7 @@
   }
 
   function lh() {
-    console.log(5)
+    console.log(2)
     A = A.sort(function (a, b) {
       return Number(a.price) - Number(b.price)
     })
@@ -299,7 +339,7 @@
   }
 
   function hl() {
-    console.log(5)
+    console.log(3)
     A = A.sort(function (a, b) {
       return Number(b.price) - Number(a.price)
     })
@@ -367,6 +407,9 @@
     })
   }
 
+  document.getElementById('SA').addEventListener('click', pp)
+  document.getElementById('SB').addEventListener('click', lh)
+  document.getElementById('SC').addEventListener('click', hl)
   // console.log(KATO[0])
   function definer() {
     localStorage.setItem('junk', JSON.stringify(A[0].name))
@@ -499,11 +542,8 @@
       document.getElementById('SubYXY').innerHTML = pro[i].title
       document.getElementById('dat').innerHTML = pro[i].dat
 
-      console.log(i);
+      break
     }
-    
   }
 </script>
 <script type="text/javascript" src="./data/DATA.js"></script>
-
-

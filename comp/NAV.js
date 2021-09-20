@@ -1,6 +1,6 @@
 function navbar() {
   return `<div id="navbar">
-      <a href="/home.html">
+      <a href="/Index.html">
         <img
           id="ima_head"
           src="https://assets.ajio.com/static/img/Ajio-Logo.svg"
