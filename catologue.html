@@ -149,11 +149,12 @@
     <div id="BOTTOMBAR"></div>
   </body>
 </html>
-<script src="/DATA.js"></script>
+<!-- <script src="/DATA.js"></script>
 <script src="/kidsObject.js"></script>
 <script src="/home_furniture.js"></script>
 <script src="/men.js"></script>
-<script src="/women.js"></script>
+<script src="/women.js"></script> -->
+<script src="./data/heading.js"></script>
 <script>
   var block = document.getElementById('right')
   var temp = []
@@ -491,14 +492,18 @@
   }
 
   // document.getElementById('AR1').addEventListener('click',al)
+  // console.log(A[0].name,elem);
+  for (let i = 0; i < elem.length; i++) {
+    if (A[0].name == elem[i]) {
+      document.getElementById('headTCXT').innerHTML = pro[i].head
+      document.getElementById('SubYXY').innerHTML = pro[i].title
+      document.getElementById('dat').innerHTML = pro[i].dat
+
+      console.log(i);
+    }
+    
+  }
 </script>
 <script type="text/javascript" src="./data/DATA.js"></script>
-<script src="./data/heading.js"></script>
-<script>
-var l = localStorage.getItem('junk')
-l = JSON.parse(l)
-console.log(l);
-if (l =="South Cotton Checked Saree with Zari Line") {
-  
-}
-</script>
+
+
