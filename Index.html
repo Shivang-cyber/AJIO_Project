@@ -261,6 +261,15 @@
 
 
 <script>
+  function BQ() {
+    
+        localStorage.setItem('ADDRES', JSON.stringify([]))
+    localStorage.setItem('PR', JSON.stringify([]))
+    localStorage.setItem('TEMP', JSON.stringify([]))
+    localStorage.setItem('CATO', JSON.stringify([]))
+    localStorage.setItem('CART', JSON.stringify([]))
+    BB
+  }
 function BB() {
   if (localStorage.getItem('ADDRES') !== undefined) {
     var azz = localStorage.getItem('ADDRES')
@@ -271,6 +280,7 @@ function BB() {
   ar.innerHTML = 'Hi ' + azz[0].Name
  var arz = document.getElementById('s_IN')
   arz.innerHTML = 'Sign Out'
+  arz.onclick = BQ
 }, 200)
   }
 }
