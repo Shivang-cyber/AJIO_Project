@@ -298,41 +298,14 @@ function BB() {
       ar.innerHTML = 'Hi ' + azz[0].Name
       var arz = document.getElementById('s_IN')
       arz.innerHTML = 'Sign Out'
-    }, 200)
+    }, 300)
   }
 }
 BB()
 
-var k = true
-function AK() {
-  // console.log(15);
-  var a = document.getElementById('RF')
-  if (k == true) {
-    a.style.display = 'none'
-    k = false
-  } else {
-    a.style.display = 'block'
-    k = true
-  }
-}
-document.getElementById('RFC').addEventListener('click', AK)
-var ss = true
-function al() {
-  console.log(5)
-  let b = document.getElementById('AA1')
-  if (ss == true) {
-    b.style.display = 'none'
-    ss = false
-  } else {
-    b.style.display = 'block'
-    ss = false
-  }
-}
-
-document.getElementById('AR1').addEventListener('click', al)
-// console.log(A[0].name,elem);
 for (let i = 0; i < elem.length; i++) {
   if (A[0].name == elem[i]) {
+    console.log(elem)
     document.getElementById('headTCXT').innerHTML = pro[i].head
     document.getElementById('SubYXY').innerHTML = pro[i].title
     document.getElementById('dat').innerHTML = pro[i].dat
@@ -340,3 +313,165 @@ for (let i = 0; i < elem.length; i++) {
     break
   }
 }
+
+var k = true
+function myFunction1() {
+  var x = document.getElementById('dropdown-content1')
+  if (k == true) {
+    x.style.display = 'block'
+    k = false
+  } else {
+    x.style.display = 'none'
+    k = true
+  }
+}
+function myFunction2() {
+  var y = document.getElementById('dropdown-content2')
+  if (k == true) {
+    y.style.display = 'block'
+    k = false
+  } else {
+    y.style.display = 'none'
+    k = true
+  }
+}
+function gen(e) {
+  e.preventDefault()
+  var ans = document.getElementById('gen1')
+  ans.style.display = 'block'
+}
+var K = true
+function cat(e) {
+  e.preventDefault()
+  var ans = document.getElementById('cat1')
+  if (K == true) {
+    ans.style.display = 'none'
+    K = false
+  } else {
+    ans.style.display = 'block'
+    K = true
+  }
+
+  ans.style.display = 'block'
+}
+function dis(e) {
+  e.preventDefault()
+  var ans = document.getElementsByClassName('dis1')
+
+  for (let i = 0; i < ans.length; i++) {
+    ans[i].style.display = 'block'
+  }
+}
+function sf(e) {
+  e.preventDefault()
+  var ans = document.getElementsByClassName('sf1')
+  for (let i = 0; i < ans.length; i++) {
+    ans[i].style.display = 'block'
+  }
+}
+function occ(e) {
+  e.preventDefault()
+  var ans = document.getElementsByClassName('occ1')
+  for (let i = 0; i < ans.length; i++) {
+    ans[i].style.display = 'block'
+  }
+}
+function col(e) {
+  e.preventDefault()
+  var ans = document.getElementsByClassName('col1')
+  for (let i = 0; i < ans.length; i++) {
+    ans[i].style.display = 'block'
+  }
+}
+function bra(e) {
+  e.preventDefault()
+  var ans = document.getElementsByClassName('bra1')
+  for (let i = 0; i < ans.length; i++) {
+    ans[i].style.display = 'block'
+  }
+}
+function pri(e) {
+  e.preventDefault()
+  var ans = document.getElementsByClassName('pri1')
+  for (let i = 0; i < ans.length; i++) {
+    ans[i].style.display = 'block'
+  }
+}
+
+document.getElementById('cat').addEventListener('click', cat)
+document.getElementById('pri').addEventListener('click', pri)
+document.getElementById('bra').addEventListener('click', bra)
+document.getElementById('occ').addEventListener('click', occ)
+document.getElementById('dis').addEventListener('click', dis)
+document.getElementById('col').addEventListener('click', col)
+document.getElementById('sf').addEventListener('click', sf)
+document.getElementById('gen').addEventListener('click', gen)
+
+// window.onclick = function(event) {
+//   if (!event.target.matches('.dropbtn')) {
+//     var dropdowns = document.getElementsByClassName("dropdown-content");
+//     var i;
+//     for (i = 0; i < dropdowns.length; i++) {
+//       var openDropdown = dropdowns[i];
+//       if (openDropdown.classList.contains('show')) {
+//         openDropdown.classList.remove('show');
+//       }
+//     }
+//   }
+// }
+function slee(e) {
+  e.preventDefault()
+  var ans = document.getElementsByClassName('slee1')
+  for (let i = 0; i < ans.length; i++) {
+    ans[i].style.display = 'block'
+  }
+}
+function pat(e) {
+  e.preventDefault()
+  var ans = document.getElementsByClassName('pat1')
+  for (let i = 0; i < ans.length; i++) {
+    ans[i].style.display = 'block'
+  }
+}
+function band(e) {
+  e.preventDefault()
+  var ans = document.getElementsByClassName('band1')
+  for (let i = 0; i < ans.length; i++) {
+    ans[i].style.display = 'block'
+  }
+}
+function sha(e) {
+  e.preventDefault()
+  var ans = document.getElementsByClassName('sha1')
+  for (let i = 0; i < ans.length; i++) {
+    ans[i].style.display = 'block'
+  }
+}
+function fab(e) {
+  e.preventDefault()
+  var ans = document.getElementsByClassName('fab1')
+  for (let i = 0; i < ans.length; i++) {
+    ans[i].style.display = 'block'
+  }
+}
+function char(e) {
+  e.preventDefault()
+  var ans = document.getElementsByClassName('char1')
+  for (let i = 0; i < ans.length; i++) {
+    ans[i].style.display = 'block'
+  }
+}
+function colo(e) {
+  e.preventDefault()
+  var ans = document.getElementsByClassName('colo1')
+  for (let i = 0; i < ans.length; i++) {
+    ans[i].style.display = 'block'
+  }
+}
+document.getElementById('slee').addEventListener('click', slee)
+document.getElementById('pat').addEventListener('click', pat)
+document.getElementById('band').addEventListener('click', band)
+document.getElementById('sha').addEventListener('click', sha)
+document.getElementById('fab').addEventListener('click', fab)
+document.getElementById('char').addEventListener('click', char)
+document.getElementById('col').addEventListener('click', col)

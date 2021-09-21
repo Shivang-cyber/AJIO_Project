@@ -146,7 +146,15 @@
       .occ1,
       .dis1,
       .col1,
-      .sf1,.slee1,.band1,.pat1,.cha1,.colo1,.sha1,.fab1,.char1 {
+      .sf1,
+      .slee1,
+      .band1,
+      .pat1,
+      .cha1,
+      .colo1,
+      .sha1,
+      .fab1,
+      .char1 {
         display: none;
       }
 
@@ -275,17 +283,18 @@
           ></i>
         </button>
         <div id="dropdown-content2">
-          <a href="" id="slee">+ Sleeve
+          <a href="" id="slee"
+            >+ Sleeve
             <p class="slee1">
               <input type="checkbox" /> <label>Full-length(73)</label>
             </p>
             <p class="slee1">
               <input type="checkbox" /> <label>Shorts(61)</label>
             </p>
-           
           </a>
-          <hr/>
-          <a href="" id="pat">+ Pattern
+          <hr />
+          <a href="" id="pat"
+            >+ Pattern
             <p class="pat1">
               <input type="checkbox" /> <label>Checks (9,871)</label>
             </p>
@@ -298,38 +307,43 @@
             <p class="pat1">
               <input type="checkbox" /> <label>Textured (1,641)</label>
             </p>
-            
           </a>
-          <hr/>
-          
-          <a href="" id="band">+ Neckline
+          <hr />
+
+          <a href="" id="band"
+            >+ Neckline
             <p class="band1">
               <input type="checkbox" /> <label>Band(1)</label>
             </p>
           </a>
-          <hr>
-          <a href="" id="char">+ Charachter
+          <hr />
+          <a href="" id="char"
+            >+ Charachter
             <p class="char1">
               <input type="checkbox" /> <label>Others(192)</label>
             </p>
             <p class="char1">
               <input type="checkbox" /> <label>Hercules(80)</label>
             </p>
-            
           </a>
-          <hr/>
-        
-          <a href="" id="sha">+ Shape
-            <p class="sha1"><input type="checkbox"/><label for="">Regular(73)</label></p>
-            
+          <hr />
+
+          <a href="" id="sha"
+            >+ Shape
+            <p class="sha1">
+              <input type="checkbox" /><label for="">Regular(73)</label>
+            </p>
           </a>
-          <hr/>
-          <a href="" id="fab">+ Fabric
-            <p class="fab1"><input type="checkbox"/><label for="">Cotton</label></p>
-            <p class="fab1"><input type="checkbox"/><label for="">Linen</label></p>
-            
+          <hr />
+          <a href="" id="fab"
+            >+ Fabric
+            <p class="fab1">
+              <input type="checkbox" /><label for="">Cotton</label>
+            </p>
+            <p class="fab1">
+              <input type="checkbox" /><label for="">Linen</label>
+            </p>
           </a>
-          
         </div>
       </div>
       <div class="right">
@@ -401,76 +415,97 @@
   data-auto-a11y="true"
 ></script>
 <script>
+  var k = true
   function myFunction1() {
-    var x = document.getElementById("dropdown-content1");
-    x.style.display = "block";
+    var x = document.getElementById('dropdown-content1')
+    if (k == true) {
+      x.style.display = 'block'
+      k = false
+    } else {
+      x.style.display = 'none'
+      k = true
+    }
   }
   function myFunction2() {
-    var y = document.getElementById("dropdown-content2");
-    y.style.display = "block";
+    var y = document.getElementById('dropdown-content2')
+    if (k == true) {
+      y.style.display = 'block'
+      k = false
+    } else {
+      y.style.display = 'none'
+      k = true
+    }
   }
   function gen(e) {
-    e.preventDefault();
-    var ans = document.getElementById("gen1");
-    ans.style.display = "block";
+    e.preventDefault()
+    var ans = document.getElementById('gen1')
+    ans.style.display = 'block'
   }
   function cat(e) {
-    e.preventDefault();
-    var ans = document.getElementById("cat1");
-    ans.style.display = "block";
+    e.preventDefault()
+    var ans = document.getElementById('cat1')
+    if (k == true) {
+      ans.style.display = 'block'
+      k = false
+    } else {
+      ans.style.display = 'none'
+      k = true
+    }
+
+    ans.style.display = 'block'
   }
   function dis(e) {
-    e.preventDefault();
-    var ans = document.getElementsByClassName("dis1");
+    e.preventDefault()
+    var ans = document.getElementsByClassName('dis1')
 
     for (let i = 0; i < ans.length; i++) {
-      ans[i].style.display = "block";
+      ans[i].style.display = 'block'
     }
   }
   function sf(e) {
-    e.preventDefault();
-    var ans = document.getElementsByClassName("sf1");
+    e.preventDefault()
+    var ans = document.getElementsByClassName('sf1')
     for (let i = 0; i < ans.length; i++) {
-      ans[i].style.display = "block";
+      ans[i].style.display = 'block'
     }
   }
   function occ(e) {
-    e.preventDefault();
-    var ans = document.getElementsByClassName("occ1");
+    e.preventDefault()
+    var ans = document.getElementsByClassName('occ1')
     for (let i = 0; i < ans.length; i++) {
-      ans[i].style.display = "block";
+      ans[i].style.display = 'block'
     }
   }
   function col(e) {
-    e.preventDefault();
-    var ans = document.getElementsByClassName("col1");
+    e.preventDefault()
+    var ans = document.getElementsByClassName('col1')
     for (let i = 0; i < ans.length; i++) {
-      ans[i].style.display = "block";
+      ans[i].style.display = 'block'
     }
   }
   function bra(e) {
-    e.preventDefault();
-    var ans = document.getElementsByClassName("bra1");
+    e.preventDefault()
+    var ans = document.getElementsByClassName('bra1')
     for (let i = 0; i < ans.length; i++) {
-      ans[i].style.display = "block";
+      ans[i].style.display = 'block'
     }
   }
   function pri(e) {
-    e.preventDefault();
-    var ans = document.getElementsByClassName("pri1");
+    e.preventDefault()
+    var ans = document.getElementsByClassName('pri1')
     for (let i = 0; i < ans.length; i++) {
-      ans[i].style.display = "block";
+      ans[i].style.display = 'block'
     }
   }
 
-  document.getElementById("cat").addEventListener("click", cat);
-  document.getElementById("pri").addEventListener("click", pri);
-  document.getElementById("bra").addEventListener("click", bra);
-  document.getElementById("occ").addEventListener("click", occ);
-  document.getElementById("dis").addEventListener("click", dis);
-  document.getElementById("col").addEventListener("click", col);
-  document.getElementById("sf").addEventListener("click", sf);
-  document.getElementById("gen").addEventListener("click", gen);
+  document.getElementById('cat').addEventListener('click', cat)
+  document.getElementById('pri').addEventListener('click', pri)
+  document.getElementById('bra').addEventListener('click', bra)
+  document.getElementById('occ').addEventListener('click', occ)
+  document.getElementById('dis').addEventListener('click', dis)
+  document.getElementById('col').addEventListener('click', col)
+  document.getElementById('sf').addEventListener('click', sf)
+  document.getElementById('gen').addEventListener('click', gen)
 
   // window.onclick = function(event) {
   //   if (!event.target.matches('.dropbtn')) {
@@ -485,59 +520,59 @@
   //   }
   // }
   function slee(e) {
-    e.preventDefault();
-    var ans = document.getElementsByClassName("slee1");
+    e.preventDefault()
+    var ans = document.getElementsByClassName('slee1')
     for (let i = 0; i < ans.length; i++) {
-      ans[i].style.display = "block";
+      ans[i].style.display = 'block'
     }
   }
   function pat(e) {
-    e.preventDefault();
-    var ans = document.getElementsByClassName("pat1");
+    e.preventDefault()
+    var ans = document.getElementsByClassName('pat1')
     for (let i = 0; i < ans.length; i++) {
-      ans[i].style.display = "block";
+      ans[i].style.display = 'block'
     }
   }
   function band(e) {
-    e.preventDefault();
-    var ans = document.getElementsByClassName("band1");
+    e.preventDefault()
+    var ans = document.getElementsByClassName('band1')
     for (let i = 0; i < ans.length; i++) {
-      ans[i].style.display = "block";
+      ans[i].style.display = 'block'
     }
   }
   function sha(e) {
-    e.preventDefault();
-    var ans = document.getElementsByClassName("sha1");
+    e.preventDefault()
+    var ans = document.getElementsByClassName('sha1')
     for (let i = 0; i < ans.length; i++) {
-      ans[i].style.display = "block";
+      ans[i].style.display = 'block'
     }
   }
   function fab(e) {
-    e.preventDefault();
-    var ans = document.getElementsByClassName("fab1");
+    e.preventDefault()
+    var ans = document.getElementsByClassName('fab1')
     for (let i = 0; i < ans.length; i++) {
-      ans[i].style.display = "block";
+      ans[i].style.display = 'block'
     }
   }
   function char(e) {
-    e.preventDefault();
-    var ans = document.getElementsByClassName("char1");
+    e.preventDefault()
+    var ans = document.getElementsByClassName('char1')
     for (let i = 0; i < ans.length; i++) {
-      ans[i].style.display = "block";
+      ans[i].style.display = 'block'
     }
   }
   function colo(e) {
-    e.preventDefault();
-    var ans = document.getElementsByClassName("colo1");
+    e.preventDefault()
+    var ans = document.getElementsByClassName('colo1')
     for (let i = 0; i < ans.length; i++) {
-      ans[i].style.display = "block";
+      ans[i].style.display = 'block'
     }
   }
-  document.getElementById("slee").addEventListener("click", slee);
-  document.getElementById("pat").addEventListener("click", pat);
-  document.getElementById("band").addEventListener("click", band);
-  document.getElementById("sha").addEventListener("click", sha);
-  document.getElementById("fab").addEventListener("click", fab);
-  document.getElementById("char").addEventListener("click", char);
-  document.getElementById("col").addEventListener("click", col);
+  document.getElementById('slee').addEventListener('click', slee)
+  document.getElementById('pat').addEventListener('click', pat)
+  document.getElementById('band').addEventListener('click', band)
+  document.getElementById('sha').addEventListener('click', sha)
+  document.getElementById('fab').addEventListener('click', fab)
+  document.getElementById('char').addEventListener('click', char)
+  document.getElementById('col').addEventListener('click', col)
 </script>

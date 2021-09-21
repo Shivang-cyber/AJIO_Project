@@ -6,11 +6,11 @@ function PAID() {
   }, 4000)
   setTimeout(function () {
     alert('Success')
-    // localStorage.setItem('ADDRES', JSON.stringify([]))
-    // localStorage.setItem('PR', JSON.stringify([]))
-    // localStorage.setItem('TEMP', JSON.stringify([]))
-    // localStorage.setItem('CATO', JSON.stringify([]))
-    // localStorage.setItem('CART', JSON.stringify([]))
+    localStorage.setItem('ADDRES', JSON.stringify([]))
+    localStorage.setItem('PR', JSON.stringify([]))
+    localStorage.setItem('TEMP', JSON.stringify([]))
+    localStorage.setItem('CATO', JSON.stringify([]))
+    localStorage.setItem('CART', JSON.stringify([]))
   }, 4000)
   setTimeout(function () {
     window.open('myaccount.html')
