@@ -6,6 +6,7 @@
 <p style="font-size:16px">We also implemented some functionalities like image Carousel, Forms, Drop-down etc.
 <h2>How to use</h2>
 <p style="font-size:16px">For using this code in your own system, firstly you have to clone this file into your local system. After that open it with any text Editor. There are seperate folders for CSS style, Data,comp for javascript functionalities, resource folder for Image etc. Our main Page(landing page) of this website is named as index.html. So, to view the project website on browser you have to run that landing page.
+![1](https://user-images.githubusercontent.com/73076319/176121473-2e33e9c7-b62f-4415-8e9d-5972f1691b55.png)
 <img src="./resources/img for Readme/1.png" alt="">
  Make sure that you open the whole Ajio project folder from text editor(eg. - VS Code). From the navbar of landing page, there are many more pages on which you can go. The pages are- Men,Women,Kids,Indie,Home & Kitchen,signin,Closet,Bag etc.</p>
  <img src="./resources/img for Readme/2.png" alt="">
